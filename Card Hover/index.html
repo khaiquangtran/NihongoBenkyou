@@ -8,18 +8,34 @@
 </head>
 <body>
     <div class = "container">
-        <div class="card" style="--clr:#009688">
-            <div class = "imgBx"></div>
-            <div class="content"></div>
+        <div class="card" >
+            <div class = "imgBx">
+                <img src="Images/rain.png">
+            </div>
+            <div class="content">
+                <div class="japan">
+                    <p>あめ</p>
+                </div>
+                <div class="romaji">
+                    <p>/ame/</p>
+                </div>  
+            </div>
+            <div class="audio" >
+                <button id="playBtn">Sound</button>
+                <audio id="audio" preload="auto">
+                    <source src="Audios/rain.wav" type="audio/wav">
+                </audio>
+            </div>
         </div>
         <div class="card" style="--clr:#ff3e7f">
             <div class = "imgBx"></div>
             <div class="content"></div>
         </div>
-        <div class="card" style="--clr:#03a9f4">
+        <!-- <div class="card" style="--clr:#03a9f4">
             <div class = "imgBx"></div>
             <div class="content"></div>
-        </div>
+        </div> -->
     </div>
+    <script src="script.js"> </script>
 </body>
 </html>
