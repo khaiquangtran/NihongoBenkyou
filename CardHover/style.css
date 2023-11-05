@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 100px 50px;
+  gap: 75px 60px;
   padding: 100px 50px;
 }
 
@@ -31,7 +31,6 @@ body {
   width: 300px;
   height: 220px;
   border-radius: 20px;
-  box-shadow: 0 35px 80px rgba(223, 34, 34, 0.15);
   transition: 1s;
   background: rgb(170, 243, 62);
 }
@@ -46,9 +45,9 @@ body {
   color: white;
 }
 
-.container .card:hover {
-  height: -70%;
-}
+/* .container .card:hover {
+  height: -60%;
+} */
 
 .container .card .imgBx {
   position: absolute;
@@ -61,7 +60,7 @@ body {
 }
 
 .container .card:hover .imgBx {
-  top: -50%;
+  top: -48%;
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
   scale: 70%;
 }
@@ -83,7 +82,7 @@ body {
 
 .container .card .content .romaji {
   position: absolute;
-  top: 60%;
+  top: 62%;
   left: 40%;
   width: 20%;
   font-size: 1.5em;
@@ -93,25 +92,22 @@ body {
 .container .card .content .japan {
   position: absolute;
   font-size: 3em;
+  font-family: "Sawarabi Mincho"; 
   top: 35%;
-  left: 30%;
-  width: 40%;
+  left: 25%;
+  width: 50%;
   font-weight: bold;
   color: #ff0000;
 }
 
-.container .card .audio button {
+.container .card .audio  {
   position: absolute;
   top: 75%;
   left: 35%;
   width: 30%;
   height: 15%;
   text-align: center;
-  background: linear-gradient(45deg, #ecba32, #df4516);
-  border: #fff;
-  border-radius: 1.5em;
   font-weight: bold;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  color: white;
+  font-size: 40px;
+  color: orange; 
 }
