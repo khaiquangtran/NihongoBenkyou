@@ -86,12 +86,13 @@ body {
   pointer-events: none;
   border-radius: 15px;
   transition: 0.2s;
+ 
 }
 
 .mySwiper .box_active {
   opacity: 1;
   pointer-events: fill;
-  z-index: 1;
+  z-index: 20;
 }
 
 .mySwiper .box .heading {
