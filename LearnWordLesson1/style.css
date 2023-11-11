@@ -109,9 +109,16 @@ body {
 
 .mySwiper .box .message_box .message {
   font-size: 30px;
-  margin: 10px 0px;
+  margin: 0px;
   text-align: center;
 }
+
+.mySwiper .box .message_box .mean {
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+}
+
 .mySwiper .box .button_box {
   width: 100%;
   text-align: right;

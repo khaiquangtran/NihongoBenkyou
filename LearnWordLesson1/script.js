@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var box = document.querySelector(".box");
     var message = document.querySelector(".message");
     var heading = document.querySelector(".heading");
-
+    var mean = document.querySelector(".mean");
     heading.style.backgroundColor = colors[index%10];
     box.classList.add("box_active");
     var romajiData;
@@ -40,6 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       if (this.readyState == 4 && this.status == 200) {
         romajiData = JSON.parse(this.responseText);
         message.innerHTML = "/" + romajiData[index].romaji + "/";
+        mean.innerHTML = romajiData[index].mean;
       }
     };
     console.log();

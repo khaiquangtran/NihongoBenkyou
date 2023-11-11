@@ -1,8 +1,322 @@
 [
     {  
-        "romaji" : "ame"
+        "romaji" : "ame",
+        "mean" : "rain"
     },
     {  
-        "romaji" : "inu"
+        "romaji" : "inu",
+        "mean" : "dog"
+    },
+    {  
+        "romaji" : "ishi",
+        "mean" : "stone"
+    },
+    {  
+        "romaji" : "eki",
+        "mean" : "train station"
+    },
+    {  
+        "romaji" : "otera",
+        "mean" : "temple"
+    },
+    {  
+        "romaji" : "kasa",
+        "mean" : "umbrella"
+    },
+    {  
+        "romaji" : "ki",
+        "mean" : "tree"
+    },
+    {  
+        "romaji" : "kutsu",
+        "mean" : "shoes"
+    },
+    {  
+        "romaji" : "osake",
+        "mean" : "alcohol"
+    },
+    {  
+        "romaji" : "neko",
+        "mean" : "cat"
+    },
+    {  
+        "romaji" : "sakana",
+        "mean" : "fish"
+    },
+    {  
+        "romaji" : "sushi",
+        "mean" : "suhi"
+    },
+    {  
+        "romaji" : "mise",
+        "mean" : "shop, store"
+    },
+    {  
+        "romaji" : "miso",
+        "mean" : "miso soup"
+    },
+    {  
+        "romaji" : "takoyaki",
+        "mean" : "octopus dumpling"
+    },
+    {  
+        "romaji" : "hachi",
+        "mean" : "eight"
+    },
+    {  
+        "romaji" : "tsukue",
+        "mean" : "desk"
+    },
+    {  
+        "romaji" : "te",
+        "mean" : "hand"
+    },
+    {  
+        "romaji" : "tokei",
+        "mean" : "clock"
+    },
+    {  
+        "romaji" : "nasu",
+        "mean" : "aubergine"
+    },
+    {  
+        "romaji" : "niwatori",
+        "mean" : "chicken"
+    },
+    {  
+        "romaji" : "muno",
+        "mean" : ""
+    },
+    {  
+        "romaji" : "negi",
+        "mean" : "spring onion"
+    },
+    {  
+        "romaji" : "nori",
+        "mean" : "seaweed"
+    },
+    {  
+        "romaji" : "hasami",
+        "mean" : "scissors"
+    },
+    {  
+        "romaji" : "hi",
+        "mean" : "day, the sun, sunlight"
+    },
+    {  
+        "romaji" : "hebi",
+        "mean" : "snake"
+    },
+    {  
+        "romaji" : "fuku",
+        "mean" : "clothes"
+    },
+    {  
+        "romaji" : "hoshi",
+        "mean" : "star(in the sky)"
+    },
+    {  
+        "romaji" : "mame",
+        "mean" : "bean, pea"
+    },
+    {  
+        "romaji" : "mikan",
+        "mean" : "satsuma"
+    },
+    {  
+        "romaji" : "mushi",
+        "mean" : "insect, bug"
+    },
+    {  
+        "romaji" : "megane",
+        "mean" : "(a pair of) glasses, spectacles"
+    },
+    {  
+        "romaji" : "momo",
+        "mean" : "peach"
+    },
+    {  
+        "romaji" : "yasai",
+        "mean" : "vegetable"
+    },
+    {  
+        "romaji" : "yoru",
+        "mean" : "night"
+    },
+    { 
+        "romaji" : "yuki",
+        "mean" : "snow"
+    },
+    { 
+        "romaji" : "aki",
+        "mean" : "autumn"
+    },
+    { 
+        "romaji" : "haru",
+        "mean" : "spring"
+    },
+    { 
+        "romaji" : "natsu",
+        "mean" : "summer"
+    },
+    { 
+        "romaji" : "ichi",
+        "mean" : "one"
+    },
+    { 
+        "romaji" : "ni",
+        "mean" : "time, location, direction"
+    },
+    { 
+        "romaji" : "san",
+        "mean" : "three"
+    },
+    { 
+        "romaji" : "yon",
+        "mean" : "four"
+    },
+    { 
+        "romaji" : "go",
+        "mean" : "five"
+    },
+    { 
+        "romaji" : "roku",
+        "mean" : "six"
+    },
+    { 
+        "romaji" : "nana",
+        "mean" : "seven"
+    },
+    { 
+        "romaji" : "shichi",
+        "mean" : "seven"
+    },
+    { 
+        "romaji" : "hachi",
+        "mean" : "eight"
+    },
+    { 
+        "romaji" : "kyuu",
+        "mean" : "nine"
+    },
+    { 
+        "romaji" : "juu",
+        "mean" : "ten"
+    },
+    { 
+        "romaji" : "usagi",
+        "mean" : "rabbit"
+    },
+    { 
+        "romaji" : "genki",
+        "mean" : "fine"
+    },
+    { 
+        "romaji" : "tamago",
+        "mean" : "egg"
+    },
+    { 
+        "romaji" : "kaze",
+        "mean" : "wind"
+    },
+    { 
+        "romaji" : "jikan",
+        "mean" : "time"
+    },
+    { 
+        "romaji" : "okashi",
+        "mean" : "sweets"
+    },
+    { 
+        "romaji" : "kaki",
+        "mean" : "oyster"
+    },
+    { 
+        "romaji" : "kagi",
+        "mean" : "key (for a door)"
+    },
+    { 
+        "romaji" : "ashi",
+        "mean" : "foot, leg"
+    },
+    { 
+        "romaji" : "suika",
+        "mean" : "watermelon"
+    },
+    { 
+        "romaji" : "semi",
+        "mean" : "cicada"
+    },
+    { 
+        "romaji" : "tomato",
+        "mean" : "tomato"
+    },
+    { 
+        "romaji" : "banana",
+        "mean" : "banana"
+    },
+    { 
+        "romaji" : "ninjin",
+        "mean" : "carrot"
+    },
+    { 
+        "romaji" : "raion",
+        "mean" : "lion"
+    },
+    { 
+        "romaji" : "meron",
+        "mean" : "melon"
+    },
+    { 
+        "romaji" : "fune",
+        "mean" : "ship, boat"
+    },
+    { 
+        "romaji" : "hikouki",
+        "mean" : "airplane, aircraft"
+    },
+    { 
+        "romaji" : "hane",
+        "mean" : "feather, wing"
+    },
+    { 
+        "romaji" : "sensei",
+        "mean" : "teacher"
+    },
+    { 
+        "romaji" : "gakusei",
+        "mean" : "student"
+    },
+    { 
+        "romaji" : "ginkou",
+        "mean" : "bank"
+    },
+    { 
+        "romaji" : "bentou",
+        "mean" : "lunch box"
+    },
+    { 
+        "romaji" : "hana",
+        "mean" : "flower"
+    },
+    { 
+        "romaji" : "sakura",
+        "mean" : "cherry blossoms"
+    },
+    { 
+        "romaji" : "isu",
+        "mean" : "a chair"
+    },
+    { 
+        "romaji" : "kabe",
+        "mean" : "wall"
+    },
+    { 
+        "romaji" : "hon",
+        "mean" : "book"
+    },
+    { 
+        "romaji" : "shinbun",
+        "mean" : "newspaper"
     }
 ]
