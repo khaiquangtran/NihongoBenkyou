@@ -1,7 +1,7 @@
 
 
 body {
-  background:  #09d324;
+  background-image: url(Images/word_lesson_1.png);
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #000;
   margin: 0;
@@ -18,7 +18,8 @@ body {
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   body {
-    width: 70%;
+    background-image: url(Images/word_lesson_1_1.png);
+    min-height: 100vh;
   }
 }
 
