@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Images/home_background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  body {
+    background-image: url(Images/home_background_phone.jpg);
+    min-height: 100vh;
+  }
+}
+
+.menu-bar {
+  background: #0096ff;
+  text-align: center;
+}
+
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+.menu-bar ul li {
+  margin: 2vh 1vh;
+  padding: 1vh;
+  font-size: 3vh;
+  width: auto;
+  height: auto;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .menu-bar ul li {
+    font-size: 2vh;
+  }
+}
+
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-bar ul li:hover {
+  background: #89cff0;
+  border-radius: 5px;
+}
+
+.sub-menu-images {
+  display: none;
+}
+
+.sub-menu-images ul li {
+  font-size: 2vh;
+}
+
+.menu-bar ul li:hover .sub-menu-images {
+  display: block;
+  position: absolute;
+  background: #0096ff;
+  margin-top: 1vh;
+  margin-left: -1.5vh;
+  border-radius: 5px;
+}
+
+.menu-bar ul li:hover .sub-menu-images ul {
+  display: block;
+  margin: 0vh;
+}
+
+.menu-bar ul li:hover .sub-menu-images ul li {
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  width: 14vh;
+  border-radius: 0;
+}
+
+.menu-bar ul li:hover .sub-menu-images ul li:last-child {
+  border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu-images ul li a:hover {
+  color: #00ff40;
+}
