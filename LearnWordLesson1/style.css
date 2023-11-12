@@ -51,13 +51,19 @@ body {
   font-weight: bold;
   color: #fff;
 }
+.lessthree {
+  font-size: 12vh;
+}
 .lessfour {
   font-size: 12vh;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
-  .lessfour {
+  .lessthree {
     font-size: 380%;
+  }
+  .lessfour {
+    font-size: 300%;
   }
 }
 
