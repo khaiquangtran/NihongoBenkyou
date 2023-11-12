@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
     console.log();
-    xhr.open("GET", "LearnWordLesson1/romaji.json", true);
+    xhr.open("GET", "romaji.json", true);
     xhr.send();
   }
 
