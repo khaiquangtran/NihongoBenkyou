@@ -118,6 +118,23 @@ body {
   }
 }
 
+.container .card .content .romaji8 {
+  position: absolute;
+  top: 62%;
+  left: 0;
+  width: 100%;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .container .card .content .romaji8 {
+    font-size: 1em;
+    top: 68%;
+  }
+}
+
 .container .card .content .japan {
   position: absolute;
   font-size: 3em;
@@ -152,9 +169,29 @@ body {
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .container .card .content .japan8 {
     font-size: 1.8em;
-    top: 38%;
+    top: 43%;
   }
 }
+
+.container .card .content .japan9 {
+  position: absolute;
+  font-size: 1.5em;
+  font-family: "Sawarabi Mincho";
+  top: 40%;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .container .card .content .japan9 {
+    font-size: 1.2em;
+    top: 48%;
+  }
+}
+
 .container .card .content .mean {
   position: absolute;
   top: 75%;
@@ -172,9 +209,23 @@ body {
   }
 }
 
-.homeButton{
-    
+.container .card .content .mean9 {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  width: 100%;
+  font-size: 1em;
+  color: white;
+  text-align: center;
 }
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .container .card .content .mean9 {
+    font-size: 0.7em;
+    top: 86%;
+  }
+}
+
 
 .homeBtn {
     position: absolute;
@@ -191,7 +242,6 @@ body {
   color: white;
   /* text-decoration: none; */
 }
-
 
 .title {
   position: absolute;
