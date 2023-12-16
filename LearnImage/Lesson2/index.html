@@ -343,7 +343,7 @@
         </div>
         <div class="content">
           <div>
-            <p class="japan8">けしゴム(消しゴム)</p>
+            <p class="japan9">けしゴム(消しゴム)</p>
           </div>
           <div>
             <p class="romaji">/keshigomu/</p>
@@ -362,7 +362,7 @@
             <p class="japan">おかね(お金)</p>
           </div>
           <div>
-            <p class="romaji">/akare/</p>
+            <p class="romaji">/akane/</p>
           </div>
           <div>
             <p class="mean">money</p>
@@ -675,5 +675,12 @@
       </div>
 
     </div>
+    <script>
+      document.querySelectorAll(".card").forEach(function (card) {
+        card.addEventListener("click", function () {
+          this.classList.toggle("card1");
+        });
+      });
+    </script>
   </body>
 </html>
