@@ -40,7 +40,9 @@ body {
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .menu-bar ul li {
-    font-size: 2vh;
+    font-size: 1.4vh;
+    margin: 2vh 1vh;
+    padding: 0.5vh;
   }
 }
 
@@ -115,7 +117,7 @@ body {
   list-style: none;
   height: 50vh;
   overflow-x: hidden;
-  overflow-y: scroll;  
+  overflow-y: scroll;
 }
 
 .sub-menu-images2 ul::-webkit-scrollbar {
