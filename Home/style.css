@@ -40,7 +40,7 @@ body {
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .menu-bar ul li {
-    font-size: 1.4vh;
+    font-size: 1.3vh;
     margin: 2vh 1vh;
     padding: 0.5vh;
   }
@@ -63,6 +63,11 @@ body {
 .sub-menu-images ul li {
   font-size: 2vh;
 }
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .sub-menu-images ul li {
+    font-size: 1.3vh;
+  }
+}
 
 .menu-bar ul li:hover .sub-menu-images {
   display: block;
@@ -83,6 +88,11 @@ body {
   background: transparent;
   width: 14vh;
   border-radius: 0;
+}
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .menu-bar ul li:hover .sub-menu-images ul li {
+    width: 10vh;
+  }
 }
 
 .menu-bar ul li:hover .sub-menu-images ul li:last-child {
