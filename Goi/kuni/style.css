@@ -9,7 +9,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(45deg, #00bcd4, #09d324);
   background-image: url(Images/background.jpg);
   background-size: cover;
   background-position: center;
@@ -64,7 +63,6 @@ body {
   top: 0;
   width: 300px;
   height: 220px;
-  /* background: #fff; */
   border-radius: 20px;
   transition: 0.5s;
 }
@@ -81,14 +79,6 @@ body {
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
   scale: 70%;
 }
-
-/* @media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card:hover .imgBx {
-    top: -68%;
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
-    scale: 55%;
-  }
-} */
 
 .container .card .imgBx img {
   position: absolute;

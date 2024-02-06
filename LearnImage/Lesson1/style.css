@@ -9,7 +9,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: linear-gradient(45deg, #00bcd4, #09d324);
   background-image: url(Images/background.png);
   background-size: cover;
   background-position: center;
