@@ -133,3 +133,14 @@ body {
 .sub-menu-images2 ul::-webkit-scrollbar {
   display: none;
 }
+
+.learn-image ul {
+  list-style: none;
+  height: 57vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.learn-image ul::-webkit-scrollbar {
+  display: none;
+}
