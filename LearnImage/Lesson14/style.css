@@ -266,7 +266,7 @@ body {
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .title {
-    top: 1%;
+    top: 0.5%;
     left: 30%;
     font-size: 5vh;
   }
