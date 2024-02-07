@@ -1,0 +1,18 @@
+[
+    {  
+        "romaji" : "はる",
+        "mean" : "Spring"
+    },
+    {  
+        "romaji" : "なつ",
+        "mean" : "Summer"
+    },
+    {  
+        "romaji" : "あき",
+        "mean" : "Fall"
+    },
+    {  
+        "romaji" : "ふゆ",
+        "mean" : "Winter"
+    }
+]

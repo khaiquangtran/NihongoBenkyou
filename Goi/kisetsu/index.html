@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>季節 (きせつ)</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="../../Home/Images/japanese-alphabet.png" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="homeButton">
+      <button class="homeBtn" type="button" onclick="location.href='../../index.html'">
+        <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+      </button>
+    </div>
+    <div>
+      <p class="title">季節 (きせつ)</p>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/haru.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">はる</p>
+        </div>
+        <div>
+          <p class="romaji">/haru/</p>
+        </div>
+        <div>
+          <p class="mean">Spring</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/natsu.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">なつ</p>
+        </div>
+        <div>
+          <p class="romaji">/natsu/</p>
+        </div>
+        <div>
+          <p class="mean">Summer</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/aki.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">あき</p>
+        </div>
+        <div>
+          <p class="romaji">/aki/</p>
+        </div>
+        <div>
+          <p class="mean">Fall</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/fuyu.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">ふゆ</p>
+        </div>
+        <div>
+          <p class="romaji">/fuyu/</p>
+        </div>
+        <div>
+          <p class="mean">Winter</p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <script>
+    document.querySelectorAll(".card").forEach(function (card) {
+      card.addEventListener("click", function () {
+        this.classList.toggle("card1");
+      });
+    });
+  </script>
+</body>
+
+</html>
