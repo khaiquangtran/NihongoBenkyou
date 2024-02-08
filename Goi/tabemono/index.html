@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>食べ物 (たべもの)</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="../../Home/Images/japanese-alphabet.png" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="homeButton">
+      <button class="homeBtn" type="button" onclick="location.href='../../index.html'">
+        <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+      </button>
+    </div>
+    <div>
+      <p class="title">食べ物 (たべもの)</p>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/pan.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">パン</p>
+        </div>
+        <div>
+          <p class="romaji">/pan/</p>
+        </div>
+        <div>
+          <p class="mean">bread</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/tamago.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">たまご</p>
+        </div>
+        <div>
+          <p class="romaji">/tamago/</p>
+        </div>
+        <div>
+          <p class="mean">egg</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/sakana.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">さかな (魚)</p>
+        </div>
+        <div>
+          <p class="romaji">/sakana/</p>
+        </div>
+        <div>
+          <p class="mean">fish</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/yasai.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">やさい (野菜)</p>
+        </div>
+        <div>
+          <p class="romaji">/yasai/</p>
+        </div>
+        <div>
+          <p class="mean">vegetable</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/niku.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">にく (肉)</p>
+        </div>
+        <div>
+          <p class="romaji">/niku/</p>
+        </div>
+        <div>
+          <p class="mean">meat</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/kudamono.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">くだもの (果物)</p>
+        </div>
+        <div>
+          <p class="romaji">/kudamono/</p>
+        </div>
+        <div>
+          <p class="mean">fruit</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/raamen.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">ラーメン</p>
+        </div>
+        <div>
+          <p class="romaji">/raamen/</p>
+        </div>
+        <div>
+          <p class="mean">ramen</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <script>
+    document.querySelectorAll(".card").forEach(function (card) {
+      card.addEventListener("click", function () {
+        this.classList.toggle("card1");
+      });
+    });
+  </script>
+</body>
+
+</html>

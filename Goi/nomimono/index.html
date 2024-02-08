@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>飲み物 (のみもの)</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="../../Home/Images/japanese-alphabet.png" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="homeButton">
+      <button class="homeBtn" type="button" onclick="location.href='../../index.html'">
+        <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+      </button>
+    </div>
+    <div>
+      <p class="title">飲み物 (のみもの)</p>
+    </div>
+
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/juusu.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">ジュース</p>
+        </div>
+        <div>
+          <p class="romaji">/juusu/</p>
+        </div>
+        <div>
+          <p class="mean">fruit juice</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/ocha.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">おちゃ (お茶)</p>
+        </div>
+        <div>
+          <p class="romaji">/ocha/</p>
+        </div>
+        <div>
+          <p class="mean">tea</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/biiru.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">ビール</p>
+        </div>
+        <div>
+          <p class="romaji">/biiru/</p>
+        </div>
+        <div>
+          <p class="mean">beer</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/koocha.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">こうちゃ (紅茶)</p>
+        </div>
+        <div>
+          <p class="romaji">/koocha/</p>
+        </div>
+        <div>
+          <p class="mean">black tea</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/osake.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">おさけ (お酒)</p>
+        </div>
+        <div>
+          <p class="romaji">/osake/</p>
+        </div>
+        <div>
+          <p class="mean">wine</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/gyuunyuu.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">ぎゅうにゅう(牛乳)</p>
+        </div>
+        <div>
+          <p class="romaji">/gyuunyuu/</p>
+        </div>
+        <div>
+          <p class="mean">milk</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/miruku.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">ミルク</p>
+        </div>
+        <div>
+          <p class="romaji">/miruku/</p>
+        </div>
+        <div>
+          <p class="mean">milk</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/wain.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">ワイン</p>
+        </div>
+        <div>
+          <p class="romaji">/wain/</p>
+        </div>
+        <div>
+          <p class="mean">wine</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.querySelectorAll(".card").forEach(function (card) {
+      card.addEventListener("click", function () {
+        this.classList.toggle("card1");
+      });
+    });
+  </script>
+</body>
+
+</html>
