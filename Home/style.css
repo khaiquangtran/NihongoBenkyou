@@ -119,7 +119,8 @@ body {
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .hover-me:hover .sub-menu-images2 {
-    margin-left: -18vh;
+    margin-left: -12.7vh;
+    margin-top: -3.5vh;
   }
 }
 
@@ -141,6 +142,29 @@ body {
   overflow-y: scroll;
 }
 
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .learn-image ul {
+    height: 38vh;
+  }
+}
+
 .learn-image ul::-webkit-scrollbar {
+  display: none;
+}
+
+.goi ul {
+  list-style: none;
+  height: 56vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .goi ul {
+    height: 35vh;
+  }
+}
+
+.goi ul::-webkit-scrollbar {
   display: none;
 }

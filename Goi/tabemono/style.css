@@ -234,17 +234,17 @@ body {
 .title {
   position: absolute;
   top: 1%;
-  left: 45%;
+  left: 40%;
   font-size: 5vh;
-  color: Brown;
+  color: #40E0D0;
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .title {
-    top: 1%;
-    left: 30%;
+    top: 3%;
+    left: 13%;
     font-size: 5vh;
   }
 }
