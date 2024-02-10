@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
   function handleButtonClick(index) {
     var colors = [
       "rgb(206, 17, 17)",
-      "rgb(0, 140, 255)",
       "rgb(10, 184, 111)",
       "rgb(211, 122, 7)",
+      "rgb(0, 140, 255)",
       "rgb(118, 163, 12)",
       "rgb(180, 10, 47)",
       "rgb(35, 99, 19)",
