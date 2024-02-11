@@ -147,6 +147,12 @@ body {
   text-align: center;
   font-family: "Sawarabi Mincho";
 }
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .mySwiper .box .message_box .mean
+  {
+    font-size: 20px;
+  }
+}
 
 .mySwiper .box .button_box {
   width: 100%;
