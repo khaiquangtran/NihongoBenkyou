@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>交通手段 (こうつうしゅだん)</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="shortcut icon" type="image/x-icon" href="../../Home/Images/japanese-alphabet.png" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="homeButton">
+      <button class="homeBtn" type="button" onclick="location.href='../../index.html'">
+        <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+      </button>
+    </div>
+    <div>
+      <p class="title">交通手段 (こうつうしゅだん)</p>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/hikooki.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">ひこうき (飛行機)</p>
+        </div>
+        <div>
+          <p class="romaji">/hikooki/</p>
+        </div>
+        <div>
+          <p class="mean">plane</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/fune.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">ふね (船)</p>
+        </div>
+        <div>
+          <p class="romaji">/fune/</p>
+        </div>
+        <div>
+          <p class="mean">boat</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/densha.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">でんしゃ (電車)</p>
+        </div>
+        <div>
+          <p class="romaji">/densha/</p>
+        </div>
+        <div>
+          <p class="mean">electric train</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/chikatetsu.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">ちかてつ (地下鉄)</p>
+        </div>
+        <div>
+          <p class="romaji">/chikatetsu/</p>
+        </div>
+        <div>
+          <p class="mean">subway</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/shinkansen.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan9">しんかんせん (新幹線)</p>
+        </div>
+        <div>
+          <p class="romaji">/shinkansen/</p>
+        </div>
+        <div>
+          <p class="mean">bullet train</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/basu.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">バス</p>
+        </div>
+        <div>
+          <p class="romaji">/basu/</p>
+        </div>
+        <div>
+          <p class="mean">bus</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/takushi.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">タクシー</p>
+        </div>
+        <div>
+          <p class="romaji">/takushii/</p>
+        </div>
+        <div>
+          <p class="mean">taxi</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/jitensha.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan9">じてんしゃ (自転車)</p>
+        </div>
+        <div>
+          <p class="romaji">/jitensha/</p>
+        </div>
+        <div>
+          <p class="mean">bicycle</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/aruite.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan8">あるいて (歩いて)</p>
+        </div>
+        <div>
+          <p class="romaji">/aruite/</p>
+        </div>
+        <div>
+          <p class="mean">walk</p>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgBx">
+        <img src="Images/ropuuei.png" />
+      </div>
+      <div class="content">
+        <div>
+          <p class="japan">ロープウェイ</p>
+        </div>
+        <div>
+          <p class="romaji">/ro-puuei/</p>
+        </div>
+        <div>
+          <p class="mean">ropeway</p>
+        </div>
+      </div>
+    </div>
+    
+
+  </div>
+  <script>
+    document.querySelectorAll(".card").forEach(function (card) {
+      card.addEventListener("click", function () {
+        this.classList.toggle("card1");
+      });
+    });
+  </script>
+</body>
+
+</html>
