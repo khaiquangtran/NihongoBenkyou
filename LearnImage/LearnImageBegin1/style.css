@@ -15,6 +15,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
 }
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
@@ -23,6 +24,7 @@ body {
     min-height: 100vh;
   }
 }
+
 
 .container {
   position: relative;

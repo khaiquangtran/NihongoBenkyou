@@ -10,6 +10,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+  animation: change 100s infinite ease-in-out;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
@@ -17,6 +18,42 @@ body {
     background-image: url(Images/home_background_phone.jpg);
     min-height: 90vh;
   }
+}
+
+@keyframes change{
+  10%
+  {
+      background-image: url(Images/home_background1.jpg);
+  }
+  30%
+  {
+      background-image: url(Images/home_background2.jpg);
+  }
+  40%
+  {
+      background-image: url(Images/home_background3.jpg);
+  }
+  50%
+  {
+      background-image: url(Images/home_background4.jpg);
+  }
+  60%
+  {
+      background-image: url(Images/home_background5.jpg);
+  }
+  70%
+  {
+      background-image: url(Images/home_background6.jpg);
+  }
+  80%
+  {
+      background-image: url(Images/home_background7.jpg);
+  }
+  90%
+  {
+      background-image: url(Images/home_background8.jpg);
+  }
+
 }
 
 .menu-bar {
@@ -137,7 +174,7 @@ body {
 
 .learn-image ul {
   list-style: none;
-  height: 57vh;
+  height: 71vh;
   overflow-x: hidden;
   overflow-y: scroll;
 }
