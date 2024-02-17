@@ -9,8 +9,8 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 500vh;
-  animation: change 100s infinite ease-in-out;
+  min-height: 100vh;
+  animation: change 500s infinite ease-in-out;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
