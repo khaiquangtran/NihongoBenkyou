@@ -8,11 +8,11 @@
   <link rel="stylesheet" href="Home/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="Home/Images/japanese-alphabet.png" />
-    
+
 </head>
 
 <body id="Background">
-  <div class="container" >
+  <div class="container">
     <div class="menu-bar">
       <ul>
         <li><a href="#">語彙 (ごい)</a>
@@ -33,6 +33,7 @@
               <li><a href="Goi/gatsu/index.html">月 (がつ)</a></li>
               <li><a href="Goi/keiyoushi/index.html">形容詞 <br>(けいようし)</a></li>
               <li><a href="Goi/iro/index.html">色 (いろ)</a></li>
+              <li><a href="Goi/kazoku/index.html">家族 (かぞく)</a></li>
             </ul>
           </div>
         </li>
@@ -50,6 +51,7 @@
               <li><a href="LearnImage/Lesson8/index.html">第八課</a></li>
               <li><a href="LearnImage/Lesson9/index.html">第九課</a></li>
               <li><a href="LearnImage/Lesson10/index.html">第十課</a></li>
+              <li><a href="LearnImage/Lesson11/index.html">第十一課</a></li>
               <li><a href="LearnImage/Lesson14/index.html">Lesson 14</a></li>
             </ul>
           </div>
@@ -322,15 +324,15 @@
   </div>
   <script type="text/javascript">
     var randomChange = document.getElementById('Background');
-     images = ['Home/Images/home_background.jpg','Home/Images/home_background1.jpg','Home/Images/home_background2.jpg','Home/Images/home_background3.jpg',
-     'Home/Images/home_background4.jpg','Home/Images/home_background5.jpg','Home/Images/home_background6.jpg','Home/Images/home_background7.jpg',
-     'Home/Images/home_background8.jpg','Home/Images/home_background9.jpg','Home/Images/home_background10.jpg','Home/Images/home_background11.jpg'];
-     var imgCount = images.length;
-     var number = Math.floor(Math.random()*imgCount);
+    images = ['Home/Images/home_background.jpg', 'Home/Images/home_background1.jpg', 'Home/Images/home_background2.jpg', 'Home/Images/home_background3.jpg',
+      'Home/Images/home_background4.jpg', 'Home/Images/home_background5.jpg', 'Home/Images/home_background6.jpg', 'Home/Images/home_background7.jpg',
+      'Home/Images/home_background8.jpg', 'Home/Images/home_background9.jpg', 'Home/Images/home_background10.jpg', 'Home/Images/home_background11.jpg'];
+    var imgCount = images.length;
+    var number = Math.floor(Math.random() * imgCount);
 
-     window.onload = function() {
-      randomChange.style.backgroundImage = 'url('+images[number]+')';
-     }
+    window.onload = function () {
+      randomChange.style.backgroundImage = 'url(' + images[number] + ')';
+    }
   </script>
 </body>
 
