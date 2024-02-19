@@ -1,7 +1,18 @@
-
- :Nước Ai cập 
- :Kim tự tháp
-
-ほんこん :Hồng Kông
+(置きます) : 
+つくります : 
+(売ります) : 
+(知ります) : 
+(Nに)(住みます) : L
+(研究します) : 
+ (資料) : 
  : 
-ヨガ : yoga
+(時刻表) : T
+ : C
+ (Phần mềm) : Software
+ (電子辞書) : Kim từ điển - E
+ (製品) : Sản phẩm - 
+ (経済) : Kinh tế - 
+ (市役所) : Tòa thị chính - C
+ (高校) : Trường cấp 3 - H
+ (歯医者) : Nha sĩ - D
+ (独身) : Độc thân - S
