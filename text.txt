@@ -1,12 +1,7 @@
-みち : road, street, way
+はし : bridge
+ :
+くしカツ  : 
  : 
-たからくじ : lottery
- : 
-信じられません : i can't believe
- : 
- : 
- : 
- : head (chief, director) of a section or department
-
-ハンバーガー : hamburger
- : tea with milk
+ :  signal
+ : turn
+ :  same
