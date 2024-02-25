@@ -9,4 +9,4 @@
  : head (chief, director) of a section or department
 
 ハンバーガー : hamburger
-ミルクティー : tea with milk
+ : tea with milk
