@@ -1,7 +1,2 @@
-はし : bridge
- :
-くしカツ  : 
- : 
- :  signal
- : turn
- :  same
+
+
