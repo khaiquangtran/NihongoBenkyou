@@ -1,0 +1,369 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; */
+  background-image: url(Images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  body {
+    background-image: url(Images/background1.jpg);
+    min-height: 100vh;
+  }
+}
+
+.homeButton{
+  position: absolute;
+  left: 1vh;
+  top: 1vh;
+  width: 11vh;
+  height: 5vh;
+}
+
+.homeBtn
+{
+  position: fixed;
+    width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 1vh;
+  z-index: 2;
+  background: #cc5500;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.title{
+  position: absolute;
+  top: 1%;
+  left: 45%;
+  font-size: 5vh;
+  color: rgb(0, 68, 255);
+  font-weight: bold;
+  font-family: "Sawarabi Mincho";
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .title{
+    /* position: absolute; */
+    top: 1%;
+    left: 40%;
+    font-size: 5vh;
+  }
+}
+
+.container {
+  position:absolute;
+  top: 10vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height : auto;
+}
+.wordKanji {
+  margin: 5vh; 
+  padding: 5vh;
+  display: flex; /* Sử dụng flexbox để sắp xếp các phần tử theo hàng dọc */
+  flex-direction: column; /* Sắp xếp các phần tử theo hướng dọc */
+  width: 95%;
+  border-radius: 2vh;
+  border-style: dashed;
+}
+
+.onKanjikun {
+  display: flex;
+}
+
+.on,
+.kanji,
+.kun {
+  height: 15vh;
+}
+
+.on{
+  width: 45%; 
+}
+.kanji {
+  width: 10%; 
+}
+.kun{
+  width: 45%; 
+}
+
+.onkun {
+  display: flex;
+  justify-content: space-between; /* Các phần tử con sẽ được căn giữa với khoảng cách đều nhau */
+  width: 100%; /* Các phần tử này chiếm toàn bộ chiều rộng của container */
+}
+
+.onKanji,
+.kunKanji {
+  width: 50%; /* Phân chia chiều rộng cho phần tử con */
+}
+
+.onKanji {
+  /* background-color: red; */
+}
+.kunKanji {
+  /* background-color: pink; */
+}
+
+.kanji:hover .flashcard {
+  transform: rotateY(180deg);
+}
+
+.question, .answer {
+  width:100%;
+  height:15vh;
+}
+
+.flashcard {
+	transition: 0.5s;
+	transform-style: preserve-3d;
+}
+
+.question {
+	z-index: 5;
+  background-color: #00bcd4;
+}
+
+.answer {
+	transform: rotateY(180deg);
+  background-color: #00ff00;
+}
+
+.question, .answer{
+  backface-visibility: hidden;
+  border-radius:10px 10px;
+  margin:auto;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+}
+
+.content{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-family: "Sawarabi Mincho";
+  font-weight: bold;
+}
+
+.japan {
+  font-size: 7em;
+}
+
+.vietnam{
+  font-size: 1.5em;
+}
+
+.on{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-family: "Sawarabi Mincho";
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.kun{
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  font-family: "Sawarabi Mincho";
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.onKanji {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px 60px;
+  /* padding: 100px 50px; */
+}
+
+.onKanji .card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
+  height: 220px;
+  border-radius: 20px;
+  transition: 1s;
+  background: #00ff00;
+}
+
+.onKanji .card .imgBx {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 220px;
+  /* background: #fff; */
+  border-radius: 20px;
+  transition: 0.5s;
+  background: #00bcd4;
+  z-index: 1;
+}
+
+.onKanji .card1 .imgBx {
+  top: -48%;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+  scale: 70%;
+}
+
+/* .onKanji .card .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  z-index: 1;
+} */
+
+.onKanji .card .content2 .romaji {
+  position: absolute;
+  top: 72%;
+  left: 0;
+  width: 100%;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.onKanji .card .content2 .japan {
+  position: absolute;
+  font-size: 3em;
+  font-family: "Sawarabi Mincho";
+  top: 40%;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.onKanji .card .imgBx .japan {
+  position: absolute;
+  font-size: 5em;
+  font-family: "Sawarabi Mincho";
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  /* font-weight: bold; */
+  color: white;
+  text-align: center;
+}
+
+.kunKanji {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 75px 60px;
+  /* padding: 100px 50px; */
+}
+
+.kunKanji .card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 300px;
+  height: 220px;
+  border-radius: 20px;
+  transition: 1s;
+  background: #00ff00;
+}
+
+.kunKanji .card .imgBx {
+  position: absolute;
+  top: 0;
+  width: 300px;
+  height: 220px;
+  /* background: #fff; */
+  border-radius: 20px;
+  transition: 0.5s;
+  background: #00bcd4;
+  z-index: 1;
+}
+
+.kunKanji .card1 .imgBx {
+  top: -48%;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+  scale: 70%;
+}
+
+/* .onKanji .card .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  z-index: 1;
+} */
+
+.kunKanji .card .content2 .romaji {
+  position: absolute;
+  top: 72%;
+  left: 0;
+  width: 100%;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.kunKanji .card .content2 .japan {
+  position: absolute;
+  font-size: 3em;
+  font-family: "Sawarabi Mincho";
+  top: 40%;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.kunKanji .card .imgBx .japan {
+  position: absolute;
+  font-size: 5em;
+  font-family: "Sawarabi Mincho";
+  top: 25%;
+  left: 0;
+  width: 100%;
+  height: 15vh;
+  /* font-weight: bold; */
+  color: white;
+  text-align: center;
+}
