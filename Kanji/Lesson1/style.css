@@ -217,7 +217,12 @@ body {
   transition: 1s;
   background: #00ff00;
 }
-
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .onKanji .card .imgBx{
+    width: 250px;
+    height: 170px;
+  }
+}
 .onKanji .card .imgBx {
   position: absolute;
   top: 0;
@@ -315,7 +320,12 @@ body {
   background: #00bcd4;
   z-index: 1;
 }
-
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .kunKanji .card .imgBx{
+    width: 250px;
+    height: 170px;
+  }
+}
 .kunKanji .card1 .imgBx {
   top: -48%;
   box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
