@@ -5,8 +5,8 @@ document.querySelectorAll(".card").forEach(function (card) {
 });
 
 var randomChange = document.getElementById('Background');
-images = ['../Background/background.png', '../Background/background1.png', '../Background/background2.jpg', '../Background/background3.jpg',
-    '../Background/background4.jpg', '../Background/background5.jpg'];
+images = ['../Config/Background/background.png', '../Config/Background/background1.png', '../Config/Background/background2.jpg', '../Config/Background/background3.jpg',
+    '../Config/Background/background4.jpg', '../Config/Background/background5.jpg'];
 var imgCount = images.length;
 var number = Math.floor(Math.random() * imgCount);
 
