@@ -1,960 +1,974 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>第五課</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../Home/Images/japanese-alphabet.png"
+    />
+    <link rel="stylesheet" type="text/css" href="../Style/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>第五課</title>
-  <link rel="stylesheet" type="text/css" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="shortcut icon" type="image/x-icon" href="../../Home/Images/japanese-alphabet.png" />
-</head>
+  <body id="Background">
+    <div class="container">
+      <div class="homeButton">
+        <button
+          class="homeBtn"
+          type="button"
+          onclick="location.href='../../index.html'"
+        >
+          <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+        </button>
+      </div>
+      <div>
+        <p class="title">第五課</p>
+      </div>
 
-<body>
-  <div class="container">
-    <div class="homeButton">
-      <button class="homeBtn" type="button" onclick="location.href='../../index.html'">
-        <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
-      </button>
-    </div>
-    <div>
-      <p class="title">第五課</p>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/ikimasu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">いきます</p>
+          </div>
+          <div>
+            <p class="romaji">/ikimasu/</p>
+          </div>
+          <div>
+            <p class="mean">go</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kimasu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">きます</p>
+          </div>
+          <div>
+            <p class="romaji">/kimasu/</p>
+          </div>
+          <div>
+            <p class="mean">come</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kaerimasu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">かえります</p>
+          </div>
+          <div>
+            <p class="romaji">/kaerimasu/</p>
+          </div>
+          <div>
+            <p class="mean">return</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/gakko.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">がっこう</p>
+          </div>
+          <div>
+            <p class="romaji">/gakko/</p>
+          </div>
+          <div>
+            <p class="mean">school</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/suupaa.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">スーパー</p>
+          </div>
+          <div>
+            <p class="romaji">/suupaa/</p>
+          </div>
+          <div>
+            <p class="mean">supper market</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/eki.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">えき</p>
+          </div>
+          <div>
+            <p class="romaji">/eki/</p>
+          </div>
+          <div>
+            <p class="mean">train station</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/hikooki.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ひこうき</p>
+          </div>
+          <div>
+            <p class="romaji">/hikooki/</p>
+          </div>
+          <div>
+            <p class="mean">plane</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/fune.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ふね</p>
+          </div>
+          <div>
+            <p class="romaji">/fune/</p>
+          </div>
+          <div>
+            <p class="mean">boat</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/densha.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">でんしゃ</p>
+          </div>
+          <div>
+            <p class="romaji">/densha/</p>
+          </div>
+          <div>
+            <p class="mean">electric train</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/chikatetsu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ちかてつ</p>
+          </div>
+          <div>
+            <p class="romaji">/chikatetsu/</p>
+          </div>
+          <div>
+            <p class="mean">subway</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/shinkansen.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">しんかんせん</p>
+          </div>
+          <div>
+            <p class="romaji">/shinkansen/</p>
+          </div>
+          <div>
+            <p class="mean">bullet train</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/basu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">バス</p>
+          </div>
+          <div>
+            <p class="romaji">/basu/</p>
+          </div>
+          <div>
+            <p class="mean">bus</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/takushi.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">タクシー</p>
+          </div>
+          <div>
+            <p class="romaji">/takushii/</p>
+          </div>
+          <div>
+            <p class="mean">taxi</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/jitensha.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">じてんしゃ</p>
+          </div>
+          <div>
+            <p class="romaji">/jitensha/</p>
+          </div>
+          <div>
+            <p class="mean">bicycle</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/aruite.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">あるいて</p>
+          </div>
+          <div>
+            <p class="romaji">/aruite/</p>
+          </div>
+          <div>
+            <p class="mean">walk</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/hito.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ひと</p>
+          </div>
+          <div>
+            <p class="romaji">/hito/</p>
+          </div>
+          <div>
+            <p class="mean">people</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/tomodachi.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ともだち</p>
+          </div>
+          <div>
+            <p class="romaji">/tomodachi/</p>
+          </div>
+          <div>
+            <p class="mean">friend</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kare.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">かれ</p>
+          </div>
+          <div>
+            <p class="romaji">/kare/</p>
+          </div>
+          <div>
+            <p class="mean">he</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kanojo.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">かのじょ</p>
+          </div>
+          <div>
+            <p class="romaji">/kanojo/</p>
+          </div>
+          <div>
+            <p class="mean">she/girlfriend</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kazoku.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">かぞく</p>
+          </div>
+          <div>
+            <p class="romaji">/kazoku/</p>
+          </div>
+          <div>
+            <p class="mean">family</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/hitoride.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ひとりで</p>
+          </div>
+          <div>
+            <p class="romaji">/hitoride/</p>
+          </div>
+          <div>
+            <p class="mean">alone</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/senshuu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">せんしゅう</p>
+          </div>
+          <div>
+            <p class="romaji">/senshuu/</p>
+          </div>
+          <div>
+            <p class="mean">last week</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/konshuu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">こんしゅう</p>
+          </div>
+          <div>
+            <p class="romaji">/konshuu/</p>
+          </div>
+          <div>
+            <p class="mean">this week</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/raishuu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">らいしゅう</p>
+          </div>
+          <div>
+            <p class="romaji">/raishuu/</p>
+          </div>
+          <div>
+            <p class="mean">next week</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/sengetsu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">せんげつ</p>
+          </div>
+          <div>
+            <p class="romaji">/sengetsu/</p>
+          </div>
+          <div>
+            <p class="mean">last month</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kongetsu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">こんげつ</p>
+          </div>
+          <div>
+            <p class="romaji">/kongetsu/</p>
+          </div>
+          <div>
+            <p class="mean">this month</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/raigetsu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">らいげつ</p>
+          </div>
+          <div>
+            <p class="romaji">/raigetsu/</p>
+          </div>
+          <div>
+            <p class="mean">next month</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kyonen.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">きょねん</p>
+          </div>
+          <div>
+            <p class="romaji">/kyonen/</p>
+          </div>
+          <div>
+            <p class="mean">last year</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kotoshi.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ことし</p>
+          </div>
+          <div>
+            <p class="romaji">/kotoshi/</p>
+          </div>
+          <div>
+            <p class="mean">this year</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/rainen.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">らいねん</p>
+          </div>
+          <div>
+            <p class="romaji">/rainen/</p>
+          </div>
+          <div>
+            <p class="mean">next year</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/nen.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">~ねん</p>
+          </div>
+          <div>
+            <p class="romaji">/~nen/</p>
+          </div>
+          <div>
+            <p class="mean">~ year</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/nannen.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">なんねん</p>
+          </div>
+          <div>
+            <p class="romaji">/nannen/</p>
+          </div>
+          <div>
+            <p class="mean">how many/what year?</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/gatsu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">~がつ</p>
+          </div>
+          <div>
+            <p class="romaji">/~gatsu/</p>
+          </div>
+          <div>
+            <p class="mean">~ month</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/nangatsu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">なんがつ</p>
+          </div>
+          <div>
+            <p class="romaji">/nangatsu/</p>
+          </div>
+          <div>
+            <p class="mean">what month?</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/tsuitachi.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ついたち</p>
+          </div>
+          <div>
+            <p class="romaji">/tsuitachi/</p>
+          </div>
+          <div>
+            <p class="mean">one day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/futsuka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ふつか</p>
+          </div>
+          <div>
+            <p class="romaji">/futsuka/</p>
+          </div>
+          <div>
+            <p class="mean">second day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/mikka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">みっか</p>
+          </div>
+          <div>
+            <p class="romaji">/mikka/</p>
+          </div>
+          <div>
+            <p class="mean">third day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/jokka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">よっか</p>
+          </div>
+          <div>
+            <p class="romaji">/jokka/</p>
+          </div>
+          <div>
+            <p class="mean">fourth day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/itsuka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">いつか</p>
+          </div>
+          <div>
+            <p class="romaji">/itsuka/</p>
+          </div>
+          <div>
+            <p class="mean">fifth day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/muika.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">むいか</p>
+          </div>
+          <div>
+            <p class="romaji">/muika/</p>
+          </div>
+          <div>
+            <p class="mean">sixth day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/nanoka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">なのか</p>
+          </div>
+          <div>
+            <p class="romaji">/nanoka/</p>
+          </div>
+          <div>
+            <p class="mean">seventh day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/jooka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ようか</p>
+          </div>
+          <div>
+            <p class="romaji">/jooka/</p>
+          </div>
+          <div>
+            <p class="mean">eighth day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kokonoka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ここのか</p>
+          </div>
+          <div>
+            <p class="romaji">/kokonoka/</p>
+          </div>
+          <div>
+            <p class="mean">nineth day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/toaka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">とおか</p>
+          </div>
+          <div>
+            <p class="romaji">/tooka/</p>
+          </div>
+          <div>
+            <p class="mean">tenth day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/juujokka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">じゅうよっか</p>
+          </div>
+          <div>
+            <p class="romaji">/juujokka/</p>
+          </div>
+          <div>
+            <p class="mean">fourteenth day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/hatsuka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">はつか</p>
+          </div>
+          <div>
+            <p class="romaji">/hatsuka/</p>
+          </div>
+          <div>
+            <p class="mean">twentieth day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/nijuujokka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan8">にじゅうよっか</p>
+          </div>
+          <div>
+            <p class="romaji">/nijuujokka/</p>
+          </div>
+          <div>
+            <p class="mean">twenty fourth day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/nichi.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">~にち</p>
+          </div>
+          <div>
+            <p class="romaji">/~nichi/</p>
+          </div>
+          <div>
+            <p class="mean">~day</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/nanjoobi.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">たんじょうび</p>
+          </div>
+          <div>
+            <p class="romaji">/nanjoobi/</p>
+          </div>
+          <div>
+            <p class="mean">birthday</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/soodesure.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">そうですね</p>
+          </div>
+          <div>
+            <p class="romaji">/soodesure/</p>
+          </div>
+          <div>
+            <p class="mean">yes!</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/kurisumasu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">クリスマス</p>
+          </div>
+          <div>
+            <p class="romaji">/kurisumasu/</p>
+          </div>
+          <div>
+            <p class="mean">christmas</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/umane.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">うまれ</p>
+          </div>
+          <div>
+            <p class="romaji">/umane/</p>
+          </div>
+          <div>
+            <p class="mean">birth</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/jikka.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">じっか</p>
+          </div>
+          <div>
+            <p class="romaji">/jikka/</p>
+          </div>
+          <div>
+            <p class="mean">hometown</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/dokomoikimasen.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan8">どこも行きません</p>
+          </div>
+          <div>
+            <p class="romaji">/dokomoikimasen/</p>
+          </div>
+          <div>
+            <p class="mean">I'm not going anywhere</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/zutto.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ずっと</p>
+          </div>
+          <div>
+            <p class="romaji">/zutto/</p>
+          </div>
+          <div>
+            <p class="mean">forever/always</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/chikyuu.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">ちきゅう</p>
+          </div>
+          <div>
+            <p class="romaji">/chikyuu/</p>
+          </div>
+          <div>
+            <p class="mean">earth</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/uso.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">うそ</p>
+          </div>
+          <div>
+            <p class="romaji">/uso/</p>
+          </div>
+          <div>
+            <p class="mean">lie</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="imgBx">
+          <img src="Images/uchuujin.png" />
+        </div>
+        <div class="content">
+          <div>
+            <p class="japan">うちゅうじん</p>
+          </div>
+          <div>
+            <p class="romaji">/uchuujin/</p>
+          </div>
+          <div>
+            <p class="mean">space alien</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/ikimasu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">いきます</p>
-        </div>
-        <div>
-          <p class="romaji">/ikimasu/</p>
-        </div>
-        <div>
-          <p class="mean">go</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kimasu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">きます</p>
-        </div>
-        <div>
-          <p class="romaji">/kimasu/</p>
-        </div>
-        <div>
-          <p class="mean">come</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kaerimasu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">かえります</p>
-        </div>
-        <div>
-          <p class="romaji">/kaerimasu/</p>
-        </div>
-        <div>
-          <p class="mean">return</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/gakko.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">がっこう</p>
-        </div>
-        <div>
-          <p class="romaji">/gakko/</p>
-        </div>
-        <div>
-          <p class="mean">school</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/suupaa.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">スーパー</p>
-        </div>
-        <div>
-          <p class="romaji">/suupaa/</p>
-        </div>
-        <div>
-          <p class="mean">supper market</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/eki.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">えき</p>
-        </div>
-        <div>
-          <p class="romaji">/eki/</p>
-        </div>
-        <div>
-          <p class="mean">train station</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/hikooki.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ひこうき</p>
-        </div>
-        <div>
-          <p class="romaji">/hikooki/</p>
-        </div>
-        <div>
-          <p class="mean">plane</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/fune.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ふね</p>
-        </div>
-        <div>
-          <p class="romaji">/fune/</p>
-        </div>
-        <div>
-          <p class="mean">boat</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/densha.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">でんしゃ</p>
-        </div>
-        <div>
-          <p class="romaji">/densha/</p>
-        </div>
-        <div>
-          <p class="mean">electric train</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/chikatetsu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ちかてつ</p>
-        </div>
-        <div>
-          <p class="romaji">/chikatetsu/</p>
-        </div>
-        <div>
-          <p class="mean">subway</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/shinkansen.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">しんかんせん</p>
-        </div>
-        <div>
-          <p class="romaji">/shinkansen/</p>
-        </div>
-        <div>
-          <p class="mean">bullet train</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/basu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">バス</p>
-        </div>
-        <div>
-          <p class="romaji">/basu/</p>
-        </div>
-        <div>
-          <p class="mean">bus</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/takushi.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">タクシー</p>
-        </div>
-        <div>
-          <p class="romaji">/takushii/</p>
-        </div>
-        <div>
-          <p class="mean">taxi</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/jitensha.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">じてんしゃ</p>
-        </div>
-        <div>
-          <p class="romaji">/jitensha/</p>
-        </div>
-        <div>
-          <p class="mean">bicycle</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/aruite.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">あるいて</p>
-        </div>
-        <div>
-          <p class="romaji">/aruite/</p>
-        </div>
-        <div>
-          <p class="mean">walk</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/hito.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ひと</p>
-        </div>
-        <div>
-          <p class="romaji">/hito/</p>
-        </div>
-        <div>
-          <p class="mean">people</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/tomodachi.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ともだち</p>
-        </div>
-        <div>
-          <p class="romaji">/tomodachi/</p>
-        </div>
-        <div>
-          <p class="mean">friend</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kare.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">かれ</p>
-        </div>
-        <div>
-          <p class="romaji">/kare/</p>
-        </div>
-        <div>
-          <p class="mean">he</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kanojo.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">かのじょ</p>
-        </div>
-        <div>
-          <p class="romaji">/kanojo/</p>
-        </div>
-        <div>
-          <p class="mean">she/girlfriend</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kazoku.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">かぞく</p>
-        </div>
-        <div>
-          <p class="romaji">/kazoku/</p>
-        </div>
-        <div>
-          <p class="mean">family</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/hitoride.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ひとりで</p>
-        </div>
-        <div>
-          <p class="romaji">/hitoride/</p>
-        </div>
-        <div>
-          <p class="mean">alone</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/senshuu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">せんしゅう</p>
-        </div>
-        <div>
-          <p class="romaji">/senshuu/</p>
-        </div>
-        <div>
-          <p class="mean">last week</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/konshuu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">こんしゅう</p>
-        </div>
-        <div>
-          <p class="romaji">/konshuu/</p>
-        </div>
-        <div>
-          <p class="mean">this week</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/raishuu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">らいしゅう</p>
-        </div>
-        <div>
-          <p class="romaji">/raishuu/</p>
-        </div>
-        <div>
-          <p class="mean">next week</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/sengetsu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">せんげつ</p>
-        </div>
-        <div>
-          <p class="romaji">/sengetsu/</p>
-        </div>
-        <div>
-          <p class="mean">last month</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kongetsu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">こんげつ</p>
-        </div>
-        <div>
-          <p class="romaji">/kongetsu/</p>
-        </div>
-        <div>
-          <p class="mean">this month</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/raigetsu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">らいげつ</p>
-        </div>
-        <div>
-          <p class="romaji">/raigetsu/</p>
-        </div>
-        <div>
-          <p class="mean">next month</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kyonen.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">きょねん</p>
-        </div>
-        <div>
-          <p class="romaji">/kyonen/</p>
-        </div>
-        <div>
-          <p class="mean">last year</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kotoshi.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ことし</p>
-        </div>
-        <div>
-          <p class="romaji">/kotoshi/</p>
-        </div>
-        <div>
-          <p class="mean">this year</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/rainen.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">らいねん</p>
-        </div>
-        <div>
-          <p class="romaji">/rainen/</p>
-        </div>
-        <div>
-          <p class="mean">next year</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/nen.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">~ねん</p>
-        </div>
-        <div>
-          <p class="romaji">/~nen/</p>
-        </div>
-        <div>
-          <p class="mean">~ year</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/nannen.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">なんねん</p>
-        </div>
-        <div>
-          <p class="romaji">/nannen/</p>
-        </div>
-        <div>
-          <p class="mean">how many/what year?</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/gatsu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">~がつ</p>
-        </div>
-        <div>
-          <p class="romaji">/~gatsu/</p>
-        </div>
-        <div>
-          <p class="mean">~ month</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/nangatsu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">なんがつ</p>
-        </div>
-        <div>
-          <p class="romaji">/nangatsu/</p>
-        </div>
-        <div>
-          <p class="mean">what month?</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/tsuitachi.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ついたち</p>
-        </div>
-        <div>
-          <p class="romaji">/tsuitachi/</p>
-        </div>
-        <div>
-          <p class="mean">one day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/futsuka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ふつか</p>
-        </div>
-        <div>
-          <p class="romaji">/futsuka/</p>
-        </div>
-        <div>
-          <p class="mean">second day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/mikka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">みっか</p>
-        </div>
-        <div>
-          <p class="romaji">/mikka/</p>
-        </div>
-        <div>
-          <p class="mean">third day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/jokka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">よっか</p>
-        </div>
-        <div>
-          <p class="romaji">/jokka/</p>
-        </div>
-        <div>
-          <p class="mean">fourth day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/itsuka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">いつか</p>
-        </div>
-        <div>
-          <p class="romaji">/itsuka/</p>
-        </div>
-        <div>
-          <p class="mean">fifth day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/muika.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">むいか</p>
-        </div>
-        <div>
-          <p class="romaji">/muika/</p>
-        </div>
-        <div>
-          <p class="mean">sixth day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/nanoka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">なのか</p>
-        </div>
-        <div>
-          <p class="romaji">/nanoka/</p>
-        </div>
-        <div>
-          <p class="mean">seventh day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/jooka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ようか</p>
-        </div>
-        <div>
-          <p class="romaji">/jooka/</p>
-        </div>
-        <div>
-          <p class="mean">eighth day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kokonoka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ここのか</p>
-        </div>
-        <div>
-          <p class="romaji">/kokonoka/</p>
-        </div>
-        <div>
-          <p class="mean">nineth day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/toaka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">とおか</p>
-        </div>
-        <div>
-          <p class="romaji">/tooka/</p>
-        </div>
-        <div>
-          <p class="mean">tenth day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/juujokka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">じゅうよっか</p>
-        </div>
-        <div>
-          <p class="romaji">/juujokka/</p>
-        </div>
-        <div>
-          <p class="mean">fourteenth day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/hatsuka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">はつか</p>
-        </div>
-        <div>
-          <p class="romaji">/hatsuka/</p>
-        </div>
-        <div>
-          <p class="mean">twentieth day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/nijuujokka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan8">にじゅうよっか</p>
-        </div>
-        <div>
-          <p class="romaji">/nijuujokka/</p>
-        </div>
-        <div>
-          <p class="mean">twenty fourth day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/nichi.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">~にち</p>
-        </div>
-        <div>
-          <p class="romaji">/~nichi/</p>
-        </div>
-        <div>
-          <p class="mean">~day</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/nanjoobi.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">たんじょうび</p>
-        </div>
-        <div>
-          <p class="romaji">/nanjoobi/</p>
-        </div>
-        <div>
-          <p class="mean">birthday</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/soodesure.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">そうですね</p>
-        </div>
-        <div>
-          <p class="romaji">/soodesure/</p>
-        </div>
-        <div>
-          <p class="mean">yes!</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/kurisumasu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">クリスマス</p>
-        </div>
-        <div>
-          <p class="romaji">/kurisumasu/</p>
-        </div>
-        <div>
-          <p class="mean">christmas</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/umane.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">うまれ</p>
-        </div>
-        <div>
-          <p class="romaji">/umane/</p>
-        </div>
-        <div>
-          <p class="mean">birth</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/jikka.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">じっか</p>
-        </div>
-        <div>
-          <p class="romaji">/jikka/</p>
-        </div>
-        <div>
-          <p class="mean">hometown</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/dokomoikimasen.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan8">どこも行きません</p>
-        </div>
-        <div>
-          <p class="romaji">/dokomoikimasen/</p>
-        </div>
-        <div>
-          <p class="mean">I'm not going anywhere</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/zutto.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ずっと</p>
-        </div>
-        <div>
-          <p class="romaji">/zutto/</p>
-        </div>
-        <div>
-          <p class="mean">forever/always</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/chikyuu.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">ちきゅう</p>
-        </div>
-        <div>
-          <p class="romaji">/chikyuu/</p>
-        </div>
-        <div>
-          <p class="mean">earth</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/uso.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">うそ</p>
-        </div>
-        <div>
-          <p class="romaji">/uso/</p>
-        </div>
-        <div>
-          <p class="mean">lie</p>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="imgBx">
-        <img src="Images/uchuujin.png" />
-      </div>
-      <div class="content">
-        <div>
-          <p class="japan">うちゅうじん</p>
-        </div>
-        <div>
-          <p class="romaji">/uchuujin/</p>
-        </div>
-        <div>
-          <p class="mean">space alien</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="../script/script.js"></script>
-  
-</body>
-
+    <script src="../script/script.js"></script>
+  </body>
 </html>
