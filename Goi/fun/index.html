@@ -12,7 +12,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="../../Home/Images/japanese-alphabet.png" />
 </head>
 
-<body>
+<body id="Background">
   <div class="container">
     <div class="homeButton">
       <button class="homeBtn" type="button" onclick="location.href='../../index.html'">
@@ -182,13 +182,7 @@
 
 
   </div>
-  <script>
-    document.querySelectorAll(".card").forEach(function (card) {
-      card.addEventListener("click", function () {
-        this.classList.toggle("card1");
-      });
-    });
-  </script>
+  <script src="../Config/Script/script.js"></script>
 </body>
 
 </html>

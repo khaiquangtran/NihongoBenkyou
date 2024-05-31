@@ -11,25 +11,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="shortcut icon" type="image/x-icon" href="../../Home/Images/japanese-alphabet.png" />
   <link rel="stylesheet" type="text/css" href="../CSS/style.css" />
-  <style>
-    body {
-      background-image: url(Images/background.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-    }
-
-    @media only screen and (min-width: 1px) and (max-width: 700px) {
-      body {
-        background-image: url(Images/background1.jpg);
-        min-height: 100vh;
-      }
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="../Config/CSS/style.css" />
 </head>
 
-<body>
+<body id="Background">
   <div class="homeButton">
     <a href="../../index.html"><button class="homeBtn" type="button"><i class="fa fa-home   "
           style="color:white;font-size: 2vh;"></i> Home</button></a>
@@ -440,13 +425,7 @@
     </div>
 
   </div>
-  <script>
-    document.querySelectorAll(".card").forEach(function (card) {
-      card.addEventListener("click", function () {
-        this.classList.toggle("card1");
-      });
-    });
-  </script>
+  <script src="../Config/Script/script.js"></script>
 </body>
 
 </html>
