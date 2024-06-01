@@ -1,6 +1,82 @@
 [
     {
-        "romaji" : "いま",
-        "mean" : "Now"
+        "romaji" : "ひゃく",
+        "mean" : "hundred"
+    },
+    {
+        "romaji" : "せん",
+        "mean" : "thousand"
+    },
+    {
+        "romaji" : "まん",
+        "mean" : "ten thousand"
+    },
+    {
+        "romaji" : "と ひ",
+        "mean" : "person"
+    },
+    {
+        "romaji" : "め",
+        "mean" : "eye"
+    },
+    {
+        "romaji" : "くち",
+        "mean" : "mouth"
+    },
+    {
+        "romaji" : "みみ",
+        "mean" : "ear"
+    },
+    {
+        "romaji" : "て",
+        "mean" : "hand"
+    },
+    {
+        "romaji" : "あし",
+        "mean" : "foot"
+    },
+    {
+        "romaji" : "ちから",
+        "mean" : "power"
+    },
+    {
+        "romaji" : "がっこう",
+        "mean" : "school"
+    },
+    {
+        "romaji" : "かいしゃ",
+        "mean" : "company"
+    },
+    {
+        "romaji" : "えき",
+        "mean" : "station"
+    },
+    {
+        "romaji" : "みせ",
+        "mean" : "shop"
+    },
+    {
+        "romaji" : "くうこう",
+        "mean" : "airport"
+    },
+    {
+        "romaji" : "だいがく",
+        "mean" : "university"
+    },
+    {
+        "romaji" : "いりぐち",
+        "mean" : "entrance"
+    },
+    {
+        "romaji" : "でぐち",
+        "mean" : "exit"
+    },
+    {
+        "romaji" : "くるま",
+        "mean" : "car"
+    },
+    {
+        "romaji" : "でんしゃ",
+        "mean" : "train"
     }
 ]
