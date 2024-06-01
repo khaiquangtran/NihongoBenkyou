@@ -91,6 +91,15 @@ body {
   width: 14vh;
   border-radius: 0;
 }
+
+.menu-bar ul li:hover .learn-image-1 ul li {
+  width: 17vh;
+}
+
+.menu-bar ul li:hover .learn-image-2 ul li {
+  width: 15.5vh;
+}
+
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .menu-bar ul li:hover .sub-menu-images ul li {
     width: 10vh;

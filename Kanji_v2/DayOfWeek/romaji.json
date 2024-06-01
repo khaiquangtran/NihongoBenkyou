@@ -1,0 +1,30 @@
+[
+    {
+        "romaji" : "げつようび",
+        "mean" : "Monday"
+    },
+    {
+        "romaji" : "かようび",
+        "mean" : "Tuesday"
+    },
+    {
+        "romaji" : "すいようび",
+        "mean" : "Wednesday"
+    },
+    {
+        "romaji" : "もくようび",
+        "mean" : "Thursday"
+    },
+    {
+        "romaji" : "きんようび",
+        "mean" : "Friday"
+    },
+    {
+        "romaji" : "どようび",
+        "mean" : "Saturday"
+    },
+    {
+        "romaji" : "にちようび",
+        "mean" : "Sunday"
+    }
+]
