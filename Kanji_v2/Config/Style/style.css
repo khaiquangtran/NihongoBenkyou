@@ -45,11 +45,12 @@ body {
 
 .swiper-slide .japan {
   text-align: center;
-  font-family: "Sawarabi Mincho";
-  font-weight: bold;
+  /* font-family: "Sawarabi Mincho"; */
+  /* font-weight: bold; */
   position: absolute;
   top: 10vh;
   color: #fff;
+  display: flex;
 }
 
 .lessthree {
@@ -253,4 +254,16 @@ body {
 
 .size_gif1 {
   width: 12vh;
+}
+
+.border_topleft_bottomleft {
+  border-radius: 20px 0 0 20px; /* top left, top right, bottom right, bottom left */
+}
+
+.border_topright_bottomright {
+  border-radius: 0 20px 20px 0; /* top left, top right, bottom right, bottom left */
+}
+
+.border_all {
+  border-radius: 20px;
 }
