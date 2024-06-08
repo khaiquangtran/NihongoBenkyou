@@ -35,7 +35,7 @@ body {
   margin: 2vh 1vh;
   padding: 1vh;
   font-size: 3vh;
-  width: auto;
+  width: 20vh;
   height: auto;
   font-weight: bold;
 }
@@ -60,16 +60,23 @@ body {
 
 .sub-menu-images {
   display: none;
+  height: auto;
+  width: 20vh;
 }
 
 .sub-menu-images ul li {
   font-size: 2vh;
+  /* height: 5vh; */
+  /* padding-left: 3vh; */
 }
+
+
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .sub-menu-images ul li {
     font-size: 1.3vh;
   }
 }
+
 
 .menu-bar ul li:hover .sub-menu-images {
   display: block;
@@ -86,19 +93,22 @@ body {
 }
 
 .menu-bar ul li:hover .sub-menu-images ul li {
-  border-bottom: 1px dotted #fff;
+  border-top: 1px dotted #fff;
   background: transparent;
-  width: 14vh;
+  width: 20vh;
   border-radius: 0;
+  height: 4vh;
+  margin: 0 0 1vh 0;
+  /* color: darkblue; */
 }
 
-.menu-bar ul li:hover .learn-image-1 ul li {
+/* .menu-bar ul li:hover .learn-image-1 ul li {
   width: 17vh;
 }
 
 .menu-bar ul li:hover .learn-image-2 ul li {
   width: 15.5vh;
-}
+} */
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .menu-bar ul li:hover .sub-menu-images ul li {
@@ -122,8 +132,8 @@ body {
   position: absolute;
   display: block;
   background: #1ABC9C;
-  margin-top: -6vh;
-  margin-left: 13vh;
+  margin-top: -4.5vh;
+  margin-left: 19vh;
   border-radius: 1vh;
   /* width: 20vh; */
 }
