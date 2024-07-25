@@ -15,6 +15,14 @@ body {
   background-attachment: fixed;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
 .homeButton{
   position: absolute;
   left: 1vh;
@@ -67,7 +75,7 @@ body {
   height : auto;
 }
 .wordKanji {
-  margin: 5vh; 
+  margin: 5vh;
   padding: 5vh;
   display: flex; /* Sử dụng flexbox để sắp xếp các phần tử theo hàng dọc */
   flex-direction: column; /* Sắp xếp các phần tử theo hướng dọc */
@@ -87,13 +95,13 @@ body {
 }
 
 .on{
-  width: 45%; 
+  width: 45%;
 }
 .kanji {
-  width: 10%; 
+  width: 10%;
 }
 .kun{
-  width: 45%; 
+  width: 45%;
 }
 
 .onkun {
@@ -104,7 +112,7 @@ body {
 
 .onKanji,
 .kunKanji {
-  width: 50%; 
+  width: 50%;
 }
 
 .kanji:hover .flashcard {
