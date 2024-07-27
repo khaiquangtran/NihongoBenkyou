@@ -23,12 +23,12 @@ images = [
   "Home/Images/home_background20.jpg",
   "Home/Images/home_background21.jpg",
   "Home/Images/home_background22.jpg",
-  "../../Home/Images/background23.jpg",
-  "../../Home/Images/background24.jpg",
-  "../../Home/Images/background25.jpg",
-  "../../Home/Images/background26.jpg",
-  "../../Home/Images/background27.jpg",
-  "../../Home/Images/background28.jpg",
+  "Home/Images/background23.jpg",
+  "Home/Images/background24.jpg",
+  "Home/Images/background25.jpg",
+  "Home/Images/background26.jpg",
+  "Home/Images/background27.jpg",
+  "Home/Images/background28.jpg",
 ];
 var imgCount = images.length;
 var number = Math.floor(Math.random() * imgCount);
