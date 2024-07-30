@@ -292,6 +292,10 @@ body {
   font-size: 4em;
 }
 
+.onKanji .card .imgBx .japan2 {
+  font-size: 3.5em;
+}
+
 .kunKanji {
   position: relative;
   display: flex;
