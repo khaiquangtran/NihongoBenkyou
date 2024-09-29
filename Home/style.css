@@ -173,6 +173,26 @@ body {
   display: none;
 }
 
+.learn-image1 ul {
+  list-style: none;
+  height: 10vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.learn-image1 ul::-webkit-scrollbar {
+  display: none;
+}
+
+.learn-image2 ul {
+  list-style: none;
+  height: 25vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.learn-image2 ul::-webkit-scrollbar {
+  display: none;
+}
+
 .goi ul {
   list-style: none;
   height: 77vh;
