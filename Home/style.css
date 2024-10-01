@@ -13,14 +13,6 @@ body {
   /* animation: change 500s infinite ease-in-out; */
 }
 
-
-/* @media only screen and (min-width: 1px) and (max-width: 700px) {
-  body #Background{
-    background-image: url(Images/home_background_phone.jpg);
-    min-height: 90vh;
-  }
-} */
-
 .menu-bar {
   background: none;
   text-align: center;
@@ -39,15 +31,6 @@ body {
   height: auto;
   font-weight: bold;
 }
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .menu-bar ul li {
-    font-size: 1.3vh;
-    margin: 2vh 1vh;
-    padding: 0.5vh;
-  }
-}
-
 .menu-bar ul li a {
   text-decoration: none;
   color: white;
@@ -66,17 +49,7 @@ body {
 
 .sub-menu-images ul li {
   font-size: 2vh;
-  /* height: 5vh; */
-  /* padding-left: 3vh; */
 }
-
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .sub-menu-images ul li {
-    font-size: 1.3vh;
-  }
-}
-
 
 .menu-bar ul li:hover .sub-menu-images {
   display: block;
@@ -102,20 +75,6 @@ body {
   /* color: darkblue; */
 }
 
-/* .menu-bar ul li:hover .learn-image-1 ul li {
-  width: 17vh;
-}
-
-.menu-bar ul li:hover .learn-image-2 ul li {
-  width: 15.5vh;
-} */
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .menu-bar ul li:hover .sub-menu-images ul li {
-    width: 10vh;
-  }
-}
-
 .menu-bar ul li:hover .sub-menu-images ul li:last-child {
   border-bottom: none;
 }
@@ -132,17 +91,10 @@ body {
   position: absolute;
   display: block;
   background: #1ABC9C;
-  margin-top: -4.5vh;
+  margin-top: -3.5vh;
   margin-left: 19vh;
   border-radius: 1vh;
   /* width: 20vh; */
-}
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .hover-me:hover .sub-menu-images2 {
-    margin-left: -12.7vh;
-    margin-top: -3.5vh;
-  }
 }
 
 .sub-menu-images2 ul {
@@ -156,54 +108,38 @@ body {
   display: none;
 }
 
-.learn-image ul {
+/* Common styles for all .learn-image classes */
+.learn-image ul, .learn-image1 ul, .learn-image2 ul {
   list-style: none;
-  height: 71vh;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .learn-image ul {
-    height: 58vh;
-  }
-}
-
-.learn-image ul::-webkit-scrollbar {
-  display: none;
-}
-
-.learn-image1 ul {
-  list-style: none;
-  height: 10vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
-.learn-image1 ul::-webkit-scrollbar {
-  display: none;
-}
-
-.learn-image2 ul {
-  list-style: none;
-  height: 25vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
+.learn-image ul::-webkit-scrollbar,
+.learn-image1 ul::-webkit-scrollbar,
 .learn-image2 ul::-webkit-scrollbar {
   display: none;
 }
+
+/* Specific heights for each class */
+.learn-image ul {
+  height: 71vh;
+}
+
+.learn-image1 ul {
+  height: 10vh;
+}
+
+.learn-image2 ul {
+  height: 25vh;
+}
+
 
 .goi ul {
   list-style: none;
   height: 77vh;
   overflow-x: hidden;
   overflow-y: scroll;
-}
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .goi ul {
-    height: 65vh;
-  }
 }
 
 .goi ul::-webkit-scrollbar {
