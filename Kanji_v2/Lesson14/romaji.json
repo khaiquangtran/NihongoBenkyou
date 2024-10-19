@@ -1,0 +1,42 @@
+[
+    {
+        "romaji" : "ち",
+        "mean" : "ground"
+    },
+    {
+        "romaji" : "どう",
+        "mean" : "hall"
+    },
+    {
+        "romaji" : "ば",
+        "mean" : "place"
+    },
+    {
+        "romaji" : "よる",
+        "mean" : "night"
+    },
+    {
+        "romaji" : "いもうと",
+        "mean" : "younger sister"
+    },
+    {
+        "romaji" : "あね",
+        "mean" : "older sister"
+    },
+    {
+        "romaji" : "しつ",
+        "mean" : "room"
+    },
+    {
+        "romaji" : "いえ",
+        "mean" : "house"
+    },
+    {
+        "romaji" : "こう",
+        "mean" : "worker"
+    },
+    {
+        "romaji" : "みせ",
+        "mean" : "shop"
+    }
+]
