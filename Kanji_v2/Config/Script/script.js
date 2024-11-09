@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
     xhr.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         romajiData = JSON.parse(this.responseText);
-        message.innerHTML = "/" + romajiData[index].romaji + "/";
-        mean.innerHTML = romajiData[index].mean;
+        message.innerHTML = "/" + romajiData.vocabulary[index].romaji + "/";
+        mean.innerHTML = romajiData.vocabulary[index].mean;
       }
     };
     // console.log();

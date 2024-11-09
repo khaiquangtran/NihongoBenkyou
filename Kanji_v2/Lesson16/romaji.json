@@ -1,42 +1,46 @@
-[
-    {
-        "romaji" : "びょう",
-        "mean" : "illness"
-    },
-    {
-        "romaji" : "はつ",
-        "mean" : "departure"
-    },
-    {
-        "romaji" : "しん",
-        "mean" : "truth"
-    },
-    {
-        "romaji" : "けん",
-        "mean" : "research"
-    },
-    {
-        "romaji" : "しゃ",
-        "mean" : "company"
-    },
-    {
-        "romaji" : "わたし",
-        "mean" : "me"
-    },
-    {
-        "romaji" : "かみ",
-        "mean" : "paper"
-    },
-    {
-        "romaji" : "もの",
-        "mean" : "person"
-    },
-    {
-        "romaji" : "じ",
-        "mean" : "self"
-    },
-    {
-        "romaji" : "いろ",
-        "mean" : "color"
-    }
-]
+{
+    "title" : "第十三課",
+    "vocabulary":
+    [
+        {
+            "romaji" : "びょう",
+            "mean" : "illness"
+        },
+        {
+            "romaji" : "はつ",
+            "mean" : "departure"
+        },
+        {
+            "romaji" : "しん",
+            "mean" : "truth"
+        },
+        {
+            "romaji" : "けん",
+            "mean" : "research"
+        },
+        {
+            "romaji" : "しゃ",
+            "mean" : "company"
+        },
+        {
+            "romaji" : "わたし",
+            "mean" : "me"
+        },
+        {
+            "romaji" : "かみ",
+            "mean" : "paper"
+        },
+        {
+            "romaji" : "もの",
+            "mean" : "person"
+        },
+        {
+            "romaji" : "じ",
+            "mean" : "self"
+        },
+        {
+            "romaji" : "いろ",
+            "mean" : "color"
+        }
+    ]
+}
