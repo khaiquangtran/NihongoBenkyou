@@ -1,0 +1,162 @@
+{
+	"title" : "職業",
+	"vocabulary" :
+	[
+		{
+			"img" : "kaishain",
+			"japan" : "会社員",
+			"romaji" : "かいしゃいん",
+			"mean" : "company employee"
+		},
+		{
+			"img" : "koumuin",
+			"japan" : "公務員",
+			"romaji" : "こうむいん",
+			"mean" : "civil servant"
+		},
+		{
+			"img" : "ekiin",
+			"japan" : "駅員",
+			"romaji" : "えきいん",
+			"mean" : "station staff"
+		},
+		{
+			"img" : "yuubinkyokuin",
+			"japan" : "郵便局員",
+			"romaji" : "ゆうびんきょくいん",
+			"mean" : "postal worker"
+		},
+		{
+			"img" : "tenin",
+			"japan" : "店員",
+			"romaji" : "てんいん",
+			"mean" : "store employee"
+		},
+		{
+			"img" : "chourishi",
+			"japan" : "調理師",
+			"romaji" : "ちょうりし",
+			"mean" : "chef"
+		},
+		{
+			"img" : "riyoushi",
+			"japan" : "理容師",
+			"romaji" : "りようし",
+			"mean" : "barber"
+		},
+		{
+			"img" : "kyoushi",
+			"japan" : "教師",
+			"romaji" : "きょうし",
+			"mean" : "teacher"
+		},
+		{
+			"img" : "bengoshi",
+			"japan" : "弁護士",
+			"romaji" : "べんごし",
+			"mean" : "lawyers"
+		},
+		{
+			"img" : "kenkyuusha",
+			"japan" : "研究者",
+			"romaji" : "けんきゅうしゃ",
+			"mean" : "researcher"
+		},
+		{
+			"img" : "isha",
+			"japan" : "医者",
+			"romaji" : "いしゃ",
+			"mean" : "doctor"
+		},
+		{
+			"img" : "kangoshi",
+			"japan" : "看護師",
+			"romaji" : "かんごし",
+			"mean" : "nurses"
+		},
+		{
+			"img" : "untensha",
+			"japan" : "運転者",
+			"romaji" : "うんてんしゃ",
+			"mean" : "driver"
+		},
+		{
+			"img" : "keisatsukan",
+			"japan" : "警察官",
+			"romaji" : "けいさつかん",
+			"mean" : "policeman"
+		},
+		{
+			"img" : "gaikoukan",
+			"japan" : "外交官",
+			"romaji" : "がいこうかん",
+			"mean" : "diplomat"
+		},
+		{
+			"img" : "seijika",
+			"japan" : "政治家",
+			"romaji" : "せいじか",
+			"mean" : "politician"
+		},
+		{
+			"img" : "gaka",
+			"japan" : "画家",
+			"romaji" : "がか",
+			"mean" : "painter"
+		},
+		{
+			"img" : "sakka",
+			"japan" : "作家",
+			"romaji" : "さっか",
+			"mean" : "author"
+		},
+		{
+			"img" : "ongakuka",
+			"japan" : "音楽家",
+			"romaji" : "おんがくか",
+			"mean" : "musician"
+		},
+		{
+			"img" : "kenchikuka",
+			"japan" : "建築家",
+			"romaji" : "けんちくか",
+			"mean" : "architect"
+		},
+		{
+			"img" : "enjinia",
+			"japan" : "エンジニア",
+			"romaji" : "enjinia",
+			"mean" : "engineer"
+		},
+		{
+			"img" : "dezaina",
+			"japan" : "デザイナ-",
+			"romaji" : "dezaina-",
+			"mean" : "designer"
+		},
+		{
+			"img" : "janarisuto",
+			"japan" : "ジャーナリスト",
+			"romaji" : "janarisuto",
+			"mean" : "journalist"
+		},
+		{
+			"img" : "kashu",
+			"japan" : "歌手",
+			"romaji" : "かしゅ",
+			"mean" : "singer"
+		},
+		{
+			"img" : "haiyuu",
+			"japan" : "俳優",
+			"romaji" : "はいゆう",
+			"mean" : "actor"
+		},
+		{
+			"img" : "supotsusenshu",
+			"japan" : "スポーツ選手",
+			"romaji" : "スポーツせんしゅ",
+			"mean" : "athletes"
+		}
+	]
+}
