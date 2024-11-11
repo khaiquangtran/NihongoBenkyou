@@ -1,0 +1,168 @@
+{
+	"title" : "第四十四課",
+	"vocabulary" :
+	[
+		{
+			"img" : "nakimasu",
+			"japan" : "泣きます",
+			"romaji" : "なきます",
+			"mean" : "cry"
+		},
+		{
+			"img" : "suberimasu",
+			"japan" : "滑ります",
+			"romaji" : "すべります",
+			"mean" : "slippery"
+		},
+		{
+			"img" : "waraimasu",
+			"japan" : "笑います",
+			"romaji" : "わらいます",
+			"mean" : "laugh"
+		},
+		{
+			"img" : "chousetsushimasu",
+			"japan" : "調節します",
+			"romaji" : "ちょうせつします",
+			"mean" : "adjust"
+		},
+		{
+			"img" : "remurimasu",
+			"japan" : "眠ります",
+			"romaji" : "ねむります",
+			"mean" : "sleep"
+		},
+		{
+			"img" : "kawakimasu",
+			"japan" : "シャツが乾きます",
+			"romaji" : "シャツがかわきます",
+			"mean" : "shirt dries"
+		},
+		{
+			"img" : "meremasu",
+			"japan" : "シャツが濡れます",
+			"romaji" : "シャツがぬれます",
+			"mean" : "shirt gets wet"
+		},
+		{
+			"img" : "okimasu",
+			"japan" : "事故が起きます",
+			"romaji" : "じこがおきます",
+			"mean" : "accidents happen"
+		},
+		{
+			"img" : "anzen",
+			"japan" : "安全［な］",
+			"romaji" : "あんぜん［な］",
+			"mean" : "safe"
+		},
+		{
+			"img" : "kiken",
+			"japan" : "危険［な］",
+			"romaji" : "きけん［な］",
+			"mean" : "dangerous"
+		},
+		{
+			"img" : "anshin",
+			"japan" : "安心「な」",
+			"romaji" : "あんしん「な」",
+			"mean" : "peace of mind"
+		},
+		{
+			"img" : "goi",
+			"japan" : "濃い",
+			"romaji" : "こい",
+			"mean" : "dark, thick"
+		},
+		{
+			"img" : "usui",
+			"japan" : "薄い",
+			"romaji" : "うすい",
+			"mean" : "thin, weak"
+		},
+		{
+			"img" : "atsui",
+			"japan" : "厚い",
+			"romaji" : "あつい",
+			"mean" : "thick"
+		},
+		{
+			"img" : "futoi",
+			"japan" : "太い",
+			"romaji" : "ふとい",
+			"mean" : "thick"
+		},
+		{
+			"img" : "image1",
+			"japan" : "japan1",
+			"romaji" : "romaji1",
+			"mean" : "meaning1"
+		},
+		{
+			"img" : "kuuki",
+			"japan" : "空気",
+			"romaji" : "くうき",
+			"mean" : "air"
+		},
+		{
+			"img" : "namida",
+			"japan" : "涙",
+			"romaji" : "なみだ",
+			"mean" : "tears"
+		},
+		{
+			"img" : "washoku",
+			"japan" : "和食",
+			"romaji" : "わしょく",
+			"mean" : "Japanese-style meal"
+		},
+		{
+			"img" : "youshoku",
+			"japan" : "洋食",
+			"romaji" : "ようしょく",
+			"mean" : "western style meal"
+		},
+		{
+			"img" : "okazu",
+			"japan" : "おかず",
+			"romaji" : "okazu",
+			"mean" : "side dishes"
+		},
+		{
+			"img" : "sentakumono",
+			"japan" : "洗濯物",
+			"romaji" : "せんたくもの",
+			"mean" : "clothes to be washed"
+		},
+		{
+			"img" : "shinguru",
+			"japan" : "シングル",
+			"romaji" : "shinguru",
+			"mean" : "single"
+		},
+		{
+			"img" : "tsuin",
+			"japan" : "ツイン",
+			"romaji" : "tsuin",
+			"mean" : "twin"
+		},
+		{
+			"img" : "ryou",
+			"japan" : "量",
+			"romaji" : "りょう",
+			"mean" : "amount"
+		},
+		{
+			"img" : "bai",
+			"japan" : "～倍",
+			"romaji" : "～ばい",
+			"mean" : "~ times"
+		},
+		{
+			"img" : "taroeba",
+			"japan" : "たとえば",
+			"romaji" : "taroeba",
+			"mean" : "example"
+		}
+	]
+}
