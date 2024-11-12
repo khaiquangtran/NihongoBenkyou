@@ -1,0 +1,187 @@
+{
+	"title" : "第四十四課",
+	"vocabulary" :
+	[
+		{
+			"on" : "しゅん",
+			"image" : "春",
+			"content" : "XUÂN",
+			"kun" : "はる",
+			"onKanji" :
+			[
+				{
+				    "japan" : "青春",
+				    "hiragana" : "せいしゅん",
+				    "romaji" : "youth"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "春",
+                    "hiragana" : "はる",
+                    "romaji" : "spring"
+                },
+                {
+                    "japan" : "春休み",
+                    "hiragana" : "はるやすみ",
+                    "romaji" : "spring break"
+                }
+			]
+		},
+		{
+			"on" : "なつ",
+			"image" : "夏",
+			"content" : "HẠ",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				"japan" : "夏",
+				"hiragana" : "なつ",
+				"romaji" : "summer"
+				},
+                {
+                    "japan" : "夏服",
+                    "hiragana" : "なつふく",
+                    "romaji" : "summer clothes"
+                },
+                {
+				"japan" : "真夏",
+				"hiragana" : "まなつ",
+				"romaji" : "midsummer"
+				}
+			]
+		},
+        {
+			"on" : "あき",
+			"image" : "秋",
+			"content" : "THU",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "秋",
+				    "hiragana" : "あき",
+				    "romaji" : "autumn"
+                },
+                {
+				    "japan" : "秋風",
+				    "hiragana" : "あきかぜ",
+				    "romaji" : "autumn wind"
+                },
+                {
+				    "japan" : "秋学期",
+				    "hiragana" : "あきがっき",
+				    "romaji" : "fall semester"
+                }
+			]
+		},
+        {
+			"on" : "ふゆ",
+			"image" : "冬",
+			"content" : "ĐÔNG",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "冬",
+				    "hiragana" : "ふゆ",
+				    "romaji" : "winter"
+                },
+                {
+				    "japan" : "冬休み",
+				    "hiragana" : "ふゆやすみ",
+				    "romaji" : "winter break"
+                },
+                {
+				    "japan" : "真冬",
+				    "hiragana" : "まふゆ",
+				    "romaji" : "midwinter"
+                }
+			]
+		},
+        {
+			"on" : "くう",
+			"image" : "空",
+			"content" : "KHÔNG",
+			"kun" : "そら",
+			"onKanji" :
+			[
+				{
+				    "japan" : "空気",
+				    "hiragana" : "くうき",
+				    "romaji" : "air"
+                },
+				{
+				    "japan" : "空港",
+				    "hiragana" : "くうこう",
+				    "romaji" : "airport"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "空",
+                    "hiragana" : "そら",
+                    "romaji" : "sky"
+                }
+			]
+		},
+        {
+			"on" : "ほし",
+			"image" : "星",
+			"content" : "TINH",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "星",
+				    "hiragana" : "ほし",
+				    "romaji" : "start"
+                }
+			]
+		},
+        {
+			"on" : "くも",
+			"image" : "曇",
+			"content" : "VÂN",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "曇り",
+				    "hiragana" : "くもり",
+				    "romaji" : "cloudy"
+                }
+			]
+		},
+        {
+			"on" : "きょ, こ",
+			"image" : "去",
+			"content" : "KHỨ",
+			"kun" : "さる",
+			"onKanji" :
+			[
+				{
+				    "japan" : "去年",
+				    "hiragana" : "きょねん",
+				    "romaji" : "last year"
+                },
+                {
+				    "japan" : "過去",
+				    "hiragana" : "かこ",
+				    "romaji" : "past"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "去る",
+                    "hiragana" : "さる",
+                    "romaji" : "leave"
+                }
+			]
+		}
+	]
+}
