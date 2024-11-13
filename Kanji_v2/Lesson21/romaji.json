@@ -1,0 +1,56 @@
+{
+    "title" : "第二十一課",
+    "vocabulary":
+    [
+        {
+            "japan" : "教",
+            "romaji" : "おし[える]",
+            "mean" : "teach"
+        },
+        {
+            "japan" : "早",
+            "romaji" : "はや[い]",
+            "mean" : "early"
+        },
+        {
+            "japan" : "楽",
+            "romaji" : "たの[しい]",
+            "mean" : "enjoyable"
+        },
+        {
+            "japan" : "止",
+            "romaji" : "と[まる]",
+            "mean" : "stop"
+        },
+        {
+            "japan" : "歩",
+            "romaji" : "ある[く]",
+            "mean" : "walk"
+        },
+        {
+            "japan" : "着",
+            "romaji" : "き[る]",
+            "mean" : "wear"
+        },
+        {
+            "japan" : "知",
+            "romaji" : "し[る]",
+            "mean" : "know"
+        },
+        {
+            "japan" : "答",
+            "romaji" : "こた[える]",
+            "mean" : "answer"
+        },
+        {
+            "japan" : "終",
+            "romaji" : "お[わる]",
+            "mean" : "end"
+        },
+        {
+            "japan" : "習",
+            "romaji" : "なら[う]",
+            "mean" : "learn"
+        }
+    ]
+}
