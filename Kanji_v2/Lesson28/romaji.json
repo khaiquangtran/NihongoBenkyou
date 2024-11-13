@@ -1,0 +1,56 @@
+{
+    "title" : "第二十八課",
+    "vocabulary":
+    [
+        {
+            "japan" : "昼食",
+            "romaji" : "ちゅうしょく",
+            "mean" : "lunch"
+        },
+        {
+            "japan" : "月曜",
+            "romaji" : "げつよう",
+            "mean" : "monday"
+        },
+        {
+            "japan" : "有名",
+            "romaji" : "ゆうめい",
+            "mean" : "famous"
+        },
+        {
+            "japan" : "洋服",
+            "romaji" : "ようふく",
+            "mean" : "western style clothes"
+        },
+        {
+            "japan" : "朝食",
+            "romaji" : "ちょうしょく",
+            "mean" : "breakfast"
+        },
+        {
+            "japan" : "歌声",
+            "romaji" : "うたごえ",
+            "mean" : "singing voice"
+        },
+        {
+            "japan" : "正午",
+            "romaji" : "しょうご",
+            "mean" : "noon"
+        },
+        {
+            "japan" : "注文",
+            "romaji" : "ちゅうもん",
+            "mean" : "order"
+        },
+        {
+            "japan" : "海水",
+            "romaji" : "かいすい",
+            "mean" : "seawater"
+        },
+        {
+            "japan" : "漢字",
+            "romaji" : "かんじ",
+            "mean" : "Chinese characters"
+        }
+    ]
+}
