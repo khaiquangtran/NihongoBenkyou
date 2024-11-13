@@ -1,0 +1,56 @@
+{
+    "title" : "第二十七課",
+    "vocabulary":
+    [
+        {
+            "japan" : "工事",
+            "romaji" : "こうじ",
+            "mean" : "construction"
+        },
+        {
+            "japan" : "書店",
+            "romaji" : "しょてん",
+            "mean" : "bookstore"
+        },
+        {
+            "japan" : "弟子",
+            "romaji" : "でし",
+            "mean" : "disciple"
+        },
+        {
+            "japan" : "悪口",
+            "romaji" : "わるぐち",
+            "mean" : "slander"
+        },
+        {
+            "japan" : "意味",
+            "romaji" : "いみ",
+            "mean" : "meaning"
+        },
+        {
+            "japan" : "料理",
+            "romaji" : "りょうり",
+            "mean" : "cooking"
+        },
+        {
+            "japan" : "方向",
+            "romaji" : "ほうこう",
+            "mean" : "direction"
+        },
+        {
+            "japan" : "旅行",
+            "romaji" : "りょこう",
+            "mean" : "travel"
+        },
+        {
+            "japan" : "民族",
+            "romaji" : "みんぞく",
+            "mean" : "ethnicity"
+        },
+        {
+            "japan" : "映画",
+            "romaji" : "えいが",
+            "mean" : "movie"
+        }
+    ]
+}
