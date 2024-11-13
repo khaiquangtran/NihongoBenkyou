@@ -1,0 +1,56 @@
+{
+    "title" : "第二十二課",
+    "vocabulary":
+    [
+        {
+            "japan" : "考",
+            "romaji" : "かんが[える]",
+            "mean" : "consider"
+        },
+        {
+            "japan" : "貸",
+            "romaji" : "か[す]",
+            "mean" : "lend"
+        },
+        {
+            "japan" : "走",
+            "romaji" : "はし[る]",
+            "mean" : "run"
+        },
+        {
+            "japan" : "近",
+            "romaji" : "ちか[い]",
+            "mean" : "near"
+        },
+        {
+            "japan" : "送",
+            "romaji" : "おく[る]",
+            "mean" : "send"
+        },
+        {
+            "japan" : "通",
+            "romaji" : "とお[る]",
+            "mean" : "go through"
+        },
+        {
+            "japan" : "重",
+            "romaji" : "おも[い]",
+            "mean" : "heavy"
+        },
+        {
+            "japan" : "開",
+            "romaji" : "ひら[く]",
+            "mean" : "open"
+        },
+        {
+            "japan" : "集",
+            "romaji" : "あつ[める]",
+            "mean" : "collect"
+        },
+        {
+            "japan" : "動",
+            "romaji" : "うご[く]",
+            "mean" : "move"
+        }
+    ]
+}
