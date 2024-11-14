@@ -1,0 +1,90 @@
+{
+	"title" : "第四十五課",
+	"vocabulary" :
+	[
+		{
+			"img" : "shinjimasu",
+			"japan" : "信じます",
+			"romaji" : "しんじます",
+			"mean" : "believe"
+		},
+		{
+			"img" : "kyanserushimasu",
+			"japan" : "キャンセルします",
+			"romaji" : "kyanserushimasu",
+			"mean" : "cancel"
+		},
+		{
+			"img" : "shirasemasu",
+			"japan" : "知らせます",
+			"romaji" : "しらせます",
+			"mean" : "notify"
+		},
+		{
+			"img" : "hoshousho",
+			"japan" : "保証書",
+			"romaji" : "ほしょうしょ",
+			"mean" : "guarantee letter"
+		},
+		{
+			"img" : "ryoushuusho",
+			"japan" : "領収書",
+			"romaji" : "りょうしゅうしょ",
+			"mean" : "receipt"
+		},
+		{
+			"img" : "kyanpu",
+			"japan" : "キャンプ",
+			"romaji" : "kyanpu",
+			"mean" : "camp"
+		},
+		{
+			"img" : "ten",
+			"japan" : "点",
+			"romaji" : "てん",
+			"mean" : "point"
+		},
+		{
+			"img" : "ume",
+			"japan" : "梅",
+			"romaji" : "うめ",
+			"mean" : "plum"
+		},
+		{
+			"img" : "110ban",
+			"japan" : "110番",
+			"romaji" : "110ばん",
+			"mean" : "police phone number"
+		},
+		{
+			"img" : "119ban",
+			"japan" : "119番",
+			"romaji" : "119ばん",
+			"mean" : "fire alarm phone number"
+		},
+		{
+			"img" : "kyuuni",
+			"japan" : "急に",
+			"romaji" : "きゅうに",
+			"mean" : "suddenly"
+		},
+		{
+			"img" : "murini",
+			"japan" : "無理に",
+			"romaji" : "むりに",
+			"mean" : "Forcibly"
+		},
+		{
+			"img" : "tanoshiminishiteimasu",
+			"japan" : "楽しみにしています",
+			"romaji" : "たのしみにしています",
+			"mean" : "looking forward to it"
+		},
+		{
+			"img" : "ijoudesu",
+			"japan" : "以上です",
+			"romaji" : "いじょうです",
+			"mean" : "that's it"
+		}
+	]
+}
