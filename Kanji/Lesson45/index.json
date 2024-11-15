@@ -1,0 +1,184 @@
+{
+	"title" : "第四十五課",
+	"vocabulary" :
+	[
+		{
+			"on" : "てん",
+			"image" : "天",
+			"content" : "THIÊN",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "天気",
+				    "hiragana" : "てんき",
+				    "romaji" : "weather"
+                },
+                {
+				    "japan" : "天気予報",
+				    "hiragana" : "てんきよほう",
+				    "romaji" : "weather forecast"
+                },
+                {
+				    "japan" : "天才",
+				    "hiragana" : "てんさい",
+				    "romaji" : "genius"
+                }
+			]
+		},
+		{
+			"on" : "は",
+			"image" : "晴",
+			"content" : "TÌNH",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				"japan" : "晴れ",
+				"hiragana" : "はれ",
+				"romaji" : "sunny"
+				}
+			]
+		},
+        {
+			"on" : "ゆき",
+			"image" : "雪",
+			"content" : "TUYẾT",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "雪",
+				    "hiragana" : "ゆき",
+				    "romaji" : "snow"
+                },
+                {
+				    "japan" : "大雪",
+				    "hiragana" : "おおゆき",
+				    "romaji" : "heavy snow"
+                },
+                {
+				    "japan" : "雪だるま",
+				    "hiragana" : "ゆきだるま",
+				    "romaji" : "snowman"
+                }
+			]
+		},
+        {
+			"on" : "ふ, ふう",
+			"image" : "風",
+			"content" : "PHONG",
+			"kun" : "かぜ",
+			"onKanji" :
+			[
+				{
+				    "japan" : "洋風",
+				    "hiragana" : "ようふう",
+				    "romaji" : "western style"
+                },
+                {
+				    "japan" : "台風",
+				    "hiragana" : "たいふう",
+				    "romaji" : "typhoon"
+                },
+                {
+				    "japan" : "お風呂",
+				    "hiragana" : "おふろ",
+				    "romaji" : "bathroom"
+                }
+			],
+            "kunKanji" :
+			[
+				{
+                    "japan" : "風邪",
+                    "hiragana" : "かぜ",
+                    "romaji" : "cold"
+                },
+                {
+                    "japan" : "風",
+                    "hiragana" : "かぜ",
+                    "romaji" : "wind"
+                }
+			]
+		},
+        {
+			"on" : "きょう",
+			"image" : "強",
+			"content" : "CƯỜNG",
+			"kun" : "つよ",
+			"onKanji" :
+			[
+				{
+				    "japan" : "勉強する",
+				    "hiragana" : "べんきょうする",
+				    "romaji" : "learn"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "強い人",
+                    "hiragana" : "つよいひと",
+                    "romaji" : "strong person"
+                }
+			]
+		},
+        {
+			"on" : "よわ",
+			"image" : "弱",
+			"content" : "NHƯỢC",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "弱い人",
+				    "hiragana" : "よわいひと",
+				    "romaji" : "weak person"
+                },
+                {
+				    "japan" : "弱る",
+				    "hiragana" : "よわる",
+				    "romaji" : "weakened"
+                },
+                {
+				    "japan" : "体が弱い",
+				    "hiragana" : "からだがよわい",
+				    "romaji" : "weak"
+                }
+			]
+		},
+        {
+			"on" : "あつ",
+			"image" : "暑",
+			"content" : "THỬ",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "暑い",
+				    "hiragana" : "あつい",
+				    "romaji" : "hot"
+                },
+                {
+				    "japan" : "めっちゃ暑い",
+				    "hiragana" : "めっちゃあつい",
+				    "romaji" : "very hot"
+                }
+			]
+		},
+        {
+			"on" : "さむ",
+			"image" : "寒",
+			"content" : "HÀN",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "寒い",
+				    "hiragana" : "さむい",
+				    "romaji" : "cold"
+                }
+			]
+		}
+	]
+}

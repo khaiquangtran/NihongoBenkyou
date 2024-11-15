@@ -125,17 +125,17 @@ body {
 }
 
 .flashcard {
-	transition: 0.5s;
-	transform-style: preserve-3d;
+    transition: 0.5s;
+    transform-style: preserve-3d;
 }
 
 .question {
-	z-index: 5;
+    z-index: 5;
   background-color: #00bcd4;
 }
 
 .answer {
-	transform: rotateY(180deg);
+    transform: rotateY(180deg);
   background-color: #00ff00;
 }
 
@@ -270,6 +270,7 @@ body {
   color: white;
   text-align: center;
 }
+
 .onKanji .card .content2 .japan1 {
   font-size: 2em;
   top: 50%;
@@ -294,6 +295,11 @@ body {
 
 .onKanji .card .imgBx .japan2 {
   font-size: 3.5em;
+}
+
+.onKanji .card .imgBx .japan3 {
+  top: 35%;
+  font-size: 3em;
 }
 
 .kunKanji {
@@ -392,6 +398,10 @@ body {
 }
 
 .kunKanji .card .imgBx .japan2 {
+  font-size: 3.5em;
+}
+
+.kunKanji .card .imgBx .japan3 {
   top: 35%;
   font-size: 3em;
 }
