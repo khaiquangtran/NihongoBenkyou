@@ -1,0 +1,204 @@
+{
+	"title" : "第四十六課",
+	"vocabulary" :
+	[
+		{
+			"on" : "りょ",
+			"image" : "旅",
+			"content" : "LỮ",
+			"kun" : "たび",
+			"onKanji" :
+			[
+				{
+				    "japan" : "旅行",
+				    "hiragana" : "りょこう",
+				    "romaji" : "travel"
+                },
+                {
+				    "japan" : "旅館",
+				    "hiragana" : "りょかん",
+				    "romaji" : "ryoukan"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "旅",
+                    "hiragana" : "たび",
+                    "romaji" : "journey"
+                },
+                {
+                    "japan" : "一人旅",
+                    "hiragana" : "ひとりたび",
+                    "romaji" : "solo travel"
+                }
+			]
+		},
+		{
+			"on" : "も",
+			"image" : "持",
+			"content" : "TRÌ",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				"japan" : "持つ",
+				"hiragana" : "もつ",
+				"romaji" : "hold, carry"
+				},
+				{
+					"japan" : "お金持ち",
+					"hiragana" : "おかねもち",
+					"romaji" : "rich people"
+				},
+				{
+					"japan" : "気持ち",
+					"hiragana" : "きもち",
+					"romaji" : "feeling, love"
+				}
+			]
+		},
+        {
+			"on" : "せ",
+			"image" : "世",
+			"content" : "THẾ",
+			"kun" : "よ",
+			"onKanji" :
+			[
+				{
+				    "japan" : "世界",
+				    "hiragana" : "せかい",
+				    "romaji" : "world"
+                },
+                {
+				    "japan" : "世話をする",
+				    "hiragana" : "せわをする",
+				    "romaji" : "take care"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "世の中",
+                    "hiragana" : "よのなか",
+                    "romaji" : "in the world"
+                }
+			]
+		},
+        {
+			"on" : "かい",
+			"image" : "界",
+			"content" : "GIỚI",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "世界",
+				    "hiragana" : "せかい",
+				    "romaji" : "world"
+                },
+                {
+				    "japan" : "業界",
+				    "hiragana" : "ぎょうかい",
+				    "romaji" : "industry"
+                }
+			]
+		},
+        {
+			"on" : "しゃ",
+			"image" : "写",
+			"content" : "TẢ",
+			"kun" : "うつ",
+			"onKanji" :
+			[
+				{
+				    "japan" : "写真",
+				    "hiragana" : "しゃしん",
+				    "romaji" : "picture"
+                },
+				{
+				    "japan" : "写真家",
+				    "hiragana" : "しゃしんか",
+				    "romaji" : "photographer"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "写す",
+                    "hiragana" : "うつす",
+                    "romaji" : "describe"
+                }
+			]
+		},
+        {
+			"on" : "しん",
+			"image" : "真",
+			"content" : "CHÂN",
+			"kun" : "ま",
+			"onKanji" :
+			[
+				{
+				    "japan" : "写真",
+				    "hiragana" : "しゃしん",
+				    "romaji" : "photo"
+                },
+                {
+				    "japan" : "真実",
+				    "hiragana" : "しんじつ",
+				    "romaji" : "truth"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "真ん中",
+                    "hiragana" : "まんなか",
+                    "romaji" : "center"
+                },
+				{
+                    "japan" : "真っ⿊",
+                    "hiragana" : "まっくろ",
+                    "romaji" : "pure black"
+                },
+				{
+                    "japan" : "真っ⽩",
+                    "hiragana" : "まっしろ",
+                    "romaji" : "pure white"
+                },
+				{
+                    "japan" : "真夜中",
+                    "hiragana" : "まよなか",
+                    "romaji" : "midnight"
+                }
+			]
+		},
+        {
+			"on" : "せん",
+			"image" : "船",
+			"content" : "THUYỀN",
+			"kun" : "ふね",
+			"onKanji" :
+			[
+				{
+				    "japan" : "客船",
+				    "hiragana" : "きゃくせん",
+				    "romaji" : "passenger boat"
+                },
+                {
+				    "japan" : "船長",
+				    "hiragana" : "せんちょう",
+				    "romaji" : "boat captain"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "船",
+                    "hiragana" : "ふね",
+                    "romaji" : "boat"
+                }
+			]
+		}
+	]
+}
