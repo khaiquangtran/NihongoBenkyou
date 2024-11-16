@@ -1,0 +1,90 @@
+{
+	"title" : "第四十六課",
+	"vocabulary" :
+	[
+		{
+			"img" : "watashimasu",
+			"japan" : "渡します",
+			"romaji" : "わたします",
+			"mean" : "pass it on"
+		},
+		{
+			"img" : "kaettekimasu",
+			"japan" : "帰ってきます",
+			"romaji" : "かえってきます",
+			"mean" : "back"
+		},
+		{
+			"img" : "demasu",
+			"japan" : "バスが出ます",
+			"romaji" : "バスがでます",
+			"mean" : "bus leaves"
+		},
+		{
+			"img" : "todokimasu",
+			"japan" : "荷物が届きます",
+			"romaji" : "にもつがとどきます",
+			"mean" : "luggage will arrive"
+		},
+		{
+			"img" : "nyuugakushimasu",
+			"japan" : "大学に入学します",
+			"romaji" : "だいがくににゅうがくします",
+			"mean" : "enter college"
+		},
+		{
+			"img" : "sotsugyoushimasu",
+			"japan" : "大学を卒業します",
+			"romaji" : "だいがくをそつぎょうします",
+			"mean" : "graduate from college"
+		},
+		{
+			"img" : "yakimasu",
+			"japan" : "肉を焼きます",
+			"romaji" : "にくをやきます",
+			"mean" : "grill the meat"
+		},
+		{
+			"img" : "yakemasu",
+			"japan" : "肉が焼けます",
+			"romaji" : "にくがやけます",
+			"mean" : "meat is cooked"
+		},
+		{
+			"img" : "rusu",
+			"japan" : "留守",
+			"romaji" : "るす",
+			"mean" : "absent"
+		},
+		{
+			"img" : "takuhaibin",
+			"japan" : "宅配便",
+			"romaji" : "たくはいびん",
+			"mean" : "courier service"
+		},
+		{
+			"img" : "genin",
+			"japan" : "原因",
+			"romaji" : "げんいん",
+			"mean" : "cause"
+		},
+		{
+			"img" : "hontoshi",
+			"japan" : "半年",
+			"romaji" : "はんとし",
+			"mean" : "half a year"
+		},
+		{
+			"img" : "choudo",
+			"japan" : "ちょうど",
+			"romaji" : "choudo",
+			"mean" : "just"
+		},
+		{
+			"img" : "tattaima",
+			"japan" : "たった今",
+			"romaji" : "たったいま",
+			"mean" : "right now"
+		}
+	]
+}
