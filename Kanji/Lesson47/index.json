@@ -1,0 +1,189 @@
+{
+	"title" : "第四十七課",
+	"vocabulary" :
+	[
+		{
+			"on" : "べん",
+			"image" : "勉",
+			"content" : "MIỄN",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "勉強する",
+				    "hiragana" : "べんきょうする",
+				    "romaji" : "weather"
+                }
+			]
+		},
+		{
+			"on" : "かん",
+			"image" : "漢",
+			"content" : "HÁN",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				"japan" : "漢字",
+				"hiragana" : "かんじ",
+				"romaji" : "chinese characters"
+				}
+			]
+		},
+        {
+			"on" : "しゅく",
+			"image" : "宿",
+			"content" : "TÚC",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "宿題",
+				    "hiragana" : "しゅくだい",
+				    "romaji" : "homework"
+                }
+			]
+		},
+        {
+			"on" : "だい",
+			"image" : "題",
+			"content" : "ĐỀ",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "宿題",
+				    "hiragana" : "しゅくだい",
+				    "romaji" : "homework"
+                },
+                {
+				    "japan" : "問題",
+				    "hiragana" : "もんだい",
+				    "romaji" : "problem"
+                }
+			]
+		},
+        {
+			"on" : "しつ",
+			"image" : "質",
+			"content" : "CHẤT",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "質問",
+				    "hiragana" : "しつもん",
+				    "romaji" : "question"
+                },
+				{
+				    "japan" : "質",
+				    "hiragana" : "しつ",
+				    "romaji" : "quality"
+                }
+			]
+		},
+        {
+			"on" : "もん",
+			"image" : "問",
+			"content" : "VẤN",
+			"kun" : "と",
+			"onKanji" :
+			[
+				{
+				    "japan" : "問題",
+				    "hiragana" : "もんだい",
+				    "romaji" : "problem"
+                },
+                {
+				    "japan" : "質問",
+				    "hiragana" : "しつもん",
+				    "romaji" : "question"
+                },
+                {
+				    "japan" : "学問",
+				    "hiragana" : "がくもん",
+				    "romaji" : "learning"
+                }
+			],
+            "kunKanji" :
+			[
+				{
+                    "japan" : "問い",
+                    "hiragana" : "とい",
+                    "romaji" : "question"
+                },
+                {
+                    "japan" : "問い合わせ",
+                    "hiragana" : "といあわせ",
+                    "romaji" : "inquiry"
+                }
+			]
+		},
+        {
+			"on" : "きょう",
+			"image" : "教",
+			"content" : "GIÁO",
+			"kun" : "おし",
+			"onKanji" :
+			[
+				{
+				    "japan" : "教室",
+				    "hiragana" : "きょうしつ",
+				    "romaji" : "classroom"
+                },
+                {
+				    "japan" : "教会",
+				    "hiragana" : "きょうかい",
+				    "romaji" : "church"
+                },
+                {
+				    "japan" : "教師",
+				    "hiragana" : "きょうし",
+				    "romaji" : "teacher"
+                },
+                {
+				    "japan" : "教科書",
+				    "hiragana" : "きょうかしょ",
+				    "romaji" : "textbook"
+                }
+			],
+            "kunKanji" :
+			[
+				{
+                    "japan" : "教える",
+                    "hiragana" : "おしえる",
+                    "romaji" : "teach"
+                }
+			]
+		},
+        {
+			"on" : "しつ",
+			"image" : "室",
+			"content" : "THẤT",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "教室",
+				    "hiragana" : "きょうしつ",
+				    "romaji" : "classroom"
+                },
+				{
+				    "japan" : "会議室",
+				    "hiragana" : "かいぎしつ",
+				    "romaji" : "meeting room"
+                },
+				{
+				    "japan" : "室内",
+				    "hiragana" : "しつない",
+				    "romaji" : "indoor"
+                },
+				{
+				    "japan" : "室外",
+				    "hiragana" : "しつがい",
+				    "romaji" : "outdoor"
+                }
+			]
+		}
+	]
+}
