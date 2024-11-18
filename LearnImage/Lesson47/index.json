@@ -1,0 +1,204 @@
+{
+	"title" : "第四十七課",
+	"vocabulary" :
+	[
+		{
+			"img" : "fukimasu",
+			"japan" : "風が吹きます",
+			"romaji" : "かぜがふきます",
+			"mean" : "wind is blowing"
+		},
+		{
+			"img" : "moemasu",
+			"japan" : "ゴミが燃えます",
+			"romaji" : "ゴミがもえます",
+			"mean" : "trash burns"
+		},
+		{
+			"img" : "nakunarimasu",
+			"japan" : "亡くなります",
+			"romaji" : "なくなります",
+			"mean" : "pass away"
+		},
+		{
+			"img" : "atsumarimasu",
+			"japan" : "人が集まります",
+			"romaji" : "ひとがあつまります",
+			"mean" : "people gather"
+		},
+		{
+			"img" : "wakaremasu",
+			"japan" : "人が別れます",
+			"romaji" : "ひとがわかれます",
+			"mean" : "people break up"
+		},
+		{
+			"img" : "sanseishimasu",
+			"japan" : "意見に賛成します",
+			"romaji" : "いけんにさんせいします",
+			"mean" : "agree with the opinion"
+		},
+		{
+			"img" : "hantaishimasu",
+			"japan" : "意見に反対します",
+			"romaji" : "いけんにはんたいします",
+			"mean" : "disagree with the opinion"
+		},
+		{
+			"img" : "nioigashimasu",
+			"japan" : "においがします",
+			"romaji" : "nioigashimasu",
+			"mean" : "smell something"
+		},
+		{
+			"img" : "shimasu",
+			"japan" : "音／声がします",
+			"romaji" : "おと／こえがします",
+			"mean" : "there is a sound/voice"
+		},
+		{
+			"img" : "ajigashimasu",
+			"japan" : "味がします",
+			"romaji" : "あじがします",
+			"mean" : "there is taste"
+		},
+		{
+			"img" : "sewaoshimasu",
+			"japan" : "世話をします",
+			"romaji" : "せわをします",
+			"mean" : "take care"
+		},
+		{
+			"img" : "shiriaimasu",
+			"japan" : "知り合います",
+			"romaji" : "しりあいます",
+			"mean" : "get to know"
+		},
+		{
+			"img" : "keshouoshimasu",
+			"japan" : "化粧をします",
+			"romaji" : "けしょうをします",
+			"mean" : "makeup"
+		},
+		{
+			"img" : "kibishii",
+			"japan" : "厳しい",
+			"romaji" : "きびしい",
+			"mean" : "strict"
+		},
+		{
+			"img" : "hidoi",
+			"japan" : "ひどい",
+			"romaji" : "hidoi",
+			"mean" : "terrible"
+		},
+		{
+			"img" : "kowai",
+			"japan" : "怖い",
+			"romaji" : "こわい",
+			"mean" : "scared"
+		},
+		{
+			"img" : "jikken",
+			"japan" : "実験",
+			"romaji" : "じっけん",
+			"mean" : "experiment"
+		},
+		{
+			"img" : "deta",
+			"japan" : "データ",
+			"romaji" : "deta",
+			"mean" : "data"
+		},
+		{
+			"img" : "nioi",
+			"japan" : "匂い",
+			"romaji" : "におい",
+			"mean" : "smell"
+		},
+		{
+			"img" : "jingou",
+			"japan" : "人口",
+			"romaji" : "じんこう",
+			"mean" : "population"
+		},
+		{
+			"img" : "kagaku",
+			"japan" : "科学",
+			"romaji" : "かがく",
+			"mean" : "science"
+		},
+		{
+			"img" : "igaku",
+			"japan" : "医学",
+			"romaji" : "いがく",
+			"mean" : "medical science"
+		},
+		{
+			"img" : "bungaku",
+			"japan" : "文学",
+			"romaji" : "ぶんがく",
+			"mean" : "literature"
+		},
+		{
+			"img" : "daitouryou",
+			"japan" : "大統領",
+			"romaji" : "だいとうりょう",
+			"mean" : "president"
+		},
+		{
+			"img" : "josei",
+			"japan" : "女性",
+			"romaji" : "じょせい",
+			"mean" : "female"
+		},
+		{
+			"img" : "dansei",
+			"japan" : "男性",
+			"romaji" : "だんせい",
+			"mean" : "male"
+		},
+		{
+			"img" : "kankei",
+			"japan" : "関係",
+			"romaji" : "かんけい",
+			"mean" : "relationship"
+		},
+		{
+			"img" : "koibito",
+			"japan" : "恋人",
+			"romaji" : "こいびと",
+			"mean" : "lover"
+		},
+		{
+			"img" : "aite",
+			"japan" : "相手",
+			"romaji" : "あいて",
+			"mean" : "partner"
+		},
+		{
+			"img" : "patoka",
+			"japan" : "パトカー",
+			"romaji" : "patoka",
+			"mean" : "police car"
+		},
+		{
+			"img" : "kyuukyuusha",
+			"japan" : "救急車",
+			"romaji" : "きゅうきゅうしゃ",
+			"mean" : "ambulance"
+		},
+		{
+			"img" : "shoubousha",
+			"japan" : "消防車",
+			"romaji" : "しょうぼうしゃ",
+			"mean" : "fire engine"
+		},
+		{
+			"img" : "niyoruto",
+			"japan" : "〜によると",
+			"romaji" : "〜niyoruto",
+			"mean" : "according to"
+		}
+	]
+}
