@@ -1,0 +1,90 @@
+{
+	"title" : "第四十八課",
+	"vocabulary" :
+	[
+		{
+			"img" : "oroshimasu",
+			"japan" : "下ろします",
+			"romaji" : "おろします",
+			"mean" : "take down"
+		},
+		{
+			"img" : "todokemasu",
+			"japan" : "届けます",
+			"romaji" : "とどけます",
+			"mean" : "deliver"
+		},
+		{
+			"img" : "rokuonshimasu",
+			"japan" : "録音します",
+			"romaji" : "ろくおんします",
+			"mean" : "recording"
+		},
+		{
+			"img" : "kawarioshimasu",
+			"japan" : "代わりをします",
+			"romaji" : "かわりをします",
+			"mean" : "exchange"
+		},
+		{
+			"img" : "iya",
+			"japan" : "嫌（な）",
+			"romaji" : "いや（な）",
+			"mean" : "disagreeable"
+		},
+		{
+			"img" : "utsukushii",
+			"japan" : "美しい",
+			"romaji" : "うつくしい",
+			"mean" : "beautiful, lovely"
+		},
+		{
+			"img" : "juku",
+			"japan" : "塾",
+			"romaji" : "じゅく",
+			"mean" : "coaching school"
+		},
+		{
+			"img" : "seito",
+			"japan" : "生徒",
+			"romaji" : "せいと",
+			"mean" : "pupil"
+		},
+		{
+			"img" : "fairu",
+			"japan" : "ファイル",
+			"romaji" : "fairu",
+			"mean" : "file"
+		},
+		{
+			"img" : "sukejuru",
+			"japan" : "スケジュール",
+			"romaji" : "sukejuru",
+			"mean" : "schedule"
+		},
+		{
+			"img" : "sugata",
+			"japan" : "姿",
+			"romaji" : "すがた",
+			"mean" : "figure"
+		},
+		{
+			"img" : "jiyuuni",
+			"japan" : "自由に",
+			"romaji" : "じゆうに",
+			"mean" : "freely"
+		},
+		{
+			"img" : "hisashiburi",
+			"japan" : "久しぶり",
+			"romaji" : "ひさしぶり",
+			"mean" : "long time no see"
+		},
+		{
+			"img" : "kamaimasen",
+			"japan" : "構いません",
+			"romaji" : "かまいません",
+			"mean" : "no problem"
+		}
+	]
+}
