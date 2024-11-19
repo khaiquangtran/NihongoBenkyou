@@ -1,0 +1,218 @@
+{
+	"title" : "第四十九課",
+	"vocabulary" :
+	[
+		{
+			"on" : "うん",
+			"image" : "運",
+			"content" : "VẬN",
+			"kun" : "はこ",
+			"onKanji" :
+			[
+				{
+				    "japan" : "運転",
+				    "hiragana" : "うんてん",
+				    "romaji" : "driving"
+                },
+				{
+				    "japan" : "運転手",
+				    "hiragana" : "うんてんしゅ",
+				    "romaji" : "driver"
+                },
+				{
+				    "japan" : "運動",
+				    "hiragana" : "うんどう",
+				    "romaji" : "exercise"
+                },
+				{
+				    "japan" : "運がいい",
+				    "hiragana" : "うんがいい",
+				    "romaji" : "be lucky"
+                },
+				{
+				    "japan" : "不運",
+				    "hiragana" : "ふうん",
+				    "romaji" : "bad luck"
+                }
+			],
+            "kunKanji" :
+			[
+				{
+                    "japan" : "運ぶ",
+                    "hiragana" : "はこぶ",
+                    "romaji" : "carry"
+                }
+			]
+		},
+		{
+			"on" : "どう",
+			"image" : "動",
+			"content" : "ĐỘNG",
+			"kun" : "うご",
+			"onKanji" :
+			[
+				{
+				"japan" : "運動",
+				"hiragana" : "うんどう",
+				"romaji" : "motion"
+				},
+				{
+					"japan" : "自動車",
+					"hiragana" : "じどうしゃ",
+					"romaji" : "car"
+				},
+				{
+					"japan" : "動物",
+					"hiragana" : "どうぶつ",
+					"romaji" : "animal"
+				}
+			],
+            "kunKanji" :
+			[
+				{
+                    "japan" : "動く",
+                    "hiragana" : "が+うごく",
+                    "romaji" : "move"
+                },
+				{
+                    "japan" : "動かす",
+                    "hiragana" : "を+うごかす",
+                    "romaji" : "move"
+                }
+			]
+		},
+        {
+			"on" : "れん",
+			"image" : "練",
+			"content" : "LUYỆN",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "練習",
+				    "hiragana" : "れんしゅう",
+				    "romaji" : "practice"
+                },
+				{
+				    "japan" : "練習問題",
+				    "hiragana" : "れんしゅうもんだい",
+				    "romaji" : "exercises"
+                }
+			]
+		},
+        {
+			"on" : "しゅう",
+			"image" : "習",
+			"content" : "TẬP",
+			"kun" : "なら",
+			"onKanji" :
+			[
+				{
+				    "japan" : "練習",
+				    "hiragana" : "れんしゅう",
+				    "romaji" : "practice"
+                },
+                {
+				    "japan" : "復習",
+				    "hiragana" : "ふくしゅう",
+				    "romaji" : "review"
+                },
+                {
+				    "japan" : "予習",
+				    "hiragana" : "よしゅう",
+				    "romaji" : "preparation"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "習う",
+                    "hiragana" : "ならう",
+                    "romaji" : "learn"
+                }
+			]
+		},
+        {
+			"on" : "はし",
+			"image" : "走",
+			"content" : "TẨU",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "走る",
+				    "hiragana" : "はしる",
+				    "romaji" : "run"
+                }
+			]
+		},
+        {
+			"on" : "ぽ, ほ",
+			"image" : "歩",
+			"content" : "BỘ",
+			"kun" : "ある",
+			"onKanji" :
+			[
+				{
+				    "japan" : "散歩する",
+				    "hiragana" : "さんぽする",
+				    "romaji" : "take a walk"
+                },
+                {
+				    "japan" : "歩道",
+				    "hiragana" : "ほどう",
+				    "romaji" : "sidewalk"
+                },
+                {
+				    "japan" : "歩行者",
+				    "hiragana" : "ほこうしゃ",
+				    "romaji" : "pedestrian, walker"
+                }
+			],
+            "kunKanji" :
+			[
+				{
+                    "japan" : "歩く",
+                    "hiragana" : "あるく",
+                    "romaji" : "walk"
+                }
+			]
+		},
+        {
+			"on" : "えい",
+			"image" : "泳",
+			"content" : "VỊNH",
+			"kun" : "およ",
+			"onKanji" :
+			[
+				{
+				    "japan" : "水泳",
+				    "hiragana" : "すいえい",
+				    "romaji" : "swimming"
+                }
+			],
+            "kunKanji" :
+			[
+				{
+                    "japan" : "泳ぐ",
+                    "hiragana" : "およぐ",
+                    "romaji" : "swim"
+                }
+			]
+		},
+        {
+			"on" : "さい",
+			"image" : "才",
+			"content" : "TÀI",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "天才",
+				    "hiragana" : "てんさい",
+				    "romaji" : "genius"
+                }
+			]
+		}
+	]
+}
