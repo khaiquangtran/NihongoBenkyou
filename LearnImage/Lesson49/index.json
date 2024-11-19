@@ -1,0 +1,108 @@
+{
+	"title" : "第四十九課",
+	"vocabulary" :
+	[
+		{
+			"img" : "riyoushimasu",
+			"japan" : "利用します",
+			"romaji" : "りようします",
+			"mean" : "use"
+		},
+		{
+			"img" : "tsutomemasu",
+			"japan" : "会社に勤めます",
+			"romaji" : "かいしゃにつとめます",
+			"mean" : "work at a company"
+		},
+		{
+			"img" : "isunikakemasu",
+			"japan" : "いすにかけます",
+			"romaji" : "isunikakemasu",
+			"mean" : "put it on a chair"
+		},
+		{
+			"img" : "sugoshimasu",
+			"japan" : "過ごします",
+			"romaji" : "すごします",
+			"mean" : "pass (time)"
+		},
+		{
+			"img" : "aisatsushimasu",
+			"japan" : "挨拶します",
+			"romaji" : "あいさつします",
+			"mean" : "say hello"
+		},
+		{
+			"img" : "irasshaimasu",
+			"japan" : "いらっしゃいます",
+			"romaji" : "irasshaimasu",
+			"mean" : "go somewhere"
+		},
+		{
+			"img" : "meshiagarimasu",
+			"japan" : "召し上がります",
+			"romaji" : "めしあがります",
+			"mean" : "eat"
+		},
+		{
+			"img" : "asshaimasu",
+			"japan" : "おっしゃいます",
+			"romaji" : "asshaimasu",
+			"mean" : "say, speak"
+		},
+		{
+			"img" : "nasaimasu",
+			"japan" : "なさいます",
+			"romaji" : "nasaimasu",
+			"mean" : "do"
+		},
+		{
+			"img" : "goranninarimasu",
+			"japan" : "ご覧になります",
+			"romaji" : "ごらんになります",
+			"mean" : "see"
+		},
+		{
+			"img" : "gozanjidesu",
+			"japan" : "ご存じです",
+			"romaji" : "ごぞんじです",
+			"mean" : "knowing"
+		},
+		{
+			"img" : "ryokan",
+			"japan" : "旅館",
+			"romaji" : "りょかん",
+			"mean" : "ryokan"
+		},
+		{
+			"img" : "basutei",
+			"japan" : "バス停",
+			"romaji" : "バスてい",
+			"mean" : "bus stop"
+		},
+		{
+			"img" : "okusama",
+			"japan" : "奥様",
+			"romaji" : "おくさま",
+			"mean" : "married lady"
+		},
+		{
+			"img" : "sama",
+			"japan" : "〜様",
+			"romaji" : "〜さま",
+			"mean" : "〜さん"
+		},
+		{
+			"img" : "tamani",
+			"japan" : "たまに",
+			"romaji" : "tamani",
+			"mean" : "sometimes"
+		},
+		{
+			"img" : "donatadema",
+			"japan" : "どなたでも",
+			"romaji" : "donatadema",
+			"mean" : "anyone"
+		}
+	]
+}
