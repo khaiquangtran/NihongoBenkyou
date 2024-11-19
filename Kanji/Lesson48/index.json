@@ -1,0 +1,208 @@
+{
+	"title" : "第四十八課",
+	"vocabulary" :
+	[
+		{
+			"on" : "し",
+			"image" : "試",
+			"content" : "THÍ",
+			"kun" : "ため",
+			"onKanji" :
+			[
+				{
+				    "japan" : "試験",
+				    "hiragana" : "しけん",
+				    "romaji" : "examination"
+                },
+				{
+				    "japan" : "試合",
+				    "hiragana" : "しあい",
+				    "romaji" : "match, game"
+                }
+			],
+            "kunKanji" :
+			[
+				{
+                    "japan" : "試す",
+                    "hiragana" : "ためす",
+                    "romaji" : "test, try out"
+                }
+			]
+		},
+		{
+			"on" : "けん",
+			"image" : "験",
+			"content" : "NGHIỆM",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				"japan" : "試験",
+				"hiragana" : "しけん",
+				"romaji" : "examination"
+				},
+				{
+					"japan" : "経験",
+					"hiragana" : "けいけん",
+					"romaji" : "experience"
+				},
+				{
+					"japan" : "体験",
+					"hiragana" : "たいけん",
+					"romaji" : "personal experience"
+				}
+			]
+		},
+        {
+			"on" : "とう",
+			"image" : "答",
+			"content" : "ĐÁP",
+			"kun" : "こた",
+			"onKanji" :
+			[
+				{
+				    "japan" : "回答",
+				    "hiragana" : "かいとう",
+				    "romaji" : "reply, answer"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "答え",
+                    "hiragana" : "こたえ",
+                    "romaji" : "response"
+                },
+				{
+                    "japan" : "答える",
+                    "hiragana" : "こたえる",
+                    "romaji" : "reply, answer"
+                }
+			]
+		},
+        {
+			"on" : "こう",
+			"image" : "考",
+			"content" : "KHẢO",
+			"kun" : "かんが",
+			"onKanji" :
+			[
+				{
+				    "japan" : "参考",
+				    "hiragana" : "さんこう",
+				    "romaji" : "reference"
+                },
+                {
+				    "japan" : "参考書",
+				    "hiragana" : "さんこうしょ",
+				    "romaji" : "reference book"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "考える",
+                    "hiragana" : "かんがえる",
+                    "romaji" : "think"
+                },
+				{
+                    "japan" : "考え方",
+                    "hiragana" : "かんがえかた",
+                    "romaji" : "way of thinking"
+                }
+			]
+		},
+        {
+			"on" : "しょう, せい",
+			"image" : "正",
+			"content" : "CHÍNH",
+			"kun" : "ただ",
+			"onKanji" :
+			[
+				{
+				    "japan" : "お正月",
+				    "hiragana" : "しょうがつ",
+				    "romaji" : "New Year"
+                },
+				{
+				    "japan" : "正午",
+				    "hiragana" : "しょうご",
+				    "romaji" : "midday"
+                },
+				{
+				    "japan" : "正式な",
+				    "hiragana" : "せいしきな",
+				    "romaji" : "formal"
+                }
+			],
+			"kunKanji" :
+			[
+				{
+                    "japan" : "正しい",
+                    "hiragana" : "ただしい",
+                    "romaji" : "correct"
+                }
+			]
+		},
+        {
+			"on" : "まる",
+			"image" : "丸",
+			"content" : "HOÀN",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "丸",
+				    "hiragana" : "まる",
+				    "romaji" : "circle"
+                },
+                {
+				    "japan" : "丸い",
+				    "hiragana" : "まるい",
+				    "romaji" : "round"
+                }
+			]
+		},
+        {
+			"on" : "ふ",
+			"image" : "不",
+			"content" : "BẤT",
+			"kun" : "",
+			"onKanji" :
+			[
+				{
+				    "japan" : "不便な",
+				    "hiragana" : "ふべんな",
+				    "romaji" : "inconvenient"
+                },
+                {
+				    "japan" : "不安な",
+				    "hiragana" : "ふあんな",
+				    "romaji" : "anxious"
+                }
+			]
+		},
+        {
+			"on" : "どう",
+			"image" : "同",
+			"content" : "ĐỒNG",
+			"kun" : "おな",
+			"onKanji" :
+			[
+				{
+				    "japan" : "同時に",
+				    "hiragana" : "どうじに",
+				    "romaji" : "at the same time"
+                }
+			],
+            "kunKanji" :
+			[
+				{
+                    "japan" : "同じ",
+                    "hiragana" : "おなじ",
+                    "romaji" : "same"
+                }
+			]
+		}
+	]
+}
