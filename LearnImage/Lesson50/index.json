@@ -1,0 +1,120 @@
+{
+	"title" : "第五十課",
+	"vocabulary" :
+	[
+		{
+			"img" : "mairimasu",
+			"japan" : "参ります",
+			"romaji" : "まいります",
+			"mean" : "go, come, call"
+		},
+		{
+			"img" : "ukagaimasu",
+			"japan" : "伺います",
+			"romaji" : "うかがいます",
+			"mean" : "ask, visit"
+		},
+		{
+			"img" : "orimasu",
+			"japan" : "おります",
+			"romaji" : "orimasu",
+			"mean" : "stay"
+		},
+		{
+			"img" : "itadakimasu",
+			"japan" : "いただきます",
+			"romaji" : "itadakimasu",
+			"mean" : "eat/ drink/ receive"
+		},
+		{
+			"img" : "moushimasu",
+			"japan" : "申します",
+			"romaji" : "もうします",
+			"mean" : "say"
+		},
+		{
+			"img" : "itashimasu",
+			"japan" : "いたします",
+			"romaji" : "itashimasu",
+			"mean" : "do"
+		},
+		{
+			"img" : "haikenshimasu",
+			"japan" : "拝見します",
+			"romaji" : "はいけんします",
+			"mean" : "see"
+		},
+		{
+			"img" : "zonjimasu",
+			"japan" : "存じます",
+			"romaji" : "ぞんじます",
+			"mean" : "know"
+		},
+		{
+			"img" : "amenikakarimasu",
+			"japan" : "お目にかかります",
+			"romaji" : "おめにかかります",
+			"mean" : "meet"
+		},
+		{
+			"img" : "kohioiremasu",
+			"japan" : "コーヒーを入れます",
+			"romaji" : "コーヒーをいれます",
+			"mean" : "make coffee"
+		},
+		{
+			"img" : "youishimasu",
+			"japan" : "用意します",
+			"romaji" : "よういします",
+			"mean" : "prepare"
+		},
+		{
+			"img" : "watakushi",
+			"japan" : "わたくし",
+			"romaji" : "watakushi",
+			"mean" : "me"
+		},
+		{
+			"img" : "gaido",
+			"japan" : "ガイド",
+			"romaji" : "gaido",
+			"mean" : "tour guide"
+		},
+		{
+			"img" : "otaku",
+			"japan" : "お宅",
+			"romaji" : "おたく",
+			"mean" : "your home"
+		},
+		{
+			"img" : "meruadoresu",
+			"japan" : "メールアドレス",
+			"romaji" : "meruadoresu",
+			"mean" : "email address"
+		},
+		{
+			"img" : "saraishuu",
+			"japan" : "再来週",
+			"romaji" : "さらいしゅう",
+			"mean" : "week after next"
+		},
+		{
+			"img" : "saraigetsu",
+			"japan" : "再来月",
+			"romaji" : "さらいげつ",
+			"mean" : "month after next"
+		},
+		{
+			"img" : "sarainen",
+			"japan" : "再来年",
+			"romaji" : "さらいねん",
+			"mean" : "year after next"
+		},
+		{
+			"img" : "hajimeni",
+			"japan" : "初めに",
+			"romaji" : "はじめに",
+			"mean" : "first"
+		}
+	]
+}
