@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: greenyellow;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+.container .btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 70px 20px;
+  gap: 25px 20px;
+}
+
+.container .btn .hiragana1 {
+  width: 80vh;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+}
+
+.container .btn .hiragana1 .card button{
+    position: relative;
+    border: 3px #00bcd4;
+    padding: 10px 28px;
+    cursor: pointer;
+    background: #00bcd4;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.container .btn .hiragana1 .card_empty{
+  position: relative;
+  border: 3px transparent;
+  padding: 10px 28px;
+  cursor: pointer;
+  background: transparent;
+  width: 120px;
+  height: 120px;
+  padding: 0;
+}
+
+
+.japan {
+  position: absolute;
+  top: -14px;
+  font-size: 9vh;
+  font-weight: bold;
+  font-family: "Sawarabi Mincho", serif;
+}
+
+.romaji {
+  position: absolute;
+  top: 70%;
+  font-size: 25px;
+  /* font-weight: bold; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .btn .hiragana2 {
+  width: 80vh;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+}
+
+.container .btn .hiragana2 .card button{
+  position: relative;
+  border: 3px #00bcd4;
+  padding: 10px 28px;
+  cursor: pointer;
+  background: #00bcd4;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.container .btn .hiragana2 .card_empty{
+position: relative;
+border: 3px transparent;
+padding: 10px 28px;
+cursor: pointer;
+background: transparent;
+width: 120px;
+height: 120px;
+padding: 0;
+}
+
+.container .btn .hiragana2 .card_double button{
+  position: relative;
+  border: 3px #00bcd4;
+  padding: 10px 28px;
+  cursor: pointer;
+  background: #00bcd4;
+  width: 205px;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+
+.homeBtn {
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 1vh;
+  z-index: 2;
+  background: #cc5500;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+dialog {
+  margin: 0;
+  left: 44%;
+  top: 30%;
+  border: 0;
+  background-color: transparent;
+}
+
+.dialog_double {
+  margin: 0;
+  left: 35%;
+  top: 30%;
+  border: 0;
+  background-color: transparent;
+}
+
+
+dialog img {
+  width: 30vh;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(19, 17, 17, 0.8);
+  display: none;
+}
