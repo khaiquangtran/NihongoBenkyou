@@ -77,7 +77,7 @@ body {
 
 .japan {
   position: absolute;
-  top: -14px;
+  top: -10%;
   font-size: 9vh;
   font-weight: bold;
   font-family: "Sawarabi Mincho", serif;
@@ -169,23 +169,28 @@ padding: 0;
 
 dialog {
   margin: 0;
-  left: 44%;
-  top: 30%;
-  border: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
   background-color: transparent;
 }
 
 .dialog_double {
   margin: 0;
-  left: 35%;
-  top: 30%;
-  border: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   background-color: transparent;
 }
 
+.image-container{
+  display: flex;
+  gap: 0;
+}
 
 dialog img {
-  width: 30vh;
+  width: 275px;
 }
 
 .overlay {

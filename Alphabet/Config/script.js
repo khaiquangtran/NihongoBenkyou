@@ -150,6 +150,7 @@ const dialogs = [
   document.getElementById("dialogPYU"),
   document.getElementById("dialogPYO"),
 ]
+
 function showA() { showDialog(dialogs[0]) }
 function showI() { showDialog(dialogs[1]) }
 function showU() { showDialog(dialogs[2]) }
@@ -257,8 +258,9 @@ function showPYO() { showDialog(dialogs[103]) }
 
 function showDialog(dialog) {
   dialog.showModal();
-  overlay.style.display = "block"; // Hiển thị lớp phủ
+  overlay.style.display = "block";
 }
+
 dialogs.forEach((dialog) => {
   dialog.addEventListener("mousedown", (event) => {
     const rect = dialog.getBoundingClientRect();
@@ -268,8 +270,8 @@ dialogs.forEach((dialog) => {
                        event.clientY <= rect.bottom;
     if (!isInDialog) {
       dialog.close();
-      overlay.style.display = "none"; // Ẩn lớp phủ
+      overlay.style.display = "none";
     }
   });
-  console.log(dialog)
+  // console.log(dialog)
 });
