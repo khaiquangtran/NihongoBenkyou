@@ -39,7 +39,7 @@ body {
 }
 
 .container .btn .hiragana1 {
-  width: 80vh;
+  width: 750px;
   height: 100%;
   position: relative;
   display: flex;
@@ -81,6 +81,7 @@ body {
   font-size: 9vh;
   font-weight: bold;
   font-family: "Sawarabi Mincho", serif;
+  color: white;
 }
 
 .romaji {
@@ -89,10 +90,11 @@ body {
   font-size: 25px;
   /* font-weight: bold; */
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .container .btn .hiragana2 {
-  width: 70vh;
+  width: 650px;
   height: 100%;
   position: relative;
   display: flex;
