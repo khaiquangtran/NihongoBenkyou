@@ -151,316 +151,419 @@ const dialogs = [
   document.getElementById("dialogPYU"),
   document.getElementById("dialogPYO"),
 ];
-
+document.getElementById("showA").addEventListener("click", showA);
 function showA() {
   showDialog(dialogs[0]);
 }
+document.getElementById("showI").addEventListener("click", showI);
 function showI() {
   showDialog(dialogs[1]);
 }
+document.getElementById("showU").addEventListener("click", showU);
 function showU() {
   showDialog(dialogs[2]);
 }
+document.getElementById("showE").addEventListener("click", showE);
 function showE() {
   showDialog(dialogs[3]);
 }
+document.getElementById("showO").addEventListener("click", showO);
 function showO() {
   showDialog(dialogs[4]);
 }
+document.getElementById("showKA").addEventListener("click", showKA);
 function showKA() {
   showDialog(dialogs[5]);
 }
+document.getElementById("showKI").addEventListener("click", showKI);
 function showKI() {
   showDialog(dialogs[6]);
 }
+document.getElementById("showKU").addEventListener("click", showKU);
 function showKU() {
   showDialog(dialogs[7]);
 }
+document.getElementById("showKE").addEventListener("click", showKE);
 function showKE() {
   showDialog(dialogs[8]);
 }
+document.getElementById("showKO").addEventListener("click", showKO);
 function showKO() {
   showDialog(dialogs[9]);
 }
+document.getElementById("showSA").addEventListener("click", showSA);
 function showSA() {
   showDialog(dialogs[10]);
 }
+document.getElementById("showSHI").addEventListener("click", showSHI);
 function showSHI() {
   showDialog(dialogs[11]);
 }
+document.getElementById("showSU").addEventListener("click", showSU);
 function showSU() {
   showDialog(dialogs[12]);
 }
+document.getElementById("showSE").addEventListener("click", showSE);
 function showSE() {
   showDialog(dialogs[13]);
 }
+document.getElementById("showSO").addEventListener("click", showSO);
 function showSO() {
   showDialog(dialogs[14]);
 }
+document.getElementById("showTA").addEventListener("click", showTA);
 function showTA() {
   showDialog(dialogs[15]);
 }
+document.getElementById("showCHI").addEventListener("click", showCHI);
 function showCHI() {
   showDialog(dialogs[16]);
 }
+document.getElementById("showTSU").addEventListener("click", showTSU);
 function showTSU() {
   showDialog(dialogs[17]);
 }
+document.getElementById("showTE").addEventListener("click", showTE);
 function showTE() {
   showDialog(dialogs[18]);
 }
+document.getElementById("showTO").addEventListener("click", showTO);
 function showTO() {
   showDialog(dialogs[19]);
 }
+document.getElementById("showNA").addEventListener("click", showNA);
 function showNA() {
   showDialog(dialogs[20]);
 }
+document.getElementById("showNI").addEventListener("click", showNI);
 function showNI() {
   showDialog(dialogs[21]);
 }
+document.getElementById("showNU").addEventListener("click", showNU);
 function showNU() {
   showDialog(dialogs[22]);
 }
+document.getElementById("showNE").addEventListener("click", showNE);
 function showNE() {
   showDialog(dialogs[23]);
 }
+document.getElementById("showNO").addEventListener("click", showNO);
 function showNO() {
   showDialog(dialogs[24]);
 }
+document.getElementById("showHA").addEventListener("click", showHA);
 function showHA() {
   showDialog(dialogs[25]);
 }
+document.getElementById("showHI").addEventListener("click", showHI);
 function showHI() {
   showDialog(dialogs[26]);
 }
+document.getElementById("showFU").addEventListener("click", showFU);
 function showFU() {
   showDialog(dialogs[27]);
 }
+document.getElementById("showHE").addEventListener("click", showHE);
 function showHE() {
   showDialog(dialogs[28]);
 }
+document.getElementById("showHO").addEventListener("click", showHO);
 function showHO() {
   showDialog(dialogs[29]);
 }
+document.getElementById("showMA").addEventListener("click", showMA);
 function showMA() {
   showDialog(dialogs[30]);
 }
+document.getElementById("showMI").addEventListener("click", showMI);
 function showMI() {
   showDialog(dialogs[31]);
 }
+document.getElementById("showMU").addEventListener("click", showMU);
 function showMU() {
   showDialog(dialogs[32]);
 }
+document.getElementById("showME").addEventListener("click", showME);
 function showME() {
   showDialog(dialogs[33]);
 }
+document.getElementById("showMO").addEventListener("click", showMO);
 function showMO() {
   showDialog(dialogs[34]);
 }
+document.getElementById("showYA").addEventListener("click", showYA);
 function showYA() {
   showDialog(dialogs[35]);
 }
+document.getElementById("showYU").addEventListener("click", showYU);
 function showYU() {
   showDialog(dialogs[36]);
 }
+document.getElementById("showYO").addEventListener("click", showYO);
 function showYO() {
   showDialog(dialogs[37]);
 }
+document.getElementById("showRA").addEventListener("click", showRA);
 function showRA() {
   showDialog(dialogs[38]);
 }
+document.getElementById("showRI").addEventListener("click", showRI);
 function showRI() {
   showDialog(dialogs[39]);
 }
+document.getElementById("showRU").addEventListener("click", showRU);
 function showRU() {
   showDialog(dialogs[40]);
 }
+document.getElementById("showRE").addEventListener("click", showRE);
 function showRE() {
   showDialog(dialogs[41]);
 }
+document.getElementById("showRO").addEventListener("click", showRO);
 function showRO() {
   showDialog(dialogs[42]);
 }
+document.getElementById("showWA").addEventListener("click", showWA);
 function showWA() {
   showDialog(dialogs[43]);
 }
+document.getElementById("showOO").addEventListener("click", showOO);
 function showOO() {
   showDialog(dialogs[44]);
 }
+document.getElementById("showN").addEventListener("click", showN);
 function showN() {
   showDialog(dialogs[45]);
 }
+document.getElementById("showGA").addEventListener("click", showGA);
 function showGA() {
   showDialog(dialogs[46]);
 }
+document.getElementById("showGI").addEventListener("click", showGI);
 function showGI() {
   showDialog(dialogs[47]);
 }
+document.getElementById("showGU").addEventListener("click", showGU);
 function showGU() {
   showDialog(dialogs[48]);
 }
+document.getElementById("showGE").addEventListener("click", showGE);
 function showGE() {
   showDialog(dialogs[49]);
 }
+document.getElementById("showGO").addEventListener("click", showGO);
 function showGO() {
   showDialog(dialogs[50]);
 }
+document.getElementById("showZA").addEventListener("click", showZA);
 function showZA() {
   showDialog(dialogs[51]);
 }
+document.getElementById("showJI").addEventListener("click", showJI);
 function showJI() {
   showDialog(dialogs[52]);
 }
+document.getElementById("showZU").addEventListener("click", showZU);
 function showZU() {
   showDialog(dialogs[53]);
 }
+document.getElementById("showZE").addEventListener("click", showZE);
 function showZE() {
   showDialog(dialogs[54]);
 }
+document.getElementById("showZO").addEventListener("click", showZO);
 function showZO() {
   showDialog(dialogs[55]);
 }
+document.getElementById("showDA").addEventListener("click", showDA);
 function showDA() {
   showDialog(dialogs[56]);
 }
+document.getElementById("showJJ").addEventListener("click", showJJ);
 function showJJ() {
   showDialog(dialogs[57]);
 }
+document.getElementById("showZUU").addEventListener("click", showZUU);
 function showZUU() {
   showDialog(dialogs[58]);
 }
+document.getElementById("showDE").addEventListener("click", showDE);
 function showDE() {
   showDialog(dialogs[59]);
 }
+document.getElementById("showDO").addEventListener("click", showDO);
 function showDO() {
   showDialog(dialogs[60]);
 }
+document.getElementById("showBA").addEventListener("click", showBA);
 function showBA() {
   showDialog(dialogs[61]);
 }
+document.getElementById("showBI").addEventListener("click", showBI);
 function showBI() {
   showDialog(dialogs[62]);
 }
+document.getElementById("showBU").addEventListener("click", showBU);
 function showBU() {
   showDialog(dialogs[63]);
 }
+document.getElementById("showBE").addEventListener("click", showBE);
 function showBE() {
   showDialog(dialogs[64]);
 }
+document.getElementById("showBO").addEventListener("click", showBO);
 function showBO() {
   showDialog(dialogs[65]);
 }
+document.getElementById("showPA").addEventListener("click", showPA);
 function showPA() {
   showDialog(dialogs[66]);
 }
+document.getElementById("showPI").addEventListener("click", showPI);
 function showPI() {
   showDialog(dialogs[67]);
 }
+document.getElementById("showPU").addEventListener("click", showPU);
 function showPU() {
   showDialog(dialogs[68]);
 }
+document.getElementById("showPE").addEventListener("click", showPE);
 function showPE() {
   showDialog(dialogs[69]);
 }
+document.getElementById("showPO").addEventListener("click", showPO);
 function showPO() {
   showDialog(dialogs[70]);
 }
+document.getElementById("showKYA").addEventListener("click", showKYA);
 function showKYA() {
   showDialog(dialogs[71]);
 }
+document.getElementById("showKYU").addEventListener("click", showKYU);
 function showKYU() {
   showDialog(dialogs[72]);
 }
+document.getElementById("showKYO").addEventListener("click", showKYO);
 function showKYO() {
   showDialog(dialogs[73]);
 }
+document.getElementById("showSHA").addEventListener("click", showSHA);
 function showSHA() {
   showDialog(dialogs[74]);
 }
+document.getElementById("showSHU").addEventListener("click", showSHU);
 function showSHU() {
   showDialog(dialogs[75]);
 }
+document.getElementById("showSHO").addEventListener("click", showSHO);
 function showSHO() {
   showDialog(dialogs[76]);
 }
+document.getElementById("showCHA").addEventListener("click", showCHA);
 function showCHA() {
   showDialog(dialogs[77]);
 }
+document.getElementById("showCHU").addEventListener("click", showCHU);
 function showCHU() {
   showDialog(dialogs[78]);
 }
+document.getElementById("showCHO").addEventListener("click", showCHO);
 function showCHO() {
   showDialog(dialogs[79]);
 }
+document.getElementById("showNYA").addEventListener("click", showNYA);
 function showNYA() {
   showDialog(dialogs[80]);
 }
+document.getElementById("showNYU").addEventListener("click", showNYU);
 function showNYU() {
   showDialog(dialogs[81]);
 }
+document.getElementById("showNYO").addEventListener("click", showNYO);
 function showNYO() {
   showDialog(dialogs[82]);
 }
+document.getElementById("showHYA").addEventListener("click", showHYA);
 function showHYA() {
   showDialog(dialogs[83]);
 }
+document.getElementById("showHYU").addEventListener("click", showHYU);
 function showHYU() {
   showDialog(dialogs[84]);
 }
+document.getElementById("showHYO").addEventListener("click", showHYO);
 function showHYO() {
   showDialog(dialogs[85]);
 }
+document.getElementById("showMYA").addEventListener("click", showMYA);
 function showMYA() {
   showDialog(dialogs[86]);
 }
+document.getElementById("showMYU").addEventListener("click", showMYU);
 function showMYU() {
   showDialog(dialogs[87]);
 }
+document.getElementById("showMYO").addEventListener("click", showMYO);
 function showMYO() {
   showDialog(dialogs[88]);
 }
+document.getElementById("showRYA").addEventListener("click", showRYA);
 function showRYA() {
   showDialog(dialogs[89]);
 }
+document.getElementById("showRYU").addEventListener("click", showRYU);
 function showRYU() {
   showDialog(dialogs[90]);
 }
+document.getElementById("showRYO").addEventListener("click", showRYO);
 function showRYO() {
   showDialog(dialogs[91]);
 }
+document.getElementById("showGYA").addEventListener("click", showGYA);
 function showGYA() {
   showDialog(dialogs[92]);
 }
+document.getElementById("showGYU").addEventListener("click", showGYU);
 function showGYU() {
   showDialog(dialogs[93]);
 }
+document.getElementById("showGYO").addEventListener("click", showGYO);
 function showGYO() {
   showDialog(dialogs[94]);
 }
+document.getElementById("showJA").addEventListener("click", showJA);
 function showJA() {
   showDialog(dialogs[95]);
 }
+document.getElementById("showJU").addEventListener("click", showJU);
 function showJU() {
   showDialog(dialogs[96]);
 }
+document.getElementById("showJO").addEventListener("click", showJO);
 function showJO() {
   showDialog(dialogs[97]);
 }
+document.getElementById("showBYA").addEventListener("click", showBYA);
 function showBYA() {
   showDialog(dialogs[98]);
 }
+document.getElementById("showBYU").addEventListener("click", showBYU);
 function showBYU() {
   showDialog(dialogs[99]);
 }
+document.getElementById("showBYO").addEventListener("click", showBYO);
 function showBYO() {
   showDialog(dialogs[100]);
 }
+document.getElementById("showPYA").addEventListener("click", showPYA);
 function showPYA() {
   showDialog(dialogs[101]);
 }
+document.getElementById("showPYU").addEventListener("click", showPYU);
 function showPYU() {
   showDialog(dialogs[102]);
 }
+document.getElementById("showPYO").addEventListener("click", showPYO);
 function showPYO() {
   showDialog(dialogs[103]);
 }
