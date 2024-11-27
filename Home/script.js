@@ -1,5 +1,5 @@
 var randomChange = document.getElementById("Background");
-export const images = [
+const images = [
   "Home/Images/home_background.jpg",
   "Home/Images/home_background1.jpg",
   "Home/Images/home_background2.jpg",
