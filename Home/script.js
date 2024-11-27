@@ -1,5 +1,5 @@
 var randomChange = document.getElementById("Background");
-images = [
+export const images = [
   "Home/Images/home_background.jpg",
   "Home/Images/home_background1.jpg",
   "Home/Images/home_background2.jpg",
@@ -36,3 +36,5 @@ var number = Math.floor(Math.random() * imgCount);
 window.onload = function () {
   randomChange.style.backgroundImage = "url(" + images[number] + ")";
 };
+
+console.log("Home")
