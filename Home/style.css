@@ -13,8 +13,15 @@ body {
   /* animation: change 500s infinite ease-in-out; */
 }
 
+#snow_fall {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
 .menu-bar {
-  background: none;
+  background: transparent;
   text-align: center;
 }
 
