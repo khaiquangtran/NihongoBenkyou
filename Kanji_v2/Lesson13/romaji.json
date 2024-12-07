@@ -3,44 +3,54 @@
     "vocabulary":
     [
         {
-            "romaji" : "あに",
-            "mean" : "older brother"
+            "japan" : "四本",
+            "romaji" : "よんほん",
+            "mean" : "four (long cylindrical things)"
         },
         {
-            "romaji" : "おとうと",
-            "mean" : "younger brother"
+            "japan" : "五人",
+            "romaji" : "ごにん",
+            "mean" : "five people"
         },
         {
-            "romaji" : "はる",
-            "mean" : "spring"
+            "japan" : "六月",
+            "romaji" : "ろくがつ",
+            "mean" : "june"
         },
         {
-            "romaji" : "なつ",
-            "mean" : "summer"
+            "japan" : "七月",
+            "romaji" : "しちがつ",
+            "mean" : "july"
         },
         {
-            "romaji" : "あき",
-            "mean" : "autumn"
+            "japan" : "八人",
+            "romaji" : "はちにん",
+            "mean" : "eight people"
         },
         {
-            "romaji" : "ふゆ",
-            "mean" : "winter"
+            "japan" : "九年",
+            "romaji" : "きゅうねん",
+            "mean" : "nine years"
         },
         {
-            "romaji" : "あじ",
-            "mean" : "taste"
+            "japan" : "十月",
+            "romaji" : "じゅうがつ",
+            "mean" : "october"
         },
         {
-            "romaji" : "いん",
-            "mean" : "member"
+            "japan" : "百円",
+            "romaji" : "ひゃくえん",
+            "mean" : "100 yen"
         },
         {
-            "romaji" : "もん",
-            "mean" : "question"
+            "japan" : "三万",
+            "romaji" : "さんまん",
+            "mean" : "three thousand"
         },
         {
-            "romaji" : "ず",
-            "mean" : "diagram"
+            "japan" : "天気",
+            "romaji" : "てんき",
+            "mean" : "weather"
         }
     ]
 }

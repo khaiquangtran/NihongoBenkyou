@@ -1,0 +1,56 @@
+{
+    "title" : "第九課",
+    "vocabulary":
+    [
+        {
+            "japan" : "村",
+            "romaji" : "むら",
+            "mean" : "village"
+        },
+        {
+            "japan" : "上",
+            "romaji" : "うえ",
+            "mean" : "up"
+        },
+        {
+            "japan" : "下",
+            "romaji" : "した",
+            "mean" : "down"
+        },
+        {
+            "japan" : "左",
+            "romaji" : "ひだり",
+            "mean" : "left"
+        },
+        {
+            "japan" : "右",
+            "romaji" : "みぎ",
+            "mean" : "right"
+        },
+        {
+            "japan" : "大",
+            "romaji" : "だい",
+            "mean" : "big"
+        },
+        {
+            "japan" : "小",
+            "romaji" : "しょう",
+            "mean" : "small"
+        },
+        {
+            "japan" : "中",
+            "romaji" : "なか",
+            "mean" : "inside"
+        },
+        {
+            "japan" : "外",
+            "romaji" : "そと",
+            "mean" : "outside"
+        },
+        {
+            "japan" : "高",
+            "romaji" : "たか[い]",
+            "mean" : "tall"
+        }
+    ]
+}

@@ -1,46 +1,46 @@
 {
-    "title" : "第十三課",
+    "title" : "第十七課",
     "vocabulary":
     [
         {
-            "romaji" : "おや",
-            "mean" : "parent"
+            "romaji" : "あに",
+            "mean" : "older brother"
         },
         {
-            "romaji" : "けい",
-            "mean" : "calculate"
+            "romaji" : "おとうと",
+            "mean" : "younger brother"
         },
         {
-            "romaji" : "し",
-            "mean" : "trial"
+            "romaji" : "はる",
+            "mean" : "spring"
         },
         {
-            "romaji" : "あか",
-            "mean" : "red"
+            "romaji" : "なつ",
+            "mean" : "summer"
         },
         {
-            "romaji" : "しゅう",
-            "mean" : "week"
+            "romaji" : "あき",
+            "mean" : "autumn"
         },
         {
-            "romaji" : "みち",
-            "mean" : "road"
+            "romaji" : "ふゆ",
+            "mean" : "winter"
         },
         {
-            "romaji" : "ぎん",
-            "mean" : "silver"
+            "romaji" : "あじ",
+            "mean" : "taste"
         },
         {
-            "romaji" : "あお",
-            "mean" : "blue"
+            "romaji" : "いん",
+            "mean" : "member"
         },
         {
-            "romaji" : "かぜ",
-            "mean" : "wind"
+            "romaji" : "もん",
+            "mean" : "question"
         },
         {
-            "romaji" : "めし",
-            "mean" : "rice"
+            "romaji" : "ず",
+            "mean" : "diagram"
         }
     ]
 }

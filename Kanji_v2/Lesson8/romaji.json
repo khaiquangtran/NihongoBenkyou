@@ -1,0 +1,56 @@
+{
+    "title" : "第八課",
+    "vocabulary":
+    [
+        {
+            "japan" : "間",
+            "romaji" : "あいだ",
+            "mean" : "between"
+        },
+        {
+            "japan" : "年",
+            "romaji" : "ねん",
+            "mean" : "year"
+        },
+        {
+            "japan" : "町",
+            "romaji" : "まち",
+            "mean" : "town"
+        },
+        {
+            "japan" : "寺",
+            "romaji" : "てら",
+            "mean" : "temple"
+        },
+        {
+            "japan" : "東",
+            "romaji" : "ひがし",
+            "mean" : "east"
+        },
+        {
+            "japan" : "西",
+            "romaji" : "にし",
+            "mean" : "west"
+        },
+        {
+            "japan" : "南",
+            "romaji" : "みなみ",
+            "mean" : "south"
+        },
+        {
+            "japan" : "北",
+            "romaji" : "きた",
+            "mean" : "north"
+        },
+        {
+            "japan" : "車",
+            "romaji" : "くるま",
+            "mean" : "car"
+        },
+        {
+            "japan" : "電",
+            "romaji" : "でん",
+            "mean" : "electric"
+        }
+    ]
+}

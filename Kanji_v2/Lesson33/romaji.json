@@ -3,29 +3,54 @@
     "vocabulary":
     [
         {
-            "japan" : "作文",
-            "romaji" : "さくぶん",
-            "mean" : "writing"
+            "japan" : "特別",
+            "romaji" : "とくべつ",
+            "mean" : "special"
         },
         {
-            "japan" : "売買",
-            "romaji" : "ばいばい",
-            "mean" : "buying and selling"
+            "japan" : "使用",
+            "romaji" : "しよう",
+            "mean" : "use"
         },
         {
-            "japan" : "強力",
-            "romaji" : "きょうりょく",
-            "mean" : "powerful"
+            "japan" : "画家",
+            "romaji" : "がか",
+            "mean" : "painter"
         },
         {
-            "japan" : "転校",
-            "romaji" : "てんこう",
-            "mean" : "change schools"
+            "japan" : "病気",
+            "romaji" : "びょうき",
+            "mean" : "illness"
         },
         {
-            "japan" : "運転",
-            "romaji" : "うんてん",
-            "mean" : "driving"
+            "japan" : "出発",
+            "romaji" : "しゅっぱつ",
+            "mean" : "departure"
+        },
+        {
+            "japan" : "研究",
+            "romaji" : "けんきゅう",
+            "mean" : "research"
+        },
+        {
+            "japan" : "社長",
+            "romaji" : "しゃちょう",
+            "mean" : "president"
+        },
+        {
+            "japan" : "読者",
+            "romaji" : "どくしゃ",
+            "mean" : "reader"
+        },
+        {
+            "japan" : "自分",
+            "romaji" : "じぶん",
+            "mean" : "self"
+        },
+        {
+            "japan" : "英文",
+            "romaji" : "えいぶん",
+            "mean" : "english sentence"
         }
     ]
 }

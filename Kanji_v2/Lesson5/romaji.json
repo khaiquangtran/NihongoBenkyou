@@ -1,70 +1,56 @@
-[
-    {
-        "romaji" : "けんがく",
-        "mean" : "study by observation"
-    },
-    {
-        "romaji" : "こくりつ",
-        "mean" : "national"
-    },
-    {
-        "romaji" : "いれる",
-        "mean" : "to put in"
-    },
-    {
-        "romaji" : "にゅうがく",
-        "mean" : "entry to school or university"
-    },
-    {
-        "romaji" : "だす",
-        "mean" : "to put out"
-    },
-    {
-        "romaji" : "がいしゅつ",
-        "mean" : "going out"
-    },
-    {
-        "romaji" : "きゅうじつ",
-        "mean" : "holiday"
-    },
-    {
-        "romaji" : "おこなう",
-        "mean" : "to do"
-    },
-    {
-        "romaji" : "りょこう",
-        "mean" : "travel"
-    },
-    {
-        "romaji" : "ぎょうれつ",
-        "mean" : "long line"
-    },
-    {
-        "romaji" : "こない",
-        "mean" : "not to come"
-    },
-    {
-        "romaji" : "ことば",
-        "mean" : "word"
-    },
-    {
-        "romaji" : "げんご",
-        "mean" : "language"
-    },
-    {
-        "romaji" : "むごん",
-        "mean" : "silence"
-    },
-    {
-        "romaji" : "きこく",
-        "mean" : "return to one's country"
-    },
-    {
-        "romaji" : "しょてん",
-        "mean" : "bookstore"
-    },
-    {
-        "romaji" : "どくしょ",
-        "mean" : "reading"
-    }
-]
+{
+    "title" : "第五課",
+    "vocabulary":
+    [
+        {
+            "japan" : "雨",
+            "romaji" : "あめ",
+            "mean" : "rain"
+        },
+        {
+            "japan" : "夕",
+            "romaji" : "ゆう",
+            "mean" : "dusk"
+        },
+        {
+            "japan" : "岩",
+            "romaji" : "いわ",
+            "mean" : "rock"
+        },
+        {
+            "japan" : "音",
+            "romaji" : "おと",
+            "mean" : "sound"
+        },
+        {
+            "japan" : "林",
+            "romaji" : "はやし",
+            "mean" : "woods"
+        },
+        {
+            "japan" : "森",
+            "romaji" : "もり",
+            "mean" : "forest"
+        },
+        {
+            "japan" : "花",
+            "romaji" : "はな",
+            "mean" : "flower"
+        },
+        {
+            "japan" : "竹",
+            "romaji" : "たけ",
+            "mean" : "bamboo"
+        },
+        {
+            "japan" : "犬",
+            "romaji" : "いぬ",
+            "mean" : "dog"
+        },
+        {
+            "japan" : "貝",
+            "romaji" : "かい",
+            "mean" : "shell"
+        }
+    ]
+}

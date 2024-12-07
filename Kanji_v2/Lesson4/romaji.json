@@ -1,122 +1,56 @@
-[
-    {
-        "romaji" : "おとこ",
-        "mean" : "man"
-    },
-    {
-        "romaji" : "おんな",
-        "mean" : "woman"
-    },
-    {
-        "romaji" : "ちち",
-        "mean" : "father"
-    },
-    {
-        "romaji" : "はは",
-        "mean" : "mother"
-    },
-    {
-        "romaji" : "せんせい",
-        "mean" : "teacher"
-    },
-    {
-        "romaji" : "ともだち",
-        "mean" : "friend"
-    },
-    {
-        "romaji" : "こうこうせい",
-        "mean" : "high school student"
-    },
-    {
-        "romaji" : "にほんじん",
-        "mean" : "japanese"
-    },
-    {
-        "romaji" : "こども",
-        "mean" : "child"
-    },
-    {
-        "romaji" : "すくない",
-        "mean" : "few"
-    },
-    {
-        "romaji" : "すこし",
-        "mean" : "a few/ a little"
-    },
-    {
-        "romaji" : "ながい",
-        "mean" : "long"
-    },
-    {
-        "romaji" : "はやい",
-        "mean" : "early"
-    },
-    {
-        "romaji" : "いく",
-        "mean" : "to go"
-    },
-    {
-        "romaji" : "くる",
-        "mean" : "to come"
-    },
-    {
-        "romaji" : "たべる",
-        "mean" : "to eat"
-    },
-    {
-        "romaji" : "のむ",
-        "mean" : "to drink"
-    },
-    {
-        "romaji" : "かく",
-        "mean" : "to write"
-    },
-    {
-        "romaji" : "みる",
-        "mean" : "to watch/ to look"
-    },
-    {
-        "romaji" : "いう",
-        "mean" : "to say"
-    },
-    {
-        "romaji" : "たつ",
-        "mean" : "to stand"
-    },
-    {
-        "romaji" : "でる",
-        "mean" : "to go out"
-    },
-    {
-        "romaji" : "はいる",
-        "mean" : "to enter"
-    },
-    {
-        "romaji" : "はなす",
-        "mean" : "to talk"
-    },
-    {
-        "romaji" : "よむ",
-        "mean" : "to read"
-    },
-    {
-        "romaji" : "かう",
-        "mean" : "to buy"
-    },
-    {
-        "romaji" : "きく",
-        "mean" : "to listen"
-    },
-    {
-        "romaji" : "やすむ",
-        "mean" : "to rest"
-    },
-    {
-        "romaji" : "あう",
-        "mean" : "to meet"
-    },
-    {
-        "romaji" : "あがる",
-        "mean" : "to go up"
-    }
-]
+{
+    "title" : "第四課",
+    "vocabulary":
+    [
+        {
+            "japan" : "生",
+            "romaji" : "せい",
+            "mean" : "living"
+        },
+        {
+            "japan" : "本",
+            "romaji" : "ほん",
+            "mean" : "book"
+        },
+        {
+            "japan" : "名",
+            "romaji" : "な",
+            "mean" : "name"
+        },
+        {
+            "japan" : "友",
+            "romaji" : "とも",
+            "mean" : "friend"
+        },
+        {
+            "japan" : "文",
+            "romaji" : "ぶん",
+            "mean" : "sentence"
+        },
+        {
+            "japan" : "字",
+            "romaji" : "じ",
+            "mean" : "character"
+        },
+        {
+            "japan" : "山",
+            "romaji" : "やま",
+            "mean" : "mountain"
+        },
+        {
+            "japan" : "川",
+            "romaji" : "かわ",
+            "mean" : "river"
+        },
+        {
+            "japan" : "田",
+            "romaji" : "た",
+            "mean" : "rice field"
+        },
+        {
+            "japan" : "石",
+            "romaji" : "いし",
+            "mean" : "stone"
+        }
+    ]
+}

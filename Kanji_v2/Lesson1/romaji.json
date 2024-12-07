@@ -1,0 +1,56 @@
+{
+    "title" : "第一課",
+    "vocabulary":
+    [
+        {
+            "japan" : "一",
+            "romaji" : "いち",
+            "mean" : "one"
+        },
+        {
+            "japan" : "二",
+            "romaji" : "に",
+            "mean" : "two"
+        },
+        {
+            "japan" : "三",
+            "romaji" : "さん",
+            "mean" : "three"
+        },
+        {
+            "japan" : "四",
+            "romaji" : "し/よん",
+            "mean" : "four"
+        },
+        {
+            "japan" : "五",
+            "romaji" : "ご",
+            "mean" : "five"
+        },
+        {
+            "japan" : "六",
+            "romaji" : "ろく",
+            "mean" : "six"
+        },
+        {
+            "japan" : "七",
+            "romaji" : "しち/なな",
+            "mean" : "seven"
+        },
+        {
+            "japan" : "八",
+            "romaji" : "はち",
+            "mean" : "eight"
+        },
+        {
+            "japan" : "九",
+            "romaji" : "きゅう",
+            "mean" : "nine"
+        },
+        {
+            "japan" : "十",
+            "romaji" : "じゅう",
+            "mean" : "ten"
+        }
+    ]
+}

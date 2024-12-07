@@ -1,46 +1,46 @@
 {
-    "title" : "第十三課",
+    "title" : "第十八課",
     "vocabulary":
     [
         {
-            "romaji" : "やかた",
-            "mean" : "palace"
+            "romaji" : "ち",
+            "mean" : "ground"
         },
         {
-            "romaji" : "えき",
-            "mean" : "station"
+            "romaji" : "どう",
+            "mean" : "hall"
         },
         {
-            "romaji" : "くろ",
-            "mean" : "black"
+            "romaji" : "ば",
+            "mean" : "place"
         },
         {
-            "romaji" : "ふ",
-            "mean" : "not"
+            "romaji" : "よる",
+            "mean" : "night"
         },
         {
-            "romaji" : "よ",
-            "mean" : "world"
+            "romaji" : "いもうと",
+            "mean" : "younger sister"
         },
         {
-            "romaji" : "きょう",
-            "mean" : "capital"
+            "romaji" : "あね",
+            "mean" : "older sister"
+        },
+        {
+            "romaji" : "しつ",
+            "mean" : "room"
+        },
+        {
+            "romaji" : "いえ",
+            "mean" : "house"
         },
         {
             "romaji" : "こう",
-            "mean" : "public"
+            "mean" : "worker"
         },
         {
-            "romaji" : "しゃ",
-            "mean" : "copy"
-        },
-        {
-            "romaji" : "べん",
-            "mean" : "study"
-        },
-        {
-            "romaji" : "い",
-            "mean" : "medicine"
+            "romaji" : "みせ",
+            "mean" : "shop"
         }
     ]
 }

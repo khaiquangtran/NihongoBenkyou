@@ -1,122 +1,56 @@
-[
-    {
-        "romaji" : "やま",
-        "mean" : "mountain"
-    },
-    {
-        "romaji" : "かわ",
-        "mean" : "river"
-    },
-    {
-        "romaji" : "そら",
-        "mean" : "sky"
-    },
-    {
-        "romaji" : "くうき",
-        "mean" : "air"
-    },
-    {
-        "romaji" : "はな",
-        "mean" : "flower"
-    },
-    {
-        "romaji" : "うし",
-        "mean" : "cow"
-    },
-    {
-        "romaji" : "うま",
-        "mean" : "horse"
-    },
-    {
-        "romaji" : "さかな",
-        "mean" : "fish"
-    },
-    {
-        "romaji" : "かい",
-        "mean" : "shell"
-    },
-    {
-        "romaji" : "にほんご",
-        "mean" : "japanese"
-    },
-    {
-        "romaji" : "ちゅうごくご",
-        "mean" : "chinese"
-    },
-    {
-        "romaji" : "えいご",
-        "mean" : "English"
-    },
-    {
-        "romaji" : "しんぶん",
-        "mean" : "newspaper"
-    },
-    {
-        "romaji" : "ほん",
-        "mean" : "book"
-    },
-    {
-        "romaji" : "てんき",
-        "mean" : "weather"
-    },
-    {
-        "romaji" : "あめ",
-        "mean" : "rain"
-    },
-    {
-        "romaji" : "おおきい",
-        "mean" : "big"
-    },
-    {
-        "romaji" : "ちいさい",
-        "mean" : "small"
-    },
-    {
-        "romaji" : "あたらしい",
-        "mean" : "new"
-    },
-    {
-        "romaji" : "ふるい",
-        "mean" : "old"
-    },
-    {
-        "romaji" : "たかい",
-        "mean" : "expensive/tall"
-    },
-    {
-        "romaji" : "やすい",
-        "mean" : "cheap"
-    },
-    {
-        "romaji" : "おおい",
-        "mean" : "many"
-    },
-    {
-        "romaji" : "にちようび",
-        "mean" : "sunday"
-    },
-    {
-        "romaji" : "げつようび",
-        "mean" : "monday"
-    },
-    {
-        "romaji" : "かようび",
-        "mean" : "tuesday"
-    },
-    {
-        "romaji" : "すいようび",
-        "mean" : "wednesday"
-    },
-    {
-        "romaji" : "もくようび",
-        "mean" : "thursday"
-    },
-    {
-        "romaji" : "きんようび",
-        "mean" : "friday"
-    },
-    {
-        "romaji" : "どようび",
-        "mean" : "staturday"
-    }
-]
+{
+    "title" : "第三課",
+    "vocabulary":
+    [
+        {
+            "japan" : "口",
+            "romaji" : "くち",
+            "mean" : "mouth"
+        },
+        {
+            "japan" : "目",
+            "romaji" : "め",
+            "mean" : "eye"
+        },
+        {
+            "japan" : "耳",
+            "romaji" : "mimi",
+            "mean" : "ear"
+        },
+        {
+            "japan" : "手",
+            "romaji" : "て",
+            "mean" : "hand"
+        },
+        {
+            "japan" : "足",
+            "romaji" : "あし",
+            "mean" : "foot"
+        },
+        {
+            "japan" : "体",
+            "romaji" : "からだ",
+            "mean" : "body"
+        },
+        {
+            "japan" : "力",
+            "romaji" : "ちから",
+            "mean" : "strength"
+        },
+        {
+            "japan" : "学",
+            "romaji" : "がく",
+            "mean" : "study"
+        },
+        {
+            "japan" : "校",
+            "romaji" : "こう",
+            "mean" : "school"
+        },
+        {
+            "japan" : "先",
+            "romaji" : "さき",
+            "mean" : "pointed end"
+        }
+    ]
+}

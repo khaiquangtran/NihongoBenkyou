@@ -3,54 +3,44 @@
     "vocabulary":
     [
         {
-            "japan" : "台",
-            "romaji" : "だい",
-            "mean" : "platform"
+            "romaji" : "こころ",
+            "mean" : "heart"
         },
         {
-            "japan" : "同",
-            "romaji" : "どう",
-            "mean" : "same"
+            "romaji" : "あく",
+            "mean" : "evil"
         },
         {
-            "japan" : "品",
-            "romaji" : "ひん",
-            "mean" : "goods"
+            "romaji" : "たび",
+            "mean" : "travel"
         },
         {
-            "japan" : "屋",
-            "romaji" : "や",
-            "mean" : "shop"
+            "romaji" : "ぞく",
+            "mean" : "tribe"
         },
         {
-            "japan" : "急",
-            "romaji" : "きゅう",
-            "mean" : "rapid"
+            "romaji" : "ひる",
+            "mean" : "daytime"
         },
         {
-            "japan" : "正",
-            "romaji" : "せい",
-            "mean" : "correct"
+            "romaji" : "ふく",
+            "mean" : "clothes"
         },
         {
-            "japan" : "洋",
-            "romaji" : "よう",
-            "mean" : "ocean"
+            "romaji" : "あさ",
+            "mean" : "asa"
         },
         {
-            "japan" : "特",
-            "romaji" : "とく",
-            "mean" : "special"
+            "romaji" : "うた",
+            "mean" : "song"
         },
         {
-            "japan" : "英",
-            "romaji" : "えい",
-            "mean" : "english"
+            "romaji" : "うみ",
+            "mean" : "sea"
         },
         {
-            "japan" : "質",
-            "romaji" : "しつ",
-            "mean" : "quality"
+            "romaji" : "が",
+            "mean" : "painting"
         }
     ]
 }

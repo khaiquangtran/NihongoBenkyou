@@ -1,46 +1,56 @@
 {
-    "title" : "第十三課",
+    "title" : "第十六課",
     "vocabulary":
     [
         {
-            "romaji" : "びょう",
-            "mean" : "illness"
+            "japan" : "休日",
+            "romaji" : "きゅうじつ",
+            "mean" : "holiday"
         },
         {
-            "romaji" : "はつ",
-            "mean" : "departure"
+            "japan" : "男子",
+            "romaji" : "だんし",
+            "mean" : "boy"
         },
         {
-            "romaji" : "しん",
-            "mean" : "truth"
+            "japan" : "女子",
+            "romaji" : "じょし",
+            "mean" : "girl"
         },
         {
-            "romaji" : "けん",
-            "mean" : "research"
+            "japan" : "花火",
+            "romaji" : "はなび",
+            "mean" : "fireworks"
         },
         {
-            "romaji" : "しゃ",
-            "mean" : "company"
+            "japan" : "見学",
+            "romaji" : "けんがく",
+            "mean" : "study by observation"
         },
         {
-            "romaji" : "わたし",
-            "mean" : "me"
+            "japan" : "空気",
+            "romaji" : "くうき",
+            "mean" : "air"
         },
         {
-            "romaji" : "かみ",
-            "mean" : "paper"
+            "japan" : "文字",
+            "romaji" : "もんじ",
+            "mean" : "character"
         },
         {
-            "romaji" : "もの",
-            "mean" : "person"
+            "japan" : "空手",
+            "romaji" : "からて",
+            "mean" : "karate"
         },
         {
-            "romaji" : "じ",
-            "mean" : "self"
+            "japan" : "年上",
+            "romaji" : "としうえ",
+            "mean" : "older"
         },
         {
-            "romaji" : "いろ",
-            "mean" : "color"
+            "japan" : "子犬",
+            "romaji" : "こいぬ",
+            "mean" : "puppy"
         }
     ]
 }

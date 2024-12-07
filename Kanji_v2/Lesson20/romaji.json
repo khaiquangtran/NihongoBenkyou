@@ -3,54 +3,44 @@
     "vocabulary":
     [
         {
-            "japan" : "野",
-            "romaji" : "の",
-            "mean" : "field"
+            "romaji" : "びょう",
+            "mean" : "illness"
         },
         {
-            "japan" : "院",
-            "romaji" : "いん",
-            "mean" : "institution"
+            "romaji" : "はつ",
+            "mean" : "departure"
         },
         {
-            "japan" : "借",
-            "romaji" : "か[りる]",
-            "mean" : "borrow"
+            "romaji" : "しん",
+            "mean" : "truth"
         },
         {
-            "japan" : "切",
-            "romaji" : "き[る]",
-            "mean" : "cut"
+            "romaji" : "けん",
+            "mean" : "research"
         },
         {
-            "japan" : "始",
-            "romaji" : "はじ[める]",
-            "mean" : "begin"
+            "romaji" : "しゃ",
+            "mean" : "company"
         },
         {
-            "japan" : "広",
-            "romaji" : "ひろ[い]",
-            "mean" : "wide"
+            "romaji" : "わたし",
+            "mean" : "me"
         },
         {
-            "japan" : "建",
-            "romaji" : "た[てる]",
-            "mean" : "build"
+            "romaji" : "かみ",
+            "mean" : "paper"
         },
         {
-            "japan" : "待",
-            "romaji" : "ま[つ]",
-            "mean" : "wait"
+            "romaji" : "もの",
+            "mean" : "person"
         },
         {
-            "japan" : "思",
-            "romaji" : "おも[う]",
-            "mean" : "think"
+            "romaji" : "じ",
+            "mean" : "self"
         },
         {
-            "japan" : "持",
-            "romaji" : "も[つ]",
-            "mean" : "hold"
+            "romaji" : "いろ",
+            "mean" : "color"
         }
     ]
 }

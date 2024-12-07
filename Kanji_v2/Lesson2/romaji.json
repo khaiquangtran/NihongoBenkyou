@@ -1,122 +1,56 @@
-[
-    {
-        "romaji" : "しろ",
-        "mean" : "white"
-    },
-    {
-        "romaji" : "くろ",
-        "mean" : "black"
-    },
-    {
-        "romaji" : "うえ",
-        "mean" : "above"
-    },
-    {
-        "romaji" : "した",
-        "mean" : "under"
-    },
-    {
-        "romaji" : "みぎ",
-        "mean" : "right"
-    },
-    {
-        "romaji" : "ひだり",
-        "mean" : "left"
-    },
-    {
-        "romaji" : "まえ",
-        "mean" : "front"
-    },
-    {
-        "romaji" : "うしろ",
-        "mean" : "back"
-    },
-    {
-        "romaji" : "なか",
-        "mean" : "inside"
-    },
-    {
-        "romaji" : "そと",
-        "mean" : "outside"
-    },
-    {
-        "romaji" : "きた",
-        "mean" : "North"
-    },
-    {
-        "romaji" : "みなみ",
-        "mean" : "South"
-    },
-    {
-        "romaji" : "ひがし",
-        "mean" : "East"
-    },
-    {
-        "romaji" : "にし",
-        "mean" : "West"
-    },
-    {
-        "romaji" : "じかん",
-        "mean" : "time"
-    },
-    {
-        "romaji" : "いっしゅうかん",
-        "mean" : "one week"
-    },
-    {
-        "romaji" : "まいにち",
-        "mean" : "every day"
-    },
-    {
-        "romaji" : "まいしゅう",
-        "mean" : "every week"
-    },
-    {
-        "romaji" : "まいとし",
-        "mean" : "every year"
-    },
-    {
-        "romaji" : "きょう",
-        "mean" : "today"
-    },
-    {
-        "romaji" : "あした",
-        "mean" : "tomorrow"
-    },
-    {
-        "romaji" : "こんしゅう",
-        "mean" : "this week"
-    },
-    {
-        "romaji" : "せんしゅう",
-        "mean" : "last week"
-    },
-    {
-        "romaji" : "らいしゅう",
-        "mean" : "next week"
-    },
-    {
-        "romaji" : "こんげつ",
-        "mean" : "this month"
-    },
-    {
-        "romaji" : "せんげつ",
-        "mean" : "last month"
-    },
-    {
-        "romaji" : "らいげつ",
-        "mean" : "next month"
-    },
-    {
-        "romaji" : "しんねん",
-        "mean" : "new year"
-    },
-    {
-        "romaji" : "ごぜん",
-        "mean" : "A.M."
-    },
-    {
-        "romaji" : "ごご",
-        "mean" : "P.M."
-    }
-]
+{
+    "title" : "第二課",
+    "vocabulary":
+    [
+        {
+            "japan" : "百",
+            "romaji" : "ひゃく",
+            "mean" : "hundred"
+        },
+        {
+            "japan" : "千",
+            "romaji" : "せん",
+            "mean" : "thousand"
+        },
+        {
+            "japan" : "万",
+            "romaji" : "まん",
+            "mean" : "ten thousand"
+        },
+        {
+            "japan" : "円",
+            "romaji" : "えん",
+            "mean" : "yen"
+        },
+        {
+            "japan" : "人",
+            "romaji" : "ひと",
+            "mean" : "person"
+        },
+        {
+            "japan" : "子",
+            "romaji" : "こ",
+            "mean" : "child"
+        },
+        {
+            "japan" : "男",
+            "romaji" : "おとこ",
+            "mean" : "man"
+        },
+        {
+            "japan" : "女",
+            "romaji" : "おんな",
+            "mean" : "woman"
+        },
+        {
+            "japan" : "父",
+            "romaji" : "ちち",
+            "mean" : "father"
+        },
+        {
+            "japan" : "母",
+            "romaji" : "はは",
+            "mean" : "mother"
+        }
+    ]
+}

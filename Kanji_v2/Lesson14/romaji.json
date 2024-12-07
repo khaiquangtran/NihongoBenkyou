@@ -1,46 +1,56 @@
 {
-    "title" : "第十三課",
+    "title" : "第十四課",
     "vocabulary":
     [
         {
-            "romaji" : "ち",
-            "mean" : "ground"
+            "japan" : "学校",
+            "romaji" : "がっこう",
+            "mean" : "school"
         },
         {
-            "romaji" : "どう",
-            "mean" : "hall"
+            "japan" : "先生",
+            "romaji" : "せんせい",
+            "mean" : "teacher"
         },
         {
-            "romaji" : "ば",
-            "mean" : "place"
+            "japan" : "人気",
+            "romaji" : "にんき",
+            "mean" : "popular"
         },
         {
-            "romaji" : "よる",
-            "mean" : "night"
+            "japan" : "大学",
+            "romaji" : "だいがく",
+            "mean" : "university"
         },
         {
-            "romaji" : "いもうと",
-            "mean" : "younger sister"
+            "japan" : "下山",
+            "romaji" : "げざん",
+            "mean" : "descent from the mountain"
         },
         {
-            "romaji" : "あね",
-            "mean" : "older sister"
+            "japan" : "夕日",
+            "romaji" : "ゆうひ",
+            "mean" : "sunset"
         },
         {
-            "romaji" : "しつ",
-            "mean" : "room"
+            "japan" : "火山",
+            "romaji" : "かざん",
+            "mean" : "volcano"
         },
         {
-            "romaji" : "いえ",
-            "mean" : "house"
+            "japan" : "入金",
+            "romaji" : "にゅうきん",
+            "mean" : "money received"
         },
         {
-            "romaji" : "こう",
-            "mean" : "worker"
+            "japan" : "花見",
+            "romaji" : "はなみ",
+            "mean" : "cherry-blossom viewing"
         },
         {
-            "romaji" : "みせ",
-            "mean" : "shop"
+            "japan" : "出口",
+            "romaji" : "でぐち",
+            "mean" : "exit"
         }
     ]
 }

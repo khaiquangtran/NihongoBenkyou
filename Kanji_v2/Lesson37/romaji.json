@@ -1,0 +1,31 @@
+{
+    "title" : "第三十七課",
+    "vocabulary":
+    [
+        {
+            "japan" : "作文",
+            "romaji" : "さくぶん",
+            "mean" : "writing"
+        },
+        {
+            "japan" : "売買",
+            "romaji" : "ばいばい",
+            "mean" : "buying and selling"
+        },
+        {
+            "japan" : "強力",
+            "romaji" : "きょうりょく",
+            "mean" : "powerful"
+        },
+        {
+            "japan" : "転校",
+            "romaji" : "てんこう",
+            "mean" : "change schools"
+        },
+        {
+            "japan" : "運転",
+            "romaji" : "うんてん",
+            "mean" : "driving"
+        }
+    ]
+}

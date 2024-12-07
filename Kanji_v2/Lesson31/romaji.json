@@ -3,54 +3,54 @@
     "vocabulary":
     [
         {
-            "japan" : "駅員",
-            "romaji" : "えきいん",
-            "mean" : "station staff"
+            "japan" : "工事",
+            "romaji" : "こうじ",
+            "mean" : "construction"
         },
         {
-            "japan" : "実験",
-            "romaji" : "じっけん",
-            "mean" : "experiment"
+            "japan" : "書店",
+            "romaji" : "しょてん",
+            "mean" : "bookstore"
         },
         {
-            "japan" : "黒板",
-            "romaji" : "こくばん",
-            "mean" : "blackboard"
+            "japan" : "弟子",
+            "romaji" : "でし",
+            "mean" : "disciple"
         },
         {
-            "japan" : "借金",
-            "romaji" : "しゃっきん",
-            "mean" : "debt"
+            "japan" : "悪口",
+            "romaji" : "わるぐち",
+            "mean" : "slander"
         },
         {
-            "japan" : "広場",
-            "romaji" : "ひろば",
-            "mean" : "plaza"
+            "japan" : "意味",
+            "romaji" : "いみ",
+            "mean" : "meaning"
         },
         {
-            "japan" : "建物",
-            "romaji" : "たてもの",
-            "mean" : "building"
+            "japan" : "料理",
+            "romaji" : "りょうり",
+            "mean" : "cooking"
         },
         {
-            "japan" : "思考",
-            "romaji" : "しこう",
-            "mean" : "thinking"
+            "japan" : "方向",
+            "romaji" : "ほうこう",
+            "mean" : "direction"
         },
         {
-            "japan" : "教会",
-            "romaji" : "きょうかい",
-            "mean" : "church"
+            "japan" : "旅行",
+            "romaji" : "りょこう",
+            "mean" : "travel"
         },
         {
-            "japan" : "音楽",
-            "romaji" : "おんがく",
-            "mean" : "music"
+            "japan" : "民族",
+            "romaji" : "みんぞく",
+            "mean" : "ethnicity"
         },
         {
-            "japan" : "中止",
-            "romaji" : "ちゅうし",
-            "mean" : "cancel"
+            "japan" : "映画",
+            "romaji" : "えいが",
+            "mean" : "movie"
         }
     ]
 }

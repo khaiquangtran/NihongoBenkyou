@@ -3,54 +3,54 @@
     "vocabulary":
     [
         {
-            "japan" : "公園",
-            "romaji" : "こうえん",
-            "mean" : "park"
+            "japan" : "教",
+            "romaji" : "おし[える]",
+            "mean" : "teach"
         },
         {
-            "japan" : "写真",
-            "romaji" : "しゃしん",
-            "mean" : "photograph"
+            "japan" : "早",
+            "romaji" : "はや[い]",
+            "mean" : "early"
         },
         {
-            "japan" : "勉強",
-            "romaji" : "べんきょう",
-            "mean" : "study"
+            "japan" : "楽",
+            "romaji" : "たの[しい]",
+            "mean" : "enjoyable"
         },
         {
-            "japan" : "医者",
-            "romaji" : "いしゃ",
-            "mean" : "doctor"
+            "japan" : "止",
+            "romaji" : "と[まる]",
+            "mean" : "stop"
         },
         {
-            "japan" : "去年",
-            "romaji" : "きょねん",
-            "mean" : "last year"
+            "japan" : "歩",
+            "romaji" : "ある[く]",
+            "mean" : "walk"
         },
         {
-            "japan" : "台所",
-            "romaji" : "だいどころ",
-            "mean" : "kitchen"
+            "japan" : "着",
+            "romaji" : "き[る]",
+            "mean" : "wear"
         },
         {
-            "japan" : "味方",
-            "romaji" : "みかた",
-            "mean" : "ally"
+            "japan" : "知",
+            "romaji" : "し[る]",
+            "mean" : "know"
         },
         {
-            "japan" : "品質",
-            "romaji" : "ひんしつ",
-            "mean" : "quality"
+            "japan" : "答",
+            "romaji" : "こた[える]",
+            "mean" : "answer"
         },
         {
-            "japan" : "店員",
-            "romaji" : "てんいん",
-            "mean" : "salesperson"
+            "japan" : "終",
+            "romaji" : "お[わる]",
+            "mean" : "end"
         },
         {
-            "japan" : "問題",
-            "romaji" : "もんだい",
-            "mean" : "problem"
+            "japan" : "習",
+            "romaji" : "なら[う]",
+            "mean" : "learn"
         }
     ]
 }

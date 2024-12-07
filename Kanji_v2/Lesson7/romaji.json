@@ -1,0 +1,56 @@
+{
+    "title" : "第七課",
+    "vocabulary":
+    [
+        {
+            "japan" : "土",
+            "romaji" : "つち",
+            "mean" : "soil"
+        },
+        {
+            "japan" : "日",
+            "romaji" : "に",
+            "mean" : "sun"
+        },
+        {
+            "japan" : "米",
+            "romaji" : "こめ",
+            "mean" : "rice"
+        },
+        {
+            "japan" : "肉",
+            "romaji" : "にく",
+            "mean" : "meat"
+        },
+        {
+            "japan" : "茶",
+            "romaji" : "ちゃ",
+            "mean" : "tea"
+        },
+        {
+            "japan" : "今",
+            "romaji" : "いま",
+            "mean" : "now"
+        },
+        {
+            "japan" : "何",
+            "romaji" : "なに",
+            "mean" : "what"
+        },
+        {
+            "japan" : "分",
+            "romaji" : "ふん",
+            "mean" : "minute"
+        },
+        {
+            "japan" : "半",
+            "romaji" : "はん",
+            "mean" : "half"
+        },
+        {
+            "japan" : "時",
+            "romaji" : "とき",
+            "mean" : "time"
+        }
+    ]
+}

@@ -3,54 +3,54 @@
     "vocabulary":
     [
         {
-            "japan" : "地図",
-            "romaji" : "ちず",
-            "mean" : "map"
+            "japan" : "考",
+            "romaji" : "かんが[える]",
+            "mean" : "consider"
         },
         {
-            "japan" : "地方",
-            "romaji" : "ちほう",
-            "mean" : "locality"
+            "japan" : "貸",
+            "romaji" : "か[す]",
+            "mean" : "lend"
         },
         {
-            "japan" : "食堂",
-            "romaji" : "しょくどう",
-            "mean" : "dining hall"
+            "japan" : "走",
+            "romaji" : "はし[る]",
+            "mean" : "run"
         },
         {
-            "japan" : "工場",
-            "romaji" : "こうじょう",
-            "mean" : "factory"
+            "japan" : "近",
+            "romaji" : "ちか[い]",
+            "mean" : "near"
         },
         {
-            "japan" : "夜空",
-            "romaji" : "よぞら",
-            "mean" : "night sky"
+            "japan" : "送",
+            "romaji" : "おく[る]",
+            "mean" : "send"
         },
         {
-            "japan" : "姉妹",
-            "romaji" : "しまい",
-            "mean" : "sisters"
+            "japan" : "通",
+            "romaji" : "とお[る]",
+            "mean" : "go through"
         },
         {
-            "japan" : "安全",
-            "romaji" : "あんぜん",
-            "mean" : "safety"
+            "japan" : "重",
+            "romaji" : "おも[い]",
+            "mean" : "heavy"
         },
         {
-            "japan" : "教室",
-            "romaji" : "きょうしつ",
-            "mean" : "classroom"
+            "japan" : "開",
+            "romaji" : "ひら[く]",
+            "mean" : "open"
         },
         {
-            "japan" : "家族",
-            "romaji" : "かぞく",
-            "mean" : "family"
+            "japan" : "集",
+            "romaji" : "あつ[める]",
+            "mean" : "collect"
         },
         {
-            "japan" : "屋内",
-            "romaji" : "おくない",
-            "mean" : "indoors"
+            "japan" : "動",
+            "romaji" : "うご[く]",
+            "mean" : "move"
         }
     ]
 }

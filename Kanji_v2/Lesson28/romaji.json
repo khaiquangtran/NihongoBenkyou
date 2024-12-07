@@ -3,54 +3,54 @@
     "vocabulary":
     [
         {
-            "japan" : "昼食",
-            "romaji" : "ちゅうしょく",
-            "mean" : "lunch"
+            "japan" : "去",
+            "romaji" : "さ[る]",
+            "mean" : "leave"
         },
         {
-            "japan" : "月曜",
-            "romaji" : "げつよう",
-            "mean" : "monday"
+            "japan" : "安",
+            "romaji" : "やす[い]",
+            "mean" : "cheap"
         },
         {
-            "japan" : "有名",
-            "romaji" : "ゆうめい",
-            "mean" : "famous"
+            "japan" : "注",
+            "romaji" : "そそ[ぐ]",
+            "mean" : "pour"
         },
         {
-            "japan" : "洋服",
-            "romaji" : "ようふく",
-            "mean" : "western style clothes"
+            "japan" : "不安",
+            "romaji" : "ふあん",
+            "mean" : "anxiety"
         },
         {
-            "japan" : "朝食",
-            "romaji" : "ちょうしょく",
-            "mean" : "breakfast"
+            "japan" : "世界",
+            "romaji" : "せかい",
+            "mean" : "world"
         },
         {
-            "japan" : "歌声",
-            "romaji" : "うたごえ",
-            "mean" : "singing voice"
+            "japan" : "主人",
+            "romaji" : "しゅじん",
+            "mean" : "one's husband"
         },
         {
-            "japan" : "正午",
-            "romaji" : "しょうご",
-            "mean" : "noon"
+            "japan" : "事業",
+            "romaji" : "じぎょう",
+            "mean" : "business"
         },
         {
-            "japan" : "注文",
-            "romaji" : "ちゅうもん",
-            "mean" : "order"
+            "japan" : "東京",
+            "romaji" : "とうきょう",
+            "mean" : "Tokyo"
         },
         {
-            "japan" : "海水",
-            "romaji" : "かいすい",
-            "mean" : "seawater"
+            "japan" : "世代",
+            "romaji" : "せだい",
+            "mean" : "generation"
         },
         {
-            "japan" : "漢字",
-            "romaji" : "かんじ",
-            "mean" : "Chinese characters"
+            "japan" : "兄弟",
+            "romaji" : "きょうだい",
+            "mean" : "brothers"
         }
     ]
 }

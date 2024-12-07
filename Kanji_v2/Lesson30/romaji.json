@@ -3,54 +3,54 @@
     "vocabulary":
     [
         {
-            "japan" : "親子",
-            "romaji" : "おやこ",
-            "mean" : "parent and child"
+            "japan" : "地図",
+            "romaji" : "ちず",
+            "mean" : "map"
         },
         {
-            "japan" : "時計",
-            "romaji" : "とけい",
-            "mean" : "clock"
+            "japan" : "地方",
+            "romaji" : "ちほう",
+            "mean" : "locality"
         },
         {
-            "japan" : "赤道",
-            "romaji" : "せきどう",
-            "mean" : "equator"
+            "japan" : "食堂",
+            "romaji" : "しょくどう",
+            "mean" : "dining hall"
         },
         {
-            "japan" : "茶道",
-            "romaji" : "さどう",
-            "mean" : "tea ceremony"
+            "japan" : "工場",
+            "romaji" : "こうじょう",
+            "mean" : "factory"
         },
         {
-            "japan" : "銀行",
-            "romaji" : "ぎんこう",
-            "mean" : "bank"
+            "japan" : "夜空",
+            "romaji" : "よぞら",
+            "mean" : "night sky"
         },
         {
-            "japan" : "病院",
-            "romaji" : "びょういん",
-            "mean" : "hospital"
+            "japan" : "姉妹",
+            "romaji" : "しまい",
+            "mean" : "sisters"
         },
         {
-            "japan" : "青色",
-            "romaji" : "あおいろ",
-            "mean" : "blue color"
+            "japan" : "安全",
+            "romaji" : "あんぜん",
+            "mean" : "safety"
         },
         {
-            "japan" : "台風",
-            "romaji" : "たいふう",
-            "mean" : "typhoon"
+            "japan" : "教室",
+            "romaji" : "きょうしつ",
+            "mean" : "classroom"
         },
         {
-            "japan" : "赤飯",
-            "romaji" : "せきはん",
-            "mean" : "red rice"
+            "japan" : "家族",
+            "romaji" : "かぞく",
+            "mean" : "family"
         },
         {
-            "japan" : "旅館",
-            "romaji" : "りょかん",
-            "mean" : "ryokan"
+            "japan" : "屋内",
+            "romaji" : "おくない",
+            "mean" : "indoors"
         }
     ]
 }

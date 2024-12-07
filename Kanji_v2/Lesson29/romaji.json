@@ -3,54 +3,54 @@
     "vocabulary":
     [
         {
-            "japan" : "特別",
-            "romaji" : "とくべつ",
-            "mean" : "special"
+            "japan" : "公園",
+            "romaji" : "こうえん",
+            "mean" : "park"
         },
         {
-            "japan" : "使用",
-            "romaji" : "しよう",
-            "mean" : "use"
+            "japan" : "写真",
+            "romaji" : "しゃしん",
+            "mean" : "photograph"
         },
         {
-            "japan" : "画家",
-            "romaji" : "がか",
-            "mean" : "painter"
+            "japan" : "勉強",
+            "romaji" : "べんきょう",
+            "mean" : "study"
         },
         {
-            "japan" : "病気",
-            "romaji" : "びょうき",
-            "mean" : "illness"
+            "japan" : "医者",
+            "romaji" : "いしゃ",
+            "mean" : "doctor"
         },
         {
-            "japan" : "出発",
-            "romaji" : "しゅっぱつ",
-            "mean" : "departure"
+            "japan" : "去年",
+            "romaji" : "きょねん",
+            "mean" : "last year"
         },
         {
-            "japan" : "研究",
-            "romaji" : "けんきゅう",
-            "mean" : "research"
+            "japan" : "台所",
+            "romaji" : "だいどころ",
+            "mean" : "kitchen"
         },
         {
-            "japan" : "社長",
-            "romaji" : "しゃちょう",
-            "mean" : "president"
+            "japan" : "味方",
+            "romaji" : "みかた",
+            "mean" : "ally"
         },
         {
-            "japan" : "読者",
-            "romaji" : "どくしゃ",
-            "mean" : "reader"
+            "japan" : "品質",
+            "romaji" : "ひんしつ",
+            "mean" : "quality"
         },
         {
-            "japan" : "自分",
-            "romaji" : "じぶん",
-            "mean" : "self"
+            "japan" : "店員",
+            "romaji" : "てんいん",
+            "mean" : "salesperson"
         },
         {
-            "japan" : "英文",
-            "romaji" : "えいぶん",
-            "mean" : "english sentence"
+            "japan" : "問題",
+            "romaji" : "もんだい",
+            "mean" : "problem"
         }
     ]
 }

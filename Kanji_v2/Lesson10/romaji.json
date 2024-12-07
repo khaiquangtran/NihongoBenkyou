@@ -1,0 +1,56 @@
+{
+    "title" : "第十課",
+    "vocabulary":
+    [
+        {
+            "japan" : "多",
+            "romaji" : "おおい",
+            "mean" : "many"
+        },
+        {
+            "japan" : "少",
+            "romaji" : "すく[ない]",
+            "mean" : "few"
+        },
+        {
+            "japan" : "新",
+            "romaji" : "あたら[しい]",
+            "mean" : "new"
+        },
+        {
+            "japan" : "古",
+            "romaji" : "ふる[い]",
+            "mean" : "old"
+        },
+        {
+            "japan" : "明",
+            "romaji" : "あか[るい]",
+            "mean" : "bright"
+        },
+        {
+            "japan" : "暗",
+            "romaji" : "くら[い]",
+            "mean" : "dark"
+        },
+        {
+            "japan" : "長",
+            "romaji" : "なが[い]",
+            "mean" : "long"
+        },
+        {
+            "japan" : "元",
+            "romaji" : "げん",
+            "mean" : "origin"
+        },
+        {
+            "japan" : "気",
+            "romaji" : "き",
+            "mean" : "spirit"
+        },
+        {
+            "japan" : "好",
+            "romaji" : "す[き]",
+            "mean" : "like"
+        }
+    ]
+}

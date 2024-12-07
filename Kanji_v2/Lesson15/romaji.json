@@ -1,46 +1,56 @@
 {
-    "title" : "第十三課",
+    "title" : "第十五課",
     "vocabulary":
     [
         {
-            "romaji" : "こころ",
-            "mean" : "heart"
+            "japan" : "入口",
+            "romaji" : "いりぐち",
+            "mean" : "entrance"
         },
         {
-            "romaji" : "あく",
-            "mean" : "evil"
+            "japan" : "左手",
+            "romaji" : "ひだりて",
+            "mean" : "left hand"
         },
         {
-            "romaji" : "たび",
-            "mean" : "travel"
+            "japan" : "右手",
+            "romaji" : "みぎて",
+            "mean" : "right hand"
         },
         {
-            "romaji" : "ぞく",
-            "mean" : "tribe"
+            "japan" : "土日",
+            "romaji" : "どにち",
+            "mean" : "weekend"
         },
         {
-            "romaji" : "ひる",
-            "mean" : "daytime"
+            "japan" : "大雨",
+            "romaji" : "おおあめ",
+            "mean" : "heavy rain"
         },
         {
-            "romaji" : "ふく",
-            "mean" : "clothes"
+            "japan" : "本気",
+            "romaji" : "ほんき",
+            "mean" : "serious"
         },
         {
-            "romaji" : "あさ",
-            "mean" : "asa"
+            "japan" : "入手",
+            "romaji" : "にゅうしゅ",
+            "mean" : "acquire"
         },
         {
-            "romaji" : "うた",
-            "mean" : "song"
+            "japan" : "入学",
+            "romaji" : "にゅうがく",
+            "mean" : "admission"
         },
         {
-            "romaji" : "うみ",
-            "mean" : "sea"
+            "japan" : "男女",
+            "romaji" : "だんじょ",
+            "mean" : "gender"
         },
         {
-            "romaji" : "が",
-            "mean" : "painting"
+            "japan" : "人口",
+            "romaji" : "じんこう",
+            "mean" : "population"
         }
     ]
 }

@@ -1,0 +1,56 @@
+{
+    "title" : "第六課",
+    "vocabulary":
+    [
+        {
+            "japan" : "牛",
+            "romaji" : "うし",
+            "mean" : "cow"
+        },
+        {
+            "japan" : "魚",
+            "romaji" : "さかな",
+            "mean" : "fish"
+        },
+        {
+            "japan" : "鳥",
+            "romaji" : "とり",
+            "mean" : "bird"
+        },
+        {
+            "japan" : "天",
+            "romaji" : "てん",
+            "mean" : "heaven"
+        },
+        {
+            "japan" : "空",
+            "romaji" : "そら",
+            "mean" : "sky"
+        },
+        {
+            "japan" : "月",
+            "romaji" : "つき",
+            "mean" : "moon"
+        },
+        {
+            "japan" : "火",
+            "romaji" : "ひ",
+            "mean" : "fire"
+        },
+        {
+            "japan" : "水",
+            "romaji" : "みず",
+            "mean" : "water"
+        },
+        {
+            "japan" : "木",
+            "romaji" : "き",
+            "mean" : "tree"
+        },
+        {
+            "japan" : "金",
+            "romaji" : "きん",
+            "mean" : "gold"
+        }
+    ]
+}

@@ -3,54 +3,54 @@
     "vocabulary":
     [
         {
-            "japan" : "歩行",
-            "romaji" : "ほこう",
-            "mean" : "walking"
+            "japan" : "昼食",
+            "romaji" : "ちゅうしょく",
+            "mean" : "lunch"
         },
         {
-            "japan" : "着地",
-            "romaji" : "ちゃくち",
-            "mean" : "landing"
+            "japan" : "月曜",
+            "romaji" : "げつよう",
+            "mean" : "monday"
         },
         {
-            "japan" : "学習",
-            "romaji" : "がくしゅう",
-            "mean" : "study"
+            "japan" : "有名",
+            "romaji" : "ゆうめい",
+            "mean" : "famous"
         },
         {
-            "japan" : "走行",
-            "romaji" : "そうこう",
-            "mean" : "driving"
+            "japan" : "洋服",
+            "romaji" : "ようふく",
+            "mean" : "western style clothes"
         },
         {
-            "japan" : "近道",
-            "romaji" : "ちかみち",
-            "mean" : "shortcut"
+            "japan" : "朝食",
+            "romaji" : "ちょうしょく",
+            "mean" : "breakfast"
         },
         {
-            "japan" : "送金",
-            "romaji" : "そうきん",
-            "mean" : "remittance"
+            "japan" : "歌声",
+            "romaji" : "うたごえ",
+            "mean" : "singing voice"
         },
         {
-            "japan" : "通学",
-            "romaji" : "つうがく",
-            "mean" : "commuting to school"
+            "japan" : "正午",
+            "romaji" : "しょうご",
+            "mean" : "noon"
         },
         {
-            "japan" : "集中",
-            "romaji" : "しゅうちゅう",
-            "mean" : "concentration"
+            "japan" : "注文",
+            "romaji" : "ちゅうもん",
+            "mean" : "order"
         },
         {
-            "japan" : "運動",
-            "romaji" : "うんどう",
-            "mean" : "exercise"
+            "japan" : "海水",
+            "romaji" : "かいすい",
+            "mean" : "seawater"
         },
         {
-            "japan" : "会話",
-            "romaji" : "かいわ",
-            "mean" : "conversation"
+            "japan" : "漢字",
+            "romaji" : "かんじ",
+            "mean" : "Chinese characters"
         }
     ]
 }

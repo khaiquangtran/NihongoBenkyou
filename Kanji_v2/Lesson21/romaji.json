@@ -3,54 +3,44 @@
     "vocabulary":
     [
         {
-            "japan" : "教",
-            "romaji" : "おし[える]",
-            "mean" : "teach"
+            "romaji" : "おや",
+            "mean" : "parent"
         },
         {
-            "japan" : "早",
-            "romaji" : "はや[い]",
-            "mean" : "early"
+            "romaji" : "けい",
+            "mean" : "calculate"
         },
         {
-            "japan" : "楽",
-            "romaji" : "たの[しい]",
-            "mean" : "enjoyable"
+            "romaji" : "し",
+            "mean" : "trial"
         },
         {
-            "japan" : "止",
-            "romaji" : "と[まる]",
-            "mean" : "stop"
+            "romaji" : "あか",
+            "mean" : "red"
         },
         {
-            "japan" : "歩",
-            "romaji" : "ある[く]",
-            "mean" : "walk"
+            "romaji" : "しゅう",
+            "mean" : "week"
         },
         {
-            "japan" : "着",
-            "romaji" : "き[る]",
-            "mean" : "wear"
+            "romaji" : "みち",
+            "mean" : "road"
         },
         {
-            "japan" : "知",
-            "romaji" : "し[る]",
-            "mean" : "know"
+            "romaji" : "ぎん",
+            "mean" : "silver"
         },
         {
-            "japan" : "答",
-            "romaji" : "こた[える]",
-            "mean" : "answer"
+            "romaji" : "あお",
+            "mean" : "blue"
         },
         {
-            "japan" : "終",
-            "romaji" : "お[わる]",
-            "mean" : "end"
+            "romaji" : "かぜ",
+            "mean" : "wind"
         },
         {
-            "japan" : "習",
-            "romaji" : "なら[う]",
-            "mean" : "learn"
+            "romaji" : "めし",
+            "mean" : "rice"
         }
     ]
 }

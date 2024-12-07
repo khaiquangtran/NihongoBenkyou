@@ -1,0 +1,56 @@
+{
+    "title" : "第十一課",
+    "vocabulary":
+    [
+        {
+            "japan" : "物",
+            "romaji" : "もの",
+            "mean" : "object"
+        },
+        {
+            "japan" : "見",
+            "romaji" : "み[る]",
+            "mean" : "see"
+        },
+        {
+            "japan" : "立",
+            "romaji" : "た[つ]",
+            "mean" : "stand"
+        },
+        {
+            "japan" : "入",
+            "romaji" : "はい[る]",
+            "mean" : "enter"
+        },
+        {
+            "japan" : "出",
+            "romaji" : "で[る]",
+            "mean" : "exit"
+        },
+        {
+            "japan" : "休",
+            "romaji" : "やすみ",
+            "mean" : "rest"
+        },
+        {
+            "japan" : "行",
+            "romaji" : "い[く]",
+            "mean" : "go"
+        },
+        {
+            "japan" : "来",
+            "romaji" : "く[る]",
+            "mean" : "come"
+        },
+        {
+            "japan" : "言",
+            "romaji" : "い[う]",
+            "mean" : "nine"
+        },
+        {
+            "japan" : "帰",
+            "romaji" : "かえ[る]",
+            "mean" : "return"
+        }
+    ]
+}

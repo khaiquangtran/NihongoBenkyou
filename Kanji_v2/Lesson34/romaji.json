@@ -1,0 +1,56 @@
+{
+    "title" : "第三十四課",
+    "vocabulary":
+    [
+        {
+            "japan" : "親子",
+            "romaji" : "おやこ",
+            "mean" : "parent and child"
+        },
+        {
+            "japan" : "時計",
+            "romaji" : "とけい",
+            "mean" : "clock"
+        },
+        {
+            "japan" : "赤道",
+            "romaji" : "せきどう",
+            "mean" : "equator"
+        },
+        {
+            "japan" : "茶道",
+            "romaji" : "さどう",
+            "mean" : "tea ceremony"
+        },
+        {
+            "japan" : "銀行",
+            "romaji" : "ぎんこう",
+            "mean" : "bank"
+        },
+        {
+            "japan" : "病院",
+            "romaji" : "びょういん",
+            "mean" : "hospital"
+        },
+        {
+            "japan" : "青色",
+            "romaji" : "あおいろ",
+            "mean" : "blue color"
+        },
+        {
+            "japan" : "台風",
+            "romaji" : "たいふう",
+            "mean" : "typhoon"
+        },
+        {
+            "japan" : "赤飯",
+            "romaji" : "せきはん",
+            "mean" : "red rice"
+        },
+        {
+            "japan" : "旅館",
+            "romaji" : "りょかん",
+            "mean" : "ryokan"
+        }
+    ]
+}
