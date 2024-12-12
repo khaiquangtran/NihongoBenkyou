@@ -12,6 +12,7 @@
 
 <body id="Background">
     <div id="snow_fall"></div>
+
     <div class="container" >
         <div class="menu-bar">
             <ul>
@@ -449,29 +450,63 @@
                 <li><a href="#">語彙</a>
                         <div class="sub-menu-images goi">
                             <ul>
-                                <li><a href="Goi/kuni/index.html">国・人・ことば</a></li>
-                                <li><a href="Goi/suuji/index.html">数字</a></li>
-                                <li><a href="Goi/kisetsu/index.html">季節</a></li>
-                                <li><a href="Goi/jikan/index.html">時間</a></li>
-                                <li><a href="Goi/tabemono/index.html">食べ物</a></li>
-                                <li><a href="Goi/nomimono/index.html">飲み物</a></li>
+                                <li><a href="Goi/kuni/index.html" target="_blank">国・人・ことば</a></li>
+                                <li><a href="Goi/suuji/index.html" target="_blank">数字</a></li>
+                                <li><a href="Goi/kisetsu/index.html" target="_blank">季節</a></li>
+                                <li><a href="Goi/jikan/index.html" target="_blank">時間</a></li>
+                                <li><a href="Goi/tabemono/index.html" target="_blank">食べ物</a></li>
+                                <li><a href="Goi/nomimono/index.html" target="_blank">飲み物</a></li>
                                 <!-- <li><a href="Goi/shigoto/index.html">仕事</a></li> -->
-                                <li><a href="Goi/basho/index.html">場所</a></li>
-                                <li><a href="Goi/fun/index.html">分</a></li>
-                                <li><a href="Goi/doushi/index.html">動詞</a></li>
-                                <li><a href="Goi/koutsuushudan/index.html">交通手段</a></li>
-                                <li><a href="Goi/nichi/index.html">日</a></li>
-                                <li><a href="Goi/gatsu/index.html">月</a></li>
-                                <li><a href="Goi/keiyoushi/index.html">形容詞 </a></li>
-                                <li><a href="Goi/iro/index.html">色・味</a></li>
-                                <li><a href="Goi/kazoku/index.html">家族</a></li>
-                                <li><a href="Goi/shokugyou/index.html">職業</a></li>
+                                <li><a href="Goi/basho/index.html" target="_blank">場所</a></li>
+                                <li><a href="Goi/fun/index.html" target="_blank">分</a></li>
+                                <li><a href="Goi/doushi/index.html" target="_blank">動詞</a></li>
+                                <li><a href="Goi/koutsuushudan/index.html" target="_blank">交通手段</a></li>
+                                <li><a href="Goi/nichi/index.html" target="_blank">日</a></li>
+                                <li><a href="Goi/gatsu/index.html" target="_blank">月</a></li>
+                                <li><a href="Goi/keiyoushi/index.html" target="_blank">形容詞 </a></li>
+                                <li><a href="Goi/iro/index.html" target="_blank">色・味</a></li>
+                                <li><a href="Goi/kazoku/index.html" target="_blank">家族</a></li>
+                                <li><a href="Goi/shokugyou/index.html" target="_blank">職業</a></li>
                             </ul>
                         </div>
                     </li>
             </ul>
         </div>
-
+        <div id="time">
+            <div class="circle" style="--clr:#ff2972">
+                <div class="dots day_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="dd"></circle>
+                </svg>
+                <div id="days">00<br><span>Days</span></div>
+            </div>
+            <div class="circle" style="--clr:#00bcd4">
+                <div class="dots hr_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="hh"></circle>
+                </svg>
+                <div id="hours">00</div>
+            </div>
+            <div class="circle" style="--clr:#fee800">
+                <div class="dots min_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="mm"></circle>
+                </svg>
+                <div id="minutes">00</div>
+            </div>
+            <div class="circle" style="--clr:#04fc43">
+                <div class="dots sec_dot"></div>
+                <svg>
+                    <circle cx="70" cy="70" r="70"></circle>
+                    <circle cx="70" cy="70" r="70" id="ss"></circle>
+                </svg>
+                <div id="seconds">00</div>
+            </div>
+        </div>
+        <h2 class="newYear">2025<br><span>Happy New Year</span></h2>
         <div class="footer">
             <img src="https://hitwebcounter.com/counter/counter.php?page=11583648&style=0006&nbdigits=7&type=page&initCount=0"
                 title="Counter Widget" Alt="Visit counter For Websites" />
@@ -479,8 +514,8 @@
     </div>
 
     <script type="text/javascript" src="Home/script.js"></script>
-    <script src="Home/Snowfall/particles.js"></script>
-    <script src="Home/Snowfall/app.js"></script>
+    <!-- <script src="Home/Snowfall/particles.js"></script> -->
+    <!-- <script src="Home/Snowfall/app.js"></script> -->
 </body>
 
 </html>
