@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("../Images/ocean.jpg");
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+}
+
+.container .btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 70px 20px;
+  gap: 25px 20px;
+}
+
+.japan {
+  position: absolute;
+  top: -10%;
+  font-size: 85px;
+  font-weight: bold;
+  font-family: "Sawarabi Mincho", serif;
+  color: white;
+}
+
+.romaji {
+  position: absolute;
+  top: 70%;
+  font-size: 25px;
+  /* font-weight: bold; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.homeBtn {
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 1vh;
+  z-index: 2;
+  background: #cc5500;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+dialog {
+  margin: 0;
+  top: 20%;
+  left: 10%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+dialog {
+  opacity: 0;
+  transform: scaleY(0);
+  visibility: hidden;
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+dialog[open] {
+  opacity: 1;
+  transform: scaleY(1);
+  visibility: visible;
+}
+
+/*   Before-open state  */
+/* Needs to be after the previous dialog[open] rule to take effect,
+    as the specificity is the same */
+@starting-style {
+  dialog[open] {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.7s ease-out;
+}
+
+dialog[open]::backdrop {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.dialimage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialread
+{
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: white; */
+}
+
+.dialread p
+{
+  color: black;
+}
+
+.image-container img
+{
+  display: flex;
+  width: 860px;
+  height: 860px;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  gap: 0;
+}
+
+.border_left
+{
+  /* top-left | top-right | bottom-right | bottom-left */
+  border-radius: 10px 0 0 10px;
+}
+
+.border_right
+{
+  /* top-left | top-right | bottom-right | bottom-left */
+  border-radius: 0 10px 10px 0;
+}

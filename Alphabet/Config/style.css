@@ -193,6 +193,7 @@ dialog {
 
 dialog img {
   width: 275px;
+  border-radius: 20px;
 }
 
 .overlay {

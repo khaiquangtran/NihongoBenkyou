@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>日本地図</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../Home/Images/japanese-alphabet.png"
+    />
+    <link rel="stylesheet" type="text/css" href="Config/style.css" />
+  </head>
+
+  <body id="Background">
+    <div class="container">
+      <div class="diaglog">
+        <dialog id="hokkaido">
+          <div class="dialimage">
+            <img id="hokkaidoimage1" class="border_left"/>
+            <img id="hokkaidoimage2"/>
+            <img id="hokkaidoimage3" class="border_right"/>
+          </div>
+          <div class="dialread">
+            <p>ほっかいどう</p>
+          </div>
+        </dialog>
+
+        <dialog id="tokyo">
+            <div class="dialimage">
+              <img id="tokyoimage1" class="border_left"/>
+              <img id="tokyoimage2" class="border_right"/>
+            </div>
+            <div class="dialread">
+              <p>とうきょう</p>
+            </div>
+        </dialog>
+        <dialog id="kyouto">
+          <div class="dialimage">
+            <img id="kyoutoimage1" class="border_left"/>
+            <img id="kyoutoimage2" class="border_right"/>
+          </div>
+          <div class="dialread">
+            <p>きょうと</p>
+          </div>
+        </dialog>
+        <dialog id="hiroshima">
+            <div class="dialimage">
+                <img id="hiroshimaimage1" class="border_left"/>
+                <img id="hiroshimaimage2" class="border_right"/>
+            </div>
+            <div class="dialread">
+                <p>ひろしま</p>
+            </div>
+        </dialog>
+        <dialog id="nara">
+          <div class="dialimage">
+            <img id="naraimage1" class="border_left"/>
+            <img id="naraimage2" class="border_right"/>
+          </div>
+          <div class="dialread">
+            <p>なら</p>
+          </div>
+        </dialog>
+        <dialog id="osaka">
+          <div class="dialimage">
+            <img id="osakaimage1" class="border_left"/>
+            <img id="osakaimage2" class="border_right"/>
+          </div>
+          <div class="dialread">
+              <p>おおさか</p>
+          </div>
+        </dialog>
+        <dialog id="aomori">
+          <div class="dialimage">
+            <img id="aomoriimage1" class="border_left"/>
+            <img id="aomoriimage2" class="border_right"/>
+          </div>
+          <div class="dialread">
+              <p>あおもり</p>
+          </div>
+        </dialog>
+        <dialog id="akita">
+          <div class="dialimage">
+            <img id="akitaimage1" class="border_left"/>
+            <img id="akitaimage2" class="border_right"/>
+          </div>
+          <div class="dialread">
+              <p>あきた</p>
+          </div>
+        </dialog>
+        <dialog id="iwate">
+          <div class="dialimage">
+            <img id="iwateimage1" class="border_left"/>
+            <img id="iwateimage2" class="border_right"/>
+          </div>
+          <div class="dialread">
+              <p>いわて</p>
+          </div>
+        </dialog>
+        <dialog id="yamagata">
+          <div class="dialimage">
+            <img id="yamagataimage1" class="border_left"/>
+            <img id="yamagataimage2" class="border_right"/>
+          </div>
+          <div class="dialread">
+              <p>やまがた</p>
+          </div>
+        </dialog>
+        <dialog id="miyagi">
+          <div class="dialimage">
+            <img id="miyagiimage1" class="border_left"/>
+            <img id="miyagiimage2" class="border_right"/>
+          </div>
+          <div class="dialread">
+              <p>みやぎ</p>
+          </div>
+        </dialog>
+        <dialog id="fukushima">
+          <div class="dialimage">
+            <img id="fukushimaimage1" class="border_left"/>
+            <img id="fukushimaimage2" class="border_right"/>
+          </div>
+          <div class="dialread">
+              <p>ふくしま</p>
+          </div>
+        </dialog>
+
+      </div>
+      <div class="homeButton">
+        <button
+          class="homeBtn"
+          type="button"
+          onclick="location.href='../../index.html'"
+        >
+          <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+        </button>
+      </div>
+      <div class="image-container">
+        <img src="Images/mapjapan.png" usemap="#mapjapan" />
+        <map name="mapjapan">
+            <area
+              shape="poly"
+              coords="
+                      583,25,
+                      680,100,
+                      725,85,
+                      734,140,
+                      664,172,
+                      652,218,
+                      583,182,
+                      524,251,
+                      509,189,
+                      532,148,
+                      566,151"
+              id="imagehokkaido"
+            />
+            <area
+              shape="rect"
+              coords="
+                      492,564,
+                      525,578
+                      "
+              id="imagetokyo"
+            />
+            <area
+              shape="rect"
+              coords="
+                      305,581,
+                      334,601
+                      "
+              id="imagekyouto"
+            />
+            <area
+              shape="rect"
+              coords="
+                      181,612,
+                      226,635
+                      "
+              id="imagehiroshima"
+            />
+            <area
+              shape="rect"
+              coords="
+                      323,644,
+                      360,663
+                      "
+              id="imagenara"
+            />
+            <area
+              shape="rect"
+              coords="
+                      308,618,
+                      345,638
+                      "
+              id="imageosaka"
+            />
+            <area
+              shape="rect"
+              coords="
+                      516,259,
+                      591,300
+                      "
+              id="imageaomori"
+            />
+            <area
+              shape="rect"
+              coords="
+                      519,307,
+                      554,389
+                      "
+              id="imageakita"
+            />
+            <area
+              shape="rect"
+              coords="
+                      562,316,
+                      600,383
+                      "
+              id="imageiwate"
+            />
+            <area
+              shape="poly"
+              coords="
+                      517,384,
+                      548,396,
+                      531,452,
+                      510,448,
+                      519,426,
+                      506,409
+                      "
+              id="imageyamagata"
+            />
+            <area
+              shape="poly"
+              coords="
+                      552,393,
+                      592,396,
+                      598,430,
+                      566,447,
+                      540,439
+                      "
+              id="imagemiyagi"
+            />
+            <area
+              shape="poly"
+              coords="
+                      513,455,
+                      564,450,
+                      563,501,
+                      520,488,
+                      493,500,
+                      493,474,
+                      "
+              id="imagefukushima"
+            />
+        </map>
+      </div>
+    </div>
+    <div class="footer">
+      <img
+        src="https://hitwebcounter.com/counter/counter.php?page=11583648&style=0006&nbdigits=7&type=page&initCount=0"
+        title="Counter Widget"
+        alt="Visit counter For Websites"
+      />
+    </div>
+    <script type="module" src="Config/script.js"></script>
+  </body>
+</html>
