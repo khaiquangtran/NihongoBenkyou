@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url("../Images/ocean.jpg");
+  /* background-image: url("../Images/ocean.jpg"); */
 }
 
 ::-webkit-scrollbar {
@@ -61,21 +61,28 @@ body {
   text-align: center;
 }
 
+
 dialog {
-  margin: 0;
-  top: 20%;
-  left: 10%;
+  top: 73%;
+  max-width: 100%;
+  text-align: center;
   border: none;
   outline: none;
   background-color: transparent;
-}
-
-dialog {
   opacity: 0;
   transform: scaleY(0);
   visibility: hidden;
   transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+  margin: 0;
+  position: fixed;
+  width: 100%;
 }
+
+/* #bodydialog
+{
+  position: fixed;
+  width: 100%;
+} */
 
 dialog[open] {
   opacity: 1;
@@ -125,10 +132,10 @@ dialog[open]::backdrop {
 .image-container img
 {
   display: flex;
-  width: 860px;
-  height: 860px;
+  width: 1000px;
+  height: 640px;
   object-fit: cover;
-  top: 50%;
+  top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -145,4 +152,9 @@ dialog[open]::backdrop {
 {
   /* top-left | top-right | bottom-right | bottom-left */
   border-radius: 0 10px 10px 0;
+}
+
+.border_all
+{
+  border-radius: 10px;
 }
