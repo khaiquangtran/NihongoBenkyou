@@ -2,18 +2,20 @@ import { images } from './../../../Home/images.js';
 
 document.querySelectorAll(".card").forEach(function (card) {
   card.addEventListener("click", function () {
-    this.classList.toggle("card1");
-    var japanText = card.getElementsByClassName("japan")[0].innerText;
-    // console.log(japanText);
-    try {
-      const speech = new SpeechSynthesisUtterance();
-      speech.text = japanText;
-      speech.lang = "ja";
-      window.speechSynthesis.speak(speech);
-    }
-    catch (error) {
-      console.error("Error in translation:", error);
-      alert("The text could not be translated. Please try again.");
+    var check = this.classList.toggle("card1");
+    if(check)
+    {
+      var japanText = card.getElementsByClassName("japan")[0].innerText;
+      try {
+        const speech = new SpeechSynthesisUtterance();
+        speech.text = japanText;
+        speech.lang = "ja";
+        window.speechSynthesis.speak(speech);
+      }
+      catch (error) {
+        console.error("Error in translation:", error);
+        alert("The text could not be translated. Please try again.");
+      }
     }
   });
 });
