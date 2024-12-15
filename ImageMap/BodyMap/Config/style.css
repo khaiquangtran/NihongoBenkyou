@@ -78,11 +78,6 @@ dialog {
   width: 100%;
 }
 
-/* #bodydialog
-{
-  position: fixed;
-  width: 100%;
-} */
 
 dialog[open] {
   opacity: 1;
@@ -101,12 +96,12 @@ dialog[open] {
 }
 
 dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   transition: background-color 0.7s ease-out;
 }
 
 dialog[open]::backdrop {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: transparent;
 }
 
 .dialimage{
@@ -126,7 +121,7 @@ dialog[open]::backdrop {
 
 .dialread p
 {
-  color: black;
+  color: white;
 }
 
 .image-container img

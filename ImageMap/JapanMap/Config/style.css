@@ -94,22 +94,21 @@ dialog[open] {
 }
 
 dialog::backdrop {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
   transition: background-color 0.7s ease-out;
 }
 
 dialog[open]::backdrop {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: transparent;
 }
 
-.dialimage{
+.dialimage {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.dialread
-{
+.dialread {
   font-size: 50px;
   display: flex;
   align-items: center;
@@ -117,13 +116,11 @@ dialog[open]::backdrop {
   /* background-color: white; */
 }
 
-.dialread p
-{
-  color: black;
+.dialread p {
+  color: white;
 }
 
-.image-container img
-{
+.image-container img {
   display: flex;
   width: 860px;
   height: 860px;
@@ -135,14 +132,12 @@ dialog[open]::backdrop {
   gap: 0;
 }
 
-.border_left
-{
+.border_left {
   /* top-left | top-right | bottom-right | bottom-left */
   border-radius: 10px 0 0 10px;
 }
 
-.border_right
-{
+.border_right {
   /* top-left | top-right | bottom-right | bottom-left */
   border-radius: 0 10px 10px 0;
 }

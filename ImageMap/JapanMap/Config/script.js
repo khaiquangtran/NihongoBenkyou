@@ -50,7 +50,7 @@ function hokkaido() {
   hokkaidoimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[0][1] + ".gif";
   hokkaidoimage3.src = "../../GIF/kanji/gif/150x150/" + speechJapan[0][2] + ".gif";
 
-  background.style.backgroundImage = "url(Images/hokkaido.jpg)";
+  // background.style.backgroundImage = "url(Images/hokkaido.jpg)";
 
   showDialog(dialogs[0]);
 }
@@ -73,7 +73,7 @@ function tokyo() {
   tokyoimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[1][0] + ".gif";
   tokyoimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[1][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/tokyo.jpg)";
+  // background.style.backgroundImage = "url(Images/tokyo.jpg)";
 
   showDialog(dialogs[1]);
 }
@@ -96,7 +96,7 @@ function kyouto() {
   kyoutoimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[2][0] + ".gif";
   kyoutoimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[2][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/kyouto.jpg)";
+  // background.style.backgroundImage = "url(Images/kyouto.jpg)";
 
   showDialog(dialogs[2]);
 }
@@ -119,7 +119,7 @@ function hiroshima() {
   hiroshimaimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[3][0] + ".gif";
   hiroshimaimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[3][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/hiroshima.jpg)";
+  // background.style.backgroundImage = "url(Images/hiroshima.jpg)";
 
   showDialog(dialogs[3]);
 }
@@ -142,7 +142,7 @@ function nara() {
   naraimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[4][0] + ".gif";
   naraimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[4][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/nara.webp)";
+  // background.style.backgroundImage = "url(Images/nara.webp)";
 
   showDialog(dialogs[4]);
 }
@@ -165,7 +165,7 @@ function osaka() {
   osakaimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[5][0] + ".gif";
   osakaimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[5][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/osaka.jpg)";
+  // background.style.backgroundImage = "url(Images/osaka.jpg)";
 
   showDialog(dialogs[5]);
 }
@@ -188,7 +188,7 @@ function aomori() {
   aomoriimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[6][0] + ".gif";
   aomoriimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[6][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/aomori.jpg)";
+  // background.style.backgroundImage = "url(Images/aomori.jpg)";
 
   showDialog(dialogs[6]);
 }
@@ -211,7 +211,7 @@ function akita() {
   akitaimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[7][0] + ".gif";
   akitaimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[7][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/akita.webp)";
+  // background.style.backgroundImage = "url(Images/akita.webp)";
 
   showDialog(dialogs[7]);
 }
@@ -234,7 +234,7 @@ function iwate() {
   iwateimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[8][0] + ".gif";
   iwateimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[8][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/iwate.jpg)";
+  // background.style.backgroundImage = "url(Images/iwate.jpg)";
 
   showDialog(dialogs[8]);
 }
@@ -257,7 +257,7 @@ function yamagata() {
   yamagataimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[9][0] + ".gif";
   yamagataimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[9][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/yamagata.jpg)";
+  // background.style.backgroundImage = "url(Images/yamagata.jpg)";
 
   showDialog(dialogs[9]);
 }
@@ -280,7 +280,7 @@ function miyagi() {
   miyagiimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[10][0] + ".gif";
   miyagiimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[10][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/miyagi.jpg)";
+  // background.style.backgroundImage = "url(Images/miyagi.jpg)";
 
   showDialog(dialogs[10]);
 }
@@ -303,7 +303,7 @@ function fukushima() {
   fukushimaimage1.src = "../../GIF/kanji/gif/150x150/" + speechJapan[11][0] + ".gif";
   fukushimaimage2.src = "../../GIF/kanji/gif/150x150/" + speechJapan[11][1] + ".gif";
 
-  background.style.backgroundImage = "url(Images/fukushima.jpg)";
+  // background.style.backgroundImage = "url(Images/fukushima.jpg)";
 
   showDialog(dialogs[11]);
 }

@@ -2,7 +2,7 @@ document.querySelectorAll(".card").forEach(function (card) {
   card.addEventListener("click", function () {
     this.classList.toggle("card1");
     var japanText = card.getElementsByClassName("textJapan")[0].textContent;
-    console.log(japanText);
+    // console.log(japanText);
     try {
       const speech = new SpeechSynthesisUtterance();
       speech.text = japanText;
