@@ -51,7 +51,7 @@ let day_dot = document.querySelector('.day_dot');
 let hr_dot = document.querySelector('.hr_dot');
 let min_dot = document.querySelector('.min_dot');
 let sec_dot = document.querySelector('.sec_dot');
-let endDate = '1/1/2025 00:00:00';
+let endDate = '2/1/2025 00:00:00';
 //date format i.e., mm/dd/yyyy
 let x = setInterval(function(){
 let now = new Date(endDate).getTime();
