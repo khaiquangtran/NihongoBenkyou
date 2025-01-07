@@ -1,0 +1,84 @@
+{
+	"title" : "野菜",
+	"vocabulary" :
+	[
+		{
+			"img" : "kyuuri",
+			"japan" : "胡瓜",
+			"romaji" : "きゅうり",
+			"mean" : "cucumber"
+		},
+		{
+			"img" : "tomato",
+			"japan" : "トマト",
+			"romaji" : "tomato",
+			"mean" : "tomato"
+		},
+		{
+			"img" : "nasu",
+			"japan" : "茄子",
+			"romaji" : "なす",
+			"mean" : "eggplant"
+		},
+		{
+			"img" : "mame",
+			"japan" : "豆",
+			"romaji" : "まめ",
+			"mean" : "beans, peas"
+		},
+		{
+			"img" : "kyabetsu",
+			"japan" : "キャベツ",
+			"romaji" : "kyabetsu",
+			"mean" : "cabbage"
+		},
+		{
+			"img" : "negi",
+			"japan" : "ネギ",
+			"romaji" : "negi",
+			"mean" : "welsh onion"
+		},
+		{
+			"img" : "hakusai",
+			"japan" : "白菜",
+			"romaji" : "はくさい",
+			"mean" : "chinese cabbage"
+		},
+		{
+			"img" : "hounensou",
+			"japan" : "菠薐草",
+			"romaji" : "ほうれんそう",
+			"mean" : "spinach"
+		},
+		{
+			"img" : "retasu",
+			"japan" : "レタス",
+			"romaji" : "retasu",
+			"mean" : "lettuce"
+		},
+		{
+			"img" : "jagaimo",
+			"japan" : "じゃが芋",
+			"romaji" : "じゃがいも",
+			"mean" : "potato"
+		},
+		{
+			"img" : "daikon",
+			"japan" : "大根",
+			"romaji" : "だいこん",
+			"mean" : "japanese radish"
+		},
+		{
+			"img" : "tamanegi",
+			"japan" : "玉葱",
+			"romaji" : "たまねぎ",
+			"mean" : "onion"
+		},
+		{
+			"img" : "ninjin",
+			"japan" : "人参",
+			"romaji" : "にんじん",
+			"mean" : "carrot"
+		}
+	]
+}
