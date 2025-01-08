@@ -1,0 +1,84 @@
+{
+	"title" : "魚",
+	"vocabulary" :
+	[
+		{
+			"img" : "aji",
+			"japan" : "アジ",
+			"romaji" : "aji",
+			"mean" : "horse mackerel"
+		},
+		{
+			"img" : "iwashi",
+			"japan" : "鰯",
+			"romaji" : "いわし",
+			"mean" : "sardine"
+		},
+		{
+			"img" : "saba",
+			"japan" : "鯖",
+			"romaji" : "さば",
+			"mean" : "mackerel"
+		},
+		{
+			"img" : "sanma",
+			"japan" : "秋刀",
+			"romaji" : "さんま",
+			"mean" : "pacific saury"
+		},
+		{
+			"img" : "sake",
+			"japan" : "鮭",
+			"romaji" : "さけ",
+			"mean" : "salmon"
+		},
+		{
+			"img" : "maguro",
+			"japan" : "鮪",
+			"romaji" : "まぐろ",
+			"mean" : "tuna"
+		},
+		{
+			"img" : "tai",
+			"japan" : "鯛",
+			"romaji" : "たい",
+			"mean" : "sea bream"
+		},
+		{
+			"img" : "tara",
+			"japan" : "鱈",
+			"romaji" : "たら",
+			"mean" : "cod"
+		},
+		{
+			"img" : "ebi",
+			"japan" : "蝦",
+			"romaji" : "えび",
+			"mean" : "lobster"
+		},
+		{
+			"img" : "kani",
+			"japan" : "蟹",
+			"romaji" : "かに",
+			"mean" : "crab"
+		},
+		{
+			"img" : "ika",
+			"japan" : "烏賊",
+			"romaji" : "いか",
+			"mean" : "cuttlefish"
+		},
+		{
+			"img" : "tako",
+			"japan" : "蛸",
+			"romaji" : "たこ",
+			"mean" : "octopus"
+		},
+		{
+			"img" : "kai",
+			"japan" : "貝",
+			"romaji" : "かい",
+			"mean" : "shellfish"
+		}
+	]
+}
