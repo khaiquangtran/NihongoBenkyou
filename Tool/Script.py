@@ -43,7 +43,7 @@ class ScriptLearnImage:
                 </div>
                 <div class="content">
                     <div>
-                        <p class="japan"></p>
+                        <p class="textJapan japan"></p>
                     </div>
                     <div>
                         <p class="romaji">//</p>

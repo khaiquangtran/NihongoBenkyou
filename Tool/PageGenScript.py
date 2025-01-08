@@ -86,11 +86,11 @@ class PageGenScript(Page):
 
             if len(item["japan"]) >= 7 and len(item["japan"]) <= 9:
                item_script = item_script.replace(
-                  '<p class="japan"></p>', f'<p class="japan8">{item["japan"]}</p>'
+                  '<p class="textJapan japan"></p>', f'<p class="textJapan japan8">{item["japan"]}</p>'
                )
             else:
                item_script = item_script.replace(
-                  '<p class="japan"></p>', f'<p class="japan">{item["japan"]}</p>'
+                  '<p class="textJapan japan"></p>', f'<p class="textJapan japan">{item["japan"]}</p>'
                )
 
             if len(item["romaji"]) >= 13 and len(item["romaji"]) <= 15:

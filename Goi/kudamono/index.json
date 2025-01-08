@@ -1,0 +1,54 @@
+{
+	"title" : "果物",
+	"vocabulary" :
+	[
+		{
+			"img" : "ichigo",
+			"japan" : "苺",
+			"romaji" : "いちご",
+			"mean" : "strawberry"
+		},
+		{
+			"img" : "kaki",
+			"japan" : "柿",
+			"romaji" : "かき",
+			"mean" : "persimmon"
+		},
+		{
+			"img" : "momo",
+			"japan" : "桃",
+			"romaji" : "もも",
+			"mean" : "peach"
+		},
+		{
+			"img" : "mikan",
+			"japan" : "蜜柑",
+			"romaji" : "みかん",
+			"mean" : "mandarin oranges"
+		},
+		{
+			"img" : "ringo",
+			"japan" : "林檎",
+			"romaji" : "りんご",
+			"mean" : "apple"
+		},
+		{
+			"img" : "budou",
+			"japan" : "葡萄",
+			"romaji" : "ぶどう",
+			"mean" : "grape"
+		},
+		{
+			"img" : "banana",
+			"japan" : "バナナ",
+			"romaji" : "banana",
+			"mean" : "banana"
+		},
+		{
+			"img" : "nashi",
+			"japan" : "梨",
+			"romaji" : "なし",
+			"mean" : "japanese pear"
+		}
+	]
+}
