@@ -1,0 +1,139 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100%; */
+  /* position: relative; */
+  /* min-height: 100vh; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  /* background: #cf1111; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeButton{
+  position: absolute;
+  left: 1vh;
+  top: 1vh;
+  width: 11vh;
+  height: 5vh;
+}
+
+.homeBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 1vh;
+  z-index: 2;
+  background: #cc5500;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.hideButton{
+  position: absolute;
+  right: 1vh;
+  top: 1vh;
+  width: 11vh;
+  height: 5vh;
+}
+
+.hideBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  right: 1vh;
+  top: 1vh;
+  z-index: 2;
+  background: #009A00;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.japan{
+  font-size: 8vh;
+  font-weight: bold;
+  font-family: "Sawarabi Mincho";
+  color: white;
+  background-color: #361d9d;
+  color: white;
+  /* top-left | top-right | bottom-right | bottom-left */
+  border-radius: 20px 20px 0 0;
+}
+
+.romaji {
+  font-size: 5vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #361d9d;
+  color: white;
+}
+
+.vietnam {
+  font-size: 3vh;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #361d9d;
+  color: white;
+}
+
+.english {
+  font-size: 3vh;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #361d9d;
+  color: white;
+  /* top-left | top-right | bottom-right | bottom-left */
+  border-radius: 0 0 20px 20px;
+}

@@ -255,3 +255,14 @@ body {
   font-size: 0.5em;
   font-weight: 300;
 }
+
+.kaiwa ul {
+  list-style: none;
+  height: 6vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.kaiwa ul::-webkit-scrollbar {
+  display: none;
+}
