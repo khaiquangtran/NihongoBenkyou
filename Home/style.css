@@ -258,7 +258,7 @@ body {
 
 .kaiwa ul {
   list-style: none;
-  height: 6vh;
+  height: 20vh;
   overflow-x: hidden;
   overflow-y: scroll;
 }
