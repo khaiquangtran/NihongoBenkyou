@@ -99,6 +99,7 @@ const dialogs = [
 ];
 
 var background = document.getElementById("Background");
+var speech = new SpeechSynthesisUtterance();
 
 document.getElementById("imagehokkaido").addEventListener("click", hokkaido);
 const hokkaidoimage1 = document.getElementById("hokkaidoimage1");
@@ -106,7 +107,6 @@ const hokkaidoimage2 = document.getElementById("hokkaidoimage2");
 const hokkaidoimage3 = document.getElementById("hokkaidoimage3");
 function hokkaido() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[0];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -130,7 +130,6 @@ const tokyoimage1 = document.getElementById("tokyoimage1");
 const tokyoimage2 = document.getElementById("tokyoimage2");
 function tokyo() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[1];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -153,7 +152,6 @@ const kyoutoimage1 = document.getElementById("kyoutoimage1");
 const kyoutoimage2 = document.getElementById("kyoutoimage2");
 function kyouto() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[2];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -176,7 +174,6 @@ const hiroshimaimage1 = document.getElementById("hiroshimaimage1");
 const hiroshimaimage2 = document.getElementById("hiroshimaimage2");
 function hiroshima() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[3];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -199,7 +196,6 @@ const naraimage1 = document.getElementById("naraimage1");
 const naraimage2 = document.getElementById("naraimage2");
 function nara() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[4];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -222,7 +218,6 @@ const osakaimage1 = document.getElementById("osakaimage1");
 const osakaimage2 = document.getElementById("osakaimage2");
 function osaka() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[5];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -245,7 +240,6 @@ const aomoriimage1 = document.getElementById("aomoriimage1");
 const aomoriimage2 = document.getElementById("aomoriimage2");
 function aomori() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[6];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -268,7 +262,6 @@ const akitaimage1 = document.getElementById("akitaimage1");
 const akitaimage2 = document.getElementById("akitaimage2");
 function akita() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[7];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -291,7 +284,6 @@ const iwateimage1 = document.getElementById("iwateimage1");
 const iwateimage2 = document.getElementById("iwateimage2");
 function iwate() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[8];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -314,7 +306,6 @@ const yamagataimage1 = document.getElementById("yamagataimage1");
 const yamagataimage2 = document.getElementById("yamagataimage2");
 function yamagata() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[9];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -337,7 +328,6 @@ const miyagiimage1 = document.getElementById("miyagiimage1");
 const miyagiimage2 = document.getElementById("miyagiimage2");
 function miyagi() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[10];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -360,7 +350,6 @@ const fukushimaimage1 = document.getElementById("fukushimaimage1");
 const fukushimaimage2 = document.getElementById("fukushimaimage2");
 function fukushima() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[11];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -383,7 +372,6 @@ const niigataimage1 = document.getElementById("niigataimage1");
 const niigataimage2 = document.getElementById("niigataimage2");
 function niigata() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[12];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -404,7 +392,6 @@ const toyamaimage1 = document.getElementById("toyamaimage1");
 const toyamaimage2 = document.getElementById("toyamaimage2");
 function toyama() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[13];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -425,7 +412,6 @@ const naganoimage1 = document.getElementById("naganoimage1");
 const naganoimage2 = document.getElementById("naganoimage2");
 function nagano() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[14];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -446,7 +432,6 @@ const yamanashiimage1 = document.getElementById("yamanashiimage1");
 const yamanashiimage2 = document.getElementById("yamanashiimage2");
 function yamanashi() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[15];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -467,7 +452,6 @@ const shizuokaimage1 = document.getElementById("shizuokaimage1");
 const shizuokaimage2 = document.getElementById("shizuokaimage2");
 function shizuoka() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[16];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -488,7 +472,6 @@ const aichiimage1 = document.getElementById("aichiimage1");
 const aichiimage2 = document.getElementById("aichiimage2");
 function aichi() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[17];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -509,7 +492,6 @@ const gifuimage1 = document.getElementById("gifuimage1");
 const gifuimage2 = document.getElementById("gifuimage2");
 function gifu() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[18];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -530,7 +512,6 @@ const ishikawaimage1 = document.getElementById("ishikawaimage1");
 const ishikawaimage2 = document.getElementById("ishikawaimage2");
 function ishikawa() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[19];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -551,7 +532,6 @@ const fukuiimage1 = document.getElementById("fukuiimage1");
 const fukuiimage2 = document.getElementById("fukuiimage2");
 function fukui() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[20];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -572,7 +552,6 @@ const tochigiimage1 = document.getElementById("tochigiimage1");
 const tochigiimage2 = document.getElementById("tochigiimage2");
 function tochigi() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[21];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -593,7 +572,6 @@ const ibarakiimage1 = document.getElementById("ibarakiimage1");
 const ibarakiimage2 = document.getElementById("ibarakiimage2");
 function ibaraki() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[22];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -614,7 +592,6 @@ const chibaimage1 = document.getElementById("chibaimage1");
 const chibaimage2 = document.getElementById("chibaimage2");
 function chiba() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[23];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -636,7 +613,6 @@ const kanagawaimage2 = document.getElementById("kanagawaimage2");
 const kanagawaimage3 = document.getElementById("kanagawaimage3");
 function kanagawa() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[24];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -660,7 +636,6 @@ const saitamaimage1 = document.getElementById("saitamaimage1");
 const saitamaimage2 = document.getElementById("saitamaimage2");
 function saitama() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[25];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -681,7 +656,6 @@ const gunmaimage1 = document.getElementById("gunmaimage1");
 const gunmaimage2 = document.getElementById("gunmaimage2");
 function gunma() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[26];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -702,7 +676,6 @@ const shigaimage1 = document.getElementById("shigaimage1");
 const shigaimage2 = document.getElementById("shigaimage2");
 function shiga() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[27];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -723,7 +696,6 @@ const mieimage1 = document.getElementById("mieimage1");
 const mieimage2 = document.getElementById("mieimage2");
 function mie() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[28];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -744,7 +716,6 @@ const hyougoimage1 = document.getElementById("hyougoimage1");
 const hyougoimage2 = document.getElementById("hyougoimage2");
 function hyougo() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[29];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -766,7 +737,6 @@ const wakayamaimage2 = document.getElementById("wakayamaimage2");
 const wakayamaimage3 = document.getElementById("wakayamaimage3");
 function wakayama() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[30];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -788,7 +758,6 @@ const tottoriimage1 = document.getElementById("tottoriimage1");
 const tottoriimage2 = document.getElementById("tottoriimage2");
 function tottori() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[31];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -809,7 +778,6 @@ const okayamaimage1 = document.getElementById("okayamaimage1");
 const okayamaimage2 = document.getElementById("okayamaimage2");
 function okayama() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[32];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -830,7 +798,6 @@ const shimaneimage1 = document.getElementById("shimaneimage1");
 const shimaneimage2 = document.getElementById("shimaneimage2");
 function shimane() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[33];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -851,7 +818,6 @@ const yamaguchiimage1 = document.getElementById("yamaguchiimage1");
 const yamaguchiimage2 = document.getElementById("yamaguchiimage2");
 function yamaguchi() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[34];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -872,7 +838,6 @@ const kagawaimage1 = document.getElementById("kagawaimage1");
 const kagawaimage2 = document.getElementById("kagawaimage2");
 function kagawa() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[35];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -893,7 +858,6 @@ const tokushimaimage1 = document.getElementById("tokushimaimage1");
 const tokushimaimage2 = document.getElementById("tokushimaimage2");
 function tokushima() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[36];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -914,7 +878,6 @@ const ehimeimage1 = document.getElementById("ehimeimage1");
 const ehimeimage2 = document.getElementById("ehimeimage2");
 function ehime() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[37];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -935,7 +898,6 @@ const kouchiimage1 = document.getElementById("kouchiimage1");
 const kouchiimage2 = document.getElementById("kouchiimage2");
 function kouchi() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[38];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -956,7 +918,6 @@ const fukuokaimage1 = document.getElementById("fukuokaimage1");
 const fukuokaimage2 = document.getElementById("fukuokaimage2");
 function fukuoka() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[39];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -977,7 +938,6 @@ const ooitaimage1 = document.getElementById("ooitaimage1");
 const ooitaimage2 = document.getElementById("ooitaimage2");
 function ooita() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[40];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -998,7 +958,6 @@ const sagaimage1 = document.getElementById("sagaimage1");
 const sagaimage2 = document.getElementById("sagaimage2");
 function saga() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[41];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -1019,7 +978,6 @@ const kumamotoimage1 = document.getElementById("kumamotoimage1");
 const kumamotoimage2 = document.getElementById("kumamotoimage2");
 function kumamoto() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[42];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -1040,7 +998,6 @@ const miyazakiimage1 = document.getElementById("miyazakiimage1");
 const miyazakiimage2 = document.getElementById("miyazakiimage2");
 function miyazaki() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[43];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -1061,7 +1018,6 @@ const nagasakiimage1 = document.getElementById("nagasakiimage1");
 const nagasakiimage2 = document.getElementById("nagasakiimage2");
 function nagasaki() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[44];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -1083,7 +1039,6 @@ const kagoshimaimage2 = document.getElementById("kagoshimaimage2");
 const kagoshimaimage3 = document.getElementById("kagoshimaimage3");
 function kagoshima() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[45];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -1105,7 +1060,6 @@ const okinawaimage1 = document.getElementById("okinawaimage1");
 const okinawaimage2 = document.getElementById("okinawaimage2");
 function okinawa() {
 try {
-  const speech = new SpeechSynthesisUtterance();
   speech.text = speechJapan[46];
   speech.lang = "ja";
   window.speechSynthesis.speak(speech);
@@ -1429,8 +1383,7 @@ dialog.addEventListener("mousedown", (event) => {
     // alert("close");
   } else {
     try {
-      const speech = new SpeechSynthesisUtterance();
-      speech.text = speechJapan[index];
+          speech.text = speechJapan[index];
       speech.lang = "ja";
       window.speechSynthesis.speak(speech);
     } catch (error) {
