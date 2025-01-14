@@ -1,0 +1,96 @@
+{
+	"title" : "スポーツ",
+	"vocabulary" :
+	[
+		{
+			"img" : "sofutoboru",
+			"japan" : "ソフトボール",
+			"romaji" : "sofutobo-ru",
+			"mean" : "softball"
+		},
+		{
+			"img" : "sakka",
+			"japan" : "サッカー",
+			"romaji" : "sakka-",
+			"mean" : "soccer"
+		},
+		{
+			"img" : "ragubi",
+			"japan" : "ラグビー",
+			"romaji" : "ragubi-",
+			"mean" : "rugby football"
+		},
+		{
+			"img" : "bareboru",
+			"japan" : "バレーボール",
+			"romaji" : "bare-bo-ru",
+			"mean" : "volleyball"
+		},
+		{
+			"img" : "basukettoboru",
+			"japan" : "バスケットボール",
+			"romaji" : "basukettobo-ru",
+			"mean" : "basketball"
+		},
+		{
+			"img" : "tenisu",
+			"japan" : "テニス",
+			"romaji" : "tenisu",
+			"mean" : "tennis"
+		},
+		{
+			"img" : "boringu",
+			"japan" : "ボーリング",
+			"romaji" : "bo-ringu",
+			"mean" : "bowling"
+		},
+		{
+			"img" : "suki",
+			"japan" : "スキー",
+			"romaji" : "suki-",
+			"mean" : "skiing"
+		},
+		{
+			"img" : "suketo",
+			"japan" : "スケート",
+			"romaji" : "suke-to",
+			"mean" : "skating"
+		},
+		{
+			"img" : "yakyuu",
+			"japan" : "野球",
+			"romaji" : "やきゅう",
+			"mean" : "baseball"
+		},
+		{
+			"img" : "pinpon",
+			"japan" : "卓球/ピンポン",
+			"romaji" : "たっきゅう/pinpon",
+			"mean" : "table tennis"
+		},
+		{
+			"img" : "sumo",
+			"japan" : "相撲",
+			"romaji" : "すも",
+			"mean" : "sumo"
+		},
+		{
+			"img" : "judo",
+			"japan" : "柔道",
+			"romaji" : "じゅうどう",
+			"mean" : "judo"
+		},
+		{
+			"img" : "kendou",
+			"japan" : "剣道",
+			"romaji" : "けんどう",
+			"mean" : "Japanese fencing"
+		},
+		{
+			"img" : "suiei",
+			"japan" : "水泳",
+			"romaji" : "すいえい",
+			"mean" : "swimming"
+		}
+	]
+}
