@@ -1,0 +1,54 @@
+{
+	"title" : "音楽",
+	"vocabulary" :
+	[
+		{
+			"img" : "poppusu",
+			"japan" : "ポップス",
+			"romaji" : "poppusu",
+			"mean" : "pop"
+		},
+		{
+			"img" : "rokku",
+			"japan" : "ロック",
+			"romaji" : "rokku",
+			"mean" : "rock"
+		},
+		{
+			"img" : "jazu",
+			"japan" : "ジャズ",
+			"romaji" : "jazu",
+			"mean" : "jazz"
+		},
+		{
+			"img" : "raten",
+			"japan" : "ラテン",
+			"romaji" : "raten",
+			"mean" : "Latin"
+		},
+		{
+			"img" : "kurashikku",
+			"japan" : "クラシック",
+			"romaji" : "kurashikku",
+			"mean" : "classical music"
+		},
+		{
+			"img" : "enka",
+			"japan" : "演歌",
+			"romaji" : "えんか",
+			"mean" : "traditional japanese popular songs"
+		},
+		{
+			"img" : "myuujikaru",
+			"japan" : "ミュージカル",
+			"romaji" : "myuujikaru",
+			"mean" : "musical"
+		},
+		{
+			"img" : "opera",
+			"japan" : "オペラ",
+			"romaji" : "opera",
+			"mean" : "opera"
+		}
+	]
+}
