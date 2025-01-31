@@ -1,0 +1,126 @@
+{
+	"title" : "動き",
+	"vocabulary" :
+	[
+		{
+			"img" : "tobu",
+			"japan" : "飛ぶ",
+			"romaji" : "とぶ",
+			"mean" : "fly"
+		},
+		{
+			"img" : "tobuj",
+			"japan" : "跳ぶ",
+			"romaji" : "とぶ",
+			"mean" : "jump"
+		},
+		{
+			"img" : "noboru",
+			"japan" : "登る",
+			"romaji" : "のぼる",
+			"mean" : "climb"
+		},
+		{
+			"img" : "hashiru",
+			"japan" : "走る",
+			"romaji" : "はしる",
+			"mean" : "run"
+		},
+		{
+			"img" : "oyogu",
+			"japan" : "泳ぐ",
+			"romaji" : "およぐ",
+			"mean" : "swim"
+		},
+		{
+			"img" : "moguru",
+			"japan" : "潜る",
+			"romaji" : "もぐる",
+			"mean" : "dive"
+		},
+		{
+			"img" : "tobikomu",
+			"japan" : "飛び込む",
+			"romaji" : "とびこむ",
+			"mean" : "dive into"
+		},
+		{
+			"img" : "sakadachisuru",
+			"japan" : "逆立ちする",
+			"romaji" : "さかだちする",
+			"mean" : "stand upside down"
+		},
+		{
+			"img" : "hau",
+			"japan" : "這う",
+			"romaji" : "はう",
+			"mean" : "crawl"
+		},
+		{
+			"img" : "keru",
+			"japan" : "蹴る",
+			"romaji" : "ける",
+			"mean" : "kick"
+		},
+		{
+			"img" : "furu",
+			"japan" : "振る",
+			"romaji" : "ふる",
+			"mean" : "wave"
+		},
+		{
+			"img" : "mochiageru",
+			"japan" : "持ち上げる",
+			"romaji" : "もちあげる",
+			"mean" : "lift"
+		},
+		{
+			"img" : "nageru",
+			"japan" : "投げる",
+			"romaji" : "なげる",
+			"mean" : "throw"
+		},
+		{
+			"img" : "tataku",
+			"japan" : "叩く",
+			"romaji" : "たたく",
+			"mean" : "pat"
+		},
+		{
+			"img" : "hiku",
+			"japan" : "引く",
+			"romaji" : "ひく",
+			"mean" : "pull"
+		},
+		{
+			"img" : "osu",
+			"japan" : "押す",
+			"romaji" : "おす",
+			"mean" : "push"
+		},
+		{
+			"img" : "mageru",
+			"japan" : "曲げる",
+			"romaji" : "まげる",
+			"mean" : "bend"
+		},
+		{
+			"img" : "nobaru",
+			"japan" : "伸ばす",
+			"romaji" : "のばす",
+			"mean" : "extend"
+		},
+		{
+			"img" : "korobu",
+			"japan" : "転ぶ",
+			"romaji" : "ころぶ",
+			"mean" : "fall down"
+		},
+		{
+			"img" : "furimuku",
+			"japan" : "振り向く",
+			"romaji" : "ふりむく",
+			"mean" : "look back"
+		}
+	]
+}

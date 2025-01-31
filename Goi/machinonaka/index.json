@@ -1,0 +1,216 @@
+{
+	"title" : "町の中",
+	"vocabulary" :
+	[
+		{
+			"img" : "hakubutsukan",
+			"japan" : "博物館",
+			"romaji" : "はくぶつかん",
+			"mean" : "museum"
+		},
+		{
+			"img" : "bijutsukan",
+			"japan" : "美術館",
+			"romaji" : "びじゅつかん",
+			"mean" : "art museum"
+		},
+		{
+			"img" : "toshokan",
+			"japan" : "図書館",
+			"romaji" : "としょかん",
+			"mean" : "library"
+		},
+		{
+			"img" : "eigakan",
+			"japan" : "映画館",
+			"romaji" : "えいがかん",
+			"mean" : "movie theatre"
+		},
+		{
+			"img" : "doubutsuen",
+			"japan" : "動物園",
+			"romaji" : "どうぶつえん",
+			"mean" : "zoo"
+		},
+		{
+			"img" : "shokubutsuen",
+			"japan" : "植物園",
+			"romaji" : "しょくぶつえん",
+			"mean" : "botanical garden"
+		},
+		{
+			"img" : "yuuenchi",
+			"japan" : "遊園地",
+			"romaji" : "ゆうえんち",
+			"mean" : "amusement park"
+		},
+		{
+			"img" : "otera",
+			"japan" : "お寺",
+			"romaji" : "おてら",
+			"mean" : "Buddhist  temple"
+		},
+		{
+			"img" : "jinja",
+			"japan" : "神社",
+			"romaji" : "じんじゃ",
+			"mean" : "Shinto shrine"
+		},
+		{
+			"img" : "kyoukai",
+			"japan" : "教会",
+			"romaji" : "きょうかい",
+			"mean" : "church"
+		},
+		{
+			"img" : "mosuku",
+			"japan" : "モスク",
+			"romaji" : "mosuku",
+			"mean" : "mosque"
+		},
+		{
+			"img" : "taiikukan",
+			"japan" : "体育館",
+			"romaji" : "たいいくかん",
+			"mean" : "gymnasium"
+		},
+		{
+			"img" : "puru",
+			"japan" : "プール",
+			"romaji" : "puru",
+			"mean" : "swimming pool"
+		},
+		{
+			"img" : "kouen",
+			"japan" : "公園",
+			"romaji" : "こうえん",
+			"mean" : "park"
+		},
+		{
+			"img" : "taishikan",
+			"japan" : "大使館",
+			"romaji" : "たいしかん",
+			"mean" : "embassy"
+		},
+		{
+			"img" : "nyuukokukanrikyoku",
+			"japan" : "入国管理局",
+			"romaji" : "にゅうこくかんりきょく",
+			"mean" : "immigration bureau"
+		},
+		{
+			"img" : "shiyakusho",
+			"japan" : "市役所",
+			"romaji" : "しやくしょ",
+			"mean" : "city hall"
+		},
+		{
+			"img" : "keisatsusho",
+			"japan" : "警察署",
+			"romaji" : "けいさつしょ",
+			"mean" : "police"
+		},
+		{
+			"img" : "kouban",
+			"japan" : "交番",
+			"romaji" : "こうばん",
+			"mean" : "police box"
+		},
+		{
+			"img" : "shoubousho",
+			"japan" : "消防署",
+			"romaji" : "しょうぼうしょ",
+			"mean" : "fire station"
+		},
+		{
+			"img" : "chuushajou",
+			"japan" : "駐車場",
+			"romaji" : "ちゅうしゃじょう",
+			"mean" : "parking"
+		},
+		{
+			"img" : "daigaku",
+			"japan" : "大学",
+			"romaji" : "だいがく",
+			"mean" : "university"
+		},
+		{
+			"img" : "koukou",
+			"japan" : "高校",
+			"romaji" : "こうこう",
+			"mean" : "senior high school"
+		},
+		{
+			"img" : "chuugakko",
+			"japan" : "中学校",
+			"romaji" : "ちゅうがっこう",
+			"mean" : "junior high school"
+		},
+		{
+			"img" : "shougakko",
+			"japan" : "小学校",
+			"romaji" : "しょうがっこう",
+			"mean" : "elementary school"
+		},
+		{
+			"img" : "youchien",
+			"japan" : "幼稚園",
+			"romaji" : "ようちえん",
+			"mean" : "kindergarten"
+		},
+		{
+			"img" : "nikuya",
+			"japan" : "肉屋",
+			"romaji" : "にくや",
+			"mean" : "butcher's shop"
+		},
+		{
+			"img" : "panya",
+			"japan" : "パン屋",
+			"romaji" : "パンや",
+			"mean" : "bakery"
+		},
+		{
+			"img" : "sakanaya",
+			"japan" : "魚屋",
+			"romaji" : "さかなや",
+			"mean" : "fishmonger"
+		},
+		{
+			"img" : "sakaya",
+			"japan" : "酒屋",
+			"romaji" : "さかや",
+			"mean" : "liquor shop"
+		},
+		{
+			"img" : "yaoya",
+			"japan" : "八百屋",
+			"romaji" : "やおや",
+			"mean" : "vegetable shop"
+		},
+		{
+			"img" : "kissaten",
+			"japan" : "喫茶店",
+			"romaji" : "きっさてん",
+			"mean" : "coffee shop"
+		},
+		{
+			"img" : "konbini",
+			"japan" : "コンビニ",
+			"romaji" : "konbini",
+			"mean" : "convenience store"
+		},
+		{
+			"img" : "supa",
+			"japan" : "スーパー",
+			"romaji" : "su-pa-",
+			"mean" : "supermarket"
+		},
+		{
+			"img" : "depato",
+			"japan" : "デパート",
+			"romaji" : "depato",
+			"mean" : "department store"
+		}
+	]
+}
