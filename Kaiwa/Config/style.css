@@ -137,3 +137,31 @@ body {
   /* top-left | top-right | bottom-right | bottom-left */
   border-radius: 0 0 20px 20px;
 }
+
+.titleLesson{
+  position: absolute;
+  top: 60px;
+  right: 50%;
+  transform: translateX(50%) translateY(0px);
+  /* width: 100%; */
+  /* height: 5vh; */
+  font-size: 5vh;
+  font-weight: bold;
+  color: #ff0066;
+  z-index: 2;
+}
+
+/* .titleLesson p{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  right: 1vh;
+  top: 1vh;
+  z-index: 2;
+  background: #009A00;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+} */

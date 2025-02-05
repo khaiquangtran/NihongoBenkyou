@@ -258,11 +258,21 @@ body {
 
 .kaiwa ul {
   list-style: none;
-  height: 25vh;
+  height: 37vh;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
 .kaiwa ul::-webkit-scrollbar {
   display: none;
+}
+
+.menu-bar ul li:hover .kaiwa ul li {
+  border-top: 1px dotted #fff;
+  background: transparent;
+  width: 20vh;
+  border-radius: 0;
+  height: 5vh;
+  margin: 0 0 1vh 0;
+  /* color: darkblue; */
 }
