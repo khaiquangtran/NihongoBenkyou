@@ -63,8 +63,8 @@ body {
 
 
 dialog {
-  top: 73%;
   max-width: 100%;
+  top: 73%;
   text-align: center;
   border: none;
   outline: none;
@@ -77,7 +77,6 @@ dialog {
   position: fixed;
   width: 100%;
 }
-
 
 dialog[open] {
   opacity: 1;
