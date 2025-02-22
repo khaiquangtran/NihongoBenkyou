@@ -1,0 +1,108 @@
+{
+	"title" : "単位",
+	"vocabulary" :
+	[
+		{
+			"img" : "senchimeetoru",
+			"japan" : "センチメートル",
+			"romaji" : "senchimeetoru",
+			"mean" : "centimetre"
+		},
+		{
+			"img" : "meetoru",
+			"japan" : "メートル",
+			"romaji" : "meetoru",
+			"mean" : "metre"
+		},
+		{
+			"img" : "kiromeetoru",
+			"japan" : "キロメートル",
+			"romaji" : "kiromeetoru",
+			"mean" : "kilometer"
+		},
+		{
+			"img" : "heihousenchimeetoru",
+			"japan" : "平方センチメートル",
+			"romaji" : "heihou senchimeetoru",
+			"mean" : "cm²"
+		},
+		{
+			"img" : "heihoumeetoru",
+			"japan" : "平方メートル",
+			"romaji" : "heihou meetoru",
+			"mean" : "m²"
+		},
+		{
+			"img" : "heihoukiromeetoru",
+			"japan" : "平方キロメートル ",
+			"romaji" : "heihou kiromeetoru",
+			"mean" : "km²"
+		},
+		{
+			"img" : "rippousenchimeetoru",
+			"japan" : "立方センチメートル",
+			"romaji" : "rippou senchimeetoru",
+			"mean" : "cm³"
+		},
+		{
+			"img" : "rippoumeetoru",
+			"japan" : "立方メートル",
+			"romaji" : "rippou meetoru",
+			"mean" : "m³"
+		},
+		{
+			"img" : "rippoukiromeetoru",
+			"japan" : "立方キロメートル ",
+			"romaji" : "rippou kiromeetoru",
+			"mean" : "km³"
+		},
+		{
+			"img" : "miririttoru",
+			"japan" : "ミリリットル ",
+			"romaji" : "miririttoru",
+			"mean" : "milliliter"
+		},
+		{
+			"img" : "shiishii",
+			"japan" : "シーシー ",
+			"romaji" : "shiishii",
+			"mean" : "cc"
+		},
+		{
+			"img" : "rittoru",
+			"japan" : "リットル ",
+			"romaji" : "rittoru",
+			"mean" : "liter"
+		},
+		{
+			"img" : "daasu",
+			"japan" : "ダース ",
+			"romaji" : "daasu",
+			"mean" : "dozen"
+		},
+		{
+			"img" : "miriguramu",
+			"japan" : "ミリグラム ",
+			"romaji" : "miriguramu",
+			"mean" : "milligram"
+		},
+		{
+			"img" : "guramu",
+			"japan" : "グラム ",
+			"romaji" : "guramu",
+			"mean" : "gram"
+		},
+		{
+			"img" : "kiroguramu",
+			"japan" : "キログラム ",
+			"romaji" : "kiroguramu",
+			"mean" : "kilogram"
+		},
+		{
+			"img" : "ton",
+			"japan" : "トン ",
+			"romaji" : "ton",
+			"mean" : "ton"
+		}
+	]
+}
