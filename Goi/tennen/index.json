@@ -1,0 +1,246 @@
+{
+	"title" : "天然",
+	"vocabulary" :
+	[
+		{
+			"img" : "taiyou",
+			"japan" : "太陽",
+			"romaji" : "たいよう",
+			"mean" : "sun"
+		},
+		{
+			"img" : "chikyuu",
+			"japan" : "地球",
+			"romaji" : "ちきゅう",
+			"mean" : "earth"
+		},
+		{
+			"img" : "uchuu",
+			"japan" : "宇宙",
+			"romaji" : "うちゅう",
+			"mean" : "universe"
+		},
+		{
+			"img" : "kuuki",
+			"japan" : "空気",
+			"romaji" : "くうき",
+			"mean" : "air"
+		},
+		{
+			"img" : "hoshi",
+			"japan" : "星",
+			"romaji" : "ほし",
+			"mean" : "star"
+		},
+		{
+			"img" : "tsuki",
+			"japan" : "月",
+			"romaji" : "つき",
+			"mean" : "moon"
+		},
+		{
+			"img" : "mangetsu",
+			"japan" : "満月",
+			"romaji" : "まんげつ",
+			"mean" : "full moon"
+		},
+		{
+			"img" : "yuusei",
+			"japan" : "遊星",
+			"romaji" : "ゆうせい",
+			"mean" : "planet"
+		},
+		{
+			"img" : "kasei",
+			"japan" : "火星",
+			"romaji" : "かせい",
+			"mean" : "Mars"
+		},
+		{
+			"img" : "kinsei",
+			"japan" : "金星",
+			"romaji" : "きんせい",
+			"mean" : "Venus"
+		},
+		{
+			"img" : "mokusei",
+			"japan" : "木星",
+			"romaji" : "もくせい",
+			"mean" : "Jupiter"
+		},
+		{
+			"img" : "dosei",
+			"japan" : "土星",
+			"romaji" : "どせい",
+			"mean" : "Saturn"
+		},
+		{
+			"img" : "suisei",
+			"japan" : "水星",
+			"romaji" : "すいせい",
+			"mean" : "Mercury"
+		},
+		{
+			"img" : "ame",
+			"japan" : "雨",
+			"romaji" : "あめ",
+			"mean" : "rain"
+		},
+		{
+			"img" : "kaze",
+			"japan" : "風",
+			"romaji" : "かぜ",
+			"mean" : "wind"
+		},
+		{
+			"img" : "kaminari",
+			"japan" : "雷",
+			"romaji" : "かみなり",
+			"mean" : "thunder"
+		},
+		{
+			"img" : "jishin",
+			"japan" : "地震",
+			"romaji" : "じしん",
+			"mean" : "earthquake"
+		},
+		{
+			"img" : "kumo",
+			"japan" : "雲",
+			"romaji" : "くも",
+			"mean" : "cloud"
+		},
+		{
+			"img" : "yama",
+			"japan" : "山",
+			"romaji" : "やま",
+			"mean" : "mountain"
+		},
+		{
+			"img" : "taifuu",
+			"japan" : "台風",
+			"romaji" : "たいふう",
+			"mean" : "typhoon"
+		},
+		{
+			"img" : "umi",
+			"japan" : "海",
+			"romaji" : "うみ",
+			"mean" : "sea"
+		},
+		{
+			"img" : "mizuumi",
+			"japan" : "湖",
+			"romaji" : "みずうみ",
+			"mean" : "lake"
+		},
+		{
+			"img" : "kawa",
+			"japan" : "川",
+			"romaji" : "かわ",
+			"mean" : "river"
+		},
+		{
+			"img" : "ogawa",
+			"japan" : "小川",
+			"romaji" : "おがわ",
+			"mean" : "stream"
+		},
+		{
+			"img" : "shima",
+			"japan" : "島",
+			"romaji" : "しま",
+			"mean" : "island"
+		},
+		{
+			"img" : "bonchi",
+			"japan" : "盆地",
+			"romaji" : "ぼんち",
+			"mean" : "valley"
+		},
+		{
+			"img" : "kazan",
+			"japan" : "火山",
+			"romaji" : "かざん",
+			"mean" : "volcano"
+		},
+		{
+			"img" : "tenki",
+			"japan" : "天気",
+			"romaji" : "てんき",
+			"mean" : "weather"
+		},
+		{
+			"img" : "kikou",
+			"japan" : "気候",
+			"romaji" : "きこう",
+			"mean" : "climate"
+		},
+		{
+			"img" : "atatakai",
+			"japan" : "暖かい",
+			"romaji" : "あたたかい",
+			"mean" : "warm"
+		},
+		{
+			"img" : "suzushii",
+			"japan" : "涼しい",
+			"romaji" : "すずしい",
+			"mean" : "cool"
+		},
+		{
+			"img" : "samui",
+			"japan" : "寒い",
+			"romaji" : "さむい",
+			"mean" : "cold"
+		},
+		{
+			"img" : "atsui",
+			"japan" : "暑い",
+			"romaji" : "あつい",
+			"mean" : "hot"
+		},
+		{
+			"img" : "kansou",
+			"japan" : "乾燥",
+			"romaji" : "かんそう",
+			"mean" : "drying"
+		},
+		{
+			"img" : "kiri",
+			"japan" : "霧",
+			"romaji" : "きり",
+			"mean" : "fog"
+		},
+		{
+			"img" : "yuki",
+			"japan" : "雪",
+			"romaji" : "ゆき",
+			"mean" : "snow"
+		},
+		{
+			"img" : "tensai",
+			"japan" : "天災 ",
+			"romaji" : "てんさい",
+			"mean" : "disaster"
+		},
+		{
+			"img" : "kasai",
+			"japan" : "火災/火事 ",
+			"romaji" : "かさい/かじ",
+			"mean" : "fire disaster"
+		},
+		{
+			"img" : "kouzui",
+			"japan" : "洪水",
+			"romaji" : "こうずい",
+			"mean" : "flood"
+		},
+		{
+			"img" : "kanbatsu",
+			"japan" : "旱魃",
+			"romaji" : "かんばつ",
+			"mean" : "drought"
+		}
+	]
+}
