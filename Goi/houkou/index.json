@@ -1,0 +1,132 @@
+{
+	"title" : "方向",
+	"vocabulary" :
+	[
+		{
+			"img" : "hokusei",
+			"japan" : "北西",
+			"romaji" : "ほくせい",
+			"mean" : "Northwest"
+		},
+		{
+			"img" : "kita",
+			"japan" : "北",
+			"romaji" : "きた",
+			"mean" : "North"
+		},
+		{
+			"img" : "hokutou",
+			"japan" : "北東",
+			"romaji" : "ほくとう",
+			"mean" : "Northeast"
+		},
+		{
+			"img" : "hidari",
+			"japan" : "左",
+			"romaji" : "ひだり",
+			"mean" : "left"
+		},
+		{
+			"img" : "migi",
+			"japan" : "右",
+			"romaji" : "みぎ",
+			"mean" : "right"
+		},
+		{
+			"img" : "nishi",
+			"japan" : "西",
+			"romaji" : "にし",
+			"mean" : "West"
+		},
+		{
+			"img" : "mannaka",
+			"japan" : "真ん中",
+			"romaji" : "まんなか",
+			"mean" : "middle"
+		},
+		{
+			"img" : "higashi",
+			"japan" : "東",
+			"romaji" : "ひがし",
+			"mean" : "East"
+		},
+		{
+			"img" : "yoko",
+			"japan" : "横",
+			"romaji" : "よこ",
+			"mean" : "horizontal"
+		},
+		{
+			"img" : "tate",
+			"japan" : "縦",
+			"romaji" : "たて",
+			"mean" : "vertical"
+		},
+		{
+			"img" : "nansei",
+			"japan" : "南西",
+			"romaji" : "なんせい",
+			"mean" : "Southwest"
+		},
+		{
+			"img" : "minami",
+			"japan" : "南",
+			"romaji" : "みなみ",
+			"mean" : "South"
+		},
+		{
+			"img" : "nantou",
+			"japan" : "南東",
+			"romaji" : "なんとう",
+			"mean" : "Southeast"
+		},
+		{
+			"img" : "nanboku",
+			"japan" : "南北",
+			"romaji" : "なんぼく",
+			"mean" : "North-South"
+		},
+		{
+			"img" : "touzai",
+			"japan" : "東西",
+			"romaji" : "とうざい",
+			"mean" : "East-West"
+		},
+		{
+			"img" : "zenmen",
+			"japan" : "前面",
+			"romaji" : "ぜんめん",
+			"mean" : "front"
+		},
+		{
+			"img" : "koumen",
+			"japan" : "後面",
+			"romaji" : "こうめん",
+			"mean" : "rear"
+		},
+		{
+			"img" : "tonari",
+			"japan" : "隣",
+			"romaji" : "となり",
+			"mean" : "next"
+		},
+		{
+			"img" : "taimen",
+			"japan" : "対面",
+			"romaji" : "たいめん",
+			"mean" : "face to face"
+		},
+		{
+			"img" : "mukou",
+			"japan" : "向こう",
+			"romaji" : "むこう",
+			"mean" : "over there"
+		},
+		{
+			"img" : "ushiro",
+			"japan" : "後ろ",
+			"romaji" : "うしろ",
+			"mean" : "behind"
+		}
+	]
+}
