@@ -1,3 +1,22 @@
+document.addEventListener("DOMContentLoaded", function () {
+  var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+    },
+  });
+});
+
 var randomChange = document.getElementById("Background");
 const images = [
   "Home/Images/home_background.jpg",
@@ -93,22 +112,7 @@ window.onload = function () {
 // }
 // })
 
-var swiper = new Swiper(".mySwiper", {
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
-  },
-  pagination: {
-      el: ".swiper-pagination",
-  },
-});
+
 
 document.querySelectorAll(".content").forEach(function (card) {
   card.addEventListener("click", function () {
