@@ -37,6 +37,7 @@ body {
   width: 20vh;
   height: auto;
   font-weight: bold;
+  z-index: 30;
 }
 .menu-bar ul li a {
   text-decoration: none;
@@ -97,7 +98,7 @@ body {
 .hover-me:hover .sub-menu-images2 {
   position: absolute;
   display: block;
-  background: #1ABC9C;
+  background: #1abc9c;
   margin-top: -3.5vh;
   margin-left: 19vh;
   border-radius: 1vh;
@@ -116,7 +117,9 @@ body {
 }
 
 /* Common styles for all .learn-image classes */
-.learn-image ul, .learn-image1 ul, .learn-image2 ul {
+.learn-image ul,
+.learn-image1 ul,
+.learn-image2 ul {
   list-style: none;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -141,7 +144,6 @@ body {
   height: 80vh;
 }
 
-
 .goi ul {
   list-style: none;
   height: 77vh;
@@ -161,7 +163,7 @@ body {
   text-align: center;
 }
 
-#time{
+#time {
   position: fixed;
   display: flex;
   top: 50%;
@@ -173,7 +175,7 @@ body {
   z-index: -1;
 }
 
-#time .circle{
+#time .circle {
   position: relative;
   width: 150px;
   height: 150px;
@@ -181,34 +183,34 @@ body {
   justify-content: center;
   align-items: center;
 }
-#time .circle svg{
+#time .circle svg {
   position: relative;
   width: 150px;
   height: 150px;
   transform: rotate(270deg);
 }
-#time .circle svg circle{
+#time .circle svg circle {
   width: 100%;
   height: 100%;
   fill: transparent;
   stroke-linecap: round;
   stroke-width: 8;
   stroke: #071591;
-  transform: translate(5px,5px);
+  transform: translate(5px, 5px);
 }
-#time .circle svg circle:nth-child(2){
+#time .circle svg circle:nth-child(2) {
   stroke: var(--clr);
   stroke-dasharray: 440;
   stroke-dashoffset: 440;
 }
-#time div{
+#time div {
   position: absolute;
   text-align: center;
   color: #fff;
   font-weight: 300;
   font-size: 1.5em;
 }
-#time div span{
+#time div span {
   position: absolute;
   transform: translateX(-50%) translateY(0px);
   font-size: 0.35em;
@@ -216,7 +218,7 @@ body {
   font-weight: 300;
   letter-spacing: 0.1em;
 }
-#time .dots{
+#time .dots {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -226,18 +228,17 @@ body {
   align-items: flex-start;
   z-index: 1000;
 }
-#time .dots::before{
-  content: '';
+#time .dots::before {
+  content: "";
   position: absolute;
   top: -3px;
   width: 15px;
   height: 15px;
   background: var(--clr);
   border-radius: 50%;
-  box-shadow: 0 0 20px var(--clr),
-  0 0 60px var(--clr);
+  box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
 }
-.newYear{
+.newYear {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -245,13 +246,13 @@ body {
   text-align: center;
   font-size: 200px;
   font-weight: 500;
-  color: #FF0000;
+  color: #ff0000;
   text-align: center;
   line-height: 0.6em;
   display: none;
   z-index: -1;
 }
-.newYear span{
+.newYear span {
   font-size: 0.5em;
   font-weight: 300;
 }
@@ -275,4 +276,63 @@ body {
   height: 5vh;
   margin: 0 0 1vh 0;
   /* color: darkblue; */
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 200px;
+  padding-bottom: 50px;
+  /* z-index: 0; */
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-slide{
+  /* background: #00bcd4; */
+  border-radius: 20px;
+}
+
+.swiper-slide .content .japan {
+  position: absolute;
+  font-size: 4em;
+  font-family: "Sawarabi Mincho";
+  top: 60%;
+  left: 0;
+  width: 100%;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+.swiper-slide .content .romaji {
+  position: absolute;
+  top: 83%;
+  left: 0;
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+}
+
+.swiper-slide .content .mean {
+  position: absolute;
+  top: 90%;
+  left: 0;
+  width: 100%;
+  font-size: 1.5em;
+  color: red;
+  text-align: center;
+}
+
+img{
+  border-radius: 20px;
 }

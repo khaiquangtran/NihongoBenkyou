@@ -43,7 +43,7 @@ class PageResizeImage(Page):
         self.logText.tag_configure("red_text", foreground="red", font=("calibre", 11 ,"bold"))
         self.logText.tag_configure("orange_text", foreground="orange", font=("calibre", 11 ,"bold"))
 
-        self.btnClear = tk.Button(self.labelProgramLog, text = "Clear", font=('calibre', 10), width = 6)
+        self.btnClear = tk.Button(self.labelProgramLog, text = "Clear", font=('calibre', 10), width = 6, command=self.clearLog)
         self.btnClear.grid(row = 1, column = 0, sticky="w", padx = 3)
 
     def openFolder(self):
@@ -95,3 +95,6 @@ class PageResizeImage(Page):
             cv2.imwrite(filePath, resized_image)
             self.logText.insert(tk.END, f"Done ", "green_text")
             self.logText.insert(tk.END, f"{filePath}\n")
+
+    def clearLog(self):
+      self.logText.delete("1.0", tk.END)

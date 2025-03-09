@@ -37,7 +37,7 @@ if __name__ == "__main__":
     myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
     ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     try:
-        root.iconbitmap("./icon.ico")
+        root.iconbitmap("icon.ico")
     except:
         print("Icon file not found!!!")
     root.resizable(False, False)
