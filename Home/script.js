@@ -1,3 +1,27 @@
+
+let emojis = [
+  "😀",
+  "😁",
+  "😅",
+  "🤣",
+  "😍",
+  "🥰",
+  "😙",
+  "😋",
+  "🤪",
+  "😎",
+  "🤩",
+  "😣",
+  "😱",
+  "😰",
+  "😵",
+  "🥱",
+  "🤫",
+  "🤡",
+  "🤠",
+  "😑"
+];
+
 document.addEventListener("DOMContentLoaded", function () {
   var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
@@ -53,6 +77,7 @@ var imgCount = images.length;
 var number = Math.floor(Math.random() * imgCount);
 
 window.onload = function () {
+  window.location.hash = emojis[Math.floor(Math.random() * emojis.length)];
   randomChange.style.backgroundImage = "url(" + images[number] + ")";
 };
 
@@ -131,3 +156,4 @@ document.querySelectorAll(".content").forEach(function (card) {
   });
 
 });
+
