@@ -266,7 +266,7 @@ class ScriptKanjiV2:
                 <!-- <p class="heading">Help</p> -->
                 <div class="message_box">
                     <p class="message"></p>
-                    <!-- <p class="mean"></p> -->
+                    <p class="mean"></p>
                     <div class="button_box">
                         <button class="close_button" type="button">OK</button>
                     </div>
