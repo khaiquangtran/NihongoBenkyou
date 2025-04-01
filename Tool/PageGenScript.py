@@ -294,14 +294,17 @@ class PageGenScript(Page):
                self.logText.insert(tk.END, f"Japanese length in Json haven't supported")
                return
 
-            if y != 0:
+            if y%10 != 0:
                item_script = item_script.replace(
                   '<div class="swiper-slide slide">',
-                  f'<div class="swiper-slide slide{y}">'
+                  f'<div class="swiper-slide slide{y%10}">'
                ).replace(
                   '<button class="open_button slide" type="button">Help</button>',
-                  f'<button class="open_button slide{y}" type="button">Help</button>'
-               )
+                  f'<button class="open_button slide{y%10}" value="{y}" type="button">Help</button>')
+            else:
+               item_script = item_script.replace(
+                   '<button class="open_button slide" type="button">Help</button>',
+                  f'<button class="open_button slide" value="{y}" type="button">Help</button>')
             script += item_script
 
          script += ScriptKanjiV2.bodyEnd

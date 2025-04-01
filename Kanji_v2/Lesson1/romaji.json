@@ -4,53 +4,411 @@
     [
         {
             "japan" : "一",
-            "romaji" : "いち",
-            "mean" : "one"
+            "romaji" : "NHẤT"
         },
         {
             "japan" : "二",
-            "romaji" : "に",
-            "mean" : "two"
+            "romaji" : "NHỊ"
         },
         {
             "japan" : "三",
-            "romaji" : "さん",
-            "mean" : "three"
+            "romaji" : "TAM"
         },
         {
             "japan" : "四",
-            "romaji" : "し/よん",
-            "mean" : "four"
+            "romaji" : "TỨ"
         },
         {
             "japan" : "五",
-            "romaji" : "ご",
-            "mean" : "five"
+            "romaji" : "NGŨ"
         },
         {
             "japan" : "六",
-            "romaji" : "ろく",
-            "mean" : "six"
+            "romaji" : "LỤC"
         },
         {
             "japan" : "七",
-            "romaji" : "しち/なな",
-            "mean" : "seven"
+            "romaji" : "THẤT"
         },
         {
             "japan" : "八",
-            "romaji" : "はち",
-            "mean" : "eight"
+            "romaji" : "BÁT"
         },
         {
             "japan" : "九",
-            "romaji" : "きゅう",
-            "mean" : "nine"
+            "romaji" : "CỬU"
         },
         {
             "japan" : "十",
-            "romaji" : "じゅう",
-            "mean" : "ten"
+            "romaji" : "THẬP"
+        },
+        {
+            "japan" : "千",
+            "romaji" : "THIÊN"
+        },
+        {
+            "japan" : "干",
+            "romaji" : "CAN"
+        },
+        {
+            "japan" : "平",
+            "romaji" : "BÌNH"
+        },
+        {
+            "japan" : "午",
+            "romaji" : "NGỌ"
+        },
+        {
+            "japan" : "年",
+            "romaji" : "NIÊN"
+        },
+        {
+            "japan" : "牛",
+            "romaji" : "NGƯU"
+        },
+        {
+            "japan" : "生",
+            "romaji" : "SINH"
+        },
+        {
+            "japan" : "半",
+            "romaji" : "BÁN"
+        },
+        {
+            "japan" : "工",
+            "romaji" : "CÔNG"
+        },
+        {
+            "japan" : "土",
+            "romaji" : "THỔ"
+        },
+        {
+            "japan" : "士",
+            "romaji" : "SĨ"
+        },
+        {
+            "japan" : "木",
+            "romaji" : "MỘC"
+        },
+        {
+            "japan" : "米",
+            "romaji" : "MỄ"
+        },
+        {
+            "japan" : "未",
+            "romaji" : "VỊ"
+        },
+        {
+            "japan" : "人",
+            "romaji" : "NHÂN"
+        },
+        {
+            "japan" : "入",
+            "romaji" : "NHẬP"
+        },
+        {
+            "japan" : "大",
+            "romaji" : "ĐẠI"
+        },
+        {
+            "japan" : "天",
+            "romaji" : "THIÊN"
+        },
+        {
+            "japan" : "夫",
+            "romaji" : "PHU"
+        },
+        {
+            "japan" : "失",
+            "romaji" : "THẤT"
+        },
+        {
+            "japan" : "丈",
+            "romaji" : "TRƯỢNG"
+        },
+        {
+            "japan" : "王",
+            "romaji" : "VƯƠNG"
+        },
+        {
+            "japan" : "主",
+            "romaji" : "CHỦ"
+        },
+        {
+            "japan" : "水",
+            "romaji" : "THUỶ"
+        },
+        {
+            "japan" : "火",
+            "romaji" : "HOẢ"
+        },
+        {
+            "japan" : "山",
+            "romaji" : "SƠN"
+        },
+        {
+            "japan" : "出",
+            "romaji" : "XUẤT"
+        },
+        {
+            "japan" : "月",
+            "romaji" : "NGUYỆT"
+        },
+        {
+            "japan" : "用",
+            "romaji" : "DỤNG"
+        },
+        {
+            "japan" : "内",
+            "romaji" : "NỘI"
+        },
+        {
+            "japan" : "肉",
+            "romaji" : "NHỤC"
+        },
+        {
+            "japan" : "不",
+            "romaji" : "BẤT"
+        },
+        {
+            "japan" : "下",
+            "romaji" : "HẠ"
+        },
+        {
+            "japan" : "上",
+            "romaji" : "THƯỢNG"
+        },
+        {
+            "japan" : "止",
+            "romaji" : "CHỈ"
+        },
+        {
+            "japan" : "正",
+            "romaji" : "CHÍNH"
+        },
+        {
+            "japan" : "刀",
+            "romaji" : "ĐAO"
+        },
+        {
+            "japan" : "力",
+            "romaji" : "LỰC"
+        },
+        {
+            "japan" : "万",
+            "romaji" : "VẠN"
+        },
+        {
+            "japan" : "方",
+            "romaji" : "PHƯƠNG"
+        },
+        {
+            "japan" : "分",
+            "romaji" : "PHÂN"
+        },
+        {
+            "japan" : "ロ",
+            "romaji" : "KHẨU"
+        },
+        {
+            "japan" : "古",
+            "romaji" : "CỔ"
+        },
+        {
+            "japan" : "合",
+            "romaji" : "HỢP"
+        },
+        {
+            "japan" : "中",
+            "romaji" : "TRUNG"
+        },
+        {
+            "japan" : "日",
+            "romaji" : "NHẬT"
+        },
+        {
+            "japan" : "白",
+            "romaji" : "BẠCH"
+        },
+        {
+            "japan" : "百",
+            "romaji" : "BÁCH"
+        },
+        {
+            "japan" : "目",
+            "romaji" : "MỤC"
+        },
+        {
+            "japan" : "自",
+            "romaji" : "TỰ"
+        },
+        {
+            "japan" : "貝",
+            "romaji" : "BỐI"
+        },
+        {
+            "japan" : "具",
+            "romaji" : "CỤ"
+        },
+        {
+            "japan" : "車",
+            "romaji" : "XA"
+        },
+        {
+            "japan" : "田",
+            "romaji" : "ĐIỀN"
+        },
+        {
+            "japan" : "由",
+            "romaji" : "DO"
+        },
+        {
+            "japan" : "男",
+            "romaji" : "NAM"
+        },
+        {
+            "japan" : "女",
+            "romaji" : "NỮ"
+        },
+        {
+            "japan" : "子",
+            "romaji" : "TỬ"
+        },
+        {
+            "japan" : "小",
+            "romaji" : "TIỂU"
+        },
+        {
+            "japan" : "少",
+            "romaji" : "THIỂU"
+        },
+        {
+            "japan" : "多",
+            "romaji" : "ĐA"
+        },
+        {
+            "japan" : "川",
+            "romaji" : "XUYÊN"
+        },
+        {
+            "japan" : "寺",
+            "romaji" : "TỰ"
+        },
+        {
+            "japan" : "亡",
+            "romaji" : "VONG"
+        },
+        {
+            "japan" : "西",
+            "romaji" : "TÂY"
+        },
+        {
+            "japan" : "門",
+            "romaji" : "MÔN"
+        },
+        {
+            "japan" : "金",
+            "romaji" : "KIM"
+        },
+        {
+            "japan" : "己",
+            "romaji" : "KỶ"
+        },
+        {
+            "japan" : "心",
+            "romaji" : "TÂM"
+        },
+        {
+            "japan" : "才",
+            "romaji" : "TÀI"
+        },
+        {
+            "japan" : "丁",
+            "romaji" : "ĐINH"
+        },
+        {
+            "japan" : "可",
+            "romaji" : "KHẢ"
+        },
+        {
+            "japan" : "欠",
+            "romaji" : "KHIẾM"
+        },
+        {
+            "japan" : "反",
+            "romaji" : "PHẢN"
+        },
+        {
+            "japan" : "手",
+            "romaji" : "THỦ"
+        },
+        {
+            "japan" : "氏",
+            "romaji" : "THỊ"
+        },
+        {
+            "japan" : "立",
+            "romaji" : "LẬP"
+        },
+        {
+            "japan" : "豆",
+            "romaji" : "ĐẬU"
+        },
+        {
+            "japan" : "羊",
+            "romaji" : "DƯƠNG"
+        },
+        {
+            "japan" : "羽",
+            "romaji" : "VŨ"
+        },
+        {
+            "japan" : "耳",
+            "romaji" : "NHĨ"
+        },
+        {
+            "japan" : "舌",
+            "romaji" : "THIỆT"
+        },
+        {
+            "japan" : "辛",
+            "romaji" : "TÂN"
+        },
+        {
+            "japan" : "雨",
+            "romaji" : "VŨ"
+        },
+        {
+            "japan" : "央",
+            "romaji" : "ƯƠNG"
+        },
+        {
+            "japan" : "食",
+            "romaji" : "THỰC"
+        },
+        {
+            "japan" : "馬",
+            "romaji" : "MÃ"
+        },
+        {
+            "japan" : "交",
+            "romaji" : "GIAO"
+        },
+        {
+            "japan" : "京",
+            "romaji" : "KINH"
+        },
+        {
+            "japan" : "免",
+            "romaji" : "MIỄN"
+        },
+        {
+            "japan" : "赤",
+            "romaji" : "XÍCH"
+        },
+        {
+            "japan" : "走",
+            "romaji" : "TẨU"
         }
     ]
 }

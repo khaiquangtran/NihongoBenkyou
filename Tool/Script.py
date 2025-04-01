@@ -211,7 +211,7 @@ class ScriptKanjiV2:
         </div>
 
         <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
+            <div class="swiper-wrapper" id="wrapper">
 """
     bodySwipper1 = """
                 <div class="swiper-slide slide">
@@ -263,10 +263,10 @@ class ScriptKanjiV2:
     bodyEnd = """
             </div>
             <div class="box">
-                <p class="heading">Help</p>
+                <!-- <p class="heading">Help</p> -->
                 <div class="message_box">
                     <p class="message"></p>
-                    <p class="mean"></p>
+                    <!-- <p class="mean"></p> -->
                     <div class="button_box">
                         <button class="close_button" type="button">OK</button>
                     </div>

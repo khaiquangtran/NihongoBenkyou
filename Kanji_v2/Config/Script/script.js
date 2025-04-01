@@ -1,4 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+  let container = document.getElementById("wrapper");
+  let slides = Array.from(container.children);
+
+  slides.sort(() => Math.random() - 0.5);
+
+  slides.forEach(slide => container.appendChild(slide));
+
   var swiper = new Swiper(".mySwiper", {
     effect: "cards",
     grabCursor: true,
@@ -10,7 +18,9 @@ document.addEventListener("DOMContentLoaded", function () {
     .querySelectorAll(".open_button")
     .forEach(function (button, index) {
       button.addEventListener("click", function () {
-        handleButtonClick(index);
+
+        handleButtonClick(parseInt(button.value));
+        console.log(button.value);
       });
     });
 
@@ -18,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function handleButtonClick(index) {
     var colors = [
       "rgb(206, 17, 17)",
-      "rgb(0, 140, 255)",
+      "rgb(18, 18, 19)",
       "rgb(10, 184, 111)",
       "rgb(211, 122, 7)",
       "rgb(118, 163, 12)",
@@ -31,17 +41,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var box = document.querySelector(".box");
     var message = document.querySelector(".message");
-    var heading = document.querySelector(".heading");
-    var mean = document.querySelector(".mean");
-    heading.style.backgroundColor = colors[index%10];
+    // var heading = document.querySelector(".heading");
+    // var mean = document.querySelector(".mean");
+    // heading.style.backgroundColor = "white";
     box.classList.add("box_active");
     var romajiData;
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         romajiData = JSON.parse(this.responseText);
-        message.innerHTML = "/" + romajiData.vocabulary[index].romaji + "/";
-        mean.innerHTML = romajiData.vocabulary[index].mean;
+        message.innerHTML = romajiData.vocabulary[index].romaji;
+        // mean.innerHTML = romajiData.vocabulary[index].mean;
       }
     };
     // console.log();
