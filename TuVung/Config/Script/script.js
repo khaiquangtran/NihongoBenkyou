@@ -1,0 +1,29 @@
+import { images } from './../../../Home/images.js';
+
+document.querySelectorAll(".card").forEach(function (card) {
+  card.addEventListener("click", function () {
+    var check = this.classList.toggle("card1");
+    if (check) {
+      var japanText = card.getElementsByClassName("textJapan")[0].textContent;
+      // console.log(japanText);
+      try {
+        const speech = new SpeechSynthesisUtterance();
+        speech.text = japanText;
+        speech.lang = "ja";
+        window.speechSynthesis.speak(speech);
+      }
+      catch (error) {
+        console.error("Error in translation:", error);
+        alert("The text could not be translated. Please try again.");
+      }
+    }
+  });
+});
+
+var randomChange = document.getElementById("Background");
+var imgCount = images.length;
+var number = Math.floor(Math.random() * imgCount);
+
+window.onload = function () {
+  randomChange.style.backgroundImage = "url(" + images[number] + ")";
+};

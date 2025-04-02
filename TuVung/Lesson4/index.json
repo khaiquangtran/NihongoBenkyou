@@ -1,0 +1,468 @@
+{
+	"title" : "第四課",
+	"vocabulary" :
+	[
+		{
+			"img" : "ookii",
+			"japan" : "おおきい",
+			"romaji" : "lớn",
+			"mean" : ""
+		},
+		{
+			"img" : "chiisai",
+			"japan" : "ちいさい",
+			"romaji" : "nhỏ",
+			"mean" : ""
+		},
+		{
+			"img" : "hiroi",
+			"japan" : "ひろい",
+			"romaji" : "rộng",
+			"mean" : ""
+		},
+		{
+			"img" : "semai",
+			"japan" : "せまい",
+			"romaji" : "hẹp",
+			"mean" : ""
+		},
+		{
+			"img" : "akarui",
+			"japan" : "あかるい",
+			"romaji" : "sáng",
+			"mean" : ""
+		},
+		{
+			"img" : "kurai",
+			"japan" : "くらい",
+			"romaji" : "tối",
+			"mean" : ""
+		},
+		{
+			"img" : "atarashii",
+			"japan" : "あたらしい",
+			"romaji" : "mới",
+			"mean" : ""
+		},
+		{
+			"img" : "furui",
+			"japan" : "ふるい",
+			"romaji" : "cũ",
+			"mean" : ""
+		},
+		{
+			"img" : "omoi",
+			"japan" : "おもい",
+			"romaji" : "nặng",
+			"mean" : ""
+		},
+		{
+			"img" : "karui",
+			"japan" : "かるい",
+			"romaji" : "nhẹ",
+			"mean" : ""
+		},
+		{
+			"img" : "oishii",
+			"japan" : "おいしい",
+			"romaji" : "ngon",
+			"mean" : ""
+		},
+		{
+			"img" : "mazui",
+			"japan" : "まずい",
+			"romaji" : "dở",
+			"mean" : ""
+		},
+		{
+			"img" : "nagai",
+			"japan" : "ながい",
+			"romaji" : "dài",
+			"mean" : ""
+		},
+		{
+			"img" : "mijikai",
+			"japan" : "みじかい",
+			"romaji" : "ngắn",
+			"mean" : ""
+		},
+		{
+			"img" : "takai",
+			"japan" : "たかい",
+			"romaji" : "đắt, cao",
+			"mean" : ""
+		},
+		{
+			"img" : "yasui",
+			"japan" : "やすい",
+			"romaji" : "rẻ",
+			"mean" : ""
+		},
+		{
+			"img" : "takaii",
+			"japan" : "たかい",
+			"romaji" : "cao",
+			"mean" : ""
+		},
+		{
+			"img" : "hikui",
+			"japan" : "ひくい",
+			"romaji" : "thấp",
+			"mean" : ""
+		},
+		{
+			"img" : "omoshiroi",
+			"japan" : "おもしろい",
+			"romaji" : "thú vị",
+			"mean" : ""
+		},
+		{
+			"img" : "tsumaranai",
+			"japan" : "つまらない",
+			"romaji" : "nhàm chán",
+			"mean" : ""
+		},
+		{
+			"img" : "yasashi",
+			"japan" : "やさしい",
+			"romaji" : "hiền",
+			"mean" : ""
+		},
+		{
+			"img" : "kibishii",
+			"japan" : "きびしい",
+			"romaji" : "nghiêm khắc",
+			"mean" : ""
+		},
+		{
+			"img" : "muzukashii",
+			"japan" : "むずかしい",
+			"romaji" : "khó",
+			"mean" : ""
+		},
+		{
+			"img" : "yasashii",
+			"japan" : "やさしい",
+			"romaji" : "dễ",
+			"mean" : ""
+		},
+		{
+			"img" : "ii",
+			"japan" : "いい, よい",
+			"romaji" : "tốt, hay",
+			"mean" : ""
+		},
+		{
+			"img" : "warui",
+			"japan" : "わるい",
+			"romaji" : "aấu",
+			"mean" : ""
+		},
+		{
+			"img" : "majime",
+			"japan" : "まじめ",
+			"romaji" : "nghiêm túc, chăm chỉ",
+			"mean" : ""
+		},
+		{
+			"img" : "nesshin",
+			"japan" : "ねっしん",
+			"romaji" : "nhiệt tình",
+			"mean" : ""
+		},
+		{
+			"img" : "shinsetsu",
+			"japan" : "しんせつ",
+			"romaji" : "tử tế",
+			"mean" : ""
+		},
+		{
+			"img" : "genki",
+			"japan" : "げんき",
+			"romaji" : "khoẻ mạnh",
+			"mean" : ""
+		},
+		{
+			"img" : "joubu",
+			"japan" : "じょうぶ",
+			"romaji" : "bền, chắc, khoẻ",
+			"mean" : ""
+		},
+		{
+			"img" : "yuumei",
+			"japan" : "ゆうめい",
+			"romaji" : "nổi tiếng",
+			"mean" : ""
+		},
+		{
+			"img" : "taihen",
+			"japan" : "たいへん",
+			"romaji" : "vất vả, khó khăn",
+			"mean" : ""
+		},
+		{
+			"img" : "nigiyaka",
+			"japan" : "にぎやか",
+			"romaji" : "náo nhiệt, nhộn nhịp",
+			"mean" : ""
+		},
+		{
+			"img" : "shizuka",
+			"japan" : "しずか",
+			"romaji" : "yên tĩnh, khẽ",
+			"mean" : ""
+		},
+		{
+			"img" : "kirei",
+			"japan" : "きれい",
+			"romaji" : "đẹp, sạch",
+			"mean" : ""
+		},
+		{
+			"img" : "ryouri",
+			"japan" : "りょうり",
+			"romaji" : "món ăn",
+			"mean" : ""
+		},
+		{
+			"img" : "sushi",
+			"japan" : "おすし",
+			"romaji" : "sushi",
+			"mean" : ""
+		},
+		{
+			"img" : "yama",
+			"japan" : "やま",
+			"romaji" : "núi",
+			"mean" : ""
+		},
+		{
+			"img" : "fujisan",
+			"japan" : "ふじさん",
+			"romaji" : "Núi Phú Sĩ",
+			"mean" : ""
+		},
+		{
+			"img" : "sakura",
+			"japan" : "さくらのはな",
+			"romaji" : "hoa anh đào",
+			"mean" : ""
+		},
+		{
+			"img" : "ie",
+			"japan" : "いえ",
+			"romaji" : "nhà, căn nhà",
+			"mean" : ""
+		},
+		{
+			"img" : "machi",
+			"japan" : "まち",
+			"romaji" : "thành phố, thi trấn",
+			"mean" : ""
+		},
+		{
+			"img" : "kuni",
+			"japan" : "くに",
+			"romaji" : "đát nước",
+			"mean" : ""
+		},
+		{
+			"img" : "inaka",
+			"japan" : "いなか",
+			"romaji" : "quê, miền quê",
+			"mean" : ""
+		},
+		{
+			"img" : "jikka",
+			"japan" : "じっか",
+			"romaji" : "quê nhà",
+			"mean" : ""
+		},
+		{
+			"img" : "tokoro",
+			"japan" : "ところ",
+			"romaji" : "nơi chỗ",
+			"mean" : ""
+		},
+		{
+			"img" : "dou",
+			"japan" : "どう",
+			"romaji" : "như thế nào?",
+			"mean" : ""
+		},
+		{
+			"img" : "donna",
+			"japan" : "どんなN",
+			"romaji" : "N như thế nào?",
+			"mean" : ""
+		},
+		{
+			"img" : "shiroi",
+			"japan" : "しろい",
+			"romaji" : "màu trắng",
+			"mean" : ""
+		},
+		{
+			"img" : "kuroi",
+			"japan" : "くろい",
+			"romaji" : "màu đên",
+			"mean" : ""
+		},
+		{
+			"img" : "akai",
+			"japan" : "あかい",
+			"romaji" : "màu đỏ",
+			"mean" : ""
+		},
+		{
+			"img" : "aoi",
+			"japan" : "あおい",
+			"romaji" : "màu xanh",
+			"mean" : ""
+		},
+		{
+			"img" : "kiiroi",
+			"japan" : "きいろい",
+			"romaji" : "màu vàng",
+			"mean" : ""
+		},
+		{
+			"img" : "karai",
+			"japan" : "からい",
+			"romaji" : "cay",
+			"mean" : ""
+		},
+		{
+			"img" : "nigai",
+			"japan" : "にがい",
+			"romaji" : "đắng",
+			"mean" : ""
+		},
+		{
+			"img" : "amai",
+			"japan" : "あまい",
+			"romaji" : "ngọt",
+			"mean" : ""
+		},
+		{
+			"img" : "suppai",
+			"japan" : "すっぱい",
+			"romaji" : "chua",
+			"mean" : ""
+		},
+		{
+			"img" : "shoppai",
+			"japan" : "しょっぱい",
+			"romaji" : "mặn",
+			"mean" : ""
+		},
+		{
+			"img" : "kawaii",
+			"japan" : "かわいい",
+			"romaji" : "dễ thương",
+			"mean" : ""
+		},
+		{
+			"img" : "otonashii",
+			"japan" : "おとなしい",
+			"romaji" : "trầm tính, ít nói",
+			"mean" : ""
+		},
+		{
+			"img" : "shukudai",
+			"japan" : "しゅくだい",
+			"romaji" : "bài tập",
+			"mean" : ""
+		},
+		{
+			"img" : "kusuri",
+			"japan" : "くすり",
+			"romaji" : "thuốc uống",
+			"mean" : ""
+		},
+		{
+			"img" : "mikan",
+			"japan" : "みかん",
+			"romaji" : "cam, quýt",
+			"mean" : ""
+		},
+		{
+			"img" : "kudamono",
+			"japan" : "くだもの",
+			"romaji" : "trái cây",
+			"mean" : ""
+		},
+		{
+			"img" : "tabemono",
+			"japan" : "たべもの",
+			"romaji" : "đồ ăn",
+			"mean" : ""
+		},
+		{
+			"img" : "nomimono",
+			"japan" : "のみもの",
+			"romaji" : "đồ uống",
+			"mean" : ""
+		},
+		{
+			"img" : "tatemono",
+			"japan" : "たてもの",
+			"romaji" : "toà nhà",
+			"mean" : ""
+		},
+		{
+			"img" : "furusato",
+			"japan" : "ふるさと",
+			"romaji" : "quê hương",
+			"mean" : ""
+		},
+		{
+			"img" : "umi",
+			"japan" : "うみ",
+			"romaji" : "biển",
+			"mean" : ""
+		},
+		{
+			"img" : "toire",
+			"japan" : "トイレ",
+			"romaji" : "nhà vệ sinh",
+			"mean" : ""
+		},
+		{
+			"img" : "totemo",
+			"japan" : "とても",
+			"romaji" : "rất",
+			"mean" : ""
+		},
+		{
+			"img" : "sukoshi",
+			"japan" : "すこし, ちょっと",
+			"romaji" : "một chút, hơi",
+			"mean" : ""
+		},
+		{
+			"img" : "amari",
+			"japan" : "あまり",
+			"romaji" : "không, lắm",
+			"mean" : ""
+		},
+		{
+			"img" : "zenzen",
+			"japan" : "ぜんぜん",
+			"romaji" : "hoàn toàn không",
+			"mean" : ""
+		},
+		{
+			"img" : "soshite",
+			"japan" : "そして",
+			"romaji" : "và",
+			"mean" : ""
+		},
+		{
+			"img" : "demo",
+			"japan" : "しかし, でも",
+			"romaji" : "nhưng, tuy nhiên",
+			"mean" : ""
+		}
+	]
+}

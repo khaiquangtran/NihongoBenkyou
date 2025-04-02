@@ -97,16 +97,26 @@ class PageGenScript(Page):
                item_script = item_script.replace(
                   '<p class="romaji">//</p>', f'<p class="romaji2">/{item["romaji"]}/</p>'
                )
-            else:
+            elif len(item["romaji"]) > 0:
                item_script = item_script.replace(
-                  '<p class="romaji">//</p>', f'<p class="romaji">/{item["romaji"]}/</p>'
+                  '<p class="romaji">//</p>', f'<p class="romaji">{item["romaji"]}</p>'
+               )
+            else :
+               item_script = item_script.replace(
+                  '<p class="romaji">//</p>', f''
                )
 
             item_script = item_script.replace(
                '<img src="Images/.png"/>', f'<img src="Images/{item["img"]}.png"/>'
-            ).replace(
-               '<p class="mean"></p>', f'<p class="mean">{item["mean"]}</p>'
             )
+            if len(item["mean"]) > 0:
+               item_script.replace(
+                  '<p class="mean"></p>', f'<p class="mean">{item["mean"]}</p>'
+               )
+            else:
+               item_script.replace(
+                  '<p class="mean"></p>', f''
+               )
             script += item_script
 
          # End script

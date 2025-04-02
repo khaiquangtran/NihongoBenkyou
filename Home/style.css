@@ -119,7 +119,9 @@ body {
 /* Common styles for all .learn-image classes */
 .learn-image ul,
 .learn-image1 ul,
-.learn-image2 ul {
+.learn-image2 ul,
+.tu-vung ul,
+.han-tu ul {
   list-style: none;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -127,7 +129,9 @@ body {
 
 .learn-image ul::-webkit-scrollbar,
 .learn-image1 ul::-webkit-scrollbar,
-.learn-image2 ul::-webkit-scrollbar {
+.learn-image2 ul::-webkit-scrollbar,
+.tu-vung ul::-webkit-scrollbar,
+.han-tu ul::-webkit-scrollbar {
   display: none;
 }
 
