@@ -1,0 +1,56 @@
+{
+    "title" : "第二課",
+    "vocabulary":
+    [
+        {
+            "japan" : "一",
+            "romaji" : "NHẤT",
+            "meaning" : "một"
+        },
+        {
+            "japan" : "七",
+            "romaji" : "THẤT",
+            "meaning" : "bảy"
+        },
+        {
+            "japan" : "下",
+            "romaji" : "HẠ",
+            "meaning" : "dưới"
+        },
+        {
+            "japan" : "三",
+            "romaji" : "TAM",
+            "meaning" : "ba"
+        },
+        {
+            "japan" : "上",
+            "romaji" : "THƯỢNG",
+            "meaning" : "trên"
+        },
+        {
+            "japan" : "丈",
+            "romaji" : "TRƯỢNG",
+            "meaning" : "bảy"
+        },
+        {
+            "japan" : "不",
+            "romaji" : "BẤT",
+            "meaning" : "không"
+        },
+        {
+            "japan" : "世",
+            "romaji" : "THẾ",
+            "meaning" : "thế giới"
+        },
+        {
+            "japan" : "両",
+            "romaji" : "LƯỠNG",
+            "meaning" : "cả hai"
+        },
+        {
+            "japan" : "中",
+            "romaji" : "TRUNG",
+            "meaning" : "trung gian"
+        }
+    ]
+}

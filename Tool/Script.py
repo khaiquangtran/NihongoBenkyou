@@ -209,7 +209,9 @@ class ScriptKanjiV2:
             </button></a
           >
         </div>
-
+        <div class="randomButton">
+            <button id="shuffleBtn" style="color: white; font-size: 2vh" class="hideBtn" type="button">Random</button>
+        </div>
         <div class="swiper mySwiper">
             <div class="swiper-wrapper" id="wrapper">
 """
