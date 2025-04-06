@@ -53,14 +53,22 @@ document.addEventListener("DOMContentLoaded", function () {
     box.classList.add("box_active");
     var romajiData;
     var xhr = new XMLHttpRequest();
+    var text;
     xhr.onreadystatechange = function () {
       if (this.readyState == 4 && this.status == 200) {
         romajiData = JSON.parse(this.responseText);
         message.innerHTML = romajiData.vocabulary[index].romaji;
         mean.innerHTML = romajiData.vocabulary[index].meaning;
+        text = romajiData.vocabulary[index].romaji;
+
+        const content = localStorage.getItem('content');
+        // const file = filePath.files[0];
+        console.log(content)
+        if(content) {
+          speak(content, text);
+        }
       }
     };
-    // console.log();
     xhr.open("GET", "romaji.json", true);
     xhr.send();
   }
@@ -112,3 +120,37 @@ var number = Math.floor(Math.random() * imgCount);
 window.onload = function () {
   randomChange.style.backgroundImage = "url(" + images[number] + ")";
 };
+
+async function speak(keyConnect, text) {
+  const response = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      input: { text: text },
+      voice: {
+        languageCode: 'vi-VN',
+        name: 'vi-VN-Wavenet-C' // can use A, B, C...
+      },
+      audioConfig: {
+        audioEncoding: 'MP3'
+      }
+    })
+  });
+
+  if (!response.ok) {
+    alert('❌ Please choose again KEY file');
+    return;
+    // data.audioContent là base64 của file MP3
+  }
+  const data = await response.json();
+
+  if (data.audioContent) {
+    const audio = new Audio("data:audio/mp3;base64," + data.audioContent);
+    audio.play();
+  } else {
+    console.error("Error audioContent", data);
+    alert("Can't play!");
+  }
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>日本語 N5-N4</title>
-    <link rel="stylesheet" href="./Swiper/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="./Swiper/swiper-bundle.min.css" /> -->
     <link rel="stylesheet" href="Home/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="shortcut icon" type="image/x-icon" href="Home/Images/japanese-alphabet.png" />
@@ -30,6 +30,7 @@
                         <ul>
                             <li><a href="Kanji_v2/Lesson1/index.html" target="_blank">第一課</a></li>
                             <li><a href="Kanji_v2/Lesson2/index.html" target="_blank">第二課</a></li>
+                            <li><a href="Kanji_v2/Lesson3/index.html" target="_blank">第三課</a></li>
                         </ul>
                     </div>
                 </li>
@@ -397,7 +398,7 @@
                         </ul>
                     </div>
                 </li>
-                
+
                 <li><a href="#">語彙</a>
                         <div class="sub-menu-images goi">
                             <ul>
@@ -448,7 +449,7 @@
             </ul>
         </div>
 
-        <div class="swiper mySwiper">
+        <!-- <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="content">
@@ -591,8 +592,8 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="swiper-pagination"></div> -->
-        </div>
+            <div class="swiper-pagination"></div>
+        </div> -->
 
         <!-- <div id="time">
             <div class="circle" style="--clr:#ff2972">
@@ -629,13 +630,25 @@
             </div>
         </div> -->
         <!-- <h2 class="newYear">Start<br><span>FEBRUARY</span></h2> -->
-
+         <form class="formConnectKey" id="formConnectKey">
+            <div class="inputfile-box">
+                <input type="file" id="file" class="inputfile" accept=".txt">
+                <label for="file">
+                  <span id="file-name" class="file-box"></span>
+                  <span class="file-button">
+                    <i class="fa fa-upload" aria-hidden="true"></i>
+                    Select File
+                  </span>
+                </label>
+            </div>
+            <input type="submit" value="CONNECT" class="connectKey" id="connectKey">
+         </form>
         <div class="footer">
             <img src="https://hitwebcounter.com/counter/counter.php?page=11583648&style=0006&nbdigits=7&type=page&initCount=0"
                 title="Counter Widget" Alt="Visit counter For Websites" />
         </div>
     </div>
-    <script src="./Swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="./Swiper/swiper-bundle.min.js"></script> -->
     <script type="module" src="./Home/script.js"></script>
     <!-- <script src="Home/Snowfall/particles.js"></script> -->
     <!-- <script src="Home/Snowfall/app.js"></script> -->

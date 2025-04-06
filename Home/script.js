@@ -22,24 +22,24 @@ let emojis = [
   "😑"
 ];
 
-document.addEventListener("DOMContentLoaded", function () {
-  var swiper = new Swiper(".mySwiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
-    },
-    pagination: {
-        el: ".swiper-pagination",
-    },
-  });
-});
+// document.addEventListener("DOMContentLoaded", function () {
+//   var swiper = new Swiper(".mySwiper", {
+//     effect: "coverflow",
+//     grabCursor: true,
+//     centeredSlides: true,
+//     slidesPerView: "auto",
+//     coverflowEffect: {
+//         rotate: 50,
+//         stretch: 0,
+//         depth: 100,
+//         modifier: 1,
+//         slideShadows: true,
+//     },
+//     pagination: {
+//         el: ".swiper-pagination",
+//     },
+//   });
+// });
 
 var randomChange = document.getElementById("Background");
 const images = [
@@ -139,21 +139,81 @@ window.onload = function () {
 
 
 
-document.querySelectorAll(".content").forEach(function (card) {
-  card.addEventListener("click", function () {
-    var japanText = card.getElementsByClassName("textJapan")[0].textContent;
-    // console.log(japanText);
-    try {
-      const speech = new SpeechSynthesisUtterance();
-      speech.text = japanText;
-      speech.lang = "ja";
-      window.speechSynthesis.speak(speech);
-    }
-    catch (error) {
-      console.error("Error in translation:", error);
-      alert("The text could not be translated. Please try again.");
-    }
-  });
+// document.querySelectorAll(".content").forEach(function (card) {
+//   card.addEventListener("click", function () {
+//     var japanText = card.getElementsByClassName("textJapan")[0].textContent;
+//     // console.log(japanText);
+//     try {
+//       const speech = new SpeechSynthesisUtterance();
+//       speech.text = japanText;
+//       speech.lang = "ja";
+//       window.speechSynthesis.speak(speech);
+//     }
+//     catch (error) {
+//       console.error("Error in translation:", error);
+//       alert("The text could not be translated. Please try again.");
+//     }
+//   });
 
+// });
+
+const connectKey = document.getElementById('formConnectKey');
+
+connectKey.addEventListener('submit',  function (event) {
+  event.preventDefault();
+  const filePath = document.getElementById('file');
+  const file = filePath.files[0];
+  if (file) {
+    if (file.name.endsWith('.txt')) {
+      const reader = new FileReader();
+      reader.onload = function(e) {
+      const content = e.target.result;
+        // console.log(content);
+        localStorage.setItem('content', content);
+        checkConnect(content);
+      };
+      reader.readAsText(file);
+    }
+    else {
+      alert("Please choose .txt file!");
+    }
+  }
+  else {
+    alert("Bạn cần thêm file key để mở chế độ giọng nói!");
+  }
 });
 
+
+async function checkConnect(keyConnect) {
+  const response = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      input: { text: "Chúc mừng bạn đã kết nối thành công với Google Cloud. Bạn có thể nghe được giọng đọc chữ mà không cần chọn lại file." },
+      voice: {
+        languageCode: 'vi-VN',
+        name: 'vi-VN-Wavenet-C' // can use A, B, C...
+      },
+      audioConfig: {
+        audioEncoding: 'MP3'
+      }
+    })
+  });
+
+  if (!response.ok) {
+    alert('❌ Please choose again KEY file');
+    return;
+    // data.audioContent là base64 của file MP3
+  }
+  const data = await response.json();
+
+  if (data.audioContent) {
+    const audio = new Audio("data:audio/mp3;base64," + data.audioContent);
+    audio.play();
+  } else {
+    console.error("Error audioContent", data);
+    alert("Can't play!");
+  }
+}

@@ -1,0 +1,56 @@
+{
+    "title" : "第三課",
+    "vocabulary":
+    [
+        {
+            "japan" : "主",
+            "romaji" : "CHỦ",
+            "meaning" : "ông chủ"
+        },
+        {
+            "japan" : "乗",
+            "romaji" : "THỪA",
+            "meaning" : "lên xe"
+        },
+        {
+            "japan" : "九",
+            "romaji" : "CỬU",
+            "meaning" : "chín"
+        },
+        {
+            "japan" : "乳",
+            "romaji" : "NHŨ",
+            "meaning" : "sữa"
+        },
+        {
+            "japan" : "事",
+            "romaji" : "SỰ",
+            "meaning" : "sự việc"
+        },
+        {
+            "japan" : "二",
+            "romaji" : "NHỊ",
+            "meaning" : "hai"
+        },
+        {
+            "japan" : "五",
+            "romaji" : "NGŨ",
+            "meaning" : "năm"
+        },
+        {
+            "japan" : "交",
+            "romaji" : "GIAO",
+            "meaning" : "giao thông"
+        },
+        {
+            "japan" : "京",
+            "romaji" : "KINH",
+            "meaning" : "kinh đô"
+        },
+        {
+            "japan" : "人",
+            "romaji" : "NHÂN",
+            "meaning" : "người"
+        }
+    ]
+}
