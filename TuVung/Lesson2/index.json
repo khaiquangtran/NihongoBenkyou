@@ -1,0 +1,306 @@
+{
+	"title" : "第二課",
+	"vocabulary" :
+	[
+		{
+			"img" : "kore",
+			"japan" : "これ",
+			"romaji" : "cái này",
+			"mean" : ""
+		},
+		{
+			"img" : "sore",
+			"japan" : "それ",
+			"romaji" : "cái đó",
+			"mean" : ""
+		},
+		{
+			"img" : "are",
+			"japan" : "あれ",
+			"romaji" : "cái kia",
+			"mean" : ""
+		},
+		{
+			"img" : "kaban",
+			"japan" : "かばん",
+			"romaji" : "cái cặp",
+			"mean" : ""
+		},
+		{
+			"img" : "hon",
+			"japan" : "ほん",
+			"romaji" : "sách",
+			"mean" : ""
+		},
+		{
+			"img" : "jisho",
+			"japan" : "じしょ",
+			"romaji" : "từ điển",
+			"mean" : ""
+		},
+		{
+			"img" : "techou",
+			"japan" : "てちょう",
+			"romaji" : "sổ tay",
+			"mean" : ""
+		},
+		{
+			"img" : "fudebako",
+			"japan" : "ふでばこ",
+			"romaji" : "hộp bút",
+			"mean" : ""
+		},
+		{
+			"img" : "keshigomu",
+			"japan" : "けしゴム",
+			"romaji" : "cục gôm",
+			"mean" : ""
+		},
+		{
+			"img" : "shinbun",
+			"japan" : "しんぶん",
+			"romaji" : "tờ báo",
+			"mean" : ""
+		},
+		{
+			"img" : "zasshi",
+			"japan" : "ざっし",
+			"romaji" : "tạp chí",
+			"mean" : ""
+		},
+		{
+			"img" : "tsukue",
+			"japan" : "つくえ",
+			"romaji" : "cái bàn",
+			"mean" : ""
+		},
+		{
+			"img" : "isu",
+			"japan" : "いす",
+			"romaji" : "cái ghế",
+			"mean" : ""
+		},
+		{
+			"img" : "senpuuki",
+			"japan" : "せんぷうき",
+			"romaji" : "quạt máy",
+			"mean" : ""
+		},
+		{
+			"img" : "kasa",
+			"japan" : "かさ",
+			"romaji" : "cái ô, dù",
+			"mean" : ""
+		},
+		{
+			"img" : "boushi",
+			"japan" : "ぼうし",
+			"romaji" : "cái nón, mũ",
+			"mean" : ""
+		},
+		{
+			"img" : "megane",
+			"japan" : "メガネ",
+			"romaji" : "cái kính",
+			"mean" : ""
+		},
+		{
+			"img" : "tokei",
+			"japan" : "とけい",
+			"romaji" : "cái đồng hồ",
+			"mean" : ""
+		},
+		{
+			"img" : "saifu",
+			"japan" : "さいふ",
+			"romaji" : "ví tiền",
+			"mean" : ""
+		},
+		{
+			"img" : "kutsu",
+			"japan" : "くつ",
+			"romaji" : "giày",
+			"mean" : ""
+		},
+		{
+			"img" : "denwa",
+			"japan" : "でんわ",
+			"romaji" : "điện thoại",
+			"mean" : ""
+		},
+		{
+			"img" : "kagi",
+			"japan" : "かぎ",
+			"romaji" : "chìa khoá",
+			"mean" : ""
+		},
+		{
+			"img" : "okashi",
+			"japan" : "おかし",
+			"romaji" : "bánh kẹo",
+			"mean" : ""
+		},
+		{
+			"img" : "jidensha",
+			"japan" : "じでんしゃ",
+			"romaji" : "xe đạp",
+			"mean" : ""
+		},
+		{
+			"img" : "jidousha",
+			"japan" : "じどうしゃ",
+			"romaji" : "xe hơi",
+			"mean" : ""
+		},
+		{
+			"img" : "kuruma",
+			"japan" : "くるま",
+			"romaji" : "xe hơi",
+			"mean" : ""
+		},
+		{
+			"img" : "baiku",
+			"japan" : "バイク",
+			"romaji" : "xe máy",
+			"mean" : ""
+		},
+		{
+			"img" : "nan",
+			"japan" : "なん",
+			"romaji" : "cái gì?",
+			"mean" : ""
+		},
+		{
+			"img" : "dareno",
+			"japan" : "だれの (N)",
+			"romaji" : "(N) của ai",
+			"mean" : ""
+		},
+		{
+			"img" : "dokono",
+			"japan" : "どこの (N)",
+			"romaji" : "(N) của hãng nào, nước nào?",
+			"mean" : ""
+		},
+		{
+			"img" : "nanno",
+			"japan" : "なんの (N)",
+			"romaji" : "(N) gì?",
+			"mean" : ""
+		},
+		{
+			"img" : "eigo",
+			"japan" : "えいご",
+			"romaji" : "tiếng Anh",
+			"mean" : ""
+		},
+		{
+			"img" : "nanigo",
+			"japan" : "なにご",
+			"romaji" : "tiếng gì?",
+			"mean" : ""
+		},
+		{
+			"img" : "dore",
+			"japan" : "どれ",
+			"romaji" : "cái nào?",
+			"mean" : ""
+		},
+		{
+			"img" : "dono",
+			"japan" : "どの (N)",
+			"romaji" : "(N) cái nào?",
+			"mean" : ""
+		},
+		{
+			"img" : "kono",
+			"japan" : "この(N)",
+			"romaji" : "(N) cày",
+			"mean" : ""
+		},
+		{
+			"img" : "sono",
+			"japan" : "その(N)",
+			"romaji" : "(N) đó?",
+			"mean" : ""
+		},
+		{
+			"img" : "ano",
+			"japan" : "あの(N)",
+			"romaji" : "(N) kia",
+			"mean" : ""
+		},
+		{
+			"img" : "gakkou",
+			"japan" : "がっこう",
+			"romaji" : "trường học",
+			"mean" : ""
+		},
+		{
+			"img" : "kaisha",
+			"japan" : "かいしゃ",
+			"romaji" : "công ty",
+			"mean" : ""
+		},
+		{
+			"img" : "heya",
+			"japan" : "へや",
+			"romaji" : "phòng",
+			"mean" : ""
+		},
+		{
+			"img" : "mono",
+			"japan" : "もの",
+			"romaji" : "vật, đồ vật",
+			"mean" : ""
+		},
+		{
+			"img" : "meishi",
+			"japan" : "めいし",
+			"romaji" : "danh thiếp",
+			"mean" : ""
+		},
+		{
+			"img" : "kokuban",
+			"japan" : "こくばん",
+			"romaji" : "cái bảng đen",
+			"mean" : ""
+		},
+		{
+			"img" : "denki",
+			"japan" : "でんき",
+			"romaji" : "điện, đèn",
+			"mean" : ""
+		},
+		{
+			"img" : "sandaru",
+			"japan" : "さんだる",
+			"romaji" : "dép xăng-đan",
+			"mean" : ""
+		},
+		{
+			"img" : "rajio",
+			"japan" : "ラジオ",
+			"romaji" : "radio",
+			"mean" : ""
+		},
+		{
+			"img" : "kamera",
+			"japan" : "カメラ",
+			"romaji" : "máy ảnh",
+			"mean" : ""
+		},
+		{
+			"img" : "otoko",
+			"japan" : "おとこ",
+			"romaji" : "nam, đàn ông",
+			"mean" : ""
+		},
+		{
+			"img" : "onna",
+			"japan" : "おんな",
+			"romaji" : "nữ, phụ nữ",
+			"mean" : ""
+		}
+	]
+}

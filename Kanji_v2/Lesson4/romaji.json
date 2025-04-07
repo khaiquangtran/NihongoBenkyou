@@ -1,0 +1,56 @@
+{
+    "title" : "第四課",
+    "vocabulary":
+    [
+        {
+            "japan" : "今",
+            "romaji" : "KIM",
+            "meaning" : "bây giờ"
+        },
+        {
+            "japan" : "介",
+            "romaji" : "GIỚI",
+            "meaning" : "giới thiệu"
+        },
+        {
+            "japan" : "会",
+            "romaji" : "HỢP",
+            "meaning" : "gặp gỡ"
+        },
+        {
+            "japan" : "イ",
+            "romaji" : "NHÂN ĐỨNG",
+            "meaning" : " "
+        },
+        {
+            "japan" : "仕",
+            "romaji" : "SĨ",
+            "meaning" : "công việc"
+        },
+        {
+            "japan" : "付",
+            "romaji" : "PHÓ",
+            "meaning" : "gắn vào"
+        },
+        {
+            "japan" : "休",
+            "romaji" : "HƯU",
+            "meaning" : "nghỉ ngơi"
+        },
+        {
+            "japan" : "伝",
+            "romaji" : "TRUYỀN",
+            "meaning" : "truyền đạt"
+        },
+        {
+            "japan" : "何",
+            "romaji" : "HÀ",
+            "meaning" : "cái gì"
+        },
+        {
+            "japan" : "作",
+            "romaji" : "TÁC",
+            "meaning" : "tác giả"
+        }
+    ]
+}
