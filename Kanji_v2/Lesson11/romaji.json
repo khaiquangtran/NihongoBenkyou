@@ -1,0 +1,56 @@
+{
+    "title" : "第九課",
+    "vocabulary":
+    [
+        {
+            "japan" : "口",
+            "romaji" : "KHẨU",
+            "meaning" : "miệng"
+        },
+        {
+            "japan" : "古",
+            "romaji" : "CỔ",
+            "meaning" : "cũ"
+        },
+        {
+            "japan" : "号",
+            "romaji" : "HIỆU",
+            "meaning" : "số hiệu"
+        },
+        {
+            "japan" : "台",
+            "romaji" : "ĐÀI",
+            "meaning" : "cái bục"
+        },
+        {
+            "japan" : "右",
+            "romaji" : "HỮU",
+            "meaning" : "bên phải"
+        },
+        {
+            "japan" : "吸",
+            "romaji" : "HẤP",
+            "meaning" : "hút, hít"
+        },
+        {
+            "japan" : "合",
+            "romaji" : "HỢP",
+            "meaning" : "hoà hợp"
+        },
+        {
+            "japan" : "同",
+            "romaji" : "ĐỒNG",
+            "meaning" : "giống nhau"
+        },
+        {
+            "japan" : "名",
+            "romaji" : "DANH",
+            "meaning" : "danh tiếng"
+        },
+        {
+            "japan" : "呼",
+            "romaji" : "HÔ",
+            "meaning" : "gọi"
+        }
+    ]
+}
