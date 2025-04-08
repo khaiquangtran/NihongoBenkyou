@@ -1,0 +1,51 @@
+{
+    "title" : "第六課",
+    "vocabulary":
+    [
+        {
+            "japan" : "写",
+            "romaji" : "TẢ",
+            "meaning" : "miêu tả"
+        },
+        {
+            "japan" : "冷",
+            "romaji" : "LÃNH",
+            "meaning" : "lạnh"
+        },
+        {
+            "japan" : "出",
+            "romaji" : "XUẤT",
+            "meaning" : "đi ra"
+        },
+        {
+            "japan" : "刀",
+            "romaji" : "ĐAO",
+            "meaning" : "con dao"
+        },
+        {
+            "japan" : "切",
+            "romaji" : "THIẾT",
+            "meaning" : "cắt"
+        },
+        {
+            "japan" : "分",
+            "romaji" : "PHÂN",
+            "meaning" : "phân chia"
+        },
+        {
+            "japan" : "列",
+            "romaji" : "LIỆT",
+            "meaning" : "hàng lối"
+        },
+        {
+            "japan" : "利",
+            "romaji" : "LỢI",
+            "meaning" : "tiện lợi"
+        },
+        {
+            "japan" : "前",
+            "romaji" : "TIỀN",
+            "meaning" : "phía trước"
+        }
+    ]
+}
