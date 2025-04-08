@@ -1,0 +1,241 @@
+{
+    "title" : "第十課",
+    "vocabulary":
+    [
+        {
+            "japan" : "写",
+            "romaji" : "TẢ",
+            "meaning" : "miêu tả"
+        },
+        {
+            "japan" : "冷",
+            "romaji" : "LÃNH",
+            "meaning" : "lạnh"
+        },
+        {
+            "japan" : "出",
+            "romaji" : "XUẤT",
+            "meaning" : "đi ra"
+        },
+        {
+            "japan" : "刀",
+            "romaji" : "ĐAO",
+            "meaning" : "con dao"
+        },
+        {
+            "japan" : "切",
+            "romaji" : "THIẾT",
+            "meaning" : "cắt"
+        },
+        {
+            "japan" : "分",
+            "romaji" : "PHÂN",
+            "meaning" : "phân chia"
+        },
+        {
+            "japan" : "列",
+            "romaji" : "LIỆT",
+            "meaning" : "hàng lối"
+        },
+        {
+            "japan" : "利",
+            "romaji" : "LỢI",
+            "meaning" : "tiện lợi"
+        },
+        {
+            "japan" : "前",
+            "romaji" : "TIỀN",
+            "meaning" : "phía trước"
+        },
+        {
+            "japan" : "力",
+            "romaji" : "LỰC",
+            "meaning" : "sức lực"
+        },
+        {
+            "japan" : "勉",
+            "romaji" : "MIỄN",
+            "meaning" : "miễn cường (việc học)"
+        },
+        {
+            "japan" : "動",
+            "romaji" : "ĐỘNG",
+            "meaning" : "vận động"
+        },
+        {
+            "japan" : "務",
+            "romaji" : "VỤ",
+            "meaning" : "sự vụ"
+        },
+        {
+            "japan" : "化",
+            "romaji" : "HOÁ",
+            "meaning" : "biến hoá"
+        },
+        {
+            "japan" : "北",
+            "romaji" : "BẮC",
+            "meaning" : "phía Bắc"
+        },
+        {
+            "japan" : "区",
+            "romaji" : "KHU",
+            "meaning" : "khu vực"
+        },
+        {
+            "japan" : "医",
+            "romaji" : "Y",
+            "meaning" : "y học"
+        },
+        {
+            "japan" : "十",
+            "romaji" : "THẬP",
+            "meaning" : "mười"
+        },
+        {
+            "japan" : "千",
+            "romaji" : "THIÊN",
+            "meaning" : "một ngàn"
+        },
+        {
+            "japan" : "午",
+            "romaji" : "NGỌ",
+            "meaning" : "giữa trưa"
+        },
+        {
+            "japan" : "半",
+            "romaji" : "BÁN",
+            "meaning" : "một nữa"
+        },
+        {
+            "japan" : "卒",
+            "romaji" : "TỐT",
+            "meaning" : "tốt nghiệp"
+        },
+        {
+            "japan" : "南",
+            "romaji" : "NAM",
+            "meaning" : "phía nam"
+        },
+        {
+            "japan" : "去",
+            "romaji" : "KHỨ",
+            "meaning" : "quá khứ"
+        },
+        {
+            "japan" : "友",
+            "romaji" : "HỮU",
+            "meaning" : "bạn bè"
+        },
+        {
+            "japan" : "取",
+            "romaji" : "THỦ",
+            "meaning" : "lấy"
+        },
+        {
+            "japan" : "授",
+            "romaji" : "THỤ",
+            "meaning" : "nhận"
+        },
+        {
+            "japan" : "口",
+            "romaji" : "KHẨU",
+            "meaning" : "miệng"
+        },
+        {
+            "japan" : "古",
+            "romaji" : "CỔ",
+            "meaning" : "cũ"
+        },
+        {
+            "japan" : "号",
+            "romaji" : "HIỆU",
+            "meaning" : "số hiệu"
+        },
+        {
+            "japan" : "台",
+            "romaji" : "ĐÀI",
+            "meaning" : "cái bục"
+        },
+        {
+            "japan" : "右",
+            "romaji" : "HỮU",
+            "meaning" : "bên phải"
+        },
+        {
+            "japan" : "吸",
+            "romaji" : "HẤP",
+            "meaning" : "hút, hít"
+        },
+        {
+            "japan" : "合",
+            "romaji" : "HỢP",
+            "meaning" : "hoà hợp"
+        },
+        {
+            "japan" : "同",
+            "romaji" : "ĐỒNG",
+            "meaning" : "giống nhau"
+        },
+        {
+            "japan" : "名",
+            "romaji" : "DANH",
+            "meaning" : "danh tiếng"
+        },
+        {
+            "japan" : "呼",
+            "romaji" : "HÔ",
+            "meaning" : "gọi"
+        },
+        {
+            "japan" : "員",
+            "romaji" : "VIÊN",
+            "meaning" : "nhân viên"
+        },
+        {
+            "japan" : "問",
+            "romaji" : "VẤN",
+            "meaning" : "vấn đề"
+        },
+        {
+            "japan" : "喫",
+            "romaji" : "KHIẾT",
+            "meaning" : "ăn uống"
+        },
+        {
+            "japan" : "四",
+            "romaji" : "TỨ",
+            "meaning" : "bốn"
+        },
+        {
+            "japan" : "回",
+            "romaji" : "HỒI",
+            "meaning" : "lần"
+        },
+        {
+            "japan" : "図",
+            "romaji" : "ĐỒ",
+            "meaning" : "bản đồ"
+        },
+        {
+            "japan" : "国",
+            "romaji" : "QUỐC",
+            "meaning" : "đất nước"
+        },
+        {
+            "japan" : "園",
+            "romaji" : "VIÊN",
+            "meaning" : "công viên"
+        },
+        {
+            "japan" : "土",
+            "romaji" : "THỔ",
+            "meaning" : "đất"
+        },
+        {
+            "japan" : "地",
+            "romaji" : "ĐỊA",
+            "meaning" : "địa lý"
+        }
+    ]
+}
