@@ -1,0 +1,56 @@
+{
+    "title" : "第十課",
+    "vocabulary":
+    [
+        {
+            "japan" : "員",
+            "romaji" : "VIÊN",
+            "meaning" : "nhân viên"
+        },
+        {
+            "japan" : "問",
+            "romaji" : "VẤN",
+            "meaning" : "vấn đề"
+        },
+        {
+            "japan" : "喫",
+            "romaji" : "KHIẾT",
+            "meaning" : "ăn uống"
+        },
+        {
+            "japan" : "四",
+            "romaji" : "TỨ",
+            "meaning" : "bốn"
+        },
+        {
+            "japan" : "回",
+            "romaji" : "HỒI",
+            "meaning" : "lần"
+        },
+        {
+            "japan" : "図",
+            "romaji" : "ĐỒ",
+            "meaning" : "bản đồ"
+        },
+        {
+            "japan" : "国",
+            "romaji" : "QUỐC",
+            "meaning" : "đất nước"
+        },
+        {
+            "japan" : "園",
+            "romaji" : "VIÊN",
+            "meaning" : "công viên"
+        },
+        {
+            "japan" : "土",
+            "romaji" : "THỔ",
+            "meaning" : "đất"
+        },
+        {
+            "japan" : "地",
+            "romaji" : "ĐỊA",
+            "meaning" : "địa lý"
+        }
+    ]
+}
