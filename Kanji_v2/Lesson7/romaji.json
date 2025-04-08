@@ -1,0 +1,246 @@
+{
+    "title" : "復習ー",
+    "vocabulary":
+    [
+        {
+            "japan" : "一",
+            "romaji" : "NHẤT",
+            "meaning" : "một"
+        },
+        {
+            "japan" : "七",
+            "romaji" : "THẤT",
+            "meaning" : "bảy"
+        },
+        {
+            "japan" : "下",
+            "romaji" : "HẠ",
+            "meaning" : "dưới"
+        },
+        {
+            "japan" : "三",
+            "romaji" : "TAM",
+            "meaning" : "ba"
+        },
+        {
+            "japan" : "上",
+            "romaji" : "THƯỢNG",
+            "meaning" : "trên"
+        },
+        {
+            "japan" : "丈",
+            "romaji" : "TRƯỢNG",
+            "meaning" : "bảy"
+        },
+        {
+            "japan" : "不",
+            "romaji" : "BẤT",
+            "meaning" : "không"
+        },
+        {
+            "japan" : "世",
+            "romaji" : "THẾ",
+            "meaning" : "thế giới"
+        },
+        {
+            "japan" : "両",
+            "romaji" : "LƯỠNG",
+            "meaning" : "cả hai"
+        },
+        {
+            "japan" : "中",
+            "romaji" : "TRUNG",
+            "meaning" : "trung gian"
+        },
+        {
+            "japan" : "主",
+            "romaji" : "CHỦ",
+            "meaning" : "ông chủ"
+        },
+        {
+            "japan" : "乗",
+            "romaji" : "THỪA",
+            "meaning" : "lên xe"
+        },
+        {
+            "japan" : "九",
+            "romaji" : "CỬU",
+            "meaning" : "chín"
+        },
+        {
+            "japan" : "乳",
+            "romaji" : "NHŨ",
+            "meaning" : "sữa"
+        },
+        {
+            "japan" : "事",
+            "romaji" : "SỰ",
+            "meaning" : "sự việc"
+        },
+        {
+            "japan" : "二",
+            "romaji" : "NHỊ",
+            "meaning" : "hai"
+        },
+        {
+            "japan" : "五",
+            "romaji" : "NGŨ",
+            "meaning" : "năm"
+        },
+        {
+            "japan" : "交",
+            "romaji" : "GIAO",
+            "meaning" : "giao thông"
+        },
+        {
+            "japan" : "京",
+            "romaji" : "KINH",
+            "meaning" : "kinh đô"
+        },
+        {
+            "japan" : "人",
+            "romaji" : "NHÂN",
+            "meaning" : "người"
+        },
+        {
+            "japan" : "今",
+            "romaji" : "KIM",
+            "meaning" : "bây giờ"
+        },
+        {
+            "japan" : "介",
+            "romaji" : "GIỚI",
+            "meaning" : "giới thiệu"
+        },
+        {
+            "japan" : "会",
+            "romaji" : "HỢP",
+            "meaning" : "gặp gỡ"
+        },
+        {
+            "japan" : "イ",
+            "romaji" : "NHÂN ĐỨNG",
+            "meaning" : " "
+        },
+        {
+            "japan" : "仕",
+            "romaji" : "SĨ",
+            "meaning" : "công việc"
+        },
+        {
+            "japan" : "付",
+            "romaji" : "PHÓ",
+            "meaning" : "gắn vào"
+        },
+        {
+            "japan" : "休",
+            "romaji" : "HƯU",
+            "meaning" : "nghỉ ngơi"
+        },
+        {
+            "japan" : "伝",
+            "romaji" : "TRUYỀN",
+            "meaning" : "truyền đạt"
+        },
+        {
+            "japan" : "何",
+            "romaji" : "HÀ",
+            "meaning" : "cái gì"
+        },
+        {
+            "japan" : "作",
+            "romaji" : "TÁC",
+            "meaning" : "tác giả"
+        },
+        {
+            "japan" : "体",
+            "romaji" : "THỂ",
+            "meaning" : "cơ thể"
+        },
+        {
+            "japan" : "住",
+            "romaji" : "TRÚ",
+            "meaning" : "cư trú"
+        },
+        {
+            "japan" : "低",
+            "romaji" : "ĐÊ",
+            "meaning" : "thấp"
+        },
+        {
+            "japan" : "価",
+            "romaji" : "GIÁ",
+            "meaning" : "giá trị"
+        },
+        {
+            "japan" : "使",
+            "romaji" : "SỬ",
+            "meaning" : "sử dụng"
+        },
+        {
+            "japan" : "信",
+            "romaji" : "TÍN",
+            "meaning" : "tín hiệu"
+        },
+        {
+            "japan" : "便",
+            "romaji" : "TIỆN",
+            "meaning" : "tiện lợi"
+        },
+        {
+            "japan" : "借",
+            "romaji" : "TÁ",
+            "meaning" : "vay, mượn"
+        },
+        {
+            "japan" : "働",
+            "romaji" : "ĐỘNG",
+            "meaning" : "lao động"
+        },
+        {
+            "japan" : "元",
+            "romaji" : "NGUYÊN",
+            "meaning" : "nguồn gốc"
+        },
+        {
+            "japan" : "兄",
+            "romaji" : "HUYNH",
+            "meaning" : "anh trai"
+        },
+        {
+            "japan" : "先",
+            "romaji" : "TIÊN",
+            "meaning" : "trước"
+        },
+        {
+            "japan" : "入",
+            "romaji" : "NHẬP",
+            "meaning" : "đi vào"
+        },
+        {
+            "japan" : "内",
+            "romaji" : "NỘI",
+            "meaning" : "bên trong"
+        },
+        {
+            "japan" : "全",
+            "romaji" : "TOÀN",
+            "meaning" : "toàn bộ"
+        },
+        {
+            "japan" : "公",
+            "romaji" : "CÔNG",
+            "meaning" : "công viên"
+        },
+        {
+            "japan" : "六",
+            "romaji" : "LỤC",
+            "meaning" : "sáu"
+        },
+        {
+            "japan" : "円",
+            "romaji" : "VIÊN",
+            "meaning" : "đơn vị tiền Nhật"
+        }
+    ]
+}
