@@ -1,0 +1,51 @@
+{
+    "title" : "第五課",
+    "vocabulary":
+    [
+        {
+            "japan" : "元",
+            "romaji" : "NGUYÊN",
+            "meaning" : "nguồn gốc"
+        },
+        {
+            "japan" : "兄",
+            "romaji" : "HUYNH",
+            "meaning" : "anh trai"
+        },
+        {
+            "japan" : "先",
+            "romaji" : "TIÊN",
+            "meaning" : "trước"
+        },
+        {
+            "japan" : "入",
+            "romaji" : "NHẬP",
+            "meaning" : "đi vào"
+        },
+        {
+            "japan" : "内",
+            "romaji" : "NỘI",
+            "meaning" : "bên trong"
+        },
+        {
+            "japan" : "全",
+            "romaji" : "TOÀN",
+            "meaning" : "toàn bộ"
+        },
+        {
+            "japan" : "公",
+            "romaji" : "CÔNG",
+            "meaning" : "công viên"
+        },
+        {
+            "japan" : "六",
+            "romaji" : "LỤC",
+            "meaning" : "sáu"
+        },
+        {
+            "japan" : "円",
+            "romaji" : "VIÊN",
+            "meaning" : "đơn vị tiền Nhật"
+        }
+    ]
+}
