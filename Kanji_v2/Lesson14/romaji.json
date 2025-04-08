@@ -1,0 +1,51 @@
+{
+    "title" : "第十ー課",
+    "vocabulary":
+    [
+        {
+            "japan" : "堂",
+            "romaji" : "ĐƯỜNG",
+            "meaning" : "nhà lớn"
+        },
+        {
+            "japan" : "場",
+            "romaji" : "TRƯỜNG",
+            "meaning" : "công trường"
+        },
+        {
+            "japan" : "士",
+            "romaji" : "SĨ",
+            "meaning" : "binh sĩ"
+        },
+        {
+            "japan" : "声",
+            "romaji" : "THANH",
+            "meaning": "âm tnanh"
+        },
+        {
+            "japan" : "売",
+            "romaji" : "MẠI",
+            "meaning" : "bán"
+        },
+        {
+            "japan" : "冬",
+            "romaji" : "ĐÔNG",
+            "meaning" : "mùa đông"
+        },
+        {
+            "japan" : "変",
+            "romaji" : "BIẾN",
+            "meaning" : "biến hoá"
+        },
+        {
+            "japan" : "夏",
+            "romaji" : "HẠ",
+            "meaning" : "mùa hè"
+        },
+        {
+            "japan" : "夕",
+            "romaji" : "TỊCH",
+            "meaning" : "buổi tối"
+        }
+    ]
+}
