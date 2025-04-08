@@ -1,0 +1,51 @@
+{
+    "title" : "第七課",
+    "vocabulary":
+    [
+        {
+            "japan" : "力",
+            "romaji" : "LỰC",
+            "meaning" : "sức lực"
+        },
+        {
+            "japan" : "勉",
+            "romaji" : "MIỄN",
+            "meaning" : "miễn cường (việc học)"
+        },
+        {
+            "japan" : "動",
+            "romaji" : "ĐỘNG",
+            "meaning" : "vận động"
+        },
+        {
+            "japan" : "務",
+            "romaji" : "VỤ",
+            "meaning" : "sự vụ"
+        },
+        {
+            "japan" : "化",
+            "romaji" : "HOÁ",
+            "meaning" : "biến hoá"
+        },
+        {
+            "japan" : "北",
+            "romaji" : "BẮC",
+            "meaning" : "phía Bắc"
+        },
+        {
+            "japan" : "区",
+            "romaji" : "KHU",
+            "meaning" : "khu vực"
+        },
+        {
+            "japan" : "医",
+            "romaji" : "Y",
+            "meaning" : "y học"
+        },
+        {
+            "japan" : "十",
+            "romaji" : "THẬP",
+            "meaning" : "mười"
+        }
+    ]
+}
