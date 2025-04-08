@@ -1,0 +1,51 @@
+{
+    "title" : "第八課",
+    "vocabulary":
+    [
+        {
+            "japan" : "千",
+            "romaji" : "THIÊN",
+            "meaning" : "một ngàn"
+        },
+        {
+            "japan" : "午",
+            "romaji" : "NGỌ",
+            "meaning" : "giữa trưa"
+        },
+        {
+            "japan" : "半",
+            "romaji" : "BÁN",
+            "meaning" : "một nữa"
+        },
+        {
+            "japan" : "卒",
+            "romaji" : "TỐT",
+            "meaning" : "tốt nghiệp"
+        },
+        {
+            "japan" : "南",
+            "romaji" : "NAM",
+            "meaning" : "phía nam"
+        },
+        {
+            "japan" : "去",
+            "romaji" : "KHỨ",
+            "meaning" : "quá khứ"
+        },
+        {
+            "japan" : "友",
+            "romaji" : "HỮU",
+            "meaning" : "bạn bè"
+        },
+        {
+            "japan" : "取",
+            "romaji" : "THỦ",
+            "meaning" : "lấy"
+        },
+        {
+            "japan" : "授",
+            "romaji" : "THỤ",
+            "meaning" : "nhận"
+        }
+    ]
+}
