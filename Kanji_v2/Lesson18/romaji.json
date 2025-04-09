@@ -1,0 +1,51 @@
+{
+    "title" : "第十五課",
+    "vocabulary":
+    [
+        {
+            "japan" : "将",
+            "romaji" : "TƯƠNG",
+            "meaning" : "tương lai"
+        },
+        {
+            "japan" : "小",
+            "romaji" : "TIỂU",
+            "meaning" : "nhỏ"
+        },
+        {
+            "japan" : "少",
+            "romaji" : "THIỂU",
+            "meaning" : "ít"
+        },
+        {
+            "japan" : "屋",
+            "romaji" : "ỐC",
+            "meaning" : "phòng ốc"
+        },
+        {
+            "japan" : "山",
+            "romaji" : "SƠN",
+            "meaning" : "núi"
+        },
+        {
+            "japan" : "川",
+            "romaji" : "XUYÊN",
+            "meaning" : "sông"
+        },
+        {
+            "japan" : "工",
+            "romaji" : "CÔNG",
+            "meaning" : "công trường"
+        },
+        {
+            "japan" : "左",
+            "romaji" : "TẢ",
+            "meaning" : "bên trái"
+        },
+        {
+            "japan" : "己",
+            "romaji" : "KỶ",
+            "meaning" : "bản thân"
+        }
+    ]
+}
