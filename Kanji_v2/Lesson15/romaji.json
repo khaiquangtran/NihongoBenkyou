@@ -1,0 +1,56 @@
+{
+    "title" : "第十二課",
+    "vocabulary":
+    [
+        {
+            "japan" : "外",
+            "romaji" : "NGOẠI",
+            "meaning" : "bên ngoài"
+        },
+        {
+            "japan" : "多",
+            "romaji" : "ĐA",
+            "meaning" : "nhiều"
+        },
+        {
+            "japan" : "夜",
+            "romaji" : "DẠ",
+            "meaning" : "buổi tối"
+        },
+        {
+            "japan" : "大",
+            "romaji" : "ĐẠI",
+            "meaning": "to lớn"
+        },
+        {
+            "japan" : "太",
+            "romaji" : "THÁI",
+            "meaning" : "mập"
+        },
+        {
+            "japan" : "天",
+            "romaji" : "THIÊN",
+            "meaning" : "trời"
+        },
+        {
+            "japan" : "夫",
+            "romaji" : "PHU",
+            "meaning" : "chồng"
+        },
+        {
+            "japan" : "失",
+            "romaji" : "THẤT",
+            "meaning" : "thất bại"
+        },
+        {
+            "japan" : "女",
+            "romaji" : "NỮ",
+            "meaning" : "con gái"
+        },
+        {
+            "japan" : "好",
+            "romaji" : "HẢO",
+            "meaning" : "thích"
+        }
+    ]
+}

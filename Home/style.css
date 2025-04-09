@@ -116,6 +116,32 @@ body {
   display: none;
 }
 
+.sub-menu-kanji2 {
+  display: none;
+}
+
+.hover-me-kanji2:hover .sub-menu-kanji2 {
+  position: absolute;
+  display: block;
+  background: #1abc9c;
+  margin-top: -4vh;
+  margin-left: 19vh;
+  border-radius: 1vh;
+  /* width: 20vh; */
+}
+
+.sub-menu-kanji2 ul {
+  list-style: none;
+  height: 30vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.sub-menu-kanji2 ul::-webkit-scrollbar {
+  display: none;
+}
+
+
 /* Common styles for all .learn-image classes */
 .learn-image ul,
 .learn-image1 ul,
