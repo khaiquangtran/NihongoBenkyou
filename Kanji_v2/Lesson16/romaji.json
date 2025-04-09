@@ -1,0 +1,51 @@
+{
+    "title" : "第十三課",
+    "vocabulary":
+    [
+        {
+            "japan" : "妻",
+            "romaji" : "THÊ",
+            "meaning" : "vợ"
+        },
+        {
+            "japan" : "姉",
+            "romaji" : "TỶ",
+            "meaning" : "chị"
+        },
+        {
+            "japan" : "妹",
+            "romaji" : "MUỘI",
+            "meaning" : "em gái"
+        },
+        {
+            "japan" : "始",
+            "romaji" : "THUỶ",
+            "meaning": "bắt đầu"
+        },
+        {
+            "japan" : "婦",
+            "romaji" : "PHỤ",
+            "meaning" : "phụ nữ"
+        },
+        {
+            "japan" : "婚",
+            "romaji" : "HÔN",
+            "meaning" : "kết hôn"
+        },
+        {
+            "japan" : "子",
+            "romaji" : "TỬ",
+            "meaning" : "con"
+        },
+        {
+            "japan" : "字",
+            "romaji" : "TỰ",
+            "meaning" : "chữ"
+        },
+        {
+            "japan" : "学",
+            "romaji" : "HỌC",
+            "meaning" : "học sinh"
+        }
+    ]
+}
