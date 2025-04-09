@@ -1,0 +1,56 @@
+{
+    "title" : "第十四課",
+    "vocabulary":
+    [
+        {
+            "japan" : "安",
+            "romaji" : "AN",
+            "meaning" : "an toàn"
+        },
+        {
+            "japan" : "実",
+            "romaji" : "THỰC",
+            "meaning" : "thực tế"
+        },
+        {
+            "japan" : "室",
+            "romaji" : "THẤT",
+            "meaning" : "phòng"
+        },
+        {
+            "japan" : "家",
+            "romaji" : "GIA",
+            "meaning": "gia đình"
+        },
+        {
+            "japan" : "宿",
+            "romaji" : "TÚC",
+            "meaning" : "tá túc"
+        },
+        {
+            "japan" : "富",
+            "romaji" : "PHÚ",
+            "meaning" : "giàu có"
+        },
+        {
+            "japan" : "寒",
+            "romaji" : "HÀN",
+            "meaning" : "lạnh (thời tiết)"
+        },
+        {
+            "japan" : "寝",
+            "romaji" : "TẨM",
+            "meaning" : "ngủ"
+        },
+        {
+            "japan" : "寸",
+            "romaji" : "BỘ THỐN",
+            "meaning" : " "
+        },
+        {
+            "japan" : "寺",
+            "romaji" : "TỰ",
+            "meaning" : "chùa"
+        }
+    ]
+}
