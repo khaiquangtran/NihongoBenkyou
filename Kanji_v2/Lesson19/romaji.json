@@ -1,0 +1,241 @@
+{
+    "title" : "第十五課",
+    "vocabulary":
+    [
+        {
+            "japan" : "堂",
+            "romaji" : "ĐƯỜNG",
+            "meaning" : "nhà lớn"
+        },
+        {
+            "japan" : "場",
+            "romaji" : "TRƯỜNG",
+            "meaning" : "công trường"
+        },
+        {
+            "japan" : "士",
+            "romaji" : "SĨ",
+            "meaning" : "binh sĩ"
+        },
+        {
+            "japan" : "声",
+            "romaji" : "THANH",
+            "meaning": "âm tnanh"
+        },
+        {
+            "japan" : "売",
+            "romaji" : "MẠI",
+            "meaning" : "bán"
+        },
+        {
+            "japan" : "冬",
+            "romaji" : "ĐÔNG",
+            "meaning" : "mùa đông"
+        },
+        {
+            "japan" : "変",
+            "romaji" : "BIẾN",
+            "meaning" : "biến đổi"
+        },
+        {
+            "japan" : "夏",
+            "romaji" : "HẠ",
+            "meaning" : "mùa hè"
+        },
+        {
+            "japan" : "夕",
+            "romaji" : "TỊCH",
+            "meaning" : "buổi tối"
+        },
+        {
+            "japan" : "外",
+            "romaji" : "NGOẠI",
+            "meaning" : "bên ngoài"
+        },
+        {
+            "japan" : "多",
+            "romaji" : "ĐA",
+            "meaning" : "nhiều"
+        },
+        {
+            "japan" : "夜",
+            "romaji" : "DẠ",
+            "meaning" : "buổi tối"
+        },
+        {
+            "japan" : "大",
+            "romaji" : "ĐẠI",
+            "meaning": "to lớn"
+        },
+        {
+            "japan" : "太",
+            "romaji" : "THÁI",
+            "meaning" : "mập"
+        },
+        {
+            "japan" : "天",
+            "romaji" : "THIÊN",
+            "meaning" : "trời"
+        },
+        {
+            "japan" : "夫",
+            "romaji" : "PHU",
+            "meaning" : "chồng"
+        },
+        {
+            "japan" : "失",
+            "romaji" : "THẤT",
+            "meaning" : "thất bại"
+        },
+        {
+            "japan" : "女",
+            "romaji" : "NỮ",
+            "meaning" : "con gái"
+        },
+        {
+            "japan" : "好",
+            "romaji" : "HẢO",
+            "meaning" : "thích"
+        },
+        {
+            "japan" : "妻",
+            "romaji" : "THÊ",
+            "meaning" : "vợ"
+        },
+        {
+            "japan" : "姉",
+            "romaji" : "TỶ",
+            "meaning" : "chị"
+        },
+        {
+            "japan" : "妹",
+            "romaji" : "MUỘI",
+            "meaning" : "em gái"
+        },
+        {
+            "japan" : "始",
+            "romaji" : "THUỶ",
+            "meaning": "bắt đầu"
+        },
+        {
+            "japan" : "婦",
+            "romaji" : "PHỤ",
+            "meaning" : "phụ nữ"
+        },
+        {
+            "japan" : "婚",
+            "romaji" : "HÔN",
+            "meaning" : "kết hôn"
+        },
+        {
+            "japan" : "子",
+            "romaji" : "TỬ",
+            "meaning" : "con"
+        },
+        {
+            "japan" : "字",
+            "romaji" : "TỰ",
+            "meaning" : "chữ"
+        },
+        {
+            "japan" : "学",
+            "romaji" : "HỌC",
+            "meaning" : "học sinh"
+        },
+        {
+            "japan" : "安",
+            "romaji" : "AN",
+            "meaning" : "an toàn"
+        },
+        {
+            "japan" : "実",
+            "romaji" : "THỰC",
+            "meaning" : "thực tế"
+        },
+        {
+            "japan" : "室",
+            "romaji" : "THẤT",
+            "meaning" : "phòng"
+        },
+        {
+            "japan" : "家",
+            "romaji" : "GIA",
+            "meaning": "gia đình"
+        },
+        {
+            "japan" : "宿",
+            "romaji" : "TÚC",
+            "meaning" : "tá túc"
+        },
+        {
+            "japan" : "富",
+            "romaji" : "PHÚ",
+            "meaning" : "giàu có"
+        },
+        {
+            "japan" : "寒",
+            "romaji" : "HÀN",
+            "meaning" : "lạnh (thời tiết)"
+        },
+        {
+            "japan" : "寝",
+            "romaji" : "TẨM",
+            "meaning" : "ngủ"
+        },
+        {
+            "japan" : "寸",
+            "romaji" : "BỘ THỐN",
+            "meaning" : " "
+        },
+        {
+            "japan" : "寺",
+            "romaji" : "TỰ",
+            "meaning" : "chùa"
+        },
+        {
+            "japan" : "将",
+            "romaji" : "TƯƠNG",
+            "meaning" : "tương lai"
+        },
+        {
+            "japan" : "小",
+            "romaji" : "TIỂU",
+            "meaning" : "nhỏ"
+        },
+        {
+            "japan" : "少",
+            "romaji" : "THIỂU",
+            "meaning" : "ít"
+        },
+        {
+            "japan" : "屋",
+            "romaji" : "ỐC",
+            "meaning" : "phòng ốc"
+        },
+        {
+            "japan" : "山",
+            "romaji" : "SƠN",
+            "meaning" : "núi"
+        },
+        {
+            "japan" : "川",
+            "romaji" : "XUYÊN",
+            "meaning" : "sông"
+        },
+        {
+            "japan" : "工",
+            "romaji" : "CÔNG",
+            "meaning" : "công trường"
+        },
+        {
+            "japan" : "左",
+            "romaji" : "TẢ",
+            "meaning" : "bên trái"
+        },
+        {
+            "japan" : "己",
+            "romaji" : "KỶ",
+            "meaning" : "bản thân"
+        }
+    ]
+}
