@@ -1,0 +1,46 @@
+{
+    "title" : "第十八課",
+    "vocabulary":
+    [
+        {
+            "japan" : "弱",
+            "romaji" : "NHƯỢC",
+            "meaning" : "yếu"
+        },
+        {
+            "japan" : "強",
+            "romaji" : "CƯỜNG",
+            "meaning" : "mạnh"
+        },
+        {
+            "japan" : "張",
+            "romaji" : "TRƯƠNG",
+            "meaning" : "căng ra"
+        },
+        {
+            "japan" : "形",
+            "romaji" : "HÌNH",
+            "meaning" : "hình dáng"
+        },
+        {
+            "japan" : "彼",
+            "romaji" : "BỈ",
+            "meaning" : "anh ta"
+        },
+        {
+            "japan" : "後",
+            "romaji" : "HẬU",
+            "meaning" : "phía sau"
+        },
+        {
+            "japan" : "待",
+            "romaji" : "ĐÃI",
+            "meaning" : "chiêu đãi"
+        },
+        {
+            "japan" : "復",
+            "romaji" : "PHỤC",
+            "meaning" : "phục hồi"
+        }
+    ]
+}
