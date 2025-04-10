@@ -1,0 +1,221 @@
+{
+    "title" : "復習四",
+    "vocabulary":
+    [
+        {
+            "japan" : "巾",
+            "romaji" : "CÂN",
+            "meaning" : " "
+        },
+        {
+            "japan" : "市",
+            "romaji" : "THỊ",
+            "meaning" : "thị trường"
+        },
+        {
+            "japan" : "布",
+            "romaji" : "BỐ",
+            "meaning" : "vải"
+        },
+        {
+            "japan" : "師",
+            "romaji" : "SƯ",
+            "meaning" : "giáo sư"
+        },
+        {
+            "japan" : "帰",
+            "romaji" : "QUY",
+            "meaning" : "trở về"
+        },
+        {
+            "japan" : "席",
+            "romaji" : "TỊCH",
+            "meaning" : "chỗ ngồi"
+        },
+        {
+            "japan" : "帳",
+            "romaji" : "TRƯỚNG",
+            "meaning" : "thủ trướng (sổ tay)"
+        },
+        {
+            "japan" : "年",
+            "romaji" : "NIÊN",
+            "meaning" : "bên trái"
+        },
+        {
+            "japan" : "広",
+            "romaji" : "QUẢNG",
+            "meaning" : "rộng"
+        },
+        {
+            "japan" : "店",
+            "romaji" : "ĐIẾM",
+            "meaning" : "cửa hàng"
+        },
+        {
+            "japan" : "度",
+            "romaji" : "ĐỘ",
+            "meaning" : "lần"
+        },
+        {
+            "japan" : "座",
+            "romaji" : "TOẠ",
+            "meaning" : "ngồi"
+        },
+        {
+            "japan" : "庭",
+            "romaji" : "ĐÌNH",
+            "meaning" : "cái sân"
+        },
+        {
+            "japan" : "建",
+            "romaji" : "KIẾN",
+            "meaning" : "kiến trúc"
+        },
+        {
+            "japan" : "式",
+            "romaji" : "THỨC",
+            "meaning" : "hình thức"
+        },
+        {
+            "japan" : "弓",
+            "romaji" : "BỘ CUNG",
+            "meaning" : ""
+        },
+        {
+            "japan" : "引",
+            "romaji" : "DẪN",
+            "meaning" : "kéo"
+        },
+        {
+            "japan" : "弟",
+            "romaji" : "ĐỆ",
+            "meaning" : "em trai"
+        },
+        {
+            "japan" : "弱",
+            "romaji" : "NHƯỢC",
+            "meaning" : "yếu"
+        },
+        {
+            "japan" : "強",
+            "romaji" : "CƯỜNG",
+            "meaning" : "mạnh"
+        },
+        {
+            "japan" : "張",
+            "romaji" : "TRƯƠNG",
+            "meaning" : "căng ra"
+        },
+        {
+            "japan" : "形",
+            "romaji" : "HÌNH",
+            "meaning" : "hình dáng"
+        },
+        {
+            "japan" : "彼",
+            "romaji" : "BỈ",
+            "meaning" : "anh ta"
+        },
+        {
+            "japan" : "後",
+            "romaji" : "HẬU",
+            "meaning" : "phía sau"
+        },
+        {
+            "japan" : "待",
+            "romaji" : "ĐÃI",
+            "meaning" : "chiêu đãi"
+        },
+        {
+            "japan" : "復",
+            "romaji" : "PHỤC",
+            "meaning" : "phục hồi"
+        },
+        {
+            "japan" : "花",
+            "romaji" : "HOA",
+            "meaning" : "bông hoa"
+        },
+        {
+            "japan" : "英",
+            "romaji" : "ANH",
+            "meaning" : "tiếng Anh"
+        },
+        {
+            "japan" : "苦",
+            "romaji" : "KHỔ",
+            "meaning" : "cực khổ"
+        },
+        {
+            "japan" : "茶",
+            "romaji" : "TRÀ",
+            "meaning" : "trà"
+        },
+        {
+            "japan" : "荷",
+            "romaji" : "HÀ",
+            "meaning" : "hành lí"
+        },
+        {
+            "japan" : "菓",
+            "romaji" : "QUẢ",
+            "meaning" : "bánh kẹo"
+        },
+        {
+            "japan" : "薬",
+            "romaji" : "DƯỢC",
+            "meaning" : "thuốc"
+        },
+        {
+            "japan" : "近",
+            "romaji" : "CẬN",
+            "meaning" : "gần"
+        },
+        {
+            "japan" : "返",
+            "romaji" : "PHẢN",
+            "meaning" : "phản hồi"
+        },
+        {
+            "japan" : "送",
+            "romaji" : "TỐNG",
+            "meaning" : "gửi, tiễn"
+        },
+        {
+            "japan" : "通",
+            "romaji" : "THÔNG",
+            "meaning" : "giao thông"
+        },
+        {
+            "japan" : "速",
+            "romaji" : "TỐC",
+            "meaning" : "nhanh"
+        },
+        {
+            "japan" : "週",
+            "romaji" : "CHU",
+            "meaning" : "tuần"
+        },
+        {
+            "japan" : "遊",
+            "romaji" : "DU",
+            "meaning" : "vui chơi"
+        },
+        {
+            "japan" : "運",
+            "romaji" : "VẬN",
+            "meaning" : "vận chuyển"
+        },
+        {
+            "japan" : "道",
+            "romaji" : "ĐẠO",
+            "meaning" : "con đường"
+        },
+        {
+            "japan" : "遅",
+            "romaji" : "TRÌ",
+            "meaning" : "chậm trễ"
+        }
+    ]
+}
