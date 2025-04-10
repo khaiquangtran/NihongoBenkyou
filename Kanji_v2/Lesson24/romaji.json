@@ -1,0 +1,51 @@
+{
+    "title" : "第二十課",
+    "vocabulary":
+    [
+        {
+            "japan" : "返",
+            "romaji" : "PHẢN",
+            "meaning" : "phản hồi"
+        },
+        {
+            "japan" : "送",
+            "romaji" : "TỐNG",
+            "meaning" : "gửi, tiễn"
+        },
+        {
+            "japan" : "通",
+            "romaji" : "THÔNG",
+            "meaning" : "giao thông"
+        },
+        {
+            "japan" : "速",
+            "romaji" : "TỐC",
+            "meaning" : "nhanh"
+        },
+        {
+            "japan" : "週",
+            "romaji" : "CHU",
+            "meaning" : "tuần"
+        },
+        {
+            "japan" : "遊",
+            "romaji" : "DU",
+            "meaning" : "vui chơi"
+        },
+        {
+            "japan" : "運",
+            "romaji" : "VẬN",
+            "meaning" : "vận chuyển"
+        },
+        {
+            "japan" : "道",
+            "romaji" : "ĐẠO",
+            "meaning" : "con đường"
+        },
+        {
+            "japan" : "遅",
+            "romaji" : "TRÌ",
+            "meaning" : "chậm trễ"
+        }
+    ]
+}
