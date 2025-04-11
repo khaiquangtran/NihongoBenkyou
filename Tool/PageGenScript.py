@@ -95,7 +95,7 @@ class PageGenScript(Page):
 
             if len(item["romaji"]) >= 13 and len(item["romaji"]) <= 15:
                item_script = item_script.replace(
-                  '<p class="romaji">//</p>', f'<p class="romaji2">/{item["romaji"]}/</p>'
+                  '<p class="romaji">//</p>', f'<p class="romaji">{item["romaji"]}</p>'
                )
             elif len(item["romaji"]) > 0:
                item_script = item_script.replace(

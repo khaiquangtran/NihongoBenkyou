@@ -36,8 +36,9 @@ if __name__ == "__main__":
     root.title("Generate script")
     myappid = 'mycompany.myproduct.subproduct.version' # arbitrary string
     ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+    basedir = os.path.dirname(__file__)
     try:
-        root.iconbitmap("icon.ico")
+        root.iconbitmap(os.path.join(basedir, "icon.ico"))
     except:
         print("Icon file not found!!!")
     root.resizable(False, False)
