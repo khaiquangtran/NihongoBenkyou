@@ -1,0 +1,56 @@
+{
+    "title" : "第二十五課",
+    "vocabulary":
+    [
+        {
+            "japan" : "易",
+            "romaji" : "DỊCH",
+            "meaning" : "dễ"
+        },
+        {
+            "japan" : "明",
+            "romaji" : "MINH",
+            "meaning" : "sáng"
+        },
+        {
+            "japan" : "映",
+            "romaji" : "ÁNH",
+            "meaning" : "ánh hoạ (phim)"
+        },
+        {
+            "japan" : "昨",
+            "romaji" : "TẠC",
+            "meaning" : "đã qua"
+        },
+        {
+            "japan" : "春",
+            "romaji" : "XUÂN",
+            "meaning" : "mùa xuân"
+        },
+        {
+            "japan" : "昼",
+            "romaji" : "TRÚ",
+            "meaning" : "buổi trưa"
+        },
+        {
+            "japan" : "時",
+            "romaji" : "THỜI",
+            "meaning" : "thời gian"
+        },
+        {
+            "japan" : "暑",
+            "romaji" : "THỬ",
+            "meaning" : "nóng (thời tiết)"
+        },
+        {
+            "japan" : "晩",
+            "romaji" : "VÃN",
+            "meaning" : "buổi tối"
+        },
+        {
+            "japan" : "暗",
+            "romaji" : "ÁM",
+            "meaning" : "tối u ám"
+        }
+    ]
+}

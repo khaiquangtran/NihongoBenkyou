@@ -1,0 +1,56 @@
+{
+    "title" : "第二十四課",
+    "vocabulary":
+    [
+        {
+            "japan" : "数",
+            "romaji" : "SỐ",
+            "meaning" : "số đếm"
+        },
+        {
+            "japan" : "文",
+            "romaji" : "VĂN",
+            "meaning" : "văn học"
+        },
+        {
+            "japan" : "料",
+            "romaji" : "LIỆU",
+            "meaning" : "vật liệu"
+        },
+        {
+            "japan" : "斤",
+            "romaji" : "BỘ CÂN",
+            "meaning" : " "
+        },
+        {
+            "japan" : "新",
+            "romaji" : "TÂN",
+            "meaning" : "mới"
+        },
+        {
+            "japan" : "方",
+            "romaji" : "PHƯƠNG",
+            "meaning" : "phương hướng"
+        },
+        {
+            "japan" : "旅",
+            "romaji" : "LỮ",
+            "meaning" : "du lịch"
+        },
+        {
+            "japan" : "族",
+            "romaji" : "TỘC",
+            "meaning" : "dòng tộc"
+        },
+        {
+            "japan" : "日",
+            "romaji" : "NHẬT",
+            "meaning" : "ngày"
+        },
+        {
+            "japan" : "早",
+            "romaji" : "TẢO",
+            "meaning" : "sớm"
+        }
+    ]
+}
