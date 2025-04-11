@@ -94,15 +94,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (japanElement && isInDialog) {
         let japanText = japanElement.textContent.trim();
-        try {
-          const speech = new SpeechSynthesisUtterance();
-          speech.text = japanText;
-          speech.lang = "ja";
-          window.speechSynthesis.speak(speech);
-        }
-        catch (error) {
-          console.error("Error in translation:", error);
-          alert("The text could not be translated. Please try again.");
+        const content = localStorage.getItem('content');
+        if(content) {
+          speak(content, japanText);
         }
       } else {
         console.log("No data");
@@ -110,3 +104,37 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+async function speak(keyConnect, text) {
+  const response = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      input: { text: text },
+      voice: {
+        languageCode: 'ja-JP',
+        name: 'ja-JP-Wavenet-A' // can use A, B, C...
+      },
+      audioConfig: {
+        audioEncoding: 'MP3'
+      }
+    })
+  });
+
+  if (!response.ok) {
+    alert('❌ Please choose again KEY file');
+    return;
+    // data.audioContent là base64 của file MP3
+  }
+  const data = await response.json();
+
+  if (data.audioContent) {
+    const audio = new Audio("data:audio/mp3;base64," + data.audioContent);
+    audio.play();
+  } else {
+    console.error("Error audioContent", data);
+    alert("Can't play!");
+  }
+}

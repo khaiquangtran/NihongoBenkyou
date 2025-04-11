@@ -157,11 +157,15 @@ window.onload = function () {
 
 // });
 
-const connectKey = document.getElementById('formConnectKey');
+const connectKey = document.getElementById("formConnectKey");
+const filePath = document.getElementById('file');
 
 connectKey.addEventListener('submit',  function (event) {
   event.preventDefault();
-  const filePath = document.getElementById('file');
+  filePath.click();
+});
+
+filePath.addEventListener('change', function () {
   const file = filePath.files[0];
   if (file) {
     if (file.name.endsWith('.txt')) {
@@ -183,7 +187,6 @@ connectKey.addEventListener('submit',  function (event) {
   }
 });
 
-
 async function checkConnect(keyConnect) {
   const response = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`, {
     method: 'POST',
@@ -191,7 +194,7 @@ async function checkConnect(keyConnect) {
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({
-      input: { text: "Chúc mừng bạn đã kết nối thành công với Google Cloud. Bạn có thể nghe được giọng đọc chữ mà không cần chọn lại file." },
+      input: { text: "Mở khoá giọng chị Google." },
       voice: {
         languageCode: 'vi-VN',
         name: 'vi-VN-Wavenet-C' // can use A, B, C...
@@ -217,3 +220,7 @@ async function checkConnect(keyConnect) {
     alert("Can't play!");
   }
 }
+
+// document.getElementById("triggerFile").addEventListener("click", function () {
+//   document.getElementById("file").click();
+// });

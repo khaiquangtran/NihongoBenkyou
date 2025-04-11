@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const content = localStorage.getItem('content');
         // const file = filePath.files[0];
-        console.log(content)
+        // console.log(content)
         if(content) {
           speak(content, text);
         }
