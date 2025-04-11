@@ -1,0 +1,46 @@
+{
+    "title" : "第二十ー課",
+    "vocabulary":
+    [
+        {
+            "japan" : "部",
+            "romaji" : "BỘ",
+            "meaning" : "bộ phận"
+        },
+        {
+            "japan" : "都",
+            "romaji" : "ĐÔ",
+            "meaning" : "đô thị"
+        },
+        {
+            "japan" : "院",
+            "romaji" : "VIỆN",
+            "meaning" : "bệnh viện"
+        },
+        {
+            "japan" : "心",
+            "romaji" : "TÂM",
+            "meaning" : "tâm hồn"
+        },
+        {
+            "japan" : "忙",
+            "romaji" : "MANG",
+            "meaning" : "bận rộn"
+        },
+        {
+            "japan" : "忘",
+            "romaji" : "VONG",
+            "meaning" : "quên"
+        },
+        {
+            "japan" : "念",
+            "romaji" : "NIỆM",
+            "meaning" : "kỉ niệm"
+        },
+        {
+            "japan" : "性",
+            "romaji" : "TÍNH",
+            "meaning" : "tính cách"
+        }
+    ]
+}
