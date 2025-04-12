@@ -4,53 +4,53 @@
     [
         {
             "japan" : "主",
-            "romaji" : "CHỦ",
-            "meaning" : "ông chủ"
+            "meaning" : "CHỦ",
+            "submeaning" : "ông chủ"
         },
         {
             "japan" : "乗",
-            "romaji" : "THỪA",
-            "meaning" : "lên xe"
+            "meaning" : "THỪA",
+            "submeaning" : "lên xe"
         },
         {
             "japan" : "九",
-            "romaji" : "CỬU",
-            "meaning" : "chín"
+            "meaning" : "CỬU",
+            "submeaning" : "chín"
         },
         {
             "japan" : "乳",
-            "romaji" : "NHŨ",
-            "meaning" : "sữa"
+            "meaning" : "NHŨ",
+            "submeaning" : "sữa"
         },
         {
             "japan" : "事",
-            "romaji" : "SỰ",
-            "meaning" : "sự việc"
+            "meaning" : "SỰ",
+            "submeaning" : "sự việc"
         },
         {
             "japan" : "二",
-            "romaji" : "NHỊ",
-            "meaning" : "hai"
+            "meaning" : "NHỊ",
+            "submeaning" : "hai"
         },
         {
             "japan" : "五",
-            "romaji" : "NGŨ",
-            "meaning" : "năm"
+            "meaning" : "NGŨ",
+            "submeaning" : "năm"
         },
         {
             "japan" : "交",
-            "romaji" : "GIAO",
-            "meaning" : "giao thông"
+            "meaning" : "GIAO",
+            "submeaning" : "giao thông"
         },
         {
             "japan" : "京",
-            "romaji" : "KINH",
-            "meaning" : "kinh đô"
+            "meaning" : "KINH",
+            "submeaning" : "kinh đô"
         },
         {
             "japan" : "人",
-            "romaji" : "NHÂN",
-            "meaning" : "người"
+            "meaning" : "NHÂN",
+            "submeaning" : "người"
         }
     ]
 }

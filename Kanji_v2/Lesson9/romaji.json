@@ -4,48 +4,48 @@
     [
         {
             "japan" : "力",
-            "romaji" : "LỰC",
-            "meaning" : "sức lực"
+            "meaning" : "LỰC",
+            "submeaning" : "sức lực"
         },
         {
             "japan" : "勉",
-            "romaji" : "MIỄN",
-            "meaning" : "miễn cường (việc học)"
+            "meaning" : "MIỄN",
+            "submeaning" : "miễn cường (việc học)"
         },
         {
             "japan" : "動",
-            "romaji" : "ĐỘNG",
-            "meaning" : "vận động"
+            "meaning" : "ĐỘNG",
+            "submeaning" : "vận động"
         },
         {
             "japan" : "務",
-            "romaji" : "VỤ",
-            "meaning" : "sự vụ"
+            "meaning" : "VỤ",
+            "submeaning" : "sự vụ"
         },
         {
             "japan" : "化",
-            "romaji" : "HOÁ",
-            "meaning" : "biến hoá"
+            "meaning" : "HOÁ",
+            "submeaning" : "biến hoá"
         },
         {
             "japan" : "北",
-            "romaji" : "BẮC",
-            "meaning" : "phía Bắc"
+            "meaning" : "BẮC",
+            "submeaning" : "phía Bắc"
         },
         {
             "japan" : "区",
-            "romaji" : "KHU",
-            "meaning" : "khu vực"
+            "meaning" : "KHU",
+            "submeaning" : "khu vực"
         },
         {
             "japan" : "医",
-            "romaji" : "Y",
-            "meaning" : "y học"
+            "meaning" : "Y",
+            "submeaning" : "y học"
         },
         {
             "japan" : "十",
-            "romaji" : "THẬP",
-            "meaning" : "mười"
+            "meaning" : "THẬP",
+            "submeaning" : "mười"
         }
     ]
 }

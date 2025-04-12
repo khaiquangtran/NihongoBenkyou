@@ -4,48 +4,48 @@
     [
         {
             "japan" : "元",
-            "romaji" : "NGUYÊN",
-            "meaning" : "nguồn gốc"
+            "meaning" : "NGUYÊN",
+            "submeaning" : "nguồn gốc"
         },
         {
             "japan" : "兄",
-            "romaji" : "HUYNH",
-            "meaning" : "anh trai"
+            "meaning" : "HUYNH",
+            "submeaning" : "anh trai"
         },
         {
             "japan" : "先",
-            "romaji" : "TIÊN",
-            "meaning" : "trước"
+            "meaning" : "TIÊN",
+            "submeaning" : "trước"
         },
         {
             "japan" : "入",
-            "romaji" : "NHẬP",
-            "meaning" : "đi vào"
+            "meaning" : "NHẬP",
+            "submeaning" : "đi vào"
         },
         {
             "japan" : "内",
-            "romaji" : "NỘI",
-            "meaning" : "bên trong"
+            "meaning" : "NỘI",
+            "submeaning" : "bên trong"
         },
         {
             "japan" : "全",
-            "romaji" : "TOÀN",
-            "meaning" : "toàn bộ"
+            "meaning" : "TOÀN",
+            "submeaning" : "toàn bộ"
         },
         {
             "japan" : "公",
-            "romaji" : "CÔNG",
-            "meaning" : "công viên"
+            "meaning" : "CÔNG",
+            "submeaning" : "công viên"
         },
         {
             "japan" : "六",
-            "romaji" : "LỤC",
-            "meaning" : "sáu"
+            "meaning" : "LỤC",
+            "submeaning" : "sáu"
         },
         {
             "japan" : "円",
-            "romaji" : "VIÊN",
-            "meaning" : "đơn vị tiền Nhật"
+            "meaning" : "VIÊN",
+            "submeaning" : "đơn vị tiền Nhật"
         }
     ]
 }

@@ -4,48 +4,48 @@
     [
         {
             "japan" : "返",
-            "romaji" : "PHẢN",
-            "meaning" : "phản hồi"
+            "meaning" : "PHẢN",
+            "submeaning" : "phản hồi"
         },
         {
             "japan" : "送",
-            "romaji" : "TỐNG",
-            "meaning" : "gửi, tiễn"
+            "meaning" : "TỐNG",
+            "submeaning" : "gửi, tiễn"
         },
         {
             "japan" : "通",
-            "romaji" : "THÔNG",
-            "meaning" : "giao thông"
+            "meaning" : "THÔNG",
+            "submeaning" : "giao thông"
         },
         {
             "japan" : "速",
-            "romaji" : "TỐC",
-            "meaning" : "nhanh"
+            "meaning" : "TỐC",
+            "submeaning" : "nhanh"
         },
         {
             "japan" : "週",
-            "romaji" : "CHU",
-            "meaning" : "tuần"
+            "meaning" : "CHU",
+            "submeaning" : "tuần"
         },
         {
             "japan" : "遊",
-            "romaji" : "DU",
-            "meaning" : "vui chơi"
+            "meaning" : "DU",
+            "submeaning" : "vui chơi"
         },
         {
             "japan" : "運",
-            "romaji" : "VẬN",
-            "meaning" : "vận chuyển"
+            "meaning" : "VẬN",
+            "submeaning" : "vận chuyển"
         },
         {
             "japan" : "道",
-            "romaji" : "ĐẠO",
-            "meaning" : "con đường"
+            "meaning" : "ĐẠO",
+            "submeaning" : "con đường"
         },
         {
             "japan" : "遅",
-            "romaji" : "TRÌ",
-            "meaning" : "chậm trễ"
+            "meaning" : "TRÌ",
+            "submeaning" : "chậm trễ"
         }
     ]
 }

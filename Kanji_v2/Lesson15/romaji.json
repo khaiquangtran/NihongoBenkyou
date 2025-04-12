@@ -4,53 +4,53 @@
     [
         {
             "japan" : "外",
-            "romaji" : "NGOẠI",
-            "meaning" : "bên ngoài"
+            "meaning" : "NGOẠI",
+            "submeaning" : "bên ngoài"
         },
         {
             "japan" : "多",
-            "romaji" : "ĐA",
-            "meaning" : "nhiều"
+            "meaning" : "ĐA",
+            "submeaning" : "nhiều"
         },
         {
             "japan" : "夜",
-            "romaji" : "DẠ",
-            "meaning" : "buổi tối"
+            "meaning" : "DẠ",
+            "submeaning" : "buổi tối"
         },
         {
             "japan" : "大",
-            "romaji" : "ĐẠI",
-            "meaning": "to lớn"
+            "meaning" : "ĐẠI",
+            "submeaning": "to lớn"
         },
         {
             "japan" : "太",
-            "romaji" : "THÁI",
-            "meaning" : "mập"
+            "meaning" : "THÁI",
+            "submeaning" : "mập"
         },
         {
             "japan" : "天",
-            "romaji" : "THIÊN",
-            "meaning" : "trời"
+            "meaning" : "THIÊN",
+            "submeaning" : "trời"
         },
         {
             "japan" : "夫",
-            "romaji" : "PHU",
-            "meaning" : "chồng"
+            "meaning" : "PHU",
+            "submeaning" : "chồng"
         },
         {
             "japan" : "失",
-            "romaji" : "THẤT",
-            "meaning" : "thất bại"
+            "meaning" : "THẤT",
+            "submeaning" : "thất bại"
         },
         {
             "japan" : "女",
-            "romaji" : "NỮ",
-            "meaning" : "con gái"
+            "meaning" : "NỮ",
+            "submeaning" : "con gái"
         },
         {
             "japan" : "好",
-            "romaji" : "HẢO",
-            "meaning" : "thích"
+            "meaning" : "HẢO",
+            "submeaning" : "thích"
         }
     ]
 }

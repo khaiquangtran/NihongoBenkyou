@@ -4,48 +4,48 @@
     [
         {
             "japan" : "写",
-            "romaji" : "TẢ",
-            "meaning" : "miêu tả"
+            "meaning" : "TẢ",
+            "submeaning" : "miêu tả"
         },
         {
             "japan" : "冷",
-            "romaji" : "LÃNH",
-            "meaning" : "lạnh"
+            "meaning" : "LÃNH",
+            "submeaning" : "lạnh"
         },
         {
             "japan" : "出",
-            "romaji" : "XUẤT",
-            "meaning" : "đi ra"
+            "meaning" : "XUẤT",
+            "submeaning" : "đi ra"
         },
         {
             "japan" : "刀",
-            "romaji" : "ĐAO",
-            "meaning" : "con dao"
+            "meaning" : "ĐAO",
+            "submeaning" : "con dao"
         },
         {
             "japan" : "切",
-            "romaji" : "THIẾT",
-            "meaning" : "cắt"
+            "meaning" : "THIẾT",
+            "submeaning" : "cắt"
         },
         {
             "japan" : "分",
-            "romaji" : "PHÂN",
-            "meaning" : "phân chia"
+            "meaning" : "PHÂN",
+            "submeaning" : "phân chia"
         },
         {
             "japan" : "列",
-            "romaji" : "LIỆT",
-            "meaning" : "hàng lối"
+            "meaning" : "LIỆT",
+            "submeaning" : "hàng lối"
         },
         {
             "japan" : "利",
-            "romaji" : "LỢI",
-            "meaning" : "tiện lợi"
+            "meaning" : "LỢI",
+            "submeaning" : "tiện lợi"
         },
         {
             "japan" : "前",
-            "romaji" : "TIỀN",
-            "meaning" : "phía trước"
+            "meaning" : "TIỀN",
+            "submeaning" : "phía trước"
         }
     ]
 }

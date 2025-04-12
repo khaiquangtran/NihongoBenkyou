@@ -4,53 +4,53 @@
     [
         {
             "japan" : "今",
-            "romaji" : "KIM",
-            "meaning" : "bây giờ"
+            "meaning" : "KIM",
+            "submeaning" : "bây giờ"
         },
         {
             "japan" : "介",
-            "romaji" : "GIỚI",
-            "meaning" : "giới thiệu"
+            "meaning" : "GIỚI",
+            "submeaning" : "giới thiệu"
         },
         {
             "japan" : "会",
-            "romaji" : "HỢP",
-            "meaning" : "gặp gỡ"
+            "meaning" : "HỢP",
+            "submeaning" : "gặp gỡ"
         },
         {
             "japan" : "イ",
-            "romaji" : "NHÂN ĐỨNG",
-            "meaning" : " "
+            "meaning" : "NHÂN ĐỨNG",
+            "submeaning" : " "
         },
         {
             "japan" : "仕",
-            "romaji" : "SĨ",
-            "meaning" : "công việc"
+            "meaning" : "SĨ",
+            "submeaning" : "công việc"
         },
         {
             "japan" : "付",
-            "romaji" : "PHÓ",
-            "meaning" : "gắn vào"
+            "meaning" : "PHÓ",
+            "submeaning" : "gắn vào"
         },
         {
             "japan" : "休",
-            "romaji" : "HƯU",
-            "meaning" : "nghỉ ngơi"
+            "meaning" : "HƯU",
+            "submeaning" : "nghỉ ngơi"
         },
         {
             "japan" : "伝",
-            "romaji" : "TRUYỀN",
-            "meaning" : "truyền đạt"
+            "meaning" : "TRUYỀN",
+            "submeaning" : "truyền đạt"
         },
         {
             "japan" : "何",
-            "romaji" : "HÀ",
-            "meaning" : "cái gì"
+            "meaning" : "HÀ",
+            "submeaning" : "cái gì"
         },
         {
             "japan" : "作",
-            "romaji" : "TÁC",
-            "meaning" : "tác giả"
+            "meaning" : "TÁC",
+            "submeaning" : "tác giả"
         }
     ]
 }

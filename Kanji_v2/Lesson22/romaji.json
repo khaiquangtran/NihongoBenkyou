@@ -4,43 +4,43 @@
     [
         {
             "japan" : "弱",
-            "romaji" : "NHƯỢC",
-            "meaning" : "yếu"
+            "meaning" : "NHƯỢC",
+            "submeaning" : "yếu"
         },
         {
             "japan" : "強",
-            "romaji" : "CƯỜNG",
-            "meaning" : "mạnh"
+            "meaning" : "CƯỜNG",
+            "submeaning" : "mạnh"
         },
         {
             "japan" : "張",
-            "romaji" : "TRƯƠNG",
-            "meaning" : "căng ra"
+            "meaning" : "TRƯƠNG",
+            "submeaning" : "căng ra"
         },
         {
             "japan" : "形",
-            "romaji" : "HÌNH",
-            "meaning" : "hình dáng"
+            "meaning" : "HÌNH",
+            "submeaning" : "hình dáng"
         },
         {
             "japan" : "彼",
-            "romaji" : "BỈ",
-            "meaning" : "anh ta"
+            "meaning" : "BỈ",
+            "submeaning" : "anh ta"
         },
         {
             "japan" : "後",
-            "romaji" : "HẬU",
-            "meaning" : "phía sau"
+            "meaning" : "HẬU",
+            "submeaning" : "phía sau"
         },
         {
             "japan" : "待",
-            "romaji" : "ĐÃI",
-            "meaning" : "chiêu đãi"
+            "meaning" : "ĐÃI",
+            "submeaning" : "chiêu đãi"
         },
         {
             "japan" : "復",
-            "romaji" : "PHỤC",
-            "meaning" : "phục hồi"
+            "meaning" : "PHỤC",
+            "submeaning" : "phục hồi"
         }
     ]
 }

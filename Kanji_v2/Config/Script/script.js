@@ -57,14 +57,14 @@ document.addEventListener("DOMContentLoaded", function () {
     xhr.onreadystatechange = function () {
       if (this.readyState == 4 && this.status == 200) {
         romajiData = JSON.parse(this.responseText);
-        message.innerHTML = romajiData.vocabulary[index].romaji;
-        mean.innerHTML = romajiData.vocabulary[index].meaning;
-        text = romajiData.vocabulary[index].romaji;
+        message.innerHTML = romajiData.vocabulary[index].meaning;
+        mean.innerHTML = romajiData.vocabulary[index].submeaning;
+        text = romajiData.vocabulary[index].meaning;
 
-        const content = localStorage.getItem('content');
+        const content = localStorage.getItem("content");
         // const file = filePath.files[0];
         // console.log(content)
-        if(content) {
+        if (content) {
           speak(content, text);
         }
       }
@@ -122,25 +122,28 @@ window.onload = function () {
 };
 
 async function speak(keyConnect, text) {
-  const response = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({
-      input: { text: text },
-      voice: {
-        languageCode: 'vi-VN',
-        name: 'vi-VN-Wavenet-C' // can use A, B, C...
+  const response = await fetch(
+    `https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
       },
-      audioConfig: {
-        audioEncoding: 'MP3'
-      }
-    })
-  });
+      body: JSON.stringify({
+        input: { text: text },
+        voice: {
+          languageCode: "vi-VN",
+          name: "vi-VN-Wavenet-C", // can use A, B, C...
+        },
+        audioConfig: {
+          audioEncoding: "MP3",
+        },
+      }),
+    }
+  );
 
   if (!response.ok) {
-    alert('❌ Please choose again KEY file');
+    alert("❌ Please choose again KEY file");
     return;
     // data.audioContent là base64 của file MP3
   }

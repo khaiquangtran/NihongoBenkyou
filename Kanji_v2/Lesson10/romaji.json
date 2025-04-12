@@ -4,48 +4,48 @@
     [
         {
             "japan" : "千",
-            "romaji" : "THIÊN",
-            "meaning" : "một ngàn"
+            "meaning" : "THIÊN",
+            "submeaning" : "một ngàn"
         },
         {
             "japan" : "午",
-            "romaji" : "NGỌ",
-            "meaning" : "giữa trưa"
+            "meaning" : "NGỌ",
+            "submeaning" : "giữa trưa"
         },
         {
             "japan" : "半",
-            "romaji" : "BÁN",
-            "meaning" : "một nữa"
+            "meaning" : "BÁN",
+            "submeaning" : "một nữa"
         },
         {
             "japan" : "卒",
-            "romaji" : "TỐT",
-            "meaning" : "tốt nghiệp"
+            "meaning" : "TỐT",
+            "submeaning" : "tốt nghiệp"
         },
         {
             "japan" : "南",
-            "romaji" : "NAM",
-            "meaning" : "phía nam"
+            "meaning" : "NAM",
+            "submeaning" : "phía nam"
         },
         {
             "japan" : "去",
-            "romaji" : "KHỨ",
-            "meaning" : "quá khứ"
+            "meaning" : "KHỨ",
+            "submeaning" : "quá khứ"
         },
         {
             "japan" : "友",
-            "romaji" : "HỮU",
-            "meaning" : "bạn bè"
+            "meaning" : "HỮU",
+            "submeaning" : "bạn bè"
         },
         {
             "japan" : "取",
-            "romaji" : "THỦ",
-            "meaning" : "lấy"
+            "meaning" : "THỦ",
+            "submeaning" : "lấy"
         },
         {
             "japan" : "授",
-            "romaji" : "THỤ",
-            "meaning" : "nhận"
+            "meaning" : "THỤ",
+            "submeaning" : "nhận"
         }
     ]
 }

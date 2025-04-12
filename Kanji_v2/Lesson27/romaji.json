@@ -4,48 +4,48 @@
     [
         {
             "japan" : "思",
-            "romaji" : "TƯ",
-            "meaning" : "suy tư"
+            "meaning" : "TƯ",
+            "submeaning" : "suy tư"
         },
         {
             "japan" : "恋",
-            "romaji" : "LUYẾN",
-            "meaning" : "yêu"
+            "meaning" : "LUYẾN",
+            "submeaning" : "yêu"
         },
         {
             "japan" : "悪",
-            "romaji" : "ÁC",
-            "meaning" : "xấu xá"
+            "meaning" : "ÁC",
+            "submeaning" : "xấu xá"
         },
         {
             "japan" : "意",
-            "romaji" : "Ý",
-            "meaning" : "ý chí"
+            "meaning" : "Ý",
+            "submeaning" : "ý chí"
         },
         {
             "japan" : "戸",
-            "romaji" : "BỘ HỘ",
-            "meaning" : " "
+            "meaning" : "BỘ HỘ",
+            "submeaning" : " "
         },
         {
             "japan" : "戻",
-            "romaji" : "LỆ",
-            "meaning" : "quay lại"
+            "meaning" : "LỆ",
+            "submeaning" : "quay lại"
         },
         {
             "japan" : "所",
-            "romaji" : "SỞ",
-            "meaning" : "nơi, chỗ"
+            "meaning" : "SỞ",
+            "submeaning" : "nơi, chỗ"
         },
         {
             "japan" : "手",
-            "romaji" : "THỦ",
-            "meaning" : "tay"
+            "meaning" : "THỦ",
+            "submeaning" : "tay"
         },
         {
             "japan" : "才",
-            "romaji" : "TÀI",
-            "meaning" : "tuổi, tài năng"
+            "meaning" : "TÀI",
+            "submeaning" : "tuổi, tài năng"
         }
     ]
 }

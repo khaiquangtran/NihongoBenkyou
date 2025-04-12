@@ -4,43 +4,43 @@
     [
         {
             "japan" : "部",
-            "romaji" : "BỘ",
-            "meaning" : "bộ phận"
+            "meaning" : "BỘ",
+            "submeaning" : "bộ phận"
         },
         {
             "japan" : "都",
-            "romaji" : "ĐÔ",
-            "meaning" : "đô thị"
+            "meaning" : "ĐÔ",
+            "submeaning" : "đô thị"
         },
         {
             "japan" : "院",
-            "romaji" : "VIỆN",
-            "meaning" : "bệnh viện"
+            "meaning" : "VIỆN",
+            "submeaning" : "bệnh viện"
         },
         {
             "japan" : "心",
-            "romaji" : "TÂM",
-            "meaning" : "tâm hồn"
+            "meaning" : "TÂM",
+            "submeaning" : "tâm hồn"
         },
         {
             "japan" : "忙",
-            "romaji" : "MANG",
-            "meaning" : "bận rộn"
+            "meaning" : "MANG",
+            "submeaning" : "bận rộn"
         },
         {
             "japan" : "忘",
-            "romaji" : "VONG",
-            "meaning" : "quên"
+            "meaning" : "VONG",
+            "submeaning" : "quên"
         },
         {
             "japan" : "念",
-            "romaji" : "NIỆM",
-            "meaning" : "kỉ niệm"
+            "meaning" : "NIỆM",
+            "submeaning" : "kỉ niệm"
         },
         {
             "japan" : "性",
-            "romaji" : "TÍNH",
-            "meaning" : "tính cách"
+            "meaning" : "TÍNH",
+            "submeaning" : "tính cách"
         }
     ]
 }

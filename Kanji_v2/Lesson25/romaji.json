@@ -4,218 +4,218 @@
     [
         {
             "japan" : "巾",
-            "romaji" : "CÂN",
-            "meaning" : " "
+            "meaning" : "CÂN",
+            "submeaning" : " "
         },
         {
             "japan" : "市",
-            "romaji" : "THỊ",
-            "meaning" : "thị trường"
+            "meaning" : "THỊ",
+            "submeaning" : "thị trường"
         },
         {
             "japan" : "布",
-            "romaji" : "BỐ",
-            "meaning" : "vải"
+            "meaning" : "BỐ",
+            "submeaning" : "vải"
         },
         {
             "japan" : "師",
-            "romaji" : "SƯ",
-            "meaning" : "giáo sư"
+            "meaning" : "SƯ",
+            "submeaning" : "giáo sư"
         },
         {
             "japan" : "帰",
-            "romaji" : "QUY",
-            "meaning" : "trở về"
+            "meaning" : "QUY",
+            "submeaning" : "trở về"
         },
         {
             "japan" : "席",
-            "romaji" : "TỊCH",
-            "meaning" : "chỗ ngồi"
+            "meaning" : "TỊCH",
+            "submeaning" : "chỗ ngồi"
         },
         {
             "japan" : "帳",
-            "romaji" : "TRƯỚNG",
-            "meaning" : "thủ trướng (sổ tay)"
+            "meaning" : "TRƯỚNG",
+            "submeaning" : "thủ trướng (sổ tay)"
         },
         {
             "japan" : "年",
-            "romaji" : "NIÊN",
-            "meaning" : "bên trái"
+            "meaning" : "NIÊN",
+            "submeaning" : "bên trái"
         },
         {
             "japan" : "広",
-            "romaji" : "QUẢNG",
-            "meaning" : "rộng"
+            "meaning" : "QUẢNG",
+            "submeaning" : "rộng"
         },
         {
             "japan" : "店",
-            "romaji" : "ĐIẾM",
-            "meaning" : "cửa hàng"
+            "meaning" : "ĐIẾM",
+            "submeaning" : "cửa hàng"
         },
         {
             "japan" : "度",
-            "romaji" : "ĐỘ",
-            "meaning" : "lần"
+            "meaning" : "ĐỘ",
+            "submeaning" : "lần"
         },
         {
             "japan" : "座",
-            "romaji" : "TOẠ",
-            "meaning" : "ngồi"
+            "meaning" : "TOẠ",
+            "submeaning" : "ngồi"
         },
         {
             "japan" : "庭",
-            "romaji" : "ĐÌNH",
-            "meaning" : "cái sân"
+            "meaning" : "ĐÌNH",
+            "submeaning" : "cái sân"
         },
         {
             "japan" : "建",
-            "romaji" : "KIẾN",
-            "meaning" : "kiến trúc"
+            "meaning" : "KIẾN",
+            "submeaning" : "kiến trúc"
         },
         {
             "japan" : "式",
-            "romaji" : "THỨC",
-            "meaning" : "hình thức"
+            "meaning" : "THỨC",
+            "submeaning" : "hình thức"
         },
         {
             "japan" : "弓",
-            "romaji" : "BỘ CUNG",
-            "meaning" : ""
+            "meaning" : "BỘ CUNG",
+            "submeaning" : ""
         },
         {
             "japan" : "引",
-            "romaji" : "DẪN",
-            "meaning" : "kéo"
+            "meaning" : "DẪN",
+            "submeaning" : "kéo"
         },
         {
             "japan" : "弟",
-            "romaji" : "ĐỆ",
-            "meaning" : "em trai"
+            "meaning" : "ĐỆ",
+            "submeaning" : "em trai"
         },
         {
             "japan" : "弱",
-            "romaji" : "NHƯỢC",
-            "meaning" : "yếu"
+            "meaning" : "NHƯỢC",
+            "submeaning" : "yếu"
         },
         {
             "japan" : "強",
-            "romaji" : "CƯỜNG",
-            "meaning" : "mạnh"
+            "meaning" : "CƯỜNG",
+            "submeaning" : "mạnh"
         },
         {
             "japan" : "張",
-            "romaji" : "TRƯƠNG",
-            "meaning" : "căng ra"
+            "meaning" : "TRƯƠNG",
+            "submeaning" : "căng ra"
         },
         {
             "japan" : "形",
-            "romaji" : "HÌNH",
-            "meaning" : "hình dáng"
+            "meaning" : "HÌNH",
+            "submeaning" : "hình dáng"
         },
         {
             "japan" : "彼",
-            "romaji" : "BỈ",
-            "meaning" : "anh ta"
+            "meaning" : "BỈ",
+            "submeaning" : "anh ta"
         },
         {
             "japan" : "後",
-            "romaji" : "HẬU",
-            "meaning" : "phía sau"
+            "meaning" : "HẬU",
+            "submeaning" : "phía sau"
         },
         {
             "japan" : "待",
-            "romaji" : "ĐÃI",
-            "meaning" : "chiêu đãi"
+            "meaning" : "ĐÃI",
+            "submeaning" : "chiêu đãi"
         },
         {
             "japan" : "復",
-            "romaji" : "PHỤC",
-            "meaning" : "phục hồi"
+            "meaning" : "PHỤC",
+            "submeaning" : "phục hồi"
         },
         {
             "japan" : "花",
-            "romaji" : "HOA",
-            "meaning" : "bông hoa"
+            "meaning" : "HOA",
+            "submeaning" : "bông hoa"
         },
         {
             "japan" : "英",
-            "romaji" : "ANH",
-            "meaning" : "tiếng Anh"
+            "meaning" : "ANH",
+            "submeaning" : "tiếng Anh"
         },
         {
             "japan" : "苦",
-            "romaji" : "KHỔ",
-            "meaning" : "cực khổ"
+            "meaning" : "KHỔ",
+            "submeaning" : "cực khổ"
         },
         {
             "japan" : "茶",
-            "romaji" : "TRÀ",
-            "meaning" : "trà"
+            "meaning" : "TRÀ",
+            "submeaning" : "trà"
         },
         {
             "japan" : "荷",
-            "romaji" : "HÀ",
-            "meaning" : "hành lí"
+            "meaning" : "HÀ",
+            "submeaning" : "hành lí"
         },
         {
             "japan" : "菓",
-            "romaji" : "QUẢ",
-            "meaning" : "bánh kẹo"
+            "meaning" : "QUẢ",
+            "submeaning" : "bánh kẹo"
         },
         {
             "japan" : "薬",
-            "romaji" : "DƯỢC",
-            "meaning" : "thuốc"
+            "meaning" : "DƯỢC",
+            "submeaning" : "thuốc"
         },
         {
             "japan" : "近",
-            "romaji" : "CẬN",
-            "meaning" : "gần"
+            "meaning" : "CẬN",
+            "submeaning" : "gần"
         },
         {
             "japan" : "返",
-            "romaji" : "PHẢN",
-            "meaning" : "phản hồi"
+            "meaning" : "PHẢN",
+            "submeaning" : "phản hồi"
         },
         {
             "japan" : "送",
-            "romaji" : "TỐNG",
-            "meaning" : "gửi, tiễn"
+            "meaning" : "TỐNG",
+            "submeaning" : "gửi, tiễn"
         },
         {
             "japan" : "通",
-            "romaji" : "THÔNG",
-            "meaning" : "giao thông"
+            "meaning" : "THÔNG",
+            "submeaning" : "giao thông"
         },
         {
             "japan" : "速",
-            "romaji" : "TỐC",
-            "meaning" : "nhanh"
+            "meaning" : "TỐC",
+            "submeaning" : "nhanh"
         },
         {
             "japan" : "週",
-            "romaji" : "CHU",
-            "meaning" : "tuần"
+            "meaning" : "CHU",
+            "submeaning" : "tuần"
         },
         {
             "japan" : "遊",
-            "romaji" : "DU",
-            "meaning" : "vui chơi"
+            "meaning" : "DU",
+            "submeaning" : "vui chơi"
         },
         {
             "japan" : "運",
-            "romaji" : "VẬN",
-            "meaning" : "vận chuyển"
+            "meaning" : "VẬN",
+            "submeaning" : "vận chuyển"
         },
         {
             "japan" : "道",
-            "romaji" : "ĐẠO",
-            "meaning" : "con đường"
+            "meaning" : "ĐẠO",
+            "submeaning" : "con đường"
         },
         {
             "japan" : "遅",
-            "romaji" : "TRÌ",
-            "meaning" : "chậm trễ"
+            "meaning" : "TRÌ",
+            "submeaning" : "chậm trễ"
         }
     ]
 }

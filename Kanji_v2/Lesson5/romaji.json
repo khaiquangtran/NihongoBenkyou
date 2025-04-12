@@ -4,48 +4,48 @@
     [
         {
             "japan" : "体",
-            "romaji" : "THỂ",
-            "meaning" : "cơ thể"
+            "meaning" : "THỂ",
+            "submeaning" : "cơ thể"
         },
         {
             "japan" : "住",
-            "romaji" : "TRÚ",
-            "meaning" : "cư trú"
+            "meaning" : "TRÚ",
+            "submeaning" : "cư trú"
         },
         {
             "japan" : "低",
-            "romaji" : "ĐÊ",
-            "meaning" : "thấp"
+            "meaning" : "ĐÊ",
+            "submeaning" : "thấp"
         },
         {
             "japan" : "価",
-            "romaji" : "GIÁ",
-            "meaning" : "giá trị"
+            "meaning" : "GIÁ",
+            "submeaning" : "giá trị"
         },
         {
             "japan" : "使",
-            "romaji" : "SỬ",
-            "meaning" : "sử dụng"
+            "meaning" : "SỬ",
+            "submeaning" : "sử dụng"
         },
         {
             "japan" : "信",
-            "romaji" : "TÍN",
-            "meaning" : "tín hiệu"
+            "meaning" : "TÍN",
+            "submeaning" : "tín hiệu"
         },
         {
             "japan" : "便",
-            "romaji" : "TIỆN",
-            "meaning" : "tiện lợi"
+            "meaning" : "TIỆN",
+            "submeaning" : "tiện lợi"
         },
         {
             "japan" : "借",
-            "romaji" : "TÁ",
-            "meaning" : "vay, mượn"
+            "meaning" : "TÁ",
+            "submeaning" : "vay, mượn"
         },
         {
             "japan" : "働",
-            "romaji" : "ĐỘNG",
-            "meaning" : "lao động"
+            "meaning" : "ĐỘNG",
+            "submeaning" : "lao động"
         }
     ]
 }

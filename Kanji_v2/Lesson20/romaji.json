@@ -4,48 +4,48 @@
     [
         {
             "japan" : "巾",
-            "romaji" : "CÂN",
-            "meaning" : " "
+            "meaning" : "CÂN",
+            "submeaning" : " "
         },
         {
             "japan" : "市",
-            "romaji" : "THỊ",
-            "meaning" : "thị trường"
+            "meaning" : "THỊ",
+            "submeaning" : "thị trường"
         },
         {
             "japan" : "布",
-            "romaji" : "BỐ",
-            "meaning" : "vải"
+            "meaning" : "BỐ",
+            "submeaning" : "vải"
         },
         {
             "japan" : "師",
-            "romaji" : "SƯ",
-            "meaning" : "giáo sư"
+            "meaning" : "SƯ",
+            "submeaning" : "giáo sư"
         },
         {
             "japan" : "帰",
-            "romaji" : "QUY",
-            "meaning" : "trở về"
+            "meaning" : "QUY",
+            "submeaning" : "trở về"
         },
         {
             "japan" : "席",
-            "romaji" : "TỊCH",
-            "meaning" : "chỗ ngồi"
+            "meaning" : "TỊCH",
+            "submeaning" : "chỗ ngồi"
         },
         {
             "japan" : "帳",
-            "romaji" : "TRƯỚNG",
-            "meaning" : "thủ trướng (sổ tay)"
+            "meaning" : "TRƯỚNG",
+            "submeaning" : "thủ trướng (sổ tay)"
         },
         {
             "japan" : "年",
-            "romaji" : "NIÊN",
-            "meaning" : "bên trái"
+            "meaning" : "NIÊN",
+            "submeaning" : "bên trái"
         },
         {
             "japan" : "広",
-            "romaji" : "QUẢNG",
-            "meaning" : "rộng"
+            "meaning" : "QUẢNG",
+            "submeaning" : "rộng"
         }
     ]
 }

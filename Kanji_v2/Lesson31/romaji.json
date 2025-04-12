@@ -4,233 +4,233 @@
     [
         {
             "japan" : "部",
-            "romaji" : "BỘ",
-            "meaning" : "bộ phận"
+            "meaning" : "BỘ",
+            "submeaning" : "bộ phận"
         },
         {
             "japan" : "都",
-            "romaji" : "ĐÔ",
-            "meaning" : "đô thị"
+            "meaning" : "ĐÔ",
+            "submeaning" : "đô thị"
         },
         {
             "japan" : "院",
-            "romaji" : "VIỆN",
-            "meaning" : "bệnh viện"
+            "meaning" : "VIỆN",
+            "submeaning" : "bệnh viện"
         },
         {
             "japan" : "心",
-            "romaji" : "TÂM",
-            "meaning" : "tâm hồn"
+            "meaning" : "TÂM",
+            "submeaning" : "tâm hồn"
         },
         {
             "japan" : "忙",
-            "romaji" : "MANG",
-            "meaning" : "bận rộn"
+            "meaning" : "MANG",
+            "submeaning" : "bận rộn"
         },
         {
             "japan" : "忘",
-            "romaji" : "VONG",
-            "meaning" : "quên"
+            "meaning" : "VONG",
+            "submeaning" : "quên"
         },
         {
             "japan" : "念",
-            "romaji" : "NIỆM",
-            "meaning" : "kỉ niệm"
+            "meaning" : "NIỆM",
+            "submeaning" : "kỉ niệm"
         },
         {
             "japan" : "性",
-            "romaji" : "TÍNH",
-            "meaning" : "tính cách"
+            "meaning" : "TÍNH",
+            "submeaning" : "tính cách"
         },
         {
             "japan" : "思",
-            "romaji" : "TƯ",
-            "meaning" : "suy tư"
+            "meaning" : "TƯ",
+            "submeaning" : "suy tư"
         },
         {
             "japan" : "恋",
-            "romaji" : "LUYẾN",
-            "meaning" : "yêu"
+            "meaning" : "LUYẾN",
+            "submeaning" : "yêu"
         },
         {
             "japan" : "悪",
-            "romaji" : "ÁC",
-            "meaning" : "xấu xá"
+            "meaning" : "ÁC",
+            "submeaning" : "xấu xá"
         },
         {
             "japan" : "意",
-            "romaji" : "Ý",
-            "meaning" : "ý chí"
+            "meaning" : "Ý",
+            "submeaning" : "ý chí"
         },
         {
             "japan" : "戸",
-            "romaji" : "BỘ HỘ",
-            "meaning" : " "
+            "meaning" : "BỘ HỘ",
+            "submeaning" : " "
         },
         {
             "japan" : "戻",
-            "romaji" : "LỆ",
-            "meaning" : "quay lại"
+            "meaning" : "LỆ",
+            "submeaning" : "quay lại"
         },
         {
             "japan" : "所",
-            "romaji" : "SỞ",
-            "meaning" : "nơi, chỗ"
+            "meaning" : "SỞ",
+            "submeaning" : "nơi, chỗ"
         },
         {
             "japan" : "手",
-            "romaji" : "THỦ",
-            "meaning" : "tay"
+            "meaning" : "THỦ",
+            "submeaning" : "tay"
         },
         {
             "japan" : "才",
-            "romaji" : "TÀI",
-            "meaning" : "tuổi, tài năng"
+            "meaning" : "TÀI",
+            "submeaning" : "tuổi, tài năng"
         },
         {
             "japan" : "払",
-            "romaji" : "PHẤT",
-            "meaning" : "trả tiền"
+            "meaning" : "PHẤT",
+            "submeaning" : "trả tiền"
         },
         {
             "japan" : "押",
-            "romaji" : "ÁP",
-            "meaning" : "đè, ấn"
+            "meaning" : "ÁP",
+            "submeaning" : "đè, ấn"
         },
         {
             "japan" : "持",
-            "romaji" : "TRÌ",
-            "meaning" : "cầm, nắm"
+            "meaning" : "TRÌ",
+            "submeaning" : "cầm, nắm"
         },
         {
             "japan" : "拾",
-            "romaji" : "THẬP",
-            "meaning" : "thu thập"
+            "meaning" : "THẬP",
+            "submeaning" : "thu thập"
         },
         {
             "japan" : "捨",
-            "romaji" : "XẢ",
-            "meaning" : "vứt bỏ"
+            "meaning" : "XẢ",
+            "submeaning" : "vứt bỏ"
         },
         {
             "japan" : "授",
-            "romaji" : "THỤ",
-            "meaning" : "giờ học"
+            "meaning" : "THỤ",
+            "submeaning" : "giờ học"
         },
         {
             "japan" : "故",
-            "romaji" : "CỐ",
-            "meaning" : "sự cố"
+            "meaning" : "CỐ",
+            "submeaning" : "sự cố"
         },
         {
             "japan" : "教",
-            "romaji" : "GIÁO",
-            "meaning" : "giáo dục"
+            "meaning" : "GIÁO",
+            "submeaning" : "giáo dục"
         },
         {
             "japan" : "散",
-            "romaji" : "TẢN",
-            "meaning" : "tản bộ"
+            "meaning" : "TẢN",
+            "submeaning" : "tản bộ"
         },
         {
             "japan" : "数",
-            "romaji" : "SỐ",
-            "meaning" : "số đếm"
+            "meaning" : "SỐ",
+            "submeaning" : "số đếm"
         },
         {
             "japan" : "文",
-            "romaji" : "VĂN",
-            "meaning" : "văn học"
+            "meaning" : "VĂN",
+            "submeaning" : "văn học"
         },
         {
             "japan" : "料",
-            "romaji" : "LIỆU",
-            "meaning" : "vật liệu"
+            "meaning" : "LIỆU",
+            "submeaning" : "vật liệu"
         },
         {
             "japan" : "斤",
-            "romaji" : "BỘ CÂN",
-            "meaning" : " "
+            "meaning" : "BỘ CÂN",
+            "submeaning" : " "
         },
         {
             "japan" : "新",
-            "romaji" : "TÂN",
-            "meaning" : "mới"
+            "meaning" : "TÂN",
+            "submeaning" : "mới"
         },
         {
             "japan" : "方",
-            "romaji" : "PHƯƠNG",
-            "meaning" : "phương hướng"
+            "meaning" : "PHƯƠNG",
+            "submeaning" : "phương hướng"
         },
         {
             "japan" : "旅",
-            "romaji" : "LỮ",
-            "meaning" : "du lịch"
+            "meaning" : "LỮ",
+            "submeaning" : "du lịch"
         },
         {
             "japan" : "族",
-            "romaji" : "TỘC",
-            "meaning" : "dòng tộc"
+            "meaning" : "TỘC",
+            "submeaning" : "dòng tộc"
         },
         {
             "japan" : "日",
-            "romaji" : "NHẬT",
-            "meaning" : "ngày"
+            "meaning" : "NHẬT",
+            "submeaning" : "ngày"
         },
         {
             "japan" : "早",
-            "romaji" : "TẢO",
-            "meaning" : "sớm"
+            "meaning" : "TẢO",
+            "submeaning" : "sớm"
         },
         {
             "japan" : "易",
-            "romaji" : "DỊCH",
-            "meaning" : "dễ"
+            "meaning" : "DỊCH",
+            "submeaning" : "dễ"
         },
         {
             "japan" : "明",
-            "romaji" : "MINH",
-            "meaning" : "sáng"
+            "meaning" : "MINH",
+            "submeaning" : "sáng"
         },
         {
             "japan" : "映",
-            "romaji" : "ÁNH",
-            "meaning" : "ánh hoạ (phim)"
+            "meaning" : "ÁNH",
+            "submeaning" : "ánh hoạ (phim)"
         },
         {
             "japan" : "昨",
-            "romaji" : "TẠC",
-            "meaning" : "đã qua"
+            "meaning" : "TẠC",
+            "submeaning" : "đã qua"
         },
         {
             "japan" : "春",
-            "romaji" : "XUÂN",
-            "meaning" : "mùa xuân"
+            "meaning" : "XUÂN",
+            "submeaning" : "mùa xuân"
         },
         {
             "japan" : "昼",
-            "romaji" : "TRÚ",
-            "meaning" : "buổi trưa"
+            "meaning" : "TRÚ",
+            "submeaning" : "buổi trưa"
         },
         {
             "japan" : "時",
-            "romaji" : "THỜI",
-            "meaning" : "thời gian"
+            "meaning" : "THỜI",
+            "submeaning" : "thời gian"
         },
         {
             "japan" : "暑",
-            "romaji" : "THỬ",
-            "meaning" : "nóng (thời tiết)"
+            "meaning" : "THỬ",
+            "submeaning" : "nóng (thời tiết)"
         },
         {
             "japan" : "晩",
-            "romaji" : "VÃN",
-            "meaning" : "buổi tối"
+            "meaning" : "VÃN",
+            "submeaning" : "buổi tối"
         },
         {
             "japan" : "暗",
-            "romaji" : "ÁM",
-            "meaning" : "tối u ám"
+            "meaning" : "ÁM",
+            "submeaning" : "tối u ám"
         }
     ]
 }

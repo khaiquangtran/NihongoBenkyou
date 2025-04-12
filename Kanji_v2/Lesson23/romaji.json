@@ -4,43 +4,43 @@
     [
         {
             "japan" : "花",
-            "romaji" : "HOA",
-            "meaning" : "bông hoa"
+            "meaning" : "HOA",
+            "submeaning" : "bông hoa"
         },
         {
             "japan" : "英",
-            "romaji" : "ANH",
-            "meaning" : "tiếng Anh"
+            "meaning" : "ANH",
+            "submeaning" : "tiếng Anh"
         },
         {
             "japan" : "苦",
-            "romaji" : "KHỔ",
-            "meaning" : "cực khổ"
+            "meaning" : "KHỔ",
+            "submeaning" : "cực khổ"
         },
         {
             "japan" : "茶",
-            "romaji" : "TRÀ",
-            "meaning" : "trà"
+            "meaning" : "TRÀ",
+            "submeaning" : "trà"
         },
         {
             "japan" : "荷",
-            "romaji" : "HÀ",
-            "meaning" : "hành lí"
+            "meaning" : "HÀ",
+            "submeaning" : "hành lí"
         },
         {
             "japan" : "菓",
-            "romaji" : "QUẢ",
-            "meaning" : "bánh kẹo"
+            "meaning" : "QUẢ",
+            "submeaning" : "bánh kẹo"
         },
         {
             "japan" : "薬",
-            "romaji" : "DƯỢC",
-            "meaning" : "thuốc"
+            "meaning" : "DƯỢC",
+            "submeaning" : "thuốc"
         },
         {
             "japan" : "近",
-            "romaji" : "CẬN",
-            "meaning" : "gần"
+            "meaning" : "CẬN",
+            "submeaning" : "gần"
         }
     ]
 }

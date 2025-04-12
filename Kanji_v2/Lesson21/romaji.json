@@ -4,48 +4,48 @@
     [
         {
             "japan" : "店",
-            "romaji" : "ĐIẾM",
-            "meaning" : "cửa hàng"
+            "meaning" : "ĐIẾM",
+            "submeaning" : "cửa hàng"
         },
         {
             "japan" : "度",
-            "romaji" : "ĐỘ",
-            "meaning" : "lần"
+            "meaning" : "ĐỘ",
+            "submeaning" : "lần"
         },
         {
             "japan" : "座",
-            "romaji" : "TOẠ",
-            "meaning" : "ngồi"
+            "meaning" : "TOẠ",
+            "submeaning" : "ngồi"
         },
         {
             "japan" : "庭",
-            "romaji" : "ĐÌNH",
-            "meaning" : "cái sân"
+            "meaning" : "ĐÌNH",
+            "submeaning" : "cái sân"
         },
         {
             "japan" : "建",
-            "romaji" : "KIẾN",
-            "meaning" : "kiến trúc"
+            "meaning" : "KIẾN",
+            "submeaning" : "kiến trúc"
         },
         {
             "japan" : "式",
-            "romaji" : "THỨC",
-            "meaning" : "hình thức"
+            "meaning" : "THỨC",
+            "submeaning" : "hình thức"
         },
         {
             "japan" : "弓",
-            "romaji" : "BỘ CUNG",
-            "meaning" : ""
+            "meaning" : "BỘ CUNG",
+            "submeaning" : ""
         },
         {
             "japan" : "引",
-            "romaji" : "DẪN",
-            "meaning" : "kéo"
+            "meaning" : "DẪN",
+            "submeaning" : "kéo"
         },
         {
             "japan" : "弟",
-            "romaji" : "ĐỆ",
-            "meaning" : "em trai"
+            "meaning" : "ĐỆ",
+            "submeaning" : "em trai"
         }
     ]
 }

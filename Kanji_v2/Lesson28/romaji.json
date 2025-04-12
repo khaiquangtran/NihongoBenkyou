@@ -4,48 +4,48 @@
     [
         {
             "japan" : "払",
-            "romaji" : "PHẤT",
-            "meaning" : "trả tiền"
+            "meaning" : "PHẤT",
+            "submeaning" : "trả tiền"
         },
         {
             "japan" : "押",
-            "romaji" : "ÁP",
-            "meaning" : "đè, ấn"
+            "meaning" : "ÁP",
+            "submeaning" : "đè, ấn"
         },
         {
             "japan" : "持",
-            "romaji" : "TRÌ",
-            "meaning" : "cầm, nắm"
+            "meaning" : "TRÌ",
+            "submeaning" : "cầm, nắm"
         },
         {
             "japan" : "拾",
-            "romaji" : "THẬP",
-            "meaning" : "thu thập"
+            "meaning" : "THẬP",
+            "submeaning" : "thu thập"
         },
         {
             "japan" : "捨",
-            "romaji" : "XẢ",
-            "meaning" : "vứt bỏ"
+            "meaning" : "XẢ",
+            "submeaning" : "vứt bỏ"
         },
         {
             "japan" : "授",
-            "romaji" : "THỤ",
-            "meaning" : "giờ học"
+            "meaning" : "THỤ",
+            "submeaning" : "giờ học"
         },
         {
             "japan" : "故",
-            "romaji" : "CỐ",
-            "meaning" : "sự cố"
+            "meaning" : "CỐ",
+            "submeaning" : "sự cố"
         },
         {
             "japan" : "教",
-            "romaji" : "GIÁO",
-            "meaning" : "giáo dục"
+            "meaning" : "GIÁO",
+            "submeaning" : "giáo dục"
         },
         {
             "japan" : "散",
-            "romaji" : "TẢN",
-            "meaning" : "tản bộ"
+            "meaning" : "TẢN",
+            "submeaning" : "tản bộ"
         }
     ]
 }

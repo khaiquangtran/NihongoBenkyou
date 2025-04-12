@@ -4,48 +4,48 @@
     [
         {
             "japan" : "妻",
-            "romaji" : "THÊ",
-            "meaning" : "vợ"
+            "meaning" : "THÊ",
+            "submeaning" : "vợ"
         },
         {
             "japan" : "姉",
-            "romaji" : "TỶ",
-            "meaning" : "chị"
+            "meaning" : "TỶ",
+            "submeaning" : "chị"
         },
         {
             "japan" : "妹",
-            "romaji" : "MUỘI",
-            "meaning" : "em gái"
+            "meaning" : "MUỘI",
+            "submeaning" : "em gái"
         },
         {
             "japan" : "始",
-            "romaji" : "THUỶ",
-            "meaning": "bắt đầu"
+            "meaning" : "THUỶ",
+            "submeaning": "bắt đầu"
         },
         {
             "japan" : "婦",
-            "romaji" : "PHỤ",
-            "meaning" : "phụ nữ"
+            "meaning" : "PHỤ",
+            "submeaning" : "phụ nữ"
         },
         {
             "japan" : "婚",
-            "romaji" : "HÔN",
-            "meaning" : "kết hôn"
+            "meaning" : "HÔN",
+            "submeaning" : "kết hôn"
         },
         {
             "japan" : "子",
-            "romaji" : "TỬ",
-            "meaning" : "con"
+            "meaning" : "TỬ",
+            "submeaning" : "con"
         },
         {
             "japan" : "字",
-            "romaji" : "TỰ",
-            "meaning" : "chữ"
+            "meaning" : "TỰ",
+            "submeaning" : "chữ"
         },
         {
             "japan" : "学",
-            "romaji" : "HỌC",
-            "meaning" : "học sinh"
+            "meaning" : "HỌC",
+            "submeaning" : "học sinh"
         }
     ]
 }

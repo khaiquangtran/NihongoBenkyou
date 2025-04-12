@@ -4,53 +4,53 @@
     [
         {
             "japan" : "口",
-            "romaji" : "KHẨU",
-            "meaning" : "miệng"
+            "meaning" : "KHẨU",
+            "submeaning" : "miệng"
         },
         {
             "japan" : "古",
-            "romaji" : "CỔ",
-            "meaning" : "cũ"
+            "meaning" : "CỔ",
+            "submeaning" : "cũ"
         },
         {
             "japan" : "号",
-            "romaji" : "HIỆU",
-            "meaning" : "số hiệu"
+            "meaning" : "HIỆU",
+            "submeaning" : "số hiệu"
         },
         {
             "japan" : "台",
-            "romaji" : "ĐÀI",
-            "meaning" : "cái bục"
+            "meaning" : "ĐÀI",
+            "submeaning" : "cái bục"
         },
         {
             "japan" : "右",
-            "romaji" : "HỮU",
-            "meaning" : "bên phải"
+            "meaning" : "HỮU",
+            "submeaning" : "bên phải"
         },
         {
             "japan" : "吸",
-            "romaji" : "HẤP",
-            "meaning" : "hút, hít"
+            "meaning" : "HẤP",
+            "submeaning" : "hút, hít"
         },
         {
             "japan" : "合",
-            "romaji" : "HỢP",
-            "meaning" : "hoà hợp"
+            "meaning" : "HỢP",
+            "submeaning" : "hoà hợp"
         },
         {
             "japan" : "同",
-            "romaji" : "ĐỒNG",
-            "meaning" : "giống nhau"
+            "meaning" : "ĐỒNG",
+            "submeaning" : "giống nhau"
         },
         {
             "japan" : "名",
-            "romaji" : "DANH",
-            "meaning" : "danh tiếng"
+            "meaning" : "DANH",
+            "submeaning" : "danh tiếng"
         },
         {
             "japan" : "呼",
-            "romaji" : "HÔ",
-            "meaning" : "gọi"
+            "meaning" : "HÔ",
+            "submeaning" : "gọi"
         }
     ]
 }

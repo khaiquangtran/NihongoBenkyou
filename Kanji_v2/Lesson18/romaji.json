@@ -4,48 +4,48 @@
     [
         {
             "japan" : "将",
-            "romaji" : "TƯƠNG",
-            "meaning" : "tương lai"
+            "meaning" : "TƯƠNG",
+            "submeaning" : "tương lai"
         },
         {
             "japan" : "小",
-            "romaji" : "TIỂU",
-            "meaning" : "nhỏ"
+            "meaning" : "TIỂU",
+            "submeaning" : "nhỏ"
         },
         {
             "japan" : "少",
-            "romaji" : "THIỂU",
-            "meaning" : "ít"
+            "meaning" : "THIỂU",
+            "submeaning" : "ít"
         },
         {
             "japan" : "屋",
-            "romaji" : "ỐC",
-            "meaning" : "phòng ốc"
+            "meaning" : "ỐC",
+            "submeaning" : "phòng ốc"
         },
         {
             "japan" : "山",
-            "romaji" : "SƠN",
-            "meaning" : "núi"
+            "meaning" : "SƠN",
+            "submeaning" : "núi"
         },
         {
             "japan" : "川",
-            "romaji" : "XUYÊN",
-            "meaning" : "sông"
+            "meaning" : "XUYÊN",
+            "submeaning" : "sông"
         },
         {
             "japan" : "工",
-            "romaji" : "CÔNG",
-            "meaning" : "công trường"
+            "meaning" : "CÔNG",
+            "submeaning" : "công trường"
         },
         {
             "japan" : "左",
-            "romaji" : "TẢ",
-            "meaning" : "bên trái"
+            "meaning" : "TẢ",
+            "submeaning" : "bên trái"
         },
         {
             "japan" : "己",
-            "romaji" : "KỶ",
-            "meaning" : "bản thân"
+            "meaning" : "KỶ",
+            "submeaning" : "bản thân"
         }
     ]
 }

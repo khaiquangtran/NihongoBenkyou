@@ -4,53 +4,53 @@
     [
         {
             "japan" : "一",
-            "romaji" : "NHẤT",
-            "meaning" : "một"
+            "meaning" : "NHẤT",
+            "submeaning" : "một"
         },
         {
             "japan" : "七",
-            "romaji" : "THẤT",
-            "meaning" : "bảy"
+            "meaning" : "THẤT",
+            "submeaning" : "bảy"
         },
         {
             "japan" : "下",
-            "romaji" : "HẠ",
-            "meaning" : "dưới"
+            "meaning" : "HẠ",
+            "submeaning" : "dưới"
         },
         {
             "japan" : "三",
-            "romaji" : "TAM",
-            "meaning" : "ba"
+            "meaning" : "TAM",
+            "submeaning" : "ba"
         },
         {
             "japan" : "上",
-            "romaji" : "THƯỢNG",
-            "meaning" : "trên"
+            "meaning" : "THƯỢNG",
+            "submeaning" : "trên"
         },
         {
             "japan" : "丈",
-            "romaji" : "TRƯỢNG",
-            "meaning" : "bảy"
+            "meaning" : "TRƯỢNG",
+            "submeaning" : "bảy"
         },
         {
             "japan" : "不",
-            "romaji" : "BẤT",
-            "meaning" : "không"
+            "meaning" : "BẤT",
+            "submeaning" : "không"
         },
         {
             "japan" : "世",
-            "romaji" : "THẾ",
-            "meaning" : "thế giới"
+            "meaning" : "THẾ",
+            "submeaning" : "thế giới"
         },
         {
             "japan" : "両",
-            "romaji" : "LƯỠNG",
-            "meaning" : "cả hai"
+            "meaning" : "LƯỠNG",
+            "submeaning" : "cả hai"
         },
         {
             "japan" : "中",
-            "romaji" : "TRUNG",
-            "meaning" : "trung gian"
+            "meaning" : "TRUNG",
+            "submeaning" : "trung gian"
         }
     ]
 }

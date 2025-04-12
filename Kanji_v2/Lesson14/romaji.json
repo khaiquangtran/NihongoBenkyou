@@ -4,48 +4,48 @@
     [
         {
             "japan" : "堂",
-            "romaji" : "ĐƯỜNG",
-            "meaning" : "nhà lớn"
+            "meaning" : "ĐƯỜNG",
+            "submeaning" : "nhà lớn"
         },
         {
             "japan" : "場",
-            "romaji" : "TRƯỜNG",
-            "meaning" : "công trường"
+            "meaning" : "TRƯỜNG",
+            "submeaning" : "công trường"
         },
         {
             "japan" : "士",
-            "romaji" : "SĨ",
-            "meaning" : "binh sĩ"
+            "meaning" : "SĨ",
+            "submeaning" : "binh sĩ"
         },
         {
             "japan" : "声",
-            "romaji" : "THANH",
-            "meaning": "âm tnanh"
+            "meaning" : "THANH",
+            "submeaning": "âm tnanh"
         },
         {
             "japan" : "売",
-            "romaji" : "MẠI",
-            "meaning" : "bán"
+            "meaning" : "MẠI",
+            "submeaning" : "bán"
         },
         {
             "japan" : "冬",
-            "romaji" : "ĐÔNG",
-            "meaning" : "mùa đông"
+            "meaning" : "ĐÔNG",
+            "submeaning" : "mùa đông"
         },
         {
             "japan" : "変",
-            "romaji" : "BIẾN",
-            "meaning" : "biến đổi"
+            "meaning" : "BIẾN",
+            "submeaning" : "biến đổi"
         },
         {
             "japan" : "夏",
-            "romaji" : "HẠ",
-            "meaning" : "mùa hè"
+            "meaning" : "HẠ",
+            "submeaning" : "mùa hè"
         },
         {
             "japan" : "夕",
-            "romaji" : "TỊCH",
-            "meaning" : "buổi tối"
+            "meaning" : "TỊCH",
+            "submeaning" : "buổi tối"
         }
     ]
 }

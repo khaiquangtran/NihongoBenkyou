@@ -4,53 +4,53 @@
     [
         {
             "japan" : "員",
-            "romaji" : "VIÊN",
-            "meaning" : "nhân viên"
+            "meaning" : "VIÊN",
+            "submeaning" : "nhân viên"
         },
         {
             "japan" : "問",
-            "romaji" : "VẤN",
-            "meaning" : "vấn đề"
+            "meaning" : "VẤN",
+            "submeaning" : "vấn đề"
         },
         {
             "japan" : "喫",
-            "romaji" : "KHIẾT",
-            "meaning" : "ăn uống"
+            "meaning" : "KHIẾT",
+            "submeaning" : "ăn uống"
         },
         {
             "japan" : "四",
-            "romaji" : "TỨ",
-            "meaning" : "bốn"
+            "meaning" : "TỨ",
+            "submeaning" : "bốn"
         },
         {
             "japan" : "回",
-            "romaji" : "HỒI",
-            "meaning" : "lần"
+            "meaning" : "HỒI",
+            "submeaning" : "lần"
         },
         {
             "japan" : "図",
-            "romaji" : "ĐỒ",
-            "meaning" : "bản đồ"
+            "meaning" : "ĐỒ",
+            "submeaning" : "bản đồ"
         },
         {
             "japan" : "国",
-            "romaji" : "QUỐC",
-            "meaning" : "đất nước"
+            "meaning" : "QUỐC",
+            "submeaning" : "đất nước"
         },
         {
             "japan" : "園",
-            "romaji" : "VIÊN",
-            "meaning" : "công viên"
+            "meaning" : "VIÊN",
+            "submeaning" : "công viên"
         },
         {
             "japan" : "土",
-            "romaji" : "THỔ",
-            "meaning" : "đất"
+            "meaning" : "THỔ",
+            "submeaning" : "đất"
         },
         {
             "japan" : "地",
-            "romaji" : "ĐỊA",
-            "meaning" : "địa lý"
+            "meaning" : "ĐỊA",
+            "submeaning" : "địa lý"
         }
     ]
 }
