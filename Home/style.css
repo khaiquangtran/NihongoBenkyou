@@ -137,6 +137,11 @@ body {
   overflow-y: scroll;
 }
 
+.sub-menu-kanji2-5-lines ul {
+  height: 25vh;
+
+}
+
 .sub-menu-kanji2 ul::-webkit-scrollbar {
   display: none;
 }
