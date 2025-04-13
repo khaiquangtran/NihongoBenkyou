@@ -1,0 +1,236 @@
+{
+    "title" : "合成",
+    "vocabulary":
+    [
+        {
+            "japan" : "部",
+            "meaning" : "BỘ",
+            "submeaning" : "bộ phận"
+        },
+        {
+            "japan" : "都",
+            "meaning" : "ĐÔ",
+            "submeaning" : "đô thị"
+        },
+        {
+            "japan" : "院",
+            "meaning" : "VIỆN",
+            "submeaning" : "bệnh viện"
+        },
+        {
+            "japan" : "心",
+            "meaning" : "TÂM",
+            "submeaning" : "tâm hồn"
+        },
+        {
+            "japan" : "忙",
+            "meaning" : "MANG",
+            "submeaning" : "bận rộn"
+        },
+        {
+            "japan" : "忘",
+            "meaning" : "VONG",
+            "submeaning" : "quên"
+        },
+        {
+            "japan" : "念",
+            "meaning" : "NIỆM",
+            "submeaning" : "kỉ niệm"
+        },
+        {
+            "japan" : "性",
+            "meaning" : "TÍNH",
+            "submeaning" : "tính cách"
+        },
+        {
+            "japan" : "思",
+            "meaning" : "TƯ",
+            "submeaning" : "suy tư"
+        },
+        {
+            "japan" : "恋",
+            "meaning" : "LUYẾN",
+            "submeaning" : "yêu"
+        },
+        {
+            "japan" : "悪",
+            "meaning" : "ÁC",
+            "submeaning" : "xấu xá"
+        },
+        {
+            "japan" : "意",
+            "meaning" : "Ý",
+            "submeaning" : "ý chí"
+        },
+        {
+            "japan" : "戸",
+            "meaning" : "BỘ HỘ",
+            "submeaning" : " "
+        },
+        {
+            "japan" : "戻",
+            "meaning" : "LỆ",
+            "submeaning" : "quay lại"
+        },
+        {
+            "japan" : "所",
+            "meaning" : "SỞ",
+            "submeaning" : "nơi, chỗ"
+        },
+        {
+            "japan" : "手",
+            "meaning" : "THỦ",
+            "submeaning" : "tay"
+        },
+        {
+            "japan" : "才",
+            "meaning" : "TÀI",
+            "submeaning" : "tuổi, tài năng"
+        },
+        {
+            "japan" : "払",
+            "meaning" : "PHẤT",
+            "submeaning" : "trả tiền"
+        },
+        {
+            "japan" : "押",
+            "meaning" : "ÁP",
+            "submeaning" : "đè, ấn"
+        },
+        {
+            "japan" : "持",
+            "meaning" : "TRÌ",
+            "submeaning" : "cầm, nắm"
+        },
+        {
+            "japan" : "拾",
+            "meaning" : "THẬP",
+            "submeaning" : "thu thập"
+        },
+        {
+            "japan" : "捨",
+            "meaning" : "XẢ",
+            "submeaning" : "vứt bỏ"
+        },
+        {
+            "japan" : "授",
+            "meaning" : "THỤ",
+            "submeaning" : "giờ học"
+        },
+        {
+            "japan" : "故",
+            "meaning" : "CỐ",
+            "submeaning" : "sự cố"
+        },
+        {
+            "japan" : "教",
+            "meaning" : "GIÁO",
+            "submeaning" : "giáo dục"
+        },
+        {
+            "japan" : "散",
+            "meaning" : "TẢN",
+            "submeaning" : "tản bộ"
+        },
+        {
+            "japan" : "数",
+            "meaning" : "SỐ",
+            "submeaning" : "số đếm"
+        },
+        {
+            "japan" : "文",
+            "meaning" : "VĂN",
+            "submeaning" : "văn học"
+        },
+        {
+            "japan" : "料",
+            "meaning" : "LIỆU",
+            "submeaning" : "vật liệu"
+        },
+        {
+            "japan" : "斤",
+            "meaning" : "BỘ CÂN",
+            "submeaning" : " "
+        },
+        {
+            "japan" : "新",
+            "meaning" : "TÂN",
+            "submeaning" : "mới"
+        },
+        {
+            "japan" : "方",
+            "meaning" : "PHƯƠNG",
+            "submeaning" : "phương hướng"
+        },
+        {
+            "japan" : "旅",
+            "meaning" : "LỮ",
+            "submeaning" : "du lịch"
+        },
+        {
+            "japan" : "族",
+            "meaning" : "TỘC",
+            "submeaning" : "dòng tộc"
+        },
+        {
+            "japan" : "日",
+            "meaning" : "NHẬT",
+            "submeaning" : "ngày"
+        },
+        {
+            "japan" : "早",
+            "meaning" : "TẢO",
+            "submeaning" : "sớm"
+        },
+        {
+            "japan" : "易",
+            "meaning" : "DỊCH",
+            "submeaning" : "dễ"
+        },
+        {
+            "japan" : "明",
+            "meaning" : "MINH",
+            "submeaning" : "sáng"
+        },
+        {
+            "japan" : "映",
+            "meaning" : "ÁNH",
+            "submeaning" : "ánh hoạ (phim)"
+        },
+        {
+            "japan" : "昨",
+            "meaning" : "TẠC",
+            "submeaning" : "đã qua"
+        },
+        {
+            "japan" : "春",
+            "meaning" : "XUÂN",
+            "submeaning" : "mùa xuân"
+        },
+        {
+            "japan" : "昼",
+            "meaning" : "TRÚ",
+            "submeaning" : "buổi trưa"
+        },
+        {
+            "japan" : "時",
+            "meaning" : "THỜI",
+            "submeaning" : "thời gian"
+        },
+        {
+            "japan" : "暑",
+            "meaning" : "THỬ",
+            "submeaning" : "nóng (thời tiết)"
+        },
+        {
+            "japan" : "晩",
+            "meaning" : "VÃN",
+            "submeaning" : "buổi tối"
+        },
+        {
+            "japan" : "暗",
+            "meaning" : "ÁM",
+            "submeaning" : "tối u ám"
+        }
+    ]
+}

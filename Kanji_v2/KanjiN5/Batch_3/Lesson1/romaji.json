@@ -1,0 +1,51 @@
+{
+    "title" : "第ー課",
+    "vocabulary":
+    [
+        {
+            "japan" : "堂",
+            "meaning" : "ĐƯỜNG",
+            "submeaning" : "nhà lớn"
+        },
+        {
+            "japan" : "場",
+            "meaning" : "TRƯỜNG",
+            "submeaning" : "công trường"
+        },
+        {
+            "japan" : "士",
+            "meaning" : "SĨ",
+            "submeaning" : "binh sĩ"
+        },
+        {
+            "japan" : "声",
+            "meaning" : "THANH",
+            "submeaning": "âm tnanh"
+        },
+        {
+            "japan" : "売",
+            "meaning" : "MẠI",
+            "submeaning" : "bán"
+        },
+        {
+            "japan" : "冬",
+            "meaning" : "ĐÔNG",
+            "submeaning" : "mùa đông"
+        },
+        {
+            "japan" : "変",
+            "meaning" : "BIẾN",
+            "submeaning" : "biến đổi"
+        },
+        {
+            "japan" : "夏",
+            "meaning" : "HẠ",
+            "submeaning" : "mùa hè"
+        },
+        {
+            "japan" : "夕",
+            "meaning" : "TỊCH",
+            "submeaning" : "buổi tối"
+        }
+    ]
+}

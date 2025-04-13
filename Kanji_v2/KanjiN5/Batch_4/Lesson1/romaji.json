@@ -1,0 +1,51 @@
+{
+    "title" : "第ー課",
+    "vocabulary":
+    [
+        {
+            "japan" : "返",
+            "meaning" : "PHẢN",
+            "submeaning" : "phản hồi"
+        },
+        {
+            "japan" : "送",
+            "meaning" : "TỐNG",
+            "submeaning" : "gửi, tiễn"
+        },
+        {
+            "japan" : "通",
+            "meaning" : "THÔNG",
+            "submeaning" : "giao thông"
+        },
+        {
+            "japan" : "速",
+            "meaning" : "TỐC",
+            "submeaning" : "nhanh"
+        },
+        {
+            "japan" : "週",
+            "meaning" : "CHU",
+            "submeaning" : "tuần"
+        },
+        {
+            "japan" : "遊",
+            "meaning" : "DU",
+            "submeaning" : "vui chơi"
+        },
+        {
+            "japan" : "運",
+            "meaning" : "VẬN",
+            "submeaning" : "vận chuyển"
+        },
+        {
+            "japan" : "道",
+            "meaning" : "ĐẠO",
+            "submeaning" : "con đường"
+        },
+        {
+            "japan" : "遅",
+            "meaning" : "TRÌ",
+            "submeaning" : "chậm trễ"
+        }
+    ]
+}

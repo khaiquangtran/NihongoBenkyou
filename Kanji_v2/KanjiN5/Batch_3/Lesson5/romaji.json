@@ -1,0 +1,51 @@
+{
+    "title" : "第五課",
+    "vocabulary":
+    [
+        {
+            "japan" : "将",
+            "meaning" : "TƯƠNG",
+            "submeaning" : "tương lai"
+        },
+        {
+            "japan" : "小",
+            "meaning" : "TIỂU",
+            "submeaning" : "nhỏ"
+        },
+        {
+            "japan" : "少",
+            "meaning" : "THIỂU",
+            "submeaning" : "ít"
+        },
+        {
+            "japan" : "屋",
+            "meaning" : "ỐC",
+            "submeaning" : "phòng ốc"
+        },
+        {
+            "japan" : "山",
+            "meaning" : "SƠN",
+            "submeaning" : "núi"
+        },
+        {
+            "japan" : "川",
+            "meaning" : "XUYÊN",
+            "submeaning" : "sông"
+        },
+        {
+            "japan" : "工",
+            "meaning" : "CÔNG",
+            "submeaning" : "công trường"
+        },
+        {
+            "japan" : "左",
+            "meaning" : "TẢ",
+            "submeaning" : "bên trái"
+        },
+        {
+            "japan" : "己",
+            "meaning" : "KỶ",
+            "submeaning" : "bản thân"
+        }
+    ]
+}

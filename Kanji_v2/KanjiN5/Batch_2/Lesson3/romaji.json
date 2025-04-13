@@ -1,0 +1,51 @@
+{
+    "title" : "第三課",
+    "vocabulary":
+    [
+        {
+            "japan" : "千",
+            "meaning" : "THIÊN",
+            "submeaning" : "một ngàn"
+        },
+        {
+            "japan" : "午",
+            "meaning" : "NGỌ",
+            "submeaning" : "giữa trưa"
+        },
+        {
+            "japan" : "半",
+            "meaning" : "BÁN",
+            "submeaning" : "một nữa"
+        },
+        {
+            "japan" : "卒",
+            "meaning" : "TỐT",
+            "submeaning" : "tốt nghiệp"
+        },
+        {
+            "japan" : "南",
+            "meaning" : "NAM",
+            "submeaning" : "phía nam"
+        },
+        {
+            "japan" : "去",
+            "meaning" : "KHỨ",
+            "submeaning" : "quá khứ"
+        },
+        {
+            "japan" : "友",
+            "meaning" : "HỮU",
+            "submeaning" : "bạn bè"
+        },
+        {
+            "japan" : "取",
+            "meaning" : "THỦ",
+            "submeaning" : "lấy"
+        },
+        {
+            "japan" : "授",
+            "meaning" : "THỤ",
+            "submeaning" : "nhận"
+        }
+    ]
+}

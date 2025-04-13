@@ -1,0 +1,55 @@
+{
+    "title": "第ー課",
+    "vocabulary": [
+        {
+            "japan": "酒",
+            "meaning": "TỬU",
+            "submeaning": "rượu"
+        },
+        {
+            "japan": "配",
+            "meaning": "PHỐI",
+            "submeaning": "phân phối"
+        },
+        {
+            "japan": "重",
+            "meaning": "TRỌNG",
+            "submeaning": "nặng"
+        },
+        {
+            "japan": "金",
+            "meaning": "KIM",
+            "submeaning": "vàng, tiền"
+        },
+        {
+            "japan": "銀",
+            "meaning": "NGÂN",
+            "submeaning": "bạc, ngân hàng"
+        },
+        {
+            "japan": "長",
+            "meaning": "TRƯỜNG",
+            "submeaning": "dài"
+        },
+        {
+            "japan": "門",
+            "meaning": "MÔN",
+            "submeaning": "cổng"
+        },
+        {
+            "japan": "閉",
+            "meaning": "BẾ",
+            "submeaning": "đóng"
+        },
+        {
+            "japan": "開",
+            "meaning": "KHAI",
+            "submeaning": "mở"
+        },
+        {
+            "japan": "間",
+            "meaning": "GIAN",
+            "submeaning": "không gian"
+        }
+    ]
+}

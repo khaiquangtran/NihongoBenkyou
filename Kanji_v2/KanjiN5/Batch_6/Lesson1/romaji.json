@@ -1,0 +1,45 @@
+{
+    "title": "第ー課",
+    "vocabulary": [
+        {
+            "japan": "曜",
+            "meaning": "DIỆU",
+            "submeaning": "ngày trong tuần"
+        },
+        {
+            "japan": "書",
+            "meaning": "NHỊ",
+            "submeaning": "hai"
+        },
+        {
+            "japan": "月",
+            "meaning": "NGUYỆT",
+            "submeaning": "trăng"
+        },
+        {
+            "japan": "服",
+            "meaning": "PHỤC",
+            "submeaning": "quần áo"
+        },
+        {
+            "japan": "朝",
+            "meaning": "TRIỀU",
+            "submeaning": "buổi sáng"
+        },
+        {
+            "japan": "木",
+            "meaning": "MỘC",
+            "submeaning": "cái cây"
+        },
+        {
+            "japan": "本",
+            "meaning": "BẢN",
+            "submeaning": "cuốn sách"
+        },
+        {
+            "japan": "末",
+            "meaning": "MẠT",
+            "submeaning": "cuối cùng"
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "title" : "第四課",
+    "vocabulary":
+    [
+        {
+            "japan" : "数",
+            "meaning" : "SỐ",
+            "submeaning" : "số đếm"
+        },
+        {
+            "japan" : "文",
+            "meaning" : "VĂN",
+            "submeaning" : "văn học"
+        },
+        {
+            "japan" : "料",
+            "meaning" : "LIỆU",
+            "submeaning" : "vật liệu"
+        },
+        {
+            "japan" : "斤",
+            "meaning" : "BỘ CÂN",
+            "submeaning" : " "
+        },
+        {
+            "japan" : "新",
+            "meaning" : "TÂN",
+            "submeaning" : "mới"
+        },
+        {
+            "japan" : "方",
+            "meaning" : "PHƯƠNG",
+            "submeaning" : "phương hướng"
+        },
+        {
+            "japan" : "旅",
+            "meaning" : "LỮ",
+            "submeaning" : "du lịch"
+        },
+        {
+            "japan" : "族",
+            "meaning" : "TỘC",
+            "submeaning" : "dòng tộc"
+        },
+        {
+            "japan" : "日",
+            "meaning" : "NHẬT",
+            "submeaning" : "ngày"
+        },
+        {
+            "japan" : "早",
+            "meaning" : "TẢO",
+            "submeaning" : "sớm"
+        }
+    ]
+}

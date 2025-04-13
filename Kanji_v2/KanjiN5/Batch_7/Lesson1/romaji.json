@@ -1,0 +1,45 @@
+{
+    "title": "第ー課",
+    "vocabulary": [
+        {
+            "japan": "火",
+            "meaning": "HOẢ",
+            "submeaning": "lửa"
+        },
+        {
+            "japan": "点",
+            "meaning": "ĐIỂM",
+            "submeaning": "điểm số"
+        },
+        {
+            "japan": "父",
+            "meaning": "PHỤ",
+            "submeaning": "cha"
+        },
+        {
+            "japan": "牛",
+            "meaning": "NGƯU",
+            "submeaning": "con bò"
+        },
+        {
+            "japan": "物",
+            "meaning": "VẬT",
+            "submeaning": "đồ vật"
+        },
+        {
+            "japan": "犬",
+            "meaning": "KHUYỂN",
+            "submeaning": "con chó"
+        },
+        {
+            "japan": "玉",
+            "meaning": "NGỌC",
+            "submeaning": "viên ngọc"
+        },
+        {
+            "japan": "理",
+            "meaning": "LÝ",
+            "submeaning": "lý do"
+        }
+    ]
+}

@@ -1,0 +1,175 @@
+{
+    "title": "合成",
+    "vocabulary": [
+        {
+            "japan": "酒",
+            "meaning": "TỬU",
+            "submeaning": "rượu"
+        },
+        {
+            "japan": "配",
+            "meaning": "PHỐI",
+            "submeaning": "phân phối"
+        },
+        {
+            "japan": "重",
+            "meaning": "TRỌNG",
+            "submeaning": "nặng"
+        },
+        {
+            "japan": "金",
+            "meaning": "KIM",
+            "submeaning": "vàng, tiền"
+        },
+        {
+            "japan": "銀",
+            "meaning": "NGÂN",
+            "submeaning": "bạc, ngân hàng"
+        },
+        {
+            "japan": "長",
+            "meaning": "TRƯỜNG",
+            "submeaning": "dài"
+        },
+        {
+            "japan": "門",
+            "meaning": "MÔN",
+            "submeaning": "cổng"
+        },
+        {
+            "japan": "閉",
+            "meaning": "BẾ",
+            "submeaning": "đóng"
+        },
+        {
+            "japan": "開",
+            "meaning": "KHAI",
+            "submeaning": "mở"
+        },
+        {
+            "japan": "間",
+            "meaning": "GIAN",
+            "submeaning": "không gian"
+        },
+        {
+            "japan": "雑",
+            "meaning": "TẠP",
+            "submeaning": "tạp chí"
+        },
+        {
+            "japan": "難",
+            "meaning": "NAN",
+            "submeaning": "khó"
+        },
+        {
+            "japan": "雨",
+            "meaning": "VŨ",
+            "submeaning": "mưa"
+        },
+        {
+            "japan": "雪",
+            "meaning": "TUYẾT",
+            "submeaning": "tuyết"
+        },
+        {
+            "japan": "電",
+            "meaning": "ĐIỆN",
+            "submeaning": "điện thoại"
+        },
+        {
+            "japan": "青",
+            "meaning": "THANH",
+            "submeaning": "xanh"
+        },
+        {
+            "japan": "静",
+            "meaning": "TĨNH",
+            "submeaning": "yên tĩnh"
+        },
+        {
+            "japan": "音",
+            "meaning": "ÂM",
+            "submeaning": "âm thanh"
+        },
+        {
+            "japan": "頭",
+            "meaning": "ĐẦU",
+            "submeaning": "đầu"
+        },
+        {
+            "japan": "顔",
+            "meaning": "NHAN",
+            "submeaning": "mặt"
+        },
+        {
+            "japan": "題",
+            "meaning": "ĐỀ",
+            "submeaning": "vấn đề"
+        },
+        {
+            "japan": "風",
+            "meaning": "PHONG",
+            "submeaning": "gió"
+        },
+        {
+            "japan": "食",
+            "meaning": "THỰC",
+            "submeaning": "ăn"
+        },
+        {
+            "japan": "飲",
+            "meaning": "ẨM",
+            "submeaning": "uống"
+        },
+        {
+            "japan": "飯",
+            "meaning": "PHẠN",
+            "submeaning": "cơm"
+        },
+        {
+            "japan": "館",
+            "meaning": "QUÁN",
+            "submeaning": "đại sứ quán"
+        },
+        {
+            "japan": "首",
+            "meaning": "THỦ",
+            "submeaning": "cái cổ, thủ tướng"
+        },
+        {
+            "japan": "馬",
+            "meaning": "MÃ",
+            "submeaning": "ngựa"
+        },
+        {
+            "japan": "訳",
+            "meaning": "DỊCH",
+            "submeaning": "nhà ga"
+        },
+        {
+            "japan": "験",
+            "meaning": "NGHIỆM",
+            "submeaning": "thí nghiệm"
+        },
+        {
+            "japan": "高",
+            "meaning": "CAO",
+            "submeaning": "cao đắt"
+        },
+        {
+            "japan": "魚",
+            "meaning": "NGƯ",
+            "submeaning": "cá"
+        },
+        {
+            "japan": "鳥",
+            "meaning": "ĐIỂU",
+            "submeaning": "chim"
+        },
+        {
+            "japan": "黒",
+            "meaning": "HẮC",
+            "submeaning": "đen"
+        }
+    ]
+}
