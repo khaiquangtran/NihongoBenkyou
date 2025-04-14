@@ -1,5 +1,5 @@
 {
-    "title": "第五課",
+    "title": "第三十課",
     "vocabulary": [
         {
             "japan": "海",
@@ -45,6 +45,11 @@
             "japan": "港",
             "meaning": "CẢNG",
             "submeaning": "bến c ảng"
+        },
+        {
+            "japan": "漢",
+            "meaning": "HÁN",
+            "submeaning": "hán tự"
         }
     ]
 }

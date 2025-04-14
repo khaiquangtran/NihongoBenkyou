@@ -8,8 +8,8 @@
         },
         {
             "japan": "書",
-            "meaning": "NHỊ",
-            "submeaning": "hai"
+            "meaning": "THƯ",
+            "submeaning": "viết"
         },
         {
             "japan": "月",
@@ -225,6 +225,11 @@
             "japan": "港",
             "meaning": "CẢNG",
             "submeaning": "bến c ảng"
+        },
+        {
+            "japan": "漢",
+            "meaning": "HÁN",
+            "submeaning": "hán tự"
         }
     ]
 }
