@@ -162,22 +162,37 @@ body {
   text-align: center;
 }
 
-.randomButton{
+/* .randomButton{
   position: absolute;
   right: 1vh;
   top: 1vh;
   width: 11vh;
   height: 5vh;
-}
+} */
 
 .hideBtn{
   position: fixed;
   width: 11vh;
   height: 5vh;
-  right: 1vh;
-  top: 1vh;
+  left: 1vh;
+  top: 6vh;
   z-index: 2;
   background: #009A00;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.swapBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 11vh;
+  z-index: 2;
+  background: #7F00FF;
   box-shadow: none;
   border-radius: 10px;
   font-size: 2vh;

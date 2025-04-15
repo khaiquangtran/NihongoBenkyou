@@ -59,7 +59,6 @@ async function speak(keyConnect, text) {
 }
 
 function randomSlides() {
-  console.log("heo")
   let container = document.getElementById("wrapper");
   let slides = Array.from(container.children);
 
@@ -75,3 +74,18 @@ function randomSlides() {
 }
 
 document.getElementById("shuffleBtn").addEventListener("click", randomSlides);
+
+
+function swapContent() {
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(card => {
+    const front = card.querySelector('.front');
+    const back = card.querySelector('.back');
+
+    // Store temp
+    const temp = front.innerHTML;
+    front.innerHTML = back.innerHTML;
+    back.innerHTML = temp;
+  })
+}
+document.getElementById("swapBtn").addEventListener("click", swapContent);
