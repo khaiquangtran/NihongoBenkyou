@@ -34,7 +34,7 @@ async function speak(keyConnect, text) {
       input: { text: text },
       voice: {
         languageCode: 'vi-VN',
-        name: 'vi-VN-Wavenet-C' // can use A, B, C...
+        name: 'vi-VN-Standard-C' // can use A, B, C...
       },
       audioConfig: {
         audioEncoding: 'MP3'
