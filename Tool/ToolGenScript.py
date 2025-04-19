@@ -2,6 +2,7 @@ import tkinter as tk
 import ctypes
 from PageGenScript import *
 from PageResizeImage import *
+from PageGenScriptFromExcel import *
 
 class MainView(tk.Frame):
     def __init__(self, *args, **kwargs):
@@ -9,6 +10,7 @@ class MainView(tk.Frame):
 
         self.p1 = PageGenScript(self)
         self.p2 = PageResizeImage(self)
+        self.p3 = PageGenScriptFromExcel(self)
 
         # Create frames for buttons and page container
         self.buttonframe = tk.Frame(self)
@@ -19,16 +21,19 @@ class MainView(tk.Frame):
         # Place pages in container frame
         self.p1.place(in_=self.container, x=0, y=0, relwidth=1, relheight=1)
         self.p2.place(in_=self.container, x=0, y=0, relwidth=1, relheight=1)
+        self.p3.place(in_=self.container, x=0, y=0, relwidth=1, relheight=1)
 
         # Buttons to switch pages
         self.b1 = tk.Button(self.buttonframe, text=" Gen Script ", command=self.p1.show)
         self.b2 = tk.Button(self.buttonframe, text="Resize Image", command=self.p2.show)
+        self.b3 = tk.Button(self.buttonframe, text="Gen From Excel", command=self.p3.show)
 
         self.b1.pack(side="left")
         self.b2.pack(side="left")
+        self.b3.pack(side="left")
 
         # Show the first page by default
-        self.p1.show()
+        self.p3.show()
 
 if __name__ == "__main__":
     root = tk.Tk()

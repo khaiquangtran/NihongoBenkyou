@@ -23,18 +23,40 @@ class ScriptLearnImage:
           href="../../Home/Images/japanese-alphabet.png"
         />
         <link rel="stylesheet" type="text/css" href="../Config/Style/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Klee+One&display=swap" rel="stylesheet">
+
     </head>
     <body id="Background">
-        <div class="container">
-            <div class="homeButton">
-                <button
-                  class="homeBtn"
-                  type="button"
-                  onclick="location.href='../../index.html'"
-                >
-                  <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
-                </button>
-            </div>"""
+        <div class="homeButton">
+            <button
+              class="homeBtn"
+              type="button"
+              onclick="location.href='../../index.html'"
+            >
+              <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+            </button>
+        </div>
+        <div class="randomButton">
+            <button
+                id="shuffleBtn"
+                style="color: white; font-size: 2vh"
+                class="hideBtn"
+                type="button"
+            >
+            Random
+            </button>
+        </div>
+        <div class="swapButton">
+            <button
+                id="swapBtn"
+                style="color: white; font-size: 2vh"
+                class="swapBtn"
+                type="button"
+            >
+            Swap
+            </button>
+        </div>
+        <div class="container" id="wrapper">"""
 
     bodyFlashcard = """
             <div class="card">
@@ -67,6 +89,49 @@ class ScriptLearnImage:
 
     def __init__(self):
         pass
+
+
+class ScriptReviewKanjiV2FromExcel:
+    bodyFlashcard = """
+            <div class="card">
+                <div class="card-inner">
+                    <div class="imgBx front">
+                        <div><p class="mean">TƯ</p></div>
+                        <div><p class="romaji">tôi</p></div>
+                    </div>
+                    <div class="content back">
+                        <div><p class="textJapan japan">修</p></div>
+                    </div>
+                </div>
+            </div>"""
+    bodyFlashcard2 = """
+            <div class="card">
+                <div class="card-inner">
+                    <div class="imgBx front">
+                        <div><p class="textJapan japan">修</p></div>
+                    </div>
+                    <div class="content back">
+                        <div><p class="subjapan">TƯ</p></div>
+                        <div><p class="mean">tôi</p></div>
+                    </div>
+                </div>
+            </div>"""
+    bodyFlashcard3 = """
+            <div class="card">
+                <div class="card-inner">
+                    <div class="imgBx front">
+                        <div><p class="textJapan japan">修</p></div>
+                    </div>
+                    <div class="content back">
+                        <div><p class="mean">TƯ</p></div>
+                        <div><p class="romaji">tôi</p></div>
+                    </div>
+                </div>
+            </div>"""
+
+    def __init__(self):
+        pass
+
 
 class ScriptKanji:
     header = """<!DOCTYPE html>
@@ -117,7 +182,7 @@ class ScriptKanji:
                     </div>
                 </div> <!-- ////////// END KANJI ////////// -->
 """
-    bodyStartOnKun ="""
+    bodyStartOnKun = """
                 <div class="onkun"> <!-- ////////// START ON-KUN KANJI ////////// -->
 
                     <div class="onKanji"> <!-- ///// START ON ///// -->
@@ -169,8 +234,10 @@ class ScriptKanji:
     </body>
 </html>
 """
+
     def __init__(self):
         pass
+
 
 class ScriptKanjiV2:
     header = """
@@ -181,7 +248,7 @@ class ScriptKanjiV2:
         <title></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Link Swiper's CSS -->
-        <link rel="stylesheet" href="../../Swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="../../../../Swiper/swiper-bundle.min.css" />
         <link
           href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
           rel="stylesheet"
@@ -193,17 +260,17 @@ class ScriptKanjiV2:
         <link
           rel="shortcut icon"
           type="image/x-icon"
-          href="../../Home/Images/japanese-alphabet.png"
+          href="../../../../Home/Images/japanese-alphabet.png"
         />
-        <link rel="stylesheet" type="text/css" href="../Config/Style/style.css" />
+        <link rel="stylesheet" type="text/css" href="../../../Config/Style/style.css" />
     </head>
 
     <body id="Background">
-        <script type="module" src="../Config/Script/script.js"></script>
-        <script src="../../Swiper/swiper-bundle.min.js"></script>
+        <script type="module" src="../../../Config/Script/script.js"></script>
+        <script src="../../../../Swiper/swiper-bundle.min.js"></script>
 
         <div>
-          <a href="../../index.html"
+          <a href="../../../../index.html"
             ><button class="homeBtn" type="button">
               <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
             </button></a
@@ -218,7 +285,7 @@ class ScriptKanjiV2:
     bodySwipper1 = """
                 <div class="swiper-slide slide">
                     <div class="japan">
-                        <img src="../../GIF/kanji/gif/150x150/.gif" class="border_all" />
+                        <img src="../../../../GIF/kanji/gif/150x150/.gif" class="border_all" />
                     </div>
                     <div class="pop_up">
                         <button class="open_button slide" type="button">Help</button>
@@ -230,11 +297,11 @@ class ScriptKanjiV2:
                 <div class="swiper-slide slide">
                     <div class="japan">
                       <img
-                        src="../../GIF/kanji/gif/150x150/1.gif"
+                        src="../../../../GIF/kanji/gif/150x150/1.gif"
                         class="border_topleft_bottomleft"
                       />
                       <img
-                        src="../../GIF/kanji/gif/150x150/2.gif"
+                        src="../../../../GIF/kanji/gif/150x150/2.gif"
                         class="border_topright_bottomright"
                       />
                     </div>
@@ -248,12 +315,12 @@ class ScriptKanjiV2:
                 <div class="swiper-slide slide">
                     <div class="top_gif1 japan">
                       <img
-                        src="../../GIF/kanji/gif/150x150/1.gif"
+                        src="../../../../GIF/kanji/gif/150x150/1.gif"
                         class="size_gif1 border_topleft_bottomleft"
                       />
-                      <img src="../../GIF/kanji/gif/150x150/2.gif" class="size_gif1" />
+                      <img src="../../../../GIF/kanji/gif/150x150/2.gif" class="size_gif1" />
                       <img
-                        src="../../GIF/kanji/gif/150x150/3.gif"
+                        src="../../../../GIF/kanji/gif/150x150/3.gif"
                         class="size_gif1 border_topright_bottomright"
                       />
                     </div>
@@ -282,5 +349,6 @@ class ScriptKanjiV2:
     </body>
 </html>
 """
+
     def __init__(self):
         pass
