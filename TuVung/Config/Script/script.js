@@ -34,7 +34,7 @@ async function speak(keyConnect, text) {
       input: { text: text },
       voice: {
         languageCode: 'ja-JP',
-        name: 'ja-JP-Wavenet-A' // can use A, B, C...
+        name: 'ja-JP-Standard-A' // can use A, B, C...
       },
       audioConfig: {
         audioEncoding: 'MP3'
@@ -57,3 +57,36 @@ async function speak(keyConnect, text) {
     alert("Can't play!");
   }
 }
+
+
+function randomSlides() {
+  let container = document.getElementById("wrapper");
+  let slides = Array.from(container.children);
+
+  slides.sort(() => Math.random() - 0.5);
+
+  const fragment = document.createDocumentFragment();
+  slides.forEach((slide) => fragment.appendChild(slide));
+
+  container.innerHTML = "";
+  container.appendChild(fragment);
+
+  swiper.update();
+}
+
+document.getElementById("shuffleBtn").addEventListener("click", randomSlides);
+
+
+function swapContent() {
+  const cards = document.querySelectorAll('.card');
+  cards.forEach(card => {
+    const front = card.querySelector('.front');
+    const back = card.querySelector('.back');
+
+    // Store temp
+    const temp = front.innerHTML;
+    front.innerHTML = back.innerHTML;
+    back.innerHTML = temp;
+  })
+}
+document.getElementById("swapBtn").addEventListener("click", swapContent);

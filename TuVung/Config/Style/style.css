@@ -46,74 +46,67 @@ body {
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
   .container {
-    gap: 55px 60px;
+    gap: 20px 60px;
   }
 }
 
-.container .card {
+.card {
+  perspective: 1000px;
+}
+
+.card-inner {
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
   width: 300px;
   height: 220px;
-  border-radius: 20px;
-  transition: 1s;
-  background: #00bcd4;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
 }
 
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card {
-    width: 250px;
-    height: 170px;
-  }
+.card.card1 .card-inner {
+  transform: rotateY(180deg);
 }
 
-.container .card .imgBx {
+.imgBx, .content {
   position: absolute;
-  top: 0;
-  width: 300px;
-  height: 220px;
-  /* background: #fff; */
-  border-radius: 20px;
-  transition: 0.5s;
-}
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card .imgBx {
-    width: 250px;
-    height: 170px;
-  }
-}
-
-.container .card1 .imgBx {
-  top: -48%;
-  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
-  scale: 70%;
-}
-
-/* @media only screen and (min-width: 1px) and (max-width: 700px) {
-    .container .card:hover .imgBx {
-      top: -68%;
-      box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
-      scale: 55%;
-    }
-  } */
-
-.container .card .imgBx img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
   border-radius: 20px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.imgBx.front {
+  background: #00bcd4;
+  color: white;
+  z-index: 2;
+}
+
+.content.back {
+  background: #0db624;
+  transform: rotateY(180deg);
   z-index: 1;
 }
 
-.container .card .content .romaji {
+.subjapan {
   position: absolute;
-  top: 62%;
+  top: 30%;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  left: 0;
+  width: 100%;
+  font-size: 2em;
+  /* font-weight: bold; */
+  color: white;
+  text-align: center;
+}
+
+
+.subjapan1{
+  top: 20%;
+}
+
+.mean {
+  position: absolute;
+  top: 55%;
   left: 0;
   width: 100%;
   font-size: 1.5em;
@@ -121,134 +114,22 @@ body {
   text-align: center;
 }
 
-.container .card .content .romaji2 {
-  position: absolute;
-  top: 62%;
-  left: 0;
-  width: 100%;
-  font-size: 1.3em;
-  color: white;
-  text-align: center;
+.mean1 {
+  top: 65%;
 }
 
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card .content .romaji {
-    font-size: 1em;
-    top: 68%;
-  }
-  .container .card .content .romaji2 {
-    font-size: 0.8em;
-    top: 68%;
-  }
-}
-
-.container .card .content .romaji8 {
-  position: absolute;
-  top: 62%;
-  left: 0;
-  width: 100%;
-  font-size: 1.2em;
-  color: white;
-  text-align: center;
-}
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card .content .romaji8 {
-    font-size: 1em;
-    top: 68%;
-  }
-}
-
-.container .card .content .japan {
+.japan {
   position: absolute;
   font-size: 3em;
-  font-family: "Sawarabi Mincho";
-  top: 35%;
+  font-family: 'Sawarabi Mincho', sans-serif;
+  top: 30%;
   left: 0;
   width: 100%;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: white;
   text-align: center;
 }
 
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card .content .japan {
-    font-size: 2.4em;
-    top: 38%;
-  }
-}
-
-.container .card .content .japan8 {
-  position: absolute;
-  font-size: 2em;
-  font-family: "Sawarabi Mincho";
-  top: 40%;
-  left: 0;
-  width: 100%;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-}
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card .content .japan8 {
-    font-size: 1.8em;
-    top: 43%;
-  }
-}
-
-.container .card .content .japan9 {
-  position: absolute;
-  font-size: 1.5em;
-  font-family: "Sawarabi Mincho";
-  top: 40%;
-  left: 0;
-  width: 100%;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-}
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card .content .japan9 {
-    font-size: 1.2em;
-    top: 48%;
-  }
-}
-
-.container .card .content .mean {
-  position: absolute;
-  top: 75%;
-  left: 0;
-  width: 100%;
-  font-size: 1.5em;
-  color: white;
-  text-align: center;
-}
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card .content .mean {
-    font-size: 1em;
-    top: 83%;
-  }
-}
-
-.container .card .content .mean9 {
-  position: absolute;
-  top: 80%;
-  left: 0;
-  width: 100%;
-  font-size: 1em;
-  color: white;
-  text-align: center;
-}
-
-@media only screen and (min-width: 1px) and (max-width: 700px) {
-  .container .card .content .mean9 {
-    font-size: 0.7em;
-    top: 86%;
-  }
-}
 
 .homeBtn {
   position: fixed;
@@ -289,4 +170,42 @@ body {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+/* .randomButton{
+  position: absolute;
+  right: 1vh;
+  top: 1vh;
+  width: 11vh;
+  height: 5vh;
+} */
+
+.hideBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 6vh;
+  z-index: 2;
+  background: #009A00;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.swapBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 11vh;
+  z-index: 2;
+  background: #7F00FF;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
 }
