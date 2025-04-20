@@ -580,16 +580,47 @@ dialogs.forEach((dialog, index) => {
       dialog.close();
       overlay.style.display = "none";
     } else {
-      try {
-        const speech = new SpeechSynthesisUtterance();
-        speech.text = speechText[index];
-        speech.lang = "ja";
-        window.speechSynthesis.speak(speech);
-      } catch (error) {
-        console.error("Error in translation:", error);
-        alert("The text could not be translated. Please try again.");
+      const content = localStorage.getItem('content');
+      const text = speechText[index];
+      if(content && text) {
+        speak(content, text);
       }
     }
   });
   // console.log(dialog)
 });
+
+
+async function speak(keyConnect, text) {
+  const response = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      input: { text: text },
+      voice: {
+        languageCode: 'ja-JP',
+        name: 'ja-JP-Standard-A' // can use A, B, C...
+      },
+      audioConfig: {
+        audioEncoding: 'MP3'
+      }
+    })
+  });
+
+  if (!response.ok) {
+    alert('❌ Please choose again KEY file');
+    return;
+    // data.audioContent là base64 của file MP3
+  }
+  const data = await response.json();
+
+  if (data.audioContent) {
+    const audio = new Audio("data:audio/mp3;base64," + data.audioContent);
+    audio.play();
+  } else {
+    console.error("Error audioContent", data);
+    alert("Can't play!");
+  }
+}
