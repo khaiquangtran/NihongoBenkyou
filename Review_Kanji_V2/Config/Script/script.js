@@ -8,7 +8,7 @@ document.querySelectorAll(".card").forEach(function (card) {
       // console.log(japanText);
       const content = localStorage.getItem('content');
       // const file = filePath.files[0];
-      console.log(content)
+      // console.log(content)
       if(content) {
         speak(content, japanText);
       }

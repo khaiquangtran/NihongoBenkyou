@@ -275,10 +275,16 @@ class PageGenScriptFromExcel(Page):
 
                 japanese = row["japanese"]
                 if not pd.isna(japanese):
-                    item_script = item_script.replace(
-                        '<div><p class="textJapan japan">修</p></div>',
-                        f'<div><p class="textJapan japan">{japanese}</p></div>',
-                    )
+                    if len(japanese) < 7:
+                        item_script = item_script.replace(
+                            '<div><p class="textJapan japan">修</p></div>',
+                            f'<div><p class="textJapan japan">{japanese}</p></div>',
+                        )
+                    else:
+                        item_script = item_script.replace(
+                            '<div><p class="textJapan japan">修</p></div>',
+                            f'<div><p class="textJapan japan japan1">{japanese}</p></div>',
+                        )
 
                 else:
                     item_script = item_script.replace(
