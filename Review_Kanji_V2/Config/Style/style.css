@@ -199,3 +199,18 @@ body {
   font-weight: bold;
   color: white;
 }
+
+.scrollBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 16vh;
+  z-index: 2;
+  background: #2735f3;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}

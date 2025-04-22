@@ -89,3 +89,23 @@ function swapContent() {
   })
 }
 document.getElementById("swapBtn").addEventListener("click", swapContent);
+
+const scrollBtn = document.getElementById("scrollBtn");
+
+function updateArrow() {
+  const atBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 10;
+  scrollBtn.innerHTML = atBottom ? "⬆ Scroll" : "⬇ Scroll";
+}
+
+scrollBtn.addEventListener("click", () => {
+  const atBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight - 10;
+  if (atBottom) {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  } else {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+  }
+});
+
+window.addEventListener("scroll", updateArrow);
+
+updateArrow();
