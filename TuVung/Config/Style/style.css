@@ -89,7 +89,7 @@ body {
 
 .subjapan {
   position: absolute;
-  top: 30%;
+  top: 35%;
   font-family: 'Sawarabi Mincho', sans-serif;
   left: 0;
   width: 100%;
@@ -101,7 +101,7 @@ body {
 
 
 .subjapan1{
-  top: 20%;
+  top: 30%;
 }
 
 .mean {
@@ -122,7 +122,7 @@ body {
   position: absolute;
   font-size: 3em;
   font-family: 'Sawarabi Mincho', sans-serif;
-  top: 30%;
+  top: 35%;
   left: 0;
   width: 100%;
   /* font-weight: bold; */
