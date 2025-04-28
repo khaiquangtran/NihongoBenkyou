@@ -56,6 +56,16 @@ class ScriptLearnImage:
             Swap
             </button>
         </div>
+        <div class="srollButton">
+            <button
+                id="scrollBtn"
+                style="color: white; font-size: 2vh"
+                class="scrollBtn"
+                type="button"
+            >
+
+            </button>
+        </div>
         <div class="container" id="wrapper">"""
 
     bodyFlashcard = """
