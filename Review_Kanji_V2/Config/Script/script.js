@@ -70,7 +70,7 @@ function randomSlides() {
   container.innerHTML = "";
   container.appendChild(fragment);
 
-  swiper.update();
+  // swiper.update();
 }
 
 document.getElementById("shuffleBtn").addEventListener("click", randomSlides);

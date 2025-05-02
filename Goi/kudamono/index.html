@@ -22,18 +22,30 @@
           href="../../Home/Images/japanese-alphabet.png"
         />
         <link rel="stylesheet" type="text/css" href="../Config/Style/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Klee+One&display=swap" rel="stylesheet">
+
     </head>
     <body id="Background">
-        <div class="container">
-            <div class="homeButton">
-                <button
-                  class="homeBtn"
-                  type="button"
-                  onclick="location.href='../../index.html'"
-                >
-                  <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
-                </button>
-            </div>
+        <div class="homeButton">
+            <button
+              class="homeBtn"
+              type="button"
+              onclick="location.href='../../index.html'"
+            >
+              <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+            </button>
+        </div>
+        <div class="randomButton">
+            <button
+                id="shuffleBtn"
+                style="color: white; font-size: 2vh"
+                class="hideBtn"
+                type="button"
+            >
+            Random
+            </button>
+        </div>
+        <div class="container" id="wrapper">
             <div class="card">
                 <div class="imgBx">
                     <img src="Images/ichigo.png"/>
@@ -43,7 +55,7 @@
                         <p class="textJapan japan">苺</p>
                     </div>
                     <div>
-                        <p class="romaji">/いちご/</p>
+                        <p class="romaji">いちご</p>
                     </div>
                     <div>
                         <p class="mean">strawberry</p>
@@ -59,7 +71,7 @@
                         <p class="textJapan japan">柿</p>
                     </div>
                     <div>
-                        <p class="romaji">/かき/</p>
+                        <p class="romaji">かき</p>
                     </div>
                     <div>
                         <p class="mean">persimmon</p>
@@ -75,7 +87,7 @@
                         <p class="textJapan japan">桃</p>
                     </div>
                     <div>
-                        <p class="romaji">/もも/</p>
+                        <p class="romaji">もも</p>
                     </div>
                     <div>
                         <p class="mean">peach</p>
@@ -91,7 +103,7 @@
                         <p class="textJapan japan">蜜柑</p>
                     </div>
                     <div>
-                        <p class="romaji">/みかん/</p>
+                        <p class="romaji">みかん</p>
                     </div>
                     <div>
                         <p class="mean">mandarin oranges</p>
@@ -107,7 +119,7 @@
                         <p class="textJapan japan">林檎</p>
                     </div>
                     <div>
-                        <p class="romaji">/りんご/</p>
+                        <p class="romaji">りんご</p>
                     </div>
                     <div>
                         <p class="mean">apple</p>
@@ -123,7 +135,7 @@
                         <p class="textJapan japan">葡萄</p>
                     </div>
                     <div>
-                        <p class="romaji">/ぶどう/</p>
+                        <p class="romaji">ぶどう</p>
                     </div>
                     <div>
                         <p class="mean">grape</p>
@@ -139,7 +151,7 @@
                         <p class="textJapan japan">バナナ</p>
                     </div>
                     <div>
-                        <p class="romaji">/banana/</p>
+                        <p class="romaji">banana</p>
                     </div>
                     <div>
                         <p class="mean">banana</p>
@@ -155,10 +167,122 @@
                         <p class="textJapan japan">梨</p>
                     </div>
                     <div>
-                        <p class="romaji">/なし/</p>
+                        <p class="romaji">なし</p>
                     </div>
                     <div>
                         <p class="mean">japanese pear</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/suika.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">西瓜</p>
+                    </div>
+                    <div>
+                        <p class="romaji">すいか</p>
+                    </div>
+                    <div>
+                        <p class="mean">watermelon</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/mango.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">マンゴー</p>
+                    </div>
+                    <div>
+                        <p class="romaji">mango</p>
+                    </div>
+                    <div>
+                        <p class="mean">mango</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/oranji.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">オレンジ</p>
+                    </div>
+                    <div>
+                        <p class="romaji">oranji</p>
+                    </div>
+                    <div>
+                        <p class="mean">orange</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/dorian.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">ドリアン</p>
+                    </div>
+                    <div>
+                        <p class="romaji">dorian</p>
+                    </div>
+                    <div>
+                        <p class="mean">dorian</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/kokonattsu.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">ココナッツ</p>
+                    </div>
+                    <div>
+                        <p class="romaji">kokonattsu</p>
+                    </div>
+                    <div>
+                        <p class="mean">coconut</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/painappuru.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">パイナップル</p>
+                    </div>
+                    <div>
+                        <p class="romaji">painappuru</p>
+                    </div>
+                    <div>
+                        <p class="mean">pineapple</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/papaiya.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">パパイヤ</p>
+                    </div>
+                    <div>
+                        <p class="romaji">papaiya</p>
+                    </div>
+                    <div>
+                        <p class="mean">papaya</p>
                     </div>
                 </div>
             </div>

@@ -49,6 +49,48 @@
 			"japan" : "梨",
 			"romaji" : "なし",
 			"mean" : "japanese pear"
+		},
+		{
+			"img" : "suika",
+			"japan" : "西瓜",
+			"romaji" : "すいか",
+			"mean" : "watermelon"
+		},
+		{
+			"img" : "mango",
+			"japan" : "マンゴー",
+			"romaji" : "mango",
+			"mean" : "mango"
+		},
+		{
+			"img" : "oranji",
+			"japan" : "オレンジ",
+			"romaji" : "oranji",
+			"mean" : "orange"
+		},
+		{
+			"img" : "dorian",
+			"japan" : "ドリアン",
+			"romaji" : "dorian",
+			"mean" : "dorian"
+		},
+		{
+			"img" : "kokonattsu",
+			"japan" : "ココナッツ",
+			"romaji" : "kokonattsu",
+			"mean" : "coconut"
+		},
+		{
+			"img" : "painappuru",
+			"japan" : "パイナップル",
+			"romaji" : "painappuru",
+			"mean" : "pineapple"
+		},
+		{
+			"img" : "papaiya",
+			"japan" : "パパイヤ",
+			"romaji" : "papaiya",
+			"mean" : "papaya"
 		}
 	]
 }

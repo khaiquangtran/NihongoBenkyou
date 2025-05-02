@@ -59,3 +59,20 @@ async function speak(keyConnect, text) {
     alert("Can't play!");
   }
 }
+
+function randomSlides() {
+  let container = document.getElementById("wrapper");
+  let slides = Array.from(container.children);
+
+  slides.sort(() => Math.random() - 0.5);
+
+  const fragment = document.createDocumentFragment();
+  slides.forEach((slide) => fragment.appendChild(slide));
+
+  container.innerHTML = "";
+  container.appendChild(fragment);
+
+  // swiper.update();
+}
+
+document.getElementById("shuffleBtn").addEventListener("click", randomSlides);

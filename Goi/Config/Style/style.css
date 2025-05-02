@@ -166,7 +166,7 @@ body {
   top: 40%;
   left: 0;
   width: 100%;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: white;
   text-align: center;
 }
@@ -185,7 +185,7 @@ body {
   top: 40%;
   left: 0;
   width: 100%;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: white;
   text-align: center;
 }
@@ -289,4 +289,19 @@ body {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+.hideBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 6vh;
+  z-index: 2;
+  background: #009A00;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
 }

@@ -78,7 +78,7 @@ class PageGenScript(Page):
          vocabulary = data["vocabulary"]
 
          # Initialize script with title
-         script = ScriptLearnImage.header.replace("<title></title>", f"<title>{title}</title>")
+         script = ScriptLearnImage.header2.replace("<title></title>", f"<title>{title}</title>")
 
          # Add flashcards from vocabulary
          for item in vocabulary:
@@ -109,8 +109,8 @@ class PageGenScript(Page):
             item_script = item_script.replace(
                '<img src="Images/.png"/>', f'<img src="Images/{item["img"]}.png"/>'
             )
-            if len(item["mean"]) > 0:
-               item_script.replace(
+            if len(item["mean"]) != 0:
+               item_script = item_script.replace(
                   '<p class="mean"></p>', f'<p class="mean">{item["mean"]}</p>'
                )
             else:
@@ -118,7 +118,6 @@ class PageGenScript(Page):
                   '<p class="mean"></p>', f''
                )
             script += item_script
-
          # End script
          script += ScriptLearnImage.bodyEnd
 
