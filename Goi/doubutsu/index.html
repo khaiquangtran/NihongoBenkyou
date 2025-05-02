@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>動物</title>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
+          rel="stylesheet"
+        />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+          rel="shortcut icon"
+          type="image/x-icon"
+          href="../../Home/Images/japanese-alphabet.png"
+        />
+        <link rel="stylesheet" type="text/css" href="../Config/Style/style.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Klee+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body id="Background">
+        <div class="homeButton">
+            <button
+              class="homeBtn"
+              type="button"
+              onclick="location.href='../../index.html'"
+            >
+              <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+            </button>
+        </div>
+        <div class="randomButton">
+            <button
+                id="shuffleBtn"
+                style="color: white; font-size: 2vh"
+                class="hideBtn"
+                type="button"
+            >
+            Random
+            </button>
+        </div>
+        <div class="container" id="wrapper">
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/neko.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">猫</p>
+                    </div>
+                    <div>
+                        <p class="romaji">ねこ</p>
+                    </div>
+                    <div>
+                        <p class="mean">cat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/inu.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">犬</p>
+                    </div>
+                    <div>
+                        <p class="romaji">いぬ</p>
+                    </div>
+                    <div>
+                        <p class="mean">dog</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/tori.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">鳥</p>
+                    </div>
+                    <div>
+                        <p class="romaji">とり</p>
+                    </div>
+                    <div>
+                        <p class="mean">bird</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/kotori.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">小鳥</p>
+                    </div>
+                    <div>
+                        <p class="romaji">ことり</p>
+                    </div>
+                    <div>
+                        <p class="mean">small bird</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/niwatori.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">鶏</p>
+                    </div>
+                    <div>
+                        <p class="romaji">にわとり</p>
+                    </div>
+                    <div>
+                        <p class="mean">chicken</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/sakana.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">魚</p>
+                    </div>
+                    <div>
+                        <p class="romaji">さかな</p>
+                    </div>
+                    <div>
+                        <p class="mean">fish</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/nezumi.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">鼠</p>
+                    </div>
+                    <div>
+                        <p class="romaji">ねずみ</p>
+                    </div>
+                    <div>
+                        <p class="mean">mouse</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/kani.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">蟹</p>
+                    </div>
+                    <div>
+                        <p class="romaji">かに</p>
+                    </div>
+                    <div>
+                        <p class="mean">crab</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/hitsuji.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">羊</p>
+                    </div>
+                    <div>
+                        <p class="romaji">ひつじ</p>
+                    </div>
+                    <div>
+                        <p class="mean">sheep</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/yagi.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">山羊</p>
+                    </div>
+                    <div>
+                        <p class="romaji">やぎ</p>
+                    </div>
+                    <div>
+                        <p class="mean">goat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/uma.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">馬</p>
+                    </div>
+                    <div>
+                        <p class="romaji">うま</p>
+                    </div>
+                    <div>
+                        <p class="mean">horse</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/usagi.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">兎</p>
+                    </div>
+                    <div>
+                        <p class="romaji">うさぎ</p>
+                    </div>
+                    <div>
+                        <p class="mean">rabbit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/kame.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">亀</p>
+                    </div>
+                    <div>
+                        <p class="romaji">かめ</p>
+                    </div>
+                    <div>
+                        <p class="mean">turtle</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/zou.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">象</p>
+                    </div>
+                    <div>
+                        <p class="romaji">ぞう</p>
+                    </div>
+                    <div>
+                        <p class="mean">elephant</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/kirin.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">キリン</p>
+                    </div>
+                    <div>
+                        <p class="romaji">kirin</p>
+                    </div>
+                    <div>
+                        <p class="mean">giraffe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/raion.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">ライオン</p>
+                    </div>
+                    <div>
+                        <p class="romaji">raion</p>
+                    </div>
+                    <div>
+                        <p class="mean">lion</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx">
+                    <img src="Images/panda.png"/>
+                </div>
+                <div class="content">
+                    <div>
+                        <p class="textJapan japan">パンダ</p>
+                    </div>
+                    <div>
+                        <p class="romaji">panda</p>
+                    </div>
+                    <div>
+                        <p class="mean">panda</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+        <img src="https://hitwebcounter.com/counter/counter.php?page=11583648&style=0006&nbdigits=7&type=page&initCount=0"
+            title="Counter Widget" Alt="Visit counter For Websites"/>
+        </div>
+        <script type="module" src="../Config/Script/script.js"></script>
+    </body>
+</html>

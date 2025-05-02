@@ -1,0 +1,108 @@
+{
+	"title" : "動物",
+	"vocabulary" :
+	[
+		{
+			"img" : "neko",
+			"japan" : "猫",
+			"romaji" : "ねこ",
+			"mean" : "cat"
+		},
+		{
+			"img" : "inu",
+			"japan" : "犬",
+			"romaji" : "いぬ",
+			"mean" : "dog"
+		},
+		{
+			"img" : "tori",
+			"japan" : "鳥",
+			"romaji" : "とり",
+			"mean" : "bird"
+		},
+		{
+			"img" : "kotori",
+			"japan" : "小鳥",
+			"romaji" : "ことり",
+			"mean" : "small bird"
+		},
+		{
+			"img" : "niwatori",
+			"japan" : "鶏",
+			"romaji" : "にわとり",
+			"mean" : "chicken"
+		},
+		{
+			"img" : "sakana",
+			"japan" : "魚",
+			"romaji" : "さかな",
+			"mean" : "fish"
+		},
+		{
+			"img" : "nezumi",
+			"japan" : "鼠",
+			"romaji" : "ねずみ",
+			"mean" : "mouse"
+		},
+		{
+			"img" : "kani",
+			"japan" : "蟹",
+			"romaji" : "かに",
+			"mean" : "crab"
+		},
+		{
+			"img" : "hitsuji",
+			"japan" : "羊",
+			"romaji" : "ひつじ",
+			"mean" : "sheep"
+		},
+		{
+			"img" : "yagi",
+			"japan" : "山羊",
+			"romaji" : "やぎ",
+			"mean" : "goat"
+		},
+		{
+			"img" : "uma",
+			"japan" : "馬",
+			"romaji" : "うま",
+			"mean" : "horse"
+		},
+		{
+			"img" : "usagi",
+			"japan" : "兎",
+			"romaji" : "うさぎ",
+			"mean" : "rabbit"
+		},
+		{
+			"img" : "kame",
+			"japan" : "亀",
+			"romaji" : "かめ",
+			"mean" : "turtle"
+		},
+		{
+			"img" : "zou",
+			"japan" : "象",
+			"romaji" : "ぞう",
+			"mean" : "elephant"
+		},
+		{
+			"img" : "kirin",
+			"japan" : "キリン",
+			"romaji" : "kirin",
+			"mean" : "giraffe"
+		},
+		{
+			"img" : "raion",
+			"japan" : "ライオン",
+			"romaji" : "raion",
+			"mean" : "lion"
+		},
+		{
+			"img" : "panda",
+			"japan" : "パンダ",
+			"romaji" : "panda",
+			"mean" : "panda"
+		}
+	]
+}
