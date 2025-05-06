@@ -166,9 +166,9 @@ class ScriptReviewKanjiV2FromExcel:
                 <div class="card-inner">
                     <div class="imgBx front">
                         <div><p class="textJapan japan">修</p></div>
+                        <div><p class="subjapan">TƯ</p></div>
                     </div>
                     <div class="content back">
-                        <div><p class="subjapan">TƯ</p></div>
                         <div><p class="mean">tôi</p></div>
                     </div>
                 </div>
