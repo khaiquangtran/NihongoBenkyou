@@ -403,7 +403,7 @@ class PageGenScriptFromExcel(Page):
                         f'<div><p class="subjapan"></p></div>',
                     )
 
-                meaning = row["meaning"]
+                meaning = row["meaning"].lower()
                 if not pd.isna(meaning):  # mean
                     if not pd.isna(subjapanese) and " " in subjapanese:
                         item_script = item_script.replace(
