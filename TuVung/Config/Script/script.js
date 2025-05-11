@@ -76,7 +76,6 @@ function randomSlides() {
 
 document.getElementById("shuffleBtn").addEventListener("click", randomSlides);
 
-
 function swapContent() {
   const cards = document.querySelectorAll('.card');
   cards.forEach(card => {

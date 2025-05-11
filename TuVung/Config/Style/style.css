@@ -40,8 +40,19 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 75px 60px;
+  gap: 75px 50px;
+  padding: 100px 70px;
+}
+
+.container2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px 50px;
   padding: 100px 50px;
+  width: 1200px;
 }
 
 @media only screen and (min-width: 1px) and (max-width: 700px) {
@@ -62,7 +73,19 @@ body {
   transform-style: preserve-3d;
 }
 
+.card-inner-2 {
+  position: relative;
+  width: 500px;
+  height: 220px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
 .card.card1 .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card.card1 .card-inner-2 {
   transform: rotateY(180deg);
 }
 
@@ -99,9 +122,8 @@ body {
   text-align: center;
 }
 
-
-.subjapan1{
-  top: 30%;
+.subjapan1 {
+  font-size: 1.8em;
 }
 
 .mean {
@@ -212,6 +234,36 @@ body {
   top: 11vh;
   z-index: 2;
   background: #7F00FF;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.nextBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 16vh;
+  z-index: 2;
+  background: #ff6347;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.preBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 21vh;
+  z-index: 2;
+  background: #9932cc;
   box-shadow: none;
   border-radius: 10px;
   font-size: 2vh;

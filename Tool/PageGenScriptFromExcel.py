@@ -7,7 +7,7 @@ from Script import *
 
 
 class PageGenScriptFromExcel(Page):
-    LISTOPTION = ["Review", "TuVung", "KanjiV2", "Review2"]
+    LISTOPTION = ["Review", "TuVung", "KanjiV2", "Review2", "Review3"]
 
     def __init__(self, *args, **kwargs):
         Page.__init__(self, *args, **kwargs)
@@ -94,6 +94,8 @@ class PageGenScriptFromExcel(Page):
                 self.genScriptForKanjiV2(pathFile)
             elif self.clicked.get() == self.LISTOPTION[3]:  # Review2
                 self.genScriptForReviewKanji2(pathFile)
+            elif self.clicked.get() == self.LISTOPTION[4]:  # Review2
+                self.genScriptForReviewKanji3(pathFile)
             else:
                 return
         else:
@@ -243,6 +245,96 @@ class PageGenScriptFromExcel(Page):
 
             # End script
             script += ScriptLearnImage.bodyEnd
+
+            # Write the entire script to file
+            dictSaveFile = pathFile.rsplit("/", 1)[0] + "/index.html"
+            with open(dictSaveFile, "w", encoding="utf-8") as index:
+                index.write(script)
+
+            # Log result
+            self.logText.insert(tk.END, "Successful!!!\n", "green_text")
+            self.logText.insert(tk.END, f"Save here: {dictSaveFile}\n")
+
+        except KeyError as e:
+            # Log error
+            self.logText.insert(tk.END, f"KeyError: {str(e)}\n", "red_text")
+
+    def genScriptForReviewKanji3(self, pathFile):
+        try:
+            # Read data from EXCEL file
+            df = pd.read_excel(pathFile)
+
+            title = df["title"].values[0]
+
+            # Initialize script with title
+            script = ""
+
+            # Add flashcards from vocabulary
+            for index, row in df.iterrows():
+                item_script = ScriptReviewKanjiV2FromExcel.bodyFlashcard3
+
+                japanese = row["japanese"]
+                if isinstance(row["submeaning"], str):
+                    submeaning = row["submeaning"].lower()
+                meaning = row["meaning"].upper()
+
+                if not pd.isna(japanese):
+                    item_script = item_script.replace(
+                        '<div><p class="textJapan japan">修</p></div>',
+                        f'<p class="textJapan japan">{japanese}</p>',
+                    )
+                else:
+                    item_script = item_script.replace(
+                        '<div><p class="textJapan japan">修</p></div>',
+                        f'<div><p class="textJapan japan"></p></div>',
+                    )
+
+                if not pd.isna(meaning):
+                    item_script = item_script.replace(
+                        '<div><p class="mean">TƯ</p></div>',
+                        f'<p class="mean">{meaning}</p>',
+                    )
+                else:
+                    item_script = item_script.replace(
+                        '<div><p class="mean">TƯ</p></div>',
+                        f'<div><p class="mean"></p></div>',
+                    )
+
+                if not pd.isna(submeaning):
+                    words = [w.strip() for w in submeaning.split() if w.strip()]
+                    if len(words) > 3:
+                        if ", " in submeaning:
+                            before, sep, after = submeaning.partition(", ")
+                            item_script = item_script.replace(
+                                '<div><p class="romaji">tôi</p></div>',
+                                f'<p class="romaji">{before},<br>{after}</p>',
+                            )
+                        elif " (" in submeaning:
+                            before, sep, after = submeaning.partition(" (")
+                            item_script = item_script.replace(
+                                '<div><p class="romaji">tôi</p></div>',
+                                f'<p class="romaji">{before}<br>({after}</p>',
+                            )
+                        else:
+                            item_script = item_script.replace(
+                                '<div><p class="romaji">tôi</p></div>',
+                                f'<p class="romaji">{submeaning}</p>',
+                            )
+                    else:
+                        item_script = item_script.replace(
+                            '<div><p class="romaji">tôi</p></div>',
+                            f'<p class="romaji">{submeaning}</p>',
+                        )
+                else:
+                    item_script = item_script.replace(
+                        '<div><p class="romaji">tôi</p></div>',
+                        f'<p class="romaji"></p>',
+                    )
+
+                script += item_script
+
+            # End script
+            # script += ScriptLearnImage.bodyEnd
 
             # Write the entire script to file
             dictSaveFile = pathFile.rsplit("/", 1)[0] + "/index.html"
