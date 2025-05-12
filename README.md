@@ -4,4 +4,4 @@ I created a project for my N5 Japanese learning. It helps review previously lear
 日本語 を勉強しましょう
 
 # Link web
-[https://khaiquangtran.github.io/LearningJapaneseWebProject/](https://khaiquangtran.github.io/LearningJapaneseWebProject/)
+[https://khaiquangtran.github.io/LearningJapaneseWebProject/](https://khaiquangtran.github.io/NihongoBenkyou/)
