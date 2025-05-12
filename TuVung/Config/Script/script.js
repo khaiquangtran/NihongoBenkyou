@@ -34,7 +34,7 @@ async function speak(keyConnect, text) {
       input: { text: text },
       voice: {
         languageCode: 'ja-JP',
-        name: 'ja-JP-Standard-A' // can use A, B, C...
+        name: 'ja-JP-Chirp3-HD-Aoede' // can use A, B, C...
       },
       audioConfig: {
         audioEncoding: 'MP3'
