@@ -1,328 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>第三十課</title>
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
-          rel="stylesheet"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
-        <link
-          rel="shortcut icon"
-          type="image/x-icon"
-          href="../../Home/Images/japanese-alphabet.png"
-        />
-        <link rel="stylesheet" type="text/css" href="../Config/Style/style.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Klee+One&display=swap" rel="stylesheet">
-
-    </head>
-    <body id="Background">
-        <div class="homeButton">
-            <button
-              class="homeBtn"
-              type="button"
-              onclick="location.href='../../index.html'"
-            >
-              <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
-            </button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>第三十課</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../Home/Images/japanese-alphabet.png"
+    />
+    <link rel="stylesheet" type="text/css" href="../Config/Style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Klee+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="Background">
+    <div class="homeButton">
+      <button
+        class="homeBtn"
+        type="button"
+        onclick="location.href='../../index.html'"
+      >
+        <i class="fa fa-home" style="color: white; font-size: 3vh"></i>
+      </button>
+    </div>
+    <div class="randomButton">
+      <button
+        id="shuffleBtn"
+        style="color: white; font-size: 2vh"
+        class="hideBtn"
+        type="button"
+      >
+        <i
+          class="fa fa-random"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
+    <div class="swapButton">
+      <button
+        id="swapBtn"
+        style="color: white; font-size: 2vh"
+        class="swapBtn"
+        type="button"
+      >
+        <i
+          class="fa fa-exchange"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
+    <div class="nextButton">
+      <button
+        style="color: white; font-size: 2vh"
+        class="nextBtn"
+        type="button"
+        onclick="location.href='../Lesson31/index.html'"
+      >
+        <i
+          class="fa fa-hand-o-right"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
+    <div class="preButton">
+      <button
+        style="color: white; font-size: 2vh"
+        class="preBtn"
+        type="button"
+        onclick="location.href='../Lesson29/index.html'"
+      >
+        <i
+          class="fa fa-hand-o-left"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
+    <div class="container" id="wrapper">
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">積む</p></div>
+            <div><p class="subjapan">経験をつむ</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">tích lũy (kinh nghiệm)</p></div>
+          </div>
         </div>
-        <div class="randomButton">
-            <button
-                id="shuffleBtn"
-                style="color: white; font-size: 2vh"
-                class="hideBtn"
-                type="button"
-            >
-            Random
-            </button>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">受かる</p></div>
+            <div><p class="subjapan">試験にうかる</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">thi đậu</p></div>
+          </div>
         </div>
-        <div class="swapButton">
-            <button
-                id="swapBtn"
-                style="color: white; font-size: 2vh"
-                class="swapBtn"
-                type="button"
-            >
-            Swap
-            </button>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">受ける</p></div>
+            <div><p class="subjapan">試験をうける</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">dự thi</p></div>
+          </div>
         </div>
-        <div class="nextButton">
-            <button
-                style="color: white; font-size: 2vh"
-                class="nextBtn"
-                type="button"
-                onclick="location.href='../Lesson31/index.html'"
-            >
-            <i class="fa fa-hand-o-right" aria-hidden="true" style="color: white; font-size: 3vh"></i>
-            </button>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">決める</p></div>
+            <div><p class="subjapan">会議の日をきめる</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">quyết định</p></div>
+          </div>
         </div>
-        <div class="preButton">
-            <button
-                style="color: white; font-size: 2vh"
-                class="preBtn"
-                type="button"
-                onclick="location.href='../Lesson29/index.html'"
-            >
-            <i class="fa fa-hand-o-left" aria-hidden="true" style="color: white; font-size: 3vh"></i>
-            </button>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">晴れる</p></div>
+            <div><p class="subjapan">空がはれる</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">trời nắng, quang đãng</p></div>
+          </div>
         </div>
-        <div class="container" id="wrapper">
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">積む</p></div>
-                        <div><p class="subjapan">経験をつむ</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">tích lũy (kinh nghiệm)</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">受かる</p></div>
-                        <div><p class="subjapan">試験にうかる</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">thi đậu</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">受ける</p></div>
-                        <div><p class="subjapan">試験をうける</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">dự thi</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">決める</p></div>
-                        <div><p class="subjapan">会議の日をきめる</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">quyết định</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">晴れる</p></div>
-                        <div><p class="subjapan">空がはれる</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">trời nắng, quang đãng</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">欠席する</p></div>
-                        <div><p class="subjapan">会議をけっせきする</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">vắng mặt</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">進学する</p></div>
-                        <div><p class="subjapan subjapan1">大学院にしんがくする</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">học lên</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">予定</p></div>
-                        <div><p class="subjapan">よてい</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">dự định</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">本店・支店</p></div>
-                        <div><p class="subjapan">ほんてん・してん</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">cửa hàng chính, CH chi nhánh</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">本社・支社</p></div>
-                        <div><p class="subjapan">ほんしゃ・ししゃ</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">công ty mẹ, CT chi nhánh</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">賞金</p></div>
-                        <div><p class="subjapan">しょうきん</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">tiền thưởng</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">優勝</p></div>
-                        <div><p class="subjapan">ゆうしょう</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">vô địch, chiến thắng</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">大学院</p></div>
-                        <div><p class="subjapan">だいがくいん</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">cao học</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">連休</p></div>
-                        <div><p class="subjapan">れんきゅう</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">kỳ nghỉ dài</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">能力試験</p></div>
-                        <div><p class="subjapan">のうりょくしけん</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">kỳ thi năng lực</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">文化祭</p></div>
-                        <div><p class="subjapan">ぶんかさい</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">lễ hội văn hóa</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">送別会</p></div>
-                        <div><p class="subjapan">そうべつかい</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">tiệc chia tay</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">説明会</p></div>
-                        <div><p class="subjapan">せつめいかい</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">buổi hội thảo</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">運動会</p></div>
-                        <div><p class="subjapan">うんどうかい</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">hội thao</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">歓迎会</p></div>
-                        <div><p class="subjapan">かんげいかい</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">hoan nghênh hội</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">値段</p></div>
-                        <div><p class="subjapan">ねだん</p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">giá cả</p></div>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-inner">
-                    <div class="imgBx front">
-                        <div><p class="textJapan japan">それなら</p></div>
-                        <div><p class="subjapan"></p></div>
-                    </div>
-                    <div class="content back">
-                        <div><p class="mean">nếu vậy</p></div>
-                    </div>
-                </div>
-            </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">欠席する</p></div>
+            <div><p class="subjapan">会議をけっせきする</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">vắng mặt</p></div>
+          </div>
         </div>
-        <div class="footer">
-        <img src="https://hitwebcounter.com/counter/counter.php?page=11583648&style=0006&nbdigits=7&type=page&initCount=0"
-            title="Counter Widget" Alt="Visit counter For Websites"/>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">進学する</p></div>
+            <div><p class="subjapan subjapan1">大学院にしんがくする</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">học lên</p></div>
+          </div>
         </div>
-        <script type="module" src="../Config/Script/script.js"></script>
-    </body>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">予定</p></div>
+            <div><p class="subjapan">よてい</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">dự định</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">本店・支店</p></div>
+            <div><p class="subjapan">ほんてん・してん</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">cửa hàng chính, CH chi nhánh</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">本社・支社</p></div>
+            <div><p class="subjapan">ほんしゃ・ししゃ</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">công ty mẹ, CT chi nhánh</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">賞金</p></div>
+            <div><p class="subjapan">しょうきん</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">tiền thưởng</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">優勝</p></div>
+            <div><p class="subjapan">ゆうしょう</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">vô địch, chiến thắng</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">大学院</p></div>
+            <div><p class="subjapan">だいがくいん</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">cao học</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">連休</p></div>
+            <div><p class="subjapan">れんきゅう</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">kỳ nghỉ dài</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">能力試験</p></div>
+            <div><p class="subjapan">のうりょくしけん</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">kỳ thi năng lực</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">文化祭</p></div>
+            <div><p class="subjapan">ぶんかさい</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">lễ hội văn hóa</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">送別会</p></div>
+            <div><p class="subjapan">そうべつかい</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">tiệc chia tay</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">説明会</p></div>
+            <div><p class="subjapan">せつめいかい</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">buổi hội thảo</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">運動会</p></div>
+            <div><p class="subjapan">うんどうかい</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">hội thao</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">歓迎会</p></div>
+            <div><p class="subjapan">かんげいかい</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">hoan nghênh hội</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">値段</p></div>
+            <div><p class="subjapan">ねだん</p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">giá cả</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-inner">
+          <div class="imgBx front">
+            <div><p class="textJapan japan">それなら</p></div>
+            <div><p class="subjapan"></p></div>
+          </div>
+          <div class="content back">
+            <div><p class="mean">nếu vậy</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <img
+        src="https://hitwebcounter.com/counter/counter.php?page=11583648&style=0006&nbdigits=7&type=page&initCount=0"
+        title="Counter Widget"
+        alt="Visit counter For Websites"
+      />
+    </div>
+    <script type="module" src="../Config/Script/script.js"></script>
+  </body>
 </html>
