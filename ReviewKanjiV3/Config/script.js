@@ -48,6 +48,7 @@ var swiper = new Swiper(".mySwiper", {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+
 });
 
 document.querySelectorAll(".card").forEach(function (card) {
@@ -55,10 +56,7 @@ document.querySelectorAll(".card").forEach(function (card) {
     var check = this.classList.toggle("card1");
     if (check) {
       var japanText = card.getElementsByClassName("mean")[0].textContent;
-      // console.log(japanText);
       const content = localStorage.getItem('content');
-      // const file = filePath.files[0];
-      // console.log(content)
       if(content) {
         speak(content, japanText);
       }
@@ -100,8 +98,8 @@ async function speak(keyConnect, text) {
   }
 }
 
-function randomSlides() {
-  let container = document.getElementById("wrapper1");
+function randomSlides(passId) {
+  let container = document.getElementById(passId);
   let slides = Array.from(container.children);
 
   slides.sort(() => Math.random() - 0.5);
@@ -112,13 +110,16 @@ function randomSlides() {
   container.innerHTML = "";
   container.appendChild(fragment);
 
-  // swiper.update();
+  swiper.update();
 }
 
-document.getElementById("shuffleBtn1").addEventListener("click", randomSlides);
+document.getElementById("shuffleBtn1").addEventListener("click", () => randomSlides("wrapper1"));
+document.getElementById("shuffleBtn2").addEventListener("click", () => randomSlides("wrapper2"));
+document.getElementById("shuffleBtn3").addEventListener("click", () => randomSlides("wrapper3"));
+document.getElementById("shuffleBtn4").addEventListener("click", () => randomSlides("wrapper4"));
 
-function swapContent() {
-  const cards = document.querySelectorAll('.page1');
+function swapContent(passPage) {
+  const cards = document.querySelectorAll(passPage);
   cards.forEach(card => {
     const front = card.querySelector('.front');
     const back = card.querySelector('.back');
@@ -129,65 +130,46 @@ function swapContent() {
     back.innerHTML = temp;
   })
 }
-document.getElementById("swapBtn1").addEventListener("click", swapContent);
 
+document.getElementById("swapBtn1").addEventListener("click", () => swapContent('.page1'));
+document.getElementById("swapBtn2").addEventListener("click", () => swapContent('.page2'));
+document.getElementById("swapBtn3").addEventListener("click", () => swapContent('.page3'));
+document.getElementById("swapBtn4").addEventListener("click", () => swapContent('.page4'));
 
-function randomSlides2() {
-  let container = document.getElementById("wrapper2");
-  let slides = Array.from(container.children);
-
-  slides.sort(() => Math.random() - 0.5);
-
-  const fragment = document.createDocumentFragment();
-  slides.forEach((slide) => fragment.appendChild(slide));
-
-  container.innerHTML = "";
-  container.appendChild(fragment);
-
-  // swiper.update();
+let intervalId = null;
+let index = 0;
+let autoOpenPageId = "";
+function autoOpenPage(passId) {
+  const container = document.getElementById(passId);
+  const cards = Array.from(container.querySelectorAll(".card"));
+  if(autoOpenPageId != passId) {
+    intervalId = null;
+    index = 0;
+    cards.forEach(card => card.classList.remove("card1"));
+    autoOpenPageId = passId;
+  }
+  if (intervalId !== null) {
+    clearInterval(intervalId);
+    intervalId = null;
+    return;
+  }
+  if(index == cards.length) {
+      cards.forEach(card => card.classList.remove("card1"));
+      index = 0;
+      return;
+  }
+  intervalId  = setInterval(() => {
+    if (index < cards.length) {
+      cards[index].classList.toggle("card1");
+      index++;
+    } else {
+      clearInterval(intervalId);
+      intervalId = null;
+    }
+  }, 100);
 }
-document.getElementById("shuffleBtn2").addEventListener("click", randomSlides2);
 
-function swapContent2() {
-  const cards = document.querySelectorAll('.page2');
-  cards.forEach(card => {
-    const front = card.querySelector('.front');
-    const back = card.querySelector('.back');
-
-    // Store temp
-    const temp = front.innerHTML;
-    front.innerHTML = back.innerHTML;
-    back.innerHTML = temp;
-  })
-}
-document.getElementById("swapBtn3").addEventListener("click", swapContent2);
-
-function randomSlides3() {
-  let container = document.getElementById("wrapper3");
-  let slides = Array.from(container.children);
-
-  slides.sort(() => Math.random() - 0.5);
-
-  const fragment = document.createDocumentFragment();
-  slides.forEach((slide) => fragment.appendChild(slide));
-
-  container.innerHTML = "";
-  container.appendChild(fragment);
-
-  // swiper.update();
-}
-document.getElementById("shuffleBtn3").addEventListener("click", randomSlides3);
-
-function swapContent3() {
-  const cards = document.querySelectorAll('.page3');
-  cards.forEach(card => {
-    const front = card.querySelector('.front');
-    const back = card.querySelector('.back');
-
-    // Store temp
-    const temp = front.innerHTML;
-    front.innerHTML = back.innerHTML;
-    back.innerHTML = temp;
-  })
-}
-document.getElementById("swapBtn2").addEventListener("click", swapContent3);
+document.getElementById("openBtn1").addEventListener("click", () => autoOpenPage("wrapper1"));
+document.getElementById("openBtn2").addEventListener("click", () => autoOpenPage("wrapper2"));
+document.getElementById("openBtn3").addEventListener("click", () => autoOpenPage("wrapper3"));
+document.getElementById("openBtn4").addEventListener("click", () => autoOpenPage("wrapper4"));

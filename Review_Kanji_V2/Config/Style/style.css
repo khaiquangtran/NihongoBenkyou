@@ -127,7 +127,7 @@ body {
   left: 1vh;
   top: 1vh;
   z-index: 2;
-  background: #cc5500;
+  background: #e62222;
   box-shadow: none;
   border-radius: 10px;
   font-size: 2vh;
@@ -176,7 +176,7 @@ body {
   left: 1vh;
   top: 6vh;
   z-index: 2;
-  background: #009A00;
+  background: #4CC713;
   box-shadow: none;
   border-radius: 10px;
   font-size: 2vh;
@@ -191,7 +191,7 @@ body {
   left: 1vh;
   top: 11vh;
   z-index: 2;
-  background: #7F00FF;
+  background: rgb(0,140,255);
   box-shadow: none;
   border-radius: 10px;
   font-size: 2vh;

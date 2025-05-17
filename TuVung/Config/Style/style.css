@@ -99,13 +99,18 @@ body {
 }
 
 .imgBx.front {
-  background: #00bcd4;
+  background: #02AAB0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00CDAC, #02AAB0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
   z-index: 2;
 }
 
 .content.back {
-  background: #0db624;
+  background: #fc4a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   transform: rotateY(180deg);
   z-index: 1;
 }
@@ -169,7 +174,7 @@ body {
   left: 1vh;
   top: 1vh;
   z-index: 2;
-  background: #cc5500;
+  background: #e62222;
   box-shadow: none;
   border-radius: 10px;
   font-size: 2vh;
@@ -203,14 +208,6 @@ body {
   text-align: center;
 }
 
-/* .randomButton{
-  position: absolute;
-  right: 1vh;
-  top: 1vh;
-  width: 11vh;
-  height: 5vh;
-} */
-
 .hideBtn{
   position: fixed;
   width: 11vh;
@@ -218,7 +215,7 @@ body {
   left: 1vh;
   top: 6vh;
   z-index: 2;
-  background: #009A00;
+  background: #4CC713;
   box-shadow: none;
   border-radius: 10px;
   font-size: 2vh;
