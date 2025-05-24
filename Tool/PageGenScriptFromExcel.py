@@ -276,7 +276,7 @@ class PageGenScriptFromExcel(Page):
                 japanese = row["japanese"]
                 if isinstance(row["submeaning"], str):
                     submeaning = row["submeaning"].lower()
-                meaning = row["meaning"].upper()
+                meaning = row["meaning"]
 
                 if not pd.isna(japanese):
                     item_script = item_script.replace(
@@ -292,7 +292,7 @@ class PageGenScriptFromExcel(Page):
                 if not pd.isna(meaning):
                     item_script = item_script.replace(
                         '<div><p class="mean">TƯ</p></div>',
-                        f'<p class="mean">{meaning}</p>',
+                        f'<p class="mean">{meaning.upper()}</p>',
                     )
                 else:
                     item_script = item_script.replace(

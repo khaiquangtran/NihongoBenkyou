@@ -32,8 +32,11 @@ const images = [
 var randomChange = document.getElementById("Background");
 var imgCount = images.length;
 var number = Math.floor(Math.random() * imgCount);
+let content;
+
 window.onload = function () {
   randomChange.style.backgroundImage = "url(" + images[number] + ")";
+  content = localStorage.getItem('content');
 };
 
 var swiper = new Swiper(".mySwiper", {
@@ -56,7 +59,6 @@ document.querySelectorAll(".card").forEach(function (card) {
     var check = this.classList.toggle("card1");
     if (check) {
       var japanText = card.getElementsByClassName("mean")[0].textContent;
-      const content = localStorage.getItem('content');
       if(content) {
         speak(content, japanText);
       }
@@ -117,6 +119,8 @@ document.getElementById("shuffleBtn1").addEventListener("click", () => randomSli
 document.getElementById("shuffleBtn2").addEventListener("click", () => randomSlides("wrapper2"));
 document.getElementById("shuffleBtn3").addEventListener("click", () => randomSlides("wrapper3"));
 document.getElementById("shuffleBtn4").addEventListener("click", () => randomSlides("wrapper4"));
+document.getElementById("shuffleBtn5").addEventListener("click", () => randomSlides("wrapper5"));
+document.getElementById("shuffleBtn6").addEventListener("click", () => randomSlides("wrapper6"));
 
 function swapContent(passPage) {
   const cards = document.querySelectorAll(passPage);
@@ -135,6 +139,8 @@ document.getElementById("swapBtn1").addEventListener("click", () => swapContent(
 document.getElementById("swapBtn2").addEventListener("click", () => swapContent('.page2'));
 document.getElementById("swapBtn3").addEventListener("click", () => swapContent('.page3'));
 document.getElementById("swapBtn4").addEventListener("click", () => swapContent('.page4'));
+document.getElementById("swapBtn5").addEventListener("click", () => swapContent('.page5'));
+document.getElementById("swapBtn6").addEventListener("click", () => swapContent('.page6'));
 
 let intervalId = null;
 let index = 0;
@@ -158,18 +164,25 @@ function autoOpenPage(passId) {
       index = 0;
       return;
   }
+
   intervalId  = setInterval(() => {
     if (index < cards.length) {
       cards[index].classList.toggle("card1");
+      var japanText = cards[index].getElementsByClassName("mean")[0].textContent;
+      if(content) {
+        speak(content, japanText);
+      }
       index++;
     } else {
       clearInterval(intervalId);
       intervalId = null;
     }
-  }, 100);
+  }, 2000);
 }
 
 document.getElementById("openBtn1").addEventListener("click", () => autoOpenPage("wrapper1"));
 document.getElementById("openBtn2").addEventListener("click", () => autoOpenPage("wrapper2"));
 document.getElementById("openBtn3").addEventListener("click", () => autoOpenPage("wrapper3"));
 document.getElementById("openBtn4").addEventListener("click", () => autoOpenPage("wrapper4"));
+document.getElementById("openBtn5").addEventListener("click", () => autoOpenPage("wrapper5"));
+document.getElementById("openBtn6").addEventListener("click", () => autoOpenPage("wrapper6"));

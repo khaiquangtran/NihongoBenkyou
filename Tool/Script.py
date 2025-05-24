@@ -6,16 +6,12 @@ class ScriptLearnImage:
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title></title>
         <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         />
         <link
           href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
           rel="stylesheet"
-        />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
         <link
           rel="shortcut icon"
@@ -33,7 +29,7 @@ class ScriptLearnImage:
               type="button"
               onclick="location.href='../../index.html'"
             >
-              <i class="fa fa-home" style="color: white; font-size: 2vh"></i> Home
+              <i class="fa fa-home" style="color: white; font-size: 3vh"></i>
             </button>
         </div>
         <div class="randomButton">
@@ -43,7 +39,7 @@ class ScriptLearnImage:
                 class="hideBtn"
                 type="button"
             >
-            Random
+                <i class="fa fa-random" aria-hidden="true" style="color: white; font-size: 3vh"></i>
             </button>
         </div>
         <div class="swapButton">
@@ -53,7 +49,7 @@ class ScriptLearnImage:
                 class="swapBtn"
                 type="button"
             >
-            Swap
+             <i class="fas fa-retweet" aria-hidden="true" style="color: white; font-size: 3vh" ></i>
             </button>
         </div>
         <div class="nextButton">
@@ -63,7 +59,7 @@ class ScriptLearnImage:
                 type="button"
                 onclick="location.href='../Lesson29/index.html'"
             >
-            <i class="fa fa-hand-o-right" aria-hidden="true" style="color: white; font-size: 3vh"></i>
+            <i class="fas fa-hand-point-right" aria-hidden="true" style="color: white; font-size: 3vh"></i>
             </button>
         </div>
         <div class="preButton">
@@ -73,7 +69,7 @@ class ScriptLearnImage:
                 type="button"
                 onclick="location.href='../Lesson27/index.html'"
             >
-            <i class="fa fa-hand-o-left" aria-hidden="true" style="color: white; font-size: 3vh"></i>
+            <i class="fas fa-hand-point-left" aria-hidden="true" style="color: white; font-size: 3vh"></i>
             </button>
         </div>
         <div class="container" id="wrapper">"""
