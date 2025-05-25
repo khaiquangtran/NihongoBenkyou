@@ -167,6 +167,11 @@ body {
   font-size: 1.8em;
 }
 
+.japan3 {
+  top: 40%;
+  font-size: 1.5em;
+}
+
 .homeBtn {
   position: fixed;
   width: 11vh;

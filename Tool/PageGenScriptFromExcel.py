@@ -386,13 +386,13 @@ class PageGenScriptFromExcel(Page):
 
                 subjapanese = row["subjapanese"]
                 if not pd.isna(subjapanese):
-                    if " " in subjapanese:
-                        before, sep, after = subjapanese.partition(" ")
-                        item_script = item_script.replace(
-                            '<div><p class="subjapan">TƯ</p></div>',
-                            f'<div><p class="subjapan subjapan1">{before}<br>{after}</p></div>',
-                        )
-                    else:
+                    # if " " in subjapanese:
+                    #     before, sep, after = subjapanese.partition(" ")
+                    #     item_script = item_script.replace(
+                    #         '<div><p class="subjapan">TƯ</p></div>',
+                    #         f'<div><p class="subjapan subjapan1">{before}<br>{after}</p></div>',
+                    #     )
+                    # else:
                         item_script = item_script.replace(
                             '<div><p class="subjapan">TƯ</p></div>',
                             f'<div><p class="subjapan">{subjapanese}</p></div>',
@@ -405,12 +405,12 @@ class PageGenScriptFromExcel(Page):
 
                 meaning = row["meaning"].lower()
                 if not pd.isna(meaning):  # mean
-                    if not pd.isna(subjapanese) and " " in subjapanese:
-                        item_script = item_script.replace(
-                            '<div><p class="mean">tôi</p></div>',
-                            f'<div><p class="mean mean1">{meaning}</p></div>',
-                        )
-                    else:
+                    # if not pd.isna(subjapanese) and " " in subjapanese:
+                    #     item_script = item_script.replace(
+                    #         '<div><p class="mean">tôi</p></div>',
+                    #         f'<div><p class="mean mean1">{meaning}</p></div>',
+                    #     )
+                    # else:
                         item_script = item_script.replace(
                             '<div><p class="mean">tôi</p></div>',
                             f'<div><p class="mean">{meaning}</p></div>',
