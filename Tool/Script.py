@@ -10,10 +10,6 @@ class ScriptLearnImage:
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         />
         <link
-          href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
-          rel="stylesheet"
-        />
-        <link
           rel="shortcut icon"
           type="image/x-icon"
           href="../../Home/Images/japanese-alphabet.png"
@@ -36,7 +32,7 @@ class ScriptLearnImage:
             <button
                 id="shuffleBtn"
                 style="color: white; font-size: 2vh"
-                class="hideBtn"
+                class="randomBtn"
                 type="button"
             >
                 <i class="fa fa-random" aria-hidden="true" style="color: white; font-size: 3vh"></i>
@@ -51,6 +47,16 @@ class ScriptLearnImage:
             >
              <i class="fas fa-retweet" aria-hidden="true" style="color: white; font-size: 3vh" ></i>
             </button>
+        </div>
+        <div class="hideButton">
+          <button
+            id="hideBtn"
+            style="color: white; font-size: 2vh"
+            class="hideBtn"
+            type="button"
+          >
+            <i class="fas fa-eye" aria-hidden="true" style="color: white; font-size: 3vh" ></i>
+          </button>
         </div>
         <div class="nextButton">
             <button
@@ -84,10 +90,6 @@ class ScriptLearnImage:
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
         <link
-          href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
-          rel="stylesheet"
-        />
-        <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
@@ -114,11 +116,25 @@ class ScriptLearnImage:
             <button
                 id="shuffleBtn"
                 style="color: white; font-size: 2vh"
-                class="hideBtn"
+                class="randomBtn"
                 type="button"
             >
             Random
             </button>
+        </div>
+        <div class="hideButton">
+          <button
+            id="hideBtn"
+            style="color: white; font-size: 2vh"
+            class="hideBtn"
+            type="button"
+          >
+            <i
+              class="fas fa-eye"
+              aria-hidden="true"
+              style="color: white; font-size: 3vh"
+            ></i>
+          </button>
         </div>
         <div class="container" id="wrapper">"""
     bodyFlashcard = """

@@ -4,15 +4,21 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -213,7 +219,7 @@ body {
   text-align: center;
 }
 
-.hideBtn{
+.randomBtn{
   position: fixed;
   width: 11vh;
   height: 5vh;
@@ -243,12 +249,27 @@ body {
   color: white;
 }
 
-.nextBtn{
+.hideBtn{
   position: fixed;
   width: 11vh;
   height: 5vh;
   left: 1vh;
   top: 16vh;
+  z-index: 2;
+  background: #ecd448;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.nextBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 21vh;
   z-index: 2;
   background: #ff6347;
   box-shadow: none;
@@ -263,7 +284,7 @@ body {
   width: 11vh;
   height: 5vh;
   left: 1vh;
-  top: 21vh;
+  top: 26vh;
   z-index: 2;
   background: #9932cc;
   box-shadow: none;
@@ -271,4 +292,40 @@ body {
   font-size: 2vh;
   font-weight: bold;
   color: white;
+}
+
+.hidden { display: none; }
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .homeBtn,.randomBtn, .swapBtn, .hideBtn,  .nextBtn, .preBtn {
+    width: 7.5vh;
+    height: 5vh;
+    top: 1vh;
+  }
+  .homeBtn {
+    left: 1vh;
+  }
+  .randomBtn {
+    left: 8.5vh;
+  }
+  .swapBtn {
+    left: 16vh;
+  }
+  .hideBtn {
+    left: 23.5vh;
+  }
+  .preBtn {
+    left: 31vh;
+  }
+  .nextBtn {
+    left: 38.5vh;
+  }
+
+  .card-inner-2 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
 }

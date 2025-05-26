@@ -1,7 +1,127 @@
-<div>
-  <div>
-    <div>
+<!--  
+created by JaScript
 
-    </div>
-  </div>
+The image's link provided by Dropbox has to be prepared 
+"dl=0" at its end will be raplaced with "raw=1" and looks 
+and if needed additional "www" will be replaced with "dl"
+similar like https://dl.dropbox.com/s/g4f2ko6tt8c80f4/jatest.jpg?raw=1 
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale = 1, minimum-scale = 1, user-scalable = no, minimal-ui" />
+  <title>Image Movement In Two Kind of Ways</title>
+  <script src="https://dl.dropbox.com/s/2aqdwf56wzpjyqw/jamod.js?raw=1"></script>
+  <style>
+   body {
+   background-color: steelblue;
+	margin: 0;
+   height: 100vh;
+	width: 100vw;
+	position: fixed;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+button{
+ width: 300px;
+ height: 100px;
+ font-size: 1.4em;
+ margin: 20px;
+ user-select: none;
+ -webkit-user-select: none;
+}
+  </style>
+</head>
+<body>
+<div>
+<button id="up">up Animation</button>
+<button id="ux">ux Incrementation</button>
 </div>
+<div id="miwa"></div>
+<script>
+let Ypos = 2, Xpos = 52, inte, xan, X = 1.0, Y = 0.5, ja = false, play = false;
+
+let marimg = document.createElement("img");
+marimg.src = "https://www.dropbox.com/s/g4f2ko6tt8c80f4/jatest.jpg?raw=1";
+marimg.style.position = "absolute";
+marimg.style.bottom = Ypos + "px";
+marimg.style.left = Xpos + "px";
+marimg.style.width = "80px";
+marimg.style.height = "80px";
+
+function movementy(){
+marimg.style.bottom = Ypos + "px";
+Ypos +=Y;
+if(Ypos > 252){
+  Y = -Y;
+ } 
+if(Ypos < 2){
+   clearInterval(inte);
+   ja = !ja;
+ }
+}
+
+function movementx(){
+function anx(){
+marimg.style.left = Xpos + "px";
+Xpos +=X;
+if(Xpos > 252){
+  X = -X;
+  if(Ypos < 3){
+	 marimg.style.transform = "rotateY(180deg)";
+   } else {
+	 marimg.style.transform = "rotateY(0deg)";
+   }
+ }
+if(Xpos < 52){
+   X = -X;
+   play = !play;
+ }
+}
+ xan = setInterval(anx,10);
+}
+
+function moveX(){
+movementx();
+if(!play){
+   play = !play;
+   X = 1.0;
+   if(Ypos < 3){
+	 marimg.style.transform = "rotateY(0deg)";
+   } else {
+	 marimg.style.transform = "rotateY(180deg)";
+   }
+ }
+}
+
+function moveUP(){
+ if(!ja){
+   ja = !ja;
+   Y = 0.5;
+   marimg.style.transform = "rotateY(0deg)";
+   inte = setInterval(movementy,10);
+ }
+}
+
+function moveXoff(){
+	clearInterval(xan);
+}
+
+function moveing(){
+document.body.appendChild(marimg);
+up = document.getElementById("up");
+ux = document.getElementById("ux");
+up.addEventListener("click",moveUP,false);
+ux.addEventListener("mousedown",moveX,false);
+ux.addEventListener("mouseup",moveXoff,false);
+ux.addEventListener("touchstart",moveX,false);
+ux.addEventListener("touchend",moveXoff,false);
+}
+
+document.addEventListener('DOMContentLoaded', moveing);
+</script>
+</body>
+</html>

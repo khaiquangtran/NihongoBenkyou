@@ -13,13 +13,6 @@ body {
   /* animation: change 500s infinite ease-in-out; */
 }
 
-#snow_fall {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
 .menu-bar {
   background: transparent;
   text-align: center;
@@ -47,6 +40,7 @@ body {
 .menu-bar ul li:hover {
   background: #89cff0;
   border-radius: 5px;
+  z-index: 10;
 }
 
 .sub-menu-images {
@@ -139,7 +133,6 @@ body {
 
 .sub-menu-kanji2-5-lines ul {
   height: 25vh;
-
 }
 
 .sub-menu-kanji2 ul::-webkit-scrollbar {
@@ -200,100 +193,6 @@ body {
   bottom: 0;
   width: 100%;
   text-align: center;
-}
-
-#time {
-  position: fixed;
-  display: flex;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  flex-direction: row;
-  justify-content: center;
-  gap: 30px;
-  z-index: -1;
-}
-
-#time .circle {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#time .circle svg {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  transform: rotate(270deg);
-}
-#time .circle svg circle {
-  width: 100%;
-  height: 100%;
-  fill: transparent;
-  stroke-linecap: round;
-  stroke-width: 8;
-  stroke: #071591;
-  transform: translate(5px, 5px);
-}
-#time .circle svg circle:nth-child(2) {
-  stroke: var(--clr);
-  stroke-dasharray: 440;
-  stroke-dashoffset: 440;
-}
-#time div {
-  position: absolute;
-  text-align: center;
-  color: #fff;
-  font-weight: 300;
-  font-size: 1.5em;
-}
-#time div span {
-  position: absolute;
-  transform: translateX(-50%) translateY(0px);
-  font-size: 0.35em;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-}
-#time .dots {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  z-index: 1000;
-}
-#time .dots::before {
-  content: "";
-  position: absolute;
-  top: -3px;
-  width: 15px;
-  height: 15px;
-  background: var(--clr);
-  border-radius: 50%;
-  box-shadow: 0 0 20px var(--clr), 0 0 60px var(--clr);
-}
-.newYear {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  text-align: center;
-  font-size: 200px;
-  font-weight: 500;
-  color: #ff0000;
-  text-align: center;
-  line-height: 0.6em;
-  display: none;
-  z-index: -1;
-}
-.newYear span {
-  font-size: 0.5em;
-  font-weight: 300;
 }
 
 .kaiwa ul {
@@ -444,4 +343,57 @@ body {
   border-radius: 40px;
   border-bottom: 3px solid #fff;
   border-right: 3px solid #fff;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 1000px) {
+  html, body {
+    overflow-y: hidden;
+  }
+  body {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .menu-bar ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+  /* padding: 100px 70px; */
+  }
+
+  .menu-bar ul li {
+    /* width: 100%; */
+    font-size: 2.5vh;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .sub-menu-images {
+    position: absolute;
+    height: auto;
+    width: 20vh;
+  }
+
+  .sub-menu-images ul li {
+    font-size: 1.8vh;
+  }
+
+  .menu-bar ul li:hover .sub-menu-images {
+    margin-top: 1vh;
+    margin-left: -1.1vh;
+    display: block;
+  }
+  .goi ul {
+    list-style: none;
+    height: 57vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .menu-bar ul li:hover {
+    z-index: 100;
+  }
 }

@@ -70,8 +70,6 @@ function randomSlides() {
 
   container.innerHTML = "";
   container.appendChild(fragment);
-
-  swiper.update();
 }
 
 document.getElementById("shuffleBtn").addEventListener("click", randomSlides);
@@ -89,3 +87,28 @@ function swapContent() {
   })
 }
 document.getElementById("swapBtn").addEventListener("click", swapContent);
+
+
+function toggleSubJapan() {
+  const elements = document.querySelectorAll('.subjapan');
+  const allHidden = [...elements].every(el => el.classList.contains('hidden'));
+
+  elements.forEach(el => {
+    if (allHidden) {
+      el.classList.remove('hidden');
+    } else {
+      el.classList.add('hidden');
+    }
+  });
+
+  var icon = document.querySelector(".hideBtn i");
+  if (icon.classList.contains("fa-eye")) {
+    icon.classList.remove("fa-eye");
+    icon.classList.add("fa-eye-slash");
+  } else {
+    icon.classList.remove("fa-eye-slash");
+    icon.classList.add("fa-eye");
+  }
+}
+
+document.getElementById("hideBtn").addEventListener("click", toggleSubJapan);
