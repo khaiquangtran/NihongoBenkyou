@@ -121,6 +121,9 @@ document.getElementById("shuffleBtn3").addEventListener("click", () => randomSli
 document.getElementById("shuffleBtn4").addEventListener("click", () => randomSlides("wrapper4"));
 document.getElementById("shuffleBtn5").addEventListener("click", () => randomSlides("wrapper5"));
 document.getElementById("shuffleBtn6").addEventListener("click", () => randomSlides("wrapper6"));
+document.getElementById("shuffleBtn7").addEventListener("click", () => randomSlides("wrapper7"));
+document.getElementById("shuffleBtn8").addEventListener("click", () => randomSlides("wrapper8"));
+document.getElementById("shuffleBtn9").addEventListener("click", () => randomSlides("wrapper9"));
 
 function swapContent(passPage) {
   const cards = document.querySelectorAll(passPage);
@@ -141,6 +144,9 @@ document.getElementById("swapBtn3").addEventListener("click", () => swapContent(
 document.getElementById("swapBtn4").addEventListener("click", () => swapContent('.page4'));
 document.getElementById("swapBtn5").addEventListener("click", () => swapContent('.page5'));
 document.getElementById("swapBtn6").addEventListener("click", () => swapContent('.page6'));
+document.getElementById("swapBtn7").addEventListener("click", () => swapContent('.page7'));
+document.getElementById("swapBtn8").addEventListener("click", () => swapContent('.page8'));
+document.getElementById("swapBtn9").addEventListener("click", () => swapContent('.page9'));
 
 let intervalId = null;
 let index = 0;
@@ -186,3 +192,6 @@ document.getElementById("openBtn3").addEventListener("click", () => autoOpenPage
 document.getElementById("openBtn4").addEventListener("click", () => autoOpenPage("wrapper4"));
 document.getElementById("openBtn5").addEventListener("click", () => autoOpenPage("wrapper5"));
 document.getElementById("openBtn6").addEventListener("click", () => autoOpenPage("wrapper6"));
+document.getElementById("openBtn7").addEventListener("click", () => autoOpenPage("wrapper7"));
+document.getElementById("openBtn8").addEventListener("click", () => autoOpenPage("wrapper8"));
+document.getElementById("openBtn9").addEventListener("click", () => autoOpenPage("wrapper9"));
