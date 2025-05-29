@@ -21,10 +21,14 @@ body {
 .menu-bar ul {
   display: inline-flex;
   list-style: none;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 30px rgba(227.228, 237, 0.37);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
 }
 
 .menu-bar ul li {
-  margin: 2vh 0vh;
+  margin: 0vh;
   padding: 1vh;
   font-size: 3vh;
   width: 20vh;
@@ -32,13 +36,17 @@ body {
   font-weight: bold;
   z-index: 30;
 }
+
 .menu-bar ul li a {
   text-decoration: none;
   color: white;
 }
 
 .menu-bar ul li:hover {
-  background: #89cff0;
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   border-radius: 5px;
   z-index: 10;
 }
@@ -56,7 +64,10 @@ body {
 .menu-bar ul li:hover .sub-menu-images {
   display: block;
   position: absolute;
-  background: #0096ff;
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   margin-top: 1vh;
   margin-left: -1vh;
   border-radius: 5px;

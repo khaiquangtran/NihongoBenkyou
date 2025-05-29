@@ -52,7 +52,10 @@ body {
     border: 3px #00bcd4;
     padding: 10px 28px;
     cursor: pointer;
-    background: #00bcd4;
+    background: #00c6ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     width: 120px;
     height: 120px;
     border-radius: 10px;
@@ -107,7 +110,9 @@ body {
   border: 3px #00bcd4;
   padding: 10px 28px;
   cursor: pointer;
-  background: #00bcd4;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 120px;
   height: 120px;
   border-radius: 10px;
@@ -134,7 +139,9 @@ padding: 0;
   border: 3px #00bcd4;
   padding: 10px 28px;
   cursor: pointer;
-  background: #00bcd4;
+  background: #00c6ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 205px;
   height: 120px;
   border-radius: 10px;
@@ -153,7 +160,9 @@ padding: 0;
   left: 1vh;
   top: 1vh;
   z-index: 2;
-  background: #cc5500;
+  background: #e52d27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: none;
   border-radius: 10px;
   font-size: 2vh;

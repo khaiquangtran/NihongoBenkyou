@@ -33,13 +33,6 @@ body {
   -ms-overflow-style: none;
 }
 
-/* @media only screen and (min-width: 1px) and (max-width: 700px) {
-    body {
-      background-image: url(Images/background1.jpg);
-      min-height: 100vh;
-    }
-  } */
-
 .container {
   position: relative;
   display: flex;
