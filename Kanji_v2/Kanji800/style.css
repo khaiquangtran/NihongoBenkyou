@@ -1,0 +1,265 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 100%; */
+  /* position: relative; */
+  /* min-height: 100vh; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+}
+
+.swiper {
+  height: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.swiper-slide {
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.swiper-slide::-webkit-scrollbar {
+  display: none;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  /* box-sizing: border-box; */
+  gap: 5px 70px;
+  padding: 50px 150px 0 150px;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .card-container {
+    padding: 60px 10px 30px 10px;
+    gap: 15px 30px;
+  }
+}
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.homeButton{
+  position: fixed;
+}
+
+.homeBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 1vh;
+  z-index: 2;
+  background: #e62222;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.hideBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 6vh;
+  z-index: 2;
+  background: #4CC713;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.swapBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 11vh;
+  z-index: 2;
+  background: rgb(0,140,255);
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.openBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 16vh;
+  z-index: 2;
+  background: #ff135a;
+  outline: #ff145b80;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+.titleLesson{
+  position: absolute;
+  top: 60px;
+  right: 50%;
+  transform: translateX(50%) translateY(0px);
+  /* width: 100%; */
+  /* height: 5vh; */
+  font-size: 5vh;
+  font-weight: bold;
+  color: #ff0066;
+  z-index: 2;
+}
+
+.card {
+  perspective: 1000px;
+}
+
+.card-inner {
+  position: relative;
+  width: 90px;
+  height: 80px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.card.card1 .card-inner {
+  transform: rotateY(180deg);
+}
+
+.imgBx, .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.front, .back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  color: white;
+  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+}
+
+.imgBx, .front {
+  background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  color: white;
+  z-index: 2;
+}
+
+.content, .back {
+  background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%);
+  box-shadow: 0 0 0.3em rgba(255, 255, 255, 0.5);
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.mean {
+  position: relative;
+  top: 0%;
+  /* left: 0; */
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.romaji {
+  position: relative;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  font-size: 1.2em;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.japan {
+  position: relative;
+  font-size: 4em;
+  font-family: 'Klee One', sans-serif;
+  top: -15%;
+  height: 100%;
+  margin: 0;
+  color: white;
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .homeBtn {
+    width: 8vh;
+    left: 1vh;
+    top: 1vh;
+  }
+  .hideBtn {
+    width: 8vh;
+    left: 9vh;
+    top: 1vh;
+  }
+  .swapBtn {
+    width: 8vh;
+    left: 17vh;
+    top: 1vh;
+  }
+  .openBtn{
+    width: 8vh;
+    left: 25vh;
+    top: 1vh;
+  }
+}

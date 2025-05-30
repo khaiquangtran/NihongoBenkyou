@@ -1,0 +1,356 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  body {
+    background-image: url(Images/background1.jpg);
+    min-height: 100vh;
+  }
+}
+
+.swiper {
+  width: 40vh;
+  height: 50vh;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .swiper {
+    width: 200px;
+    height: 260px;
+  }
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide .japan {
+  text-align: center;
+  /* font-family: "Sawarabi Mincho"; */
+  /* font-weight: bold; */
+  position: absolute;
+  top: 10vh;
+  color: #fff;
+  display: flex;
+}
+
+.lessthree {
+  font-size: 12vh;
+}
+
+.lessfour {
+  font-size: 12vh;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .swiper-slide .japan {
+    top: 2vh;
+  }
+  .lessthree {
+    font-size: 380%;
+  }
+  .lessfour {
+    font-size: 300%;
+  }
+}
+
+
+.mySwiper .open_button {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0px 0px 2px 2px rgb(0, 0, 0);
+  padding: 5px 15px;
+  color: #fff;
+  font-size: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .mySwiper .open_button {
+    top: 85%;
+    font-size: 30px;
+  }
+}
+
+.mySwiper .box {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  width: 110%;
+  height: 40%;
+  background-color: #fff;
+  box-shadow: 0px 2px 30px -20px rgb(0 0 0);
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .mySwiper .box {
+    top: 75%;
+    width: 110%;
+    height: 50%;
+  }
+}
+
+.mySwiper .box_active {
+  opacity: 1;
+  pointer-events: fill;
+  z-index: 20;
+}
+
+.mySwiper .box .heading {
+  font-size: 35px;
+  text-align: left;
+  padding: 6px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.mySwiper .box .message_box {
+  margin: 20px;
+}
+
+.mySwiper .box .message_box .message {
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+  font-family: "Sawarabi Mincho";
+}
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .mySwiper .box .message_box .message
+  {
+    font-size: 25px;
+  }
+}
+
+.mySwiper .box .message_box .mean {
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+  font-family: "Sawarabi Mincho";
+}
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .mySwiper .box .message_box .mean
+  {
+    font-size: 20px;
+  }
+}
+
+.mySwiper .box .button_box {
+  width: 100%;
+  text-align: right;
+}
+.mySwiper .box .button_box .close_button {
+  font-size: 25px;
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .mySwiper .box .button_box .close_button {
+    padding: 1px 10px;
+  }
+}
+
+.slide
+{
+  background: #348F50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide1
+{
+  background: #FF512F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide2
+{
+  background: #AA076B;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide3
+{
+  background: #FF512F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide4
+{
+  background: #FF8008;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide5
+{
+  background: #1A2980;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide6
+{
+  background: #FF512F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide7
+{
+  background: #3CA55C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide8
+{
+  background: #348F50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #56B4D3, #348F50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.slide9
+{
+  background: #DA22FF;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.homeBtn
+{
+  position: absolute;
+  left: 1vh;
+  top: 1vh;
+  width: 11vh;
+  height: 5vh;
+  background: #e62222;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+  /* text-decoration: none; */
+}
+
+.title{
+  position: absolute;
+  top: 1%;
+  left: 45%;
+  font-size: 5vh;
+  color: rgb(252, 23, 15);
+  font-weight: bold;
+  font-family: "Sawarabi Mincho";
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .title{
+    /* position: absolute; */
+    top: 1%;
+    left: 40%;
+    font-size: 5vh;
+  }
+}
+
+.swiper-slide .top_gif1 {
+  top: 14vh;
+}
+
+.size_gif1 {
+  width: 12vh;
+}
+
+.border_topleft_bottomleft {
+  border-radius: 20px 0 0 20px; /* top left, top right, bottom right, bottom left */
+}
+
+.border_topright_bottomright {
+  border-radius: 0 20px 20px 0; /* top left, top right, bottom right, bottom left */
+}
+
+.border_all {
+  border-radius: 20px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.randomButton{
+  position: absolute;
+  right: 1vh;
+  top: 1vh;
+  width: 11vh;
+  height: 5vh;
+}
+
+.hideBtn{
+  position: fixed;
+  width: 11vh;
+  height: 5vh;
+  left: 1vh;
+  top: 6vh;
+  z-index: 2;
+  background: #4CC713;
+  box-shadow: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: bold;
+  color: white;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 700px) {
+  .homeBtn {
+    width: 8vh;
+    left: 1vh;
+    top: 1vh;
+  }
+  .hideBtn {
+    width: 8vh;
+    left: 9vh;
+    top: 1vh;
+  }
+  html, body {
+    overflow: hidden;
+  }
+  body {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+}
