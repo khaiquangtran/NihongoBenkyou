@@ -180,16 +180,16 @@ body {
 }
 
 .imgBx, .front {
-  background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
   color: white;
   z-index: 2;
   border-radius: .1rem 1.1rem;
 }
 
 .content, .back {
-  background: #fc4a1a;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #fe8c00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   transform: rotateY(180deg);
   z-index: 1;
   border-radius: 1rem .1rem;

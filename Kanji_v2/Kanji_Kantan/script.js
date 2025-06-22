@@ -1,73 +1,65 @@
-document.addEventListener("DOMContentLoaded", function () {
-  var swiper = new Swiper(".mySwiper", {
+document.addEventListener("DOMContentLoaded", () => {
+  const swiper = new Swiper(".mySwiper", {
     effect: "cards",
     grabCursor: true,
     loop: true,
   });
 
-  function randomSlides() {
-    let container = document.getElementById("wrapper");
-    let slides = Array.from(container.children);
+  const wrapper = document.getElementById("wrapper");
+  const shuffleBtn = document.getElementById("shuffleBtn");
+  const box = document.querySelector(".box");
+  const message = document.querySelector(".message");
+  const mean = document.querySelector(".mean");
+  const closeBtn = document.querySelector(".close_button");
 
+  function randomSlides() {
+    const slides = Array.from(wrapper.children);
     slides.sort(() => Math.random() - 0.5);
 
     const fragment = document.createDocumentFragment();
-    slides.forEach((slide) => fragment.appendChild(slide));
+    slides.forEach(slide => fragment.appendChild(slide));
 
-    container.innerHTML = "";
-    container.appendChild(fragment);
+    wrapper.innerHTML = "";
+    wrapper.appendChild(fragment);
 
     swiper.update();
   }
 
-  document.getElementById("shuffleBtn").addEventListener("click", randomSlides);
+  shuffleBtn.addEventListener("click", randomSlides);
 
-  // Common click event handler for all buttons
-  document.querySelectorAll(".open_button").forEach(function (button, index) {
-    button.addEventListener("click", function () {
-      handleButtonClick(parseInt(button.value));
-      // console.log(button.value);
+  document.querySelectorAll(".open_button").forEach(button => {
+    button.addEventListener("click", () => {
+      handleButtonClick(Number(button.value));
     });
   });
 
-  // Function to handle button click
-  function handleButtonClick(index) {
-    var box = document.querySelector(".box");
-    var message = document.querySelector(".message");
-    // var heading = document.querySelector(".heading");
-    var mean = document.querySelector(".mean");
-    // heading.style.backgroundColor = "white";
+  async function handleButtonClick(index) {
     box.classList.add("box_active");
-    var romajiData;
-    var xhr = new XMLHttpRequest();
-    var text;
-    xhr.onreadystatechange = function () {
-      if (this.readyState == 4 && this.status == 200) {
-        romajiData = JSON.parse(this.responseText);
-        message.innerHTML = romajiData.vocabulary[index].meaning;
-        mean.innerHTML = romajiData.vocabulary[index].submeaning;
-        text = romajiData.vocabulary[index].meaning;
+    try {
+      const response = await fetch("romaji.json");
+      if (!response.ok) throw new Error("Failed to load data");
+      const romajiData = await response.json();
+      const vocab = romajiData.vocabulary[index];
+      if (!vocab) throw new Error("Invalid vocabulary index");
 
-        const content = localStorage.getItem("content");
-        // const file = filePath.files[0];
-        // console.log(content)
-        if (content) {
-          speak(content, text);
-        }
+      message.innerHTML = vocab.meaning;
+      mean.innerHTML = vocab.submeaning;
+
+      const key = localStorage.getItem("content");
+      if (key) {
+        speak(key, vocab.meaning);
       }
-    };
-    xhr.open("GET", "romaji.json", true);
-    xhr.send();
+    } catch (err) {
+      alert("Error loading vocabulary: " + err.message);
+    }
   }
 
-  // Close button click event handler
-  document
-    .querySelector(".close_button")
-    .addEventListener("click", function () {
-      document.querySelector(".box").classList.remove("box_active");
-    });
+  closeBtn.addEventListener("click", () => {
+    box.classList.remove("box_active");
+  });
 });
 
+// Background image logic
 const images = [
   "../../Home/Images/home_background.jpg",
   "../../Home/Images/home_background1.jpg",
@@ -100,47 +92,46 @@ const images = [
   "../../Home/Images/background28.jpg",
 ];
 
-var randomChange = document.getElementById("Background");
-var imgCount = images.length;
-var number = Math.floor(Math.random() * imgCount);
-
-window.onload = function () {
-  randomChange.style.backgroundImage = "url(" + images[number] + ")";
+window.onload = () => {
+  const randomChange = document.getElementById("Background");
+  if (randomChange) {
+    const number = Math.floor(Math.random() * images.length);
+    randomChange.style.backgroundImage = `url(${images[number]})`;
+  }
 };
 
 async function speak(keyConnect, text) {
-  const response = await fetch(
-    `https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        input: { text: text },
-        voice: {
-          languageCode: "vi-VN",
-          name: "vi-VN-Standard-C", // can use A, B, C...
-        },
-        audioConfig: {
-          audioEncoding: "MP3",
-        },
-      }),
+  try {
+    const response = await fetch(
+      `https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          input: { text },
+          voice: {
+            languageCode: "vi-VN",
+            name: "vi-VN-Standard-C",
+          },
+          audioConfig: { audioEncoding: "MP3" },
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      alert("❌ Please choose again KEY file");
+      return;
     }
-  );
+    const data = await response.json();
 
-  if (!response.ok) {
-    alert("❌ Please choose again KEY file");
-    return;
-    // data.audioContent là base64 của file MP3
-  }
-  const data = await response.json();
-
-  if (data.audioContent) {
-    const audio = new Audio("data:audio/mp3;base64," + data.audioContent);
-    audio.play();
-  } else {
-    console.error("Error audioContent", data);
-    alert("Can't play!");
+    if (data.audioContent) {
+      const audio = new Audio("data:audio/mp3;base64," + data.audioContent);
+      audio.play();
+    } else {
+      console.error("Error audioContent", data);
+      alert("Can't play!");
+    }
+  } catch (err) {
+    alert("Error with text-to-speech: " + err.message);
   }
 }
