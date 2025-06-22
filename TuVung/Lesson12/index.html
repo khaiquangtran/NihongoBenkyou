@@ -9,10 +9,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
-      rel="stylesheet"
-    />
-    <link
       rel="shortcut icon"
       type="image/x-icon"
       href="../../Home/Images/japanese-alphabet.png"
@@ -69,14 +65,56 @@
         type="button"
       ></button>
     </div>
+    <div class="hideButton">
+      <button
+        id="hideBtn"
+        style="color: white; font-size: 2vh"
+        class="hideBtn"
+        type="button"
+      >
+        <i
+          class="fas fa-eye"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
+    <div class="nextButton">
+      <button
+        style="color: white; font-size: 2vh"
+        class="nextBtn"
+        type="button"
+        onclick="location.href='../Lesson13/index.html'"
+      >
+        <i
+          class="fas fa-hand-point-right"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
+    <div class="preButton">
+      <button
+        style="color: white; font-size: 2vh"
+        class="preBtn"
+        type="button"
+        onclick="location.href='../Lesson11/index.html'"
+      >
+        <i
+          class="fas fa-hand-point-left"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
     <div class="container" id="wrapper">
       <div class="card">
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">ある</p></div>
+            <div><p class="subjapan">～に～ が あります</p></div>
           </div>
           <div class="content back">
-            <div><p class="subjapan">～に～があります</p></div>
             <div><p class="mean">có, ở (đồ vật)</p></div>
           </div>
         </div>
@@ -85,10 +123,10 @@
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">いる</p></div>
+            <div><p class="subjapan">～に～ が ります</p></div>
           </div>
           <div class="content back">
-            <div><p class="subjapan">～に～がります</p></div>
-            <div><p class="mean">có, ở (người động, vật)</p></div>
+            <div><p class="mean">có, ở<br>(người động, vật)</p></div>
           </div>
         </div>
       </div>
@@ -284,7 +322,7 @@
       <div class="card">
         <div class="card-inner">
           <div class="imgBx front">
-            <div><p class="textJapan japan">かじ  </p></div>
+            <div><p class="textJapan japan">かじ</p></div>
           </div>
           <div class="content back">
             <div><p class="subjapan"></p></div>

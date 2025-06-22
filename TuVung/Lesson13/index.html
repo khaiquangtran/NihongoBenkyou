@@ -9,10 +9,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho"
-      rel="stylesheet"
-    />
-    <link
       rel="shortcut icon"
       type="image/x-icon"
       href="../../Home/Images/japanese-alphabet.png"
@@ -69,30 +65,72 @@
         type="button"
       ></button>
     </div>
+    <div class="hideButton">
+      <button
+        id="hideBtn"
+        style="color: white; font-size: 2vh"
+        class="hideBtn"
+        type="button"
+      >
+        <i
+          class="fas fa-eye"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
+    <div class="nextButton">
+      <button
+        style="color: white; font-size: 2vh"
+        class="nextBtn"
+        type="button"
+        onclick="location.href='../Lesson15/index.html'"
+      >
+        <i
+          class="fas fa-hand-point-right"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
+    <div class="preButton">
+      <button
+        style="color: white; font-size: 2vh"
+        class="preBtn"
+        type="button"
+        onclick="location.href='../Lesson12/index.html'"
+      >
+        <i
+          class="fas fa-hand-point-left"
+          aria-hidden="true"
+          style="color: white; font-size: 3vh"
+        ></i>
+      </button>
+    </div>
     <div class="container" id="wrapper">
       <div class="card">
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">かぜ をひく</p></div>
+            <div>
+              <p class="subjapan">かぜ<br/>を ひきます</p>
+            </div>
           </div>
           <div class="content back">
-            <div>
-              <p class="subjapan subjapan1">かぜ<br />を ひきます   </p>
-            </div>
-            <div><p class="mean mean1">bị cảm</p></div>
+            <div><p class="mean">bị cảm</p></div>
           </div>
         </div>
       </div>
       <div class="card">
         <div class="card-inner">
           <div class="imgBx front">
-            <div><p class="textJapan japan">ひく </p></div>
+            <div><p class="textJapan japan">ひく</p></div>
+            <div>
+              <p class="subjapan">ギター<br/>を ひきます</p>
+            </div>
           </div>
           <div class="content back">
-            <div>
-              <p class="subjapan subjapan1">ギター<br />を ひきます   </p>
-            </div>
-            <div><p class="mean mean1">đánh đàn</p></div>
+            <div><p class="mean">đánh đàn</p></div>
           </div>
         </div>
       </div>
@@ -100,22 +138,22 @@
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">かく</p></div>
+            <div>
+              <p class="subjapan">えを かきます</p>
+            </div>
           </div>
           <div class="content back">
-            <div>
-              <p class="subjapan subjapan1"><br />えをかきます    </p>
-            </div>
-            <div><p class="mean mean1">vẽ tranh</p></div>
+            <div><p class="mean">vẽ tranh</p></div>
           </div>
         </div>
       </div>
       <div class="card">
         <div class="card-inner">
           <div class="imgBx front">
-            <div><p class="textJapan japan">まなぶ </p></div>
+            <div><p class="textJapan japan">まなぶ</p></div>
+            <div><p class="subjapan">えいご<br>を まなびます</p></div>
           </div>
           <div class="content back">
-            <div><p class="subjapan">えいごをまなびます </p></div>
             <div><p class="mean">học (tiếng anh)</p></div>
           </div>
         </div>
@@ -124,9 +162,9 @@
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">つかう</p></div>
+            <div><p class="subjapan">パソコン<br>を つかいます</p></div>
           </div>
           <div class="content back">
-            <div><p class="subjapan">パソコンをつかいます </p></div>
             <div><p class="mean">sử dụng</p></div>
           </div>
         </div>
@@ -134,10 +172,10 @@
       <div class="card">
         <div class="card-inner">
           <div class="imgBx front">
-            <div><p class="textJapan japan">うたう </p></div>
+            <div><p class="textJapan japan">うたう</p></div>
+             <div><p class="subjapan">うた を うたいます</p></div>
           </div>
           <div class="content back">
-            <div><p class="subjapan">うたをうたいます </p></div>
             <div><p class="mean">hát</p></div>
           </div>
         </div>
@@ -146,9 +184,9 @@
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">あつめる</p></div>
+            <div><p class="subjapan">きってをあつめます</p></div>
           </div>
           <div class="content back">
-            <div><p class="subjapan">きってをあつめます</p></div>
             <div><p class="mean">thu thập, sưu tầm</p></div>
           </div>
         </div>
@@ -157,12 +195,12 @@
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">おくれる</p></div>
+            <div>
+              <p class="subjapan">じゅぎょう<br>に おくれます</p>
+            </div>
           </div>
           <div class="content back">
-            <div>
-              <p class="subjapan subjapan1">じゅぎょうに<br />おくれます</p>
-            </div>
-            <div><p class="mean mean1">trễ</p></div>
+            <div><p class="mean">trễ</p></div>
           </div>
         </div>
       </div>
@@ -170,9 +208,9 @@
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">でかける</p></div>
+            <div><p class="subjapan">さんぽ<br>に でかけます</p></div>
           </div>
           <div class="content back">
-            <div><p class="subjapan">さんぽにでかけます  </p></div>
             <div><p class="mean">đi ra ngoài</p></div>
           </div>
         </div>
@@ -181,9 +219,9 @@
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">できる</p></div>
+            <div><p class="subjapan">えいご<br>を できます</p></div>
           </div>
           <div class="content back">
-            <div><p class="subjapan">えいごをできます   </p></div>
             <div><p class="mean">có thể, biết</p></div>
           </div>
         </div>
@@ -192,12 +230,12 @@
         <div class="card-inner">
           <div class="imgBx front">
             <div><p class="textJapan japan">よやくする</p></div>
+            <div>
+              <p class="subjapan">ホテル<br>を よやくします</p>
+            </div>
           </div>
           <div class="content back">
-            <div>
-              <p class="subjapan subjapan1">ホテルを<br />よやくします   </p>
-            </div>
-            <div><p class="mean mean1">đặt trước (khách sạn)</p></div>
+            <div><p class="mean">đặt trước<br>(khách sạn)</p></div>
           </div>
         </div>
       </div>
@@ -622,7 +660,7 @@
       <div class="card">
         <div class="card-inner">
           <div class="imgBx front">
-            <div><p class="textJapan japan japan1">おなかがすく    </p></div>
+            <div><p class="textJapan japan japan1">おなかがすく</p></div>
           </div>
           <div class="content back">
             <div><p class="subjapan"></p></div>
@@ -633,7 +671,7 @@
       <div class="card">
         <div class="card-inner">
           <div class="imgBx front">
-            <div><p class="textJapan japan japan1">のどがかわく </p></div>
+            <div><p class="textJapan japan japan1">のどがかわく</p></div>
           </div>
           <div class="content back">
             <div><p class="subjapan"></p></div>
@@ -754,7 +792,7 @@
       <div class="card">
         <div class="card-inner">
           <div class="imgBx front">
-            <div><p class="textJapan japan japan1">３８ど　５ぶ </p></div>
+            <div><p class="textJapan japan">３８ど ５ぶ</p></div>
           </div>
           <div class="content back">
             <div><p class="subjapan"></p></div>
