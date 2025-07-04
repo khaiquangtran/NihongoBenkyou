@@ -211,6 +211,7 @@ body {
   height: 54vh;
   overflow-x: hidden;
   overflow-y: scroll;
+  z-index: 5;
 }
 
 .kaiwa ul::-webkit-scrollbar {
@@ -224,6 +225,7 @@ body {
   border-radius: 0;
   height: 5vh;
   margin: 0 0 1vh 0;
+  z-index: 5;
   /* color: darkblue; */
 }
 
@@ -288,7 +290,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   position: absolute;
-  z-index: -1;
 }
 
 .inputfile {
@@ -408,7 +409,67 @@ body {
   .menu-bar ul li:hover {
     z-index: 100;
   }
+  .formConnectKey
+  {
+    top: 75%;
+  }
 }
+
+@media screen and (orientation: portrait) and (min-width: 1000px) and (max-width: 1200px) {
+  html, body {
+    overflow-y: hidden;
+  }
+  body {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .menu-bar ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+  }
+
+  .menu-bar ul li {
+    /* width: 100%; */
+    font-size: 2.5vh;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .sub-menu-images {
+    position: absolute;
+    height: auto;
+    width: 20vh;
+  }
+
+  .sub-menu-images ul li {
+    font-size: 1.8vh;
+  }
+
+  .menu-bar ul li:hover .sub-menu-images {
+    margin-top: 0.5vh;
+    margin-left: -0.7vh;
+    display: block;
+  }
+  .goi ul {
+    list-style: none;
+    height: 57vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .menu-bar ul li:hover {
+    z-index: 100;
+  }
+  .formConnectKey
+  {
+    top: 70%;
+  }
+}
+
 
 .boxes {
   --size: 32px;
@@ -596,8 +657,9 @@ body {
 }
 
 .center-boxes {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  z-index: -1;
 }

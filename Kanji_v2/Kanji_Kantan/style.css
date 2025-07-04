@@ -354,3 +354,21 @@ body {
     box-sizing: border-box;
   }
 }
+
+@media screen and (orientation: portrait) and (min-width: 1000px) and (max-width: 1200px) {
+  html, body {
+    overflow: hidden;
+  }
+  body {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .swiper {
+    width: 25vh;
+    height: 30vh;
+  }
+  .swiper-slide .japan {
+    top: 6vh;
+  }
+}

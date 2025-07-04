@@ -251,3 +251,13 @@ body {
     top: 1vh;
   }
 }
+
+@media screen and (orientation: portrait) and (min-width: 1000px) and (max-width: 1200px) {
+  .homeBtn, .hideBtn, .swapBtn, .openBtn{
+    width: 8vh;
+    height: 5vh;
+  }
+  .card-container {
+    padding: 30px 110px 0 190px;
+  }
+}

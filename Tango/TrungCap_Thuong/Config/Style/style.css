@@ -322,3 +322,28 @@ body {
     transform-style: preserve-3d;
   }
 }
+
+@media screen and (orientation: portrait) and (min-width: 1000px) and (max-width: 1200px) {
+  .homeBtn,.randomBtn, .swapBtn, .hideBtn,  .nextBtn, .preBtn {
+    width: 7vh;
+    height: 4vh;
+  }
+  .homeBtn {
+    top: 1vh;
+  }
+  .randomBtn {
+    top: 5vh;
+  }
+  .swapBtn {
+    top: 9vh;
+  }
+  .hideBtn {
+    top: 13vh;
+  }
+  .preBtn {
+    top: 17vh;
+  }
+  .nextBtn {
+    top: 21vh;
+  }
+}
