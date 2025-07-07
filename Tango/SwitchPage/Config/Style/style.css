@@ -39,8 +39,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 75px 50px;
-  padding: 100px 70px;
+  gap: 20px 50px;
+  padding: 120px 70px;
 }
 
 .container2 {
