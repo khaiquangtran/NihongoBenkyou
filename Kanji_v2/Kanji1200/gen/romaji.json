@@ -1,0 +1,405 @@
+{
+    "title": "第ー課",
+    "vocabulary": [
+        {
+            "japan": "一",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "丁",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "七",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "大",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "三",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "上",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "下",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "与",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "万",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "不",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "且",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "世",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "両",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "並",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "中",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "丸",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "主",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "久",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "乏",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "乗",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "九",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "乳",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "乾",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "乱",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "了",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "予",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "争",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "事",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "二",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "互",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "五",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "亡",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "交",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "京",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "人",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "亻",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "儿",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "𠆢",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "今",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "仏",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "介",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "仕",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "他",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "代",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "以",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "付",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "令",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "休",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "会",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "仲",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "伝",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "件",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "任",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "仰",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "伐",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "何",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "作",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "体",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "住",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "位",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "低",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "似",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "余",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "同",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "伸",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "伴",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "使",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "例",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "価",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "供",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "依",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "係",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "信",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "便",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "保",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "倍",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "候",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "借",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "倉",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        },
+        {
+            "japan": "個",
+            "meaning": "UNKNOW",
+            "submeaning": "unknow"
+        }
+    ]
+}

@@ -393,10 +393,10 @@ class PageGenScriptFromExcel(Page):
                     #         f'<div><p class="subjapan subjapan1">{before}<br>{after}</p></div>',
                     #     )
                     # else:
-                        item_script = item_script.replace(
-                            '<div><p class="subjapan">TƯ</p></div>',
-                            f'<div><p class="subjapan">{subjapanese}</p></div>',
-                        )
+                    item_script = item_script.replace(
+                        '<div><p class="subjapan">TƯ</p></div>',
+                        f'<div><p class="subjapan">{subjapanese}</p></div>',
+                    )
                 else:
                     item_script = item_script.replace(
                         '<div><p class="subjapan">TƯ</p></div>',
@@ -411,10 +411,10 @@ class PageGenScriptFromExcel(Page):
                     #         f'<div><p class="mean mean1">{meaning}</p></div>',
                     #     )
                     # else:
-                        item_script = item_script.replace(
-                            '<div><p class="mean">tôi</p></div>',
-                            f'<div><p class="mean">{meaning}</p></div>',
-                        )
+                    item_script = item_script.replace(
+                        '<div><p class="mean">tôi</p></div>',
+                        f'<div><p class="mean">{meaning}</p></div>',
+                    )
                 else:
                     item_script = item_script.replace(
                         '<div><p class="mean">tôi</p></div>',
@@ -440,12 +440,14 @@ class PageGenScriptFromExcel(Page):
 
     def genScriptForKanjiV2(self, pathFile):
         try:
-           # Read data from EXCEL file
+            # Read data from EXCEL file
             df = pd.read_excel(pathFile)
 
             # Initialize script with title
             title = df["title"].values[0]
-            script = ScriptKanjiV2.header.replace("<title></title>", f"<title>{title}</title>")
+            script = ScriptKanjiV2.header.replace(
+                "<title></title>", f"<title>{title}</title>"
+            )
             vocabulary = []
             for index, row in df.iterrows():
                 item_script = ScriptKanjiV2.bodySwipper1
@@ -455,48 +457,45 @@ class PageGenScriptFromExcel(Page):
                 if not pd.isna(japan):
                     item_script = item_script.replace(
                         '<img src="../../../../GIF/kanji/gif/150x150/.gif" class="border_all" />',
-                        f'<img src="../../../../GIF/kanji/gif/150x150/{japan}.gif" class="border_all" />'
-                )
+                        f'<img src="../../../../GIF/kanji/gif/150x150/{japan}.gif" class="border_all" />',
+                    )
                 else:
-                    self.logText.insert(tk.END, f"Japanese length in Json haven't supported")
+                    self.logText.insert(
+                        tk.END, f"Japanese length in Json haven't supported"
+                    )
                     return
 
-                subindex = index%10
+                subindex = index % 10
                 if subindex != 0:
-                   item_script = item_script.replace(
-                      '<div class="swiper-slide slide">',
-                      f'<div class="swiper-slide slide{subindex}">'
-                   ).replace(
-                      '<button class="open_button slide" type="button">Help</button>',
-                      f'<button class="open_button slide{subindex}" value="{index}" type="button">Help</button>')
+                    item_script = item_script.replace(
+                        '<div class="swiper-slide slide">',
+                        f'<div class="swiper-slide slide{subindex}">',
+                    ).replace(
+                        '<button class="open_button slide" type="button">Help</button>',
+                        f'<button class="open_button slide{subindex}" value="{index}" type="button">Help</button>',
+                    )
                 else:
                     item_script = item_script.replace(
                         '<button class="open_button slide" type="button">Help</button>',
-                        f'<button class="open_button slide" value="{index}" type="button">Help</button>')
+                        f'<button class="open_button slide" value="{index}" type="button">Help</button>',
+                    )
                 script += item_script
 
                 meaning = row["meaning"].upper()
                 submeaning = row["submeaning"]
                 vocabulary.append(
-                    {
-                    "japan" : japan,
-                    "meaning" : meaning,
-                    "submeaning" : submeaning
-                    }
+                    {"japan": japan, "meaning": meaning, "submeaning": submeaning}
                 )
-            data = {
-                "title" : title,
-                "vocabulary" : vocabulary
-            }
+            data = {"title": title, "vocabulary": vocabulary}
             script += ScriptKanjiV2.bodyEnd
 
             # Write the entire script to file
-            dictSaveFile = pathFile.rsplit('/', 1)[0] + "/index.html"
+            dictSaveFile = pathFile.rsplit("/", 1)[0] + "/index.html"
             with open(dictSaveFile, "w", encoding="utf-8") as index:
                 index.write(script)
 
-            dictSaveJsonFile = pathFile.rsplit('/', 1)[0] + "/romaji.json"
-            with open(dictSaveJsonFile, 'w', encoding='utf-8') as f:
+            dictSaveJsonFile = pathFile.rsplit("/", 1)[0] + "/romaji.json"
+            with open(dictSaveJsonFile, "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=4, ensure_ascii=False)
 
             # Log result

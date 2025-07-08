@@ -1,0 +1,405 @@
+{
+    "title": "第ー課",
+    "vocabulary": [
+        {
+            "japan": "一",
+            "meaning": "NHẤT",
+            "submeaning": "một"
+        },
+        {
+            "japan": "丁",
+            "meaning": "ĐINH",
+            "submeaning": "can thứ tư"
+        },
+        {
+            "japan": "七",
+            "meaning": "THẤT",
+            "submeaning": "bảy"
+        },
+        {
+            "japan": "大",
+            "meaning": "TRƯỢNG",
+            "submeaning": "trượng phu"
+        },
+        {
+            "japan": "三",
+            "meaning": "TAM",
+            "submeaning": "ba"
+        },
+        {
+            "japan": "上",
+            "meaning": "THƯỢNG",
+            "submeaning": "trên"
+        },
+        {
+            "japan": "下",
+            "meaning": "HẠ",
+            "submeaning": "dưới"
+        },
+        {
+            "japan": "与",
+            "meaning": "DỰ",
+            "submeaning": "cho, cấp"
+        },
+        {
+            "japan": "万",
+            "meaning": "VẠN",
+            "submeaning": "mười nghìn"
+        },
+        {
+            "japan": "不",
+            "meaning": "BẤT",
+            "submeaning": "không"
+        },
+        {
+            "japan": "且",
+            "meaning": "THẢ",
+            "submeaning": "và"
+        },
+        {
+            "japan": "世",
+            "meaning": "THẾ",
+            "submeaning": "thế giới"
+        },
+        {
+            "japan": "丘",
+            "meaning": "KHÂU",
+            "submeaning": "đồi"
+        },
+        {
+            "japan": "丙",
+            "meaning": "BÍNH",
+            "submeaning": "can thứ ba"
+        },
+        {
+            "japan": "両",
+            "meaning": "LƯỠNG",
+            "submeaning": "cả hai"
+        },
+        {
+            "japan": "並",
+            "meaning": "TỊNH",
+            "submeaning": "xếp, xếp hàng"
+        },
+        {
+            "japan": "中",
+            "meaning": "TRUNG",
+            "submeaning": "bên trong"
+        },
+        {
+            "japan": "串",
+            "meaning": "XUYẾN",
+            "submeaning": "que xiên"
+        },
+        {
+            "japan": "丸",
+            "meaning": "HOÀN",
+            "submeaning": "tròn"
+        },
+        {
+            "japan": "主",
+            "meaning": "CHỦ",
+            "submeaning": "chính yếu"
+        },
+        {
+            "japan": "丼",
+            "meaning": "ĐẢM",
+            "submeaning": "cái tô"
+        },
+        {
+            "japan": "久",
+            "meaning": "CỬU",
+            "submeaning": "lâu dài"
+        },
+        {
+            "japan": "乏",
+            "meaning": "PHẠP",
+            "submeaning": "nghèo, thiếu thốn"
+        },
+        {
+            "japan": "乗",
+            "meaning": "THỪA",
+            "submeaning": "lên xe"
+        },
+        {
+            "japan": "乙",
+            "meaning": "ẤT",
+            "submeaning": "can thứ hai"
+        },
+        {
+            "japan": "九",
+            "meaning": "CỬU",
+            "submeaning": "chín"
+        },
+        {
+            "japan": "乳",
+            "meaning": "NHŨ",
+            "submeaning": "vú, sữa mẹ"
+        },
+        {
+            "japan": "乾",
+            "meaning": "CAN",
+            "submeaning": "làm khô"
+        },
+        {
+            "japan": "乱",
+            "meaning": "LOẠN",
+            "submeaning": "rối loạn"
+        },
+        {
+            "japan": "了",
+            "meaning": "LIỄU",
+            "submeaning": "hoàn tất, hiểu"
+        },
+        {
+            "japan": "予",
+            "meaning": "DỰ",
+            "submeaning": "dự định"
+        },
+        {
+            "japan": "争",
+            "meaning": "TRANH",
+            "submeaning": "tranh cãi"
+        },
+        {
+            "japan": "事",
+            "meaning": "SỰ",
+            "submeaning": "sự việc"
+        },
+        {
+            "japan": "二",
+            "meaning": "NHỊ",
+            "submeaning": "hai"
+        },
+        {
+            "japan": "互",
+            "meaning": "HỖ",
+            "submeaning": "lẫn nhau"
+        },
+        {
+            "japan": "五",
+            "meaning": "NGŨ",
+            "submeaning": "năm"
+        },
+        {
+            "japan": "井",
+            "meaning": "TỈNH",
+            "submeaning": "cái giếng"
+        },
+        {
+            "japan": "亡",
+            "meaning": "VONG",
+            "submeaning": "chết"
+        },
+        {
+            "japan": "交",
+            "meaning": "GIAO",
+            "submeaning": "qua lại, trộn lẫn"
+        },
+        {
+            "japan": "京",
+            "meaning": "KINH",
+            "submeaning": "kinh đô"
+        },
+        {
+            "japan": "亭",
+            "meaning": "ĐÌNH",
+            "submeaning": "nhà nhỏ"
+        },
+        {
+            "japan": "人",
+            "meaning": "NHÂN",
+            "submeaning": "nười"
+        },
+        {
+            "japan": "亻",
+            "meaning": "NHÂN ĐỨNG",
+            "submeaning": " "
+        },
+        {
+            "japan": "儿",
+            "meaning": "NHÂN ĐI",
+            "submeaning": " "
+        },
+        {
+            "japan": "𠆢",
+            "meaning": "NHÂN NÓN",
+            "submeaning": " "
+        },
+        {
+            "japan": "今",
+            "meaning": "KIM",
+            "submeaning": "bây giờ"
+        },
+        {
+            "japan": "仏",
+            "meaning": "PHẬT",
+            "submeaning": "phật giáo"
+        },
+        {
+            "japan": "介",
+            "meaning": "GIỚI",
+            "submeaning": "giới thiệu"
+        },
+        {
+            "japan": "仕",
+            "meaning": "SĨ",
+            "submeaning": "công việc"
+        },
+        {
+            "japan": "他",
+            "meaning": "THA",
+            "submeaning": "khác"
+        },
+        {
+            "japan": "代",
+            "meaning": "ĐẠI",
+            "submeaning": "đại diện"
+        },
+        {
+            "japan": "以",
+            "meaning": "DĨ",
+            "submeaning": "gắn vào"
+        },
+        {
+            "japan": "付",
+            "meaning": "PHÓ",
+            "submeaning": "gắn vào"
+        },
+        {
+            "japan": "令",
+            "meaning": "LỆNH",
+            "submeaning": "mệnh lệnh"
+        },
+        {
+            "japan": "休",
+            "meaning": "HƯU",
+            "submeaning": "nghỉ, nghỉ ngơi"
+        },
+        {
+            "japan": "会",
+            "meaning": "HỘI",
+            "submeaning": "gặp gỡ"
+        },
+        {
+            "japan": "仲",
+            "meaning": "TRỌNG",
+            "submeaning": "tình bạn"
+        },
+        {
+            "japan": "伝",
+            "meaning": "TRUYỀN",
+            "submeaning": "truyền đạt"
+        },
+        {
+            "japan": "仮",
+            "meaning": "GIẢ",
+            "submeaning": "giả định"
+        },
+        {
+            "japan": "件",
+            "meaning": "KIỆN",
+            "submeaning": "vụ việc"
+        },
+        {
+            "japan": "任",
+            "meaning": "NHIỆM",
+            "submeaning": "nhiêm vụ"
+        },
+        {
+            "japan": "仰",
+            "meaning": "NGƯỠNG",
+            "submeaning": "tín ngưỡng"
+        },
+        {
+            "japan": "企",
+            "meaning": "XÍ",
+            "submeaning": "kế hoạch"
+        },
+        {
+            "japan": "伐",
+            "meaning": "PHẠT",
+            "submeaning": "chinh phạt"
+        },
+        {
+            "japan": "伎",
+            "meaning": "KỸ",
+            "submeaning": "ca kỹ"
+        },
+        {
+            "japan": "何",
+            "meaning": "HÀ",
+            "submeaning": "cái gì"
+        },
+        {
+            "japan": "作",
+            "meaning": "TÁC",
+            "submeaning": "làm ra"
+        },
+        {
+            "japan": "体",
+            "meaning": "THỂ",
+            "submeaning": "thân thể"
+        },
+        {
+            "japan": "住",
+            "meaning": "TRÚ",
+            "submeaning": "cư trú"
+        },
+        {
+            "japan": "位",
+            "meaning": "VỊ",
+            "submeaning": "vị trí"
+        },
+        {
+            "japan": "低",
+            "meaning": "ĐÊ",
+            "submeaning": "thấp"
+        },
+        {
+            "japan": "以",
+            "meaning": "TỰ",
+            "submeaning": "giống như"
+        },
+        {
+            "japan": "余",
+            "meaning": "DƯ",
+            "submeaning": "dư thừa"
+        },
+        {
+            "japan": "伺",
+            "meaning": "TỨ",
+            "submeaning": "thăm hỏi"
+        },
+        {
+            "japan": "伸",
+            "meaning": "THÂN",
+            "submeaning": "duỗi ra"
+        },
+        {
+            "japan": "伴",
+            "meaning": "BẠN",
+            "submeaning": "đi cùng"
+        },
+        {
+            "japan": "使",
+            "meaning": "SỬ",
+            "submeaning": "sử dụng"
+        },
+        {
+            "japan": "例",
+            "meaning": "LỆ",
+            "submeaning": "luật lệ, ví dụ"
+        },
+        {
+            "japan": "価",
+            "meaning": "GIÁ",
+            "submeaning": "giá trị"
+        },
+        {
+            "japan": "供",
+            "meaning": "CUNG",
+            "submeaning": "cung cấp"
+        }
+    ]
+}
