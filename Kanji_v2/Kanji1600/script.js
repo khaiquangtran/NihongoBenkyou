@@ -34,10 +34,13 @@ var imgCount = images.length;
 var number = Math.floor(Math.random() * imgCount);
 let content;
 const wrapperCount = 9;
+var initSlide;
+var swiper;
 
 window.onload = function () {
   randomChange.style.backgroundImage = "url(" + images[number] + ")";
   content = localStorage.getItem('content');
+
   for (let i = 1; i <= wrapperCount; i++) {
     const btnShuff = document.getElementById(`shuffleBtn${i}`);
     if (btnShuff) {
@@ -48,22 +51,30 @@ window.onload = function () {
       btnSwap.addEventListener("click", () => swapContent(`.page${i}`));
     }
   }
-};
 
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    type: "fraction"
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+  const savedSlide = localStorage.getItem('lastSlideIndex1600');
+  initSlide = savedSlide ? parseInt(savedSlide) : 0;
+  swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    initialSlide: initSlide,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      type: "fraction"
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    on: {
+      slideChange: function () {
+        localStorage.setItem('lastSlideIndex1600', this.realIndex);
+      }
+    }
+  });
+};
 
 document.querySelectorAll(".card").forEach(function (card) {
   card.addEventListener("click", function () {
