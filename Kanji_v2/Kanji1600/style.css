@@ -39,6 +39,9 @@ body {
 }
 
 .card-container {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -68,7 +71,7 @@ body {
 }
 
 .homeBtn{
-  position: fixed;
+  position: relative;
   width: 11vh;
   height: 5vh;
   left: 1vh;
@@ -91,7 +94,7 @@ body {
 }
 
 .hideBtn{
-  position: fixed;
+  position: relative;
   width: 11vh;
   height: 5vh;
   left: 1vh;
@@ -106,11 +109,11 @@ body {
 }
 
 .swapBtn{
-  position: fixed;
+  position: relative;
   width: 11vh;
   height: 5vh;
   left: 1vh;
-  top: 11vh;
+  top: 6vh;
   z-index: 2;
   background: rgb(0,140,255);
   box-shadow: none;
@@ -121,11 +124,11 @@ body {
 }
 
 .openBtn{
-  position: fixed;
+  position: relative;
   width: 11vh;
   height: 5vh;
   left: 1vh;
-  top: 16vh;
+  top: 6vh;
   z-index: 2;
   background: #ff135a;
   outline: #ff145b80;
@@ -198,6 +201,10 @@ body {
   color: white;
   text-align: center;
   margin: 0;
+}
+
+.mean1{
+  font-size: 1em;
 }
 
 .romaji {
