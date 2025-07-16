@@ -198,7 +198,7 @@ document.getElementById("openBtn7").addEventListener("click", () => autoOpenPage
 document.getElementById("openBtn8").addEventListener("click", () => autoOpenPage("wrapper8"));
 document.getElementById("openBtn9").addEventListener("click", () => autoOpenPage("wrapper9"));
 document.getElementById("openBtn10").addEventListener("click", () => autoOpenPage("wrapper10"));
-// document.getElementById("openBtn11").addEventListener("click", () => autoOpenPage("wrapper11"));
+document.getElementById("openBtn11").addEventListener("click", () => autoOpenPage("wrapper11"));
 
 window.onresize = function () {
   const maxHeight = window.screen.height;

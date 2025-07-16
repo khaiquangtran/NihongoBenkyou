@@ -85,14 +85,6 @@ body {
   color: white;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-
 .hideBtn{
   position: relative;
   width: 11vh;
@@ -248,11 +240,13 @@ body {
     top: 1vh;
   }
   .swapBtn {
+    position: fixed;
     width: 8vh;
     left: 17vh;
     top: 1vh;
   }
   .openBtn{
+    position: fixed;
     width: 8vh;
     left: 25vh;
     top: 1vh;
