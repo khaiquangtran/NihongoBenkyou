@@ -33,7 +33,7 @@ var randomChange = document.getElementById("Background");
 var imgCount = images.length;
 var number = Math.floor(Math.random() * imgCount);
 let content;
-const wrapperCount = 11;
+const wrapperCount = 21;
 var initSlide;
 var swiper;
 
@@ -199,6 +199,16 @@ document.getElementById("openBtn8").addEventListener("click", () => autoOpenPage
 document.getElementById("openBtn9").addEventListener("click", () => autoOpenPage("wrapper9"));
 document.getElementById("openBtn10").addEventListener("click", () => autoOpenPage("wrapper10"));
 document.getElementById("openBtn11").addEventListener("click", () => autoOpenPage("wrapper11"));
+document.getElementById("openBtn12").addEventListener("click", () => autoOpenPage("wrapper12"));
+document.getElementById("openBtn13").addEventListener("click", () => autoOpenPage("wrapper13"));
+document.getElementById("openBtn14").addEventListener("click", () => autoOpenPage("wrapper14"));
+document.getElementById("openBtn15").addEventListener("click", () => autoOpenPage("wrapper15"));
+document.getElementById("openBtn16").addEventListener("click", () => autoOpenPage("wrapper16"));
+document.getElementById("openBtn17").addEventListener("click", () => autoOpenPage("wrapper17"));
+document.getElementById("openBtn18").addEventListener("click", () => autoOpenPage("wrapper18"));
+document.getElementById("openBtn19").addEventListener("click", () => autoOpenPage("wrapper19"));
+document.getElementById("openBtn20").addEventListener("click", () => autoOpenPage("wrapper20"));
+document.getElementById("openBtn21").addEventListener("click", () => autoOpenPage("wrapper21"));
 
 window.onresize = function () {
   const maxHeight = window.screen.height;
