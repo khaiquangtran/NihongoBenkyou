@@ -1,34 +1,35 @@
 const images = [
-    "../../Home/Images/home_background.jpg",
-    "../../Home/Images/home_background1.jpg",
-    "../../Home/Images/home_background2.jpg",
-    "../../Home/Images/home_background3.jpg",
-    "../../Home/Images/home_background4.jpg",
-    "../../Home/Images/home_background5.jpg",
-    "../../Home/Images/home_background6.jpg",
-    "../../Home/Images/home_background7.jpg",
-    "../../Home/Images/home_background8.jpg",
-    "../../Home/Images/home_background9.jpg",
-    "../../Home/Images/home_background10.jpg",
-    "../../Home/Images/home_background11.jpg",
-    "../../Home/Images/home_background12.jpg",
-    "../../Home/Images/home_background13.jpg",
-    "../../Home/Images/home_background14.jpg",
-    "../../Home/Images/home_background15.jpg",
-    "../../Home/Images/home_background16.jpg",
-    "../../Home/Images/home_background17.jpg",
-    "../../Home/Images/home_background18.jpg",
-    "../../Home/Images/home_background19.jpg",
-    "../../Home/Images/home_background20.jpg",
-    "../../Home/Images/home_background21.jpg",
-    "../../Home/Images/home_background22.jpg",
-    "../../Home/Images/background23.jpg",
-    "../../Home/Images/background24.jpg",
-    "../../Home/Images/background25.jpg",
-    "../../Home/Images/background26.jpg",
-    "../../Home/Images/background27.jpg",
-    "../../Home/Images/background28.jpg",
-  ];
+  "../../Home/Images/home_background.jpg",
+  "../../Home/Images/home_background1.jpg",
+  "../../Home/Images/home_background2.jpg",
+  "../../Home/Images/home_background3.jpg",
+  "../../Home/Images/home_background4.jpg",
+  "../../Home/Images/home_background5.jpg",
+  "../../Home/Images/home_background6.jpg",
+  "../../Home/Images/home_background7.jpg",
+  "../../Home/Images/home_background8.jpg",
+  "../../Home/Images/home_background9.jpg",
+  "../../Home/Images/home_background10.jpg",
+  "../../Home/Images/home_background11.jpg",
+  "../../Home/Images/home_background12.jpg",
+  "../../Home/Images/home_background13.jpg",
+  "../../Home/Images/home_background14.jpg",
+  "../../Home/Images/home_background15.jpg",
+  "../../Home/Images/home_background16.jpg",
+  "../../Home/Images/home_background17.jpg",
+  "../../Home/Images/home_background18.jpg",
+  "../../Home/Images/home_background19.jpg",
+  "../../Home/Images/home_background20.jpg",
+  "../../Home/Images/home_background21.jpg",
+  "../../Home/Images/home_background22.jpg",
+  "../../Home/Images/background23.jpg",
+  "../../Home/Images/background24.jpg",
+  "../../Home/Images/background25.jpg",
+  "../../Home/Images/background26.jpg",
+  "../../Home/Images/background27.jpg",
+  "../../Home/Images/background28.jpg",
+];
+
 var randomChange = document.getElementById("Background");
 var imgCount = images.length;
 var number = Math.floor(Math.random() * imgCount);
@@ -76,17 +77,29 @@ window.onload = function () {
   });
 };
 
-document.querySelectorAll(".card").forEach(function (card) {
-  card.addEventListener("click", function () {
-    var check = this.classList.toggle("card1");
+const containers = document.querySelectorAll('.card-container');
+containers.forEach(container => {
+  container.addEventListener("click", function (e) {
+    const card = e.target.closest(".card");
+    if (!card) return;
+
+    const check = card.classList.toggle("card1");
     if (check) {
-      var japanText = card.getElementsByClassName("mean")[0].textContent;
-      if(content) {
-        speak(content, japanText);
+      const japanText = card.querySelector(".mean")?.textContent;
+      if (content && japanText) {
+        speakThrottled(content, japanText);
       }
     }
   });
 });
+
+let lastCall = 0;
+function speakThrottled(keyConnect, text) {
+  const now = Date.now();
+  if (now - lastCall < 1000) return;
+  lastCall = now;
+  speak(keyConnect, text);
+}
 
 async function speak(keyConnect, text) {
   const response = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${keyConnect}`, {
@@ -98,7 +111,7 @@ async function speak(keyConnect, text) {
       input: { text: text },
       voice: {
         languageCode: 'vi-VN',
-        name: 'vi-VN-Standard-C' // can use A, B, C...
+        name: 'vi-VN-Standard-C'
       },
       audioConfig: {
         audioEncoding: 'MP3'
@@ -109,7 +122,6 @@ async function speak(keyConnect, text) {
   if (!response.ok) {
     alert('❌ Please choose again KEY file');
     return;
-    // data.audioContent là base64 của file MP3
   }
   const data = await response.json();
 
@@ -143,11 +155,10 @@ function swapContent(passPage) {
     const front = card.querySelector('.front');
     const back = card.querySelector('.back');
 
-    // Store temp
     const temp = front.innerHTML;
     front.innerHTML = back.innerHTML;
     back.innerHTML = temp;
-  })
+  });
 }
 
 let intervalId = null;
@@ -156,7 +167,7 @@ let autoOpenPageId = "";
 function autoOpenPage(passId) {
   const container = document.getElementById(passId);
   const cards = Array.from(container.querySelectorAll(".card"));
-  if(autoOpenPageId != passId) {
+  if (autoOpenPageId !== passId) {
     intervalId = null;
     index = 0;
     cards.forEach(card => card.classList.remove("card1"));
@@ -167,18 +178,18 @@ function autoOpenPage(passId) {
     intervalId = null;
     return;
   }
-  if(index == cards.length) {
-      cards.forEach(card => card.classList.remove("card1"));
-      index = 0;
-      return;
+  if (index === cards.length) {
+    cards.forEach(card => card.classList.remove("card1"));
+    index = 0;
+    return;
   }
 
-  intervalId  = setInterval(() => {
+  intervalId = setInterval(() => {
     if (index < cards.length) {
       cards[index].classList.toggle("card1");
-      var japanText = cards[index].getElementsByClassName("mean")[0].textContent;
-      if(content) {
-        speak(content, japanText);
+      const japanText = cards[index].querySelector(".mean")?.textContent;
+      if (content && japanText) {
+        speakThrottled(content, japanText);
       }
       index++;
     } else {
@@ -188,27 +199,10 @@ function autoOpenPage(passId) {
   }, 2000);
 }
 
-document.getElementById("openBtn1").addEventListener("click", () => autoOpenPage("wrapper1"));
-document.getElementById("openBtn2").addEventListener("click", () => autoOpenPage("wrapper2"));
-document.getElementById("openBtn3").addEventListener("click", () => autoOpenPage("wrapper3"));
-document.getElementById("openBtn4").addEventListener("click", () => autoOpenPage("wrapper4"));
-document.getElementById("openBtn5").addEventListener("click", () => autoOpenPage("wrapper5"));
-document.getElementById("openBtn6").addEventListener("click", () => autoOpenPage("wrapper6"));
-document.getElementById("openBtn7").addEventListener("click", () => autoOpenPage("wrapper7"));
-document.getElementById("openBtn8").addEventListener("click", () => autoOpenPage("wrapper8"));
-document.getElementById("openBtn9").addEventListener("click", () => autoOpenPage("wrapper9"));
-document.getElementById("openBtn10").addEventListener("click", () => autoOpenPage("wrapper10"));
-document.getElementById("openBtn11").addEventListener("click", () => autoOpenPage("wrapper11"));
-document.getElementById("openBtn12").addEventListener("click", () => autoOpenPage("wrapper12"));
-document.getElementById("openBtn13").addEventListener("click", () => autoOpenPage("wrapper13"));
-document.getElementById("openBtn14").addEventListener("click", () => autoOpenPage("wrapper14"));
-document.getElementById("openBtn15").addEventListener("click", () => autoOpenPage("wrapper15"));
-document.getElementById("openBtn16").addEventListener("click", () => autoOpenPage("wrapper16"));
-document.getElementById("openBtn17").addEventListener("click", () => autoOpenPage("wrapper17"));
-document.getElementById("openBtn18").addEventListener("click", () => autoOpenPage("wrapper18"));
-document.getElementById("openBtn19").addEventListener("click", () => autoOpenPage("wrapper19"));
-document.getElementById("openBtn20").addEventListener("click", () => autoOpenPage("wrapper20"));
-document.getElementById("openBtn21").addEventListener("click", () => autoOpenPage("wrapper21"));
+for (let i = 1; i <= wrapperCount; i++) {
+  const btn = document.getElementById(`openBtn${i}`);
+  if (btn) btn.addEventListener("click", () => autoOpenPage(`wrapper${i}`));
+}
 
 window.onresize = function () {
   const maxHeight = window.screen.height;
@@ -223,4 +217,4 @@ window.onresize = function () {
   document.querySelectorAll(".card-container").forEach(card => {
     card.classList.toggle('fullscreenmode', isFullscreen);
   });
-}
+};

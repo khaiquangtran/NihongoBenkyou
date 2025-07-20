@@ -65,10 +65,10 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+/*
 .homeButton{
   position: fixed;
-}
+} */
 
 .homeBtn{
   position: relative;
@@ -90,7 +90,7 @@ body {
   width: 11vh;
   height: 5vh;
   left: 1vh;
-  top: 6vh;
+  top: 1vh;
   z-index: 2;
   background: #4CC713;
   box-shadow: none;
@@ -105,7 +105,7 @@ body {
   width: 11vh;
   height: 5vh;
   left: 1vh;
-  top: 6vh;
+  top: 1vh;
   z-index: 2;
   background: rgb(0,140,255);
   box-shadow: none;
@@ -120,7 +120,7 @@ body {
   width: 11vh;
   height: 5vh;
   left: 1vh;
-  top: 6vh;
+  top: 1vh;
   z-index: 2;
   background: #ff135a;
   outline: #ff145b80;
@@ -238,6 +238,7 @@ background: linear-gradient(to right, #EA384D, #D31027); /* W3C, IE 10+/ Edge, F
     top: 1vh;
   }
   .hideBtn {
+    position: fixed;
     width: 8vh;
     left: 9vh;
     top: 1vh;
