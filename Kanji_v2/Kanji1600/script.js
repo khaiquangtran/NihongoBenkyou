@@ -38,6 +38,49 @@ const wrapperCount = 21;
 var initSlide;
 var swiper;
 
+function loadSlideContent(slideNumber) {
+  const slide = document.querySelector(`.swiper-slide[data-slide="${slideNumber}"]`);
+  if (!slide || slide.dataset.loaded === "true") return;
+
+  fetch(`slides/slide${slideNumber}.html`)
+    .then(res => res.text())
+    .then(html => {
+      slide.innerHTML = html;
+      slide.dataset.loaded = "true";
+      addCardEventListeners(slideNumber);
+    })
+    .catch(err => console.error("Error when load slide", slideNumber, err));
+}
+
+function addCardEventListeners(slideNumber) {
+  const shuffleBtn = document.getElementById(`shuffleBtn${slideNumber}`);
+  if (shuffleBtn) {
+    shuffleBtn.addEventListener("click", () => randomSlides(`wrapper${slideNumber}`));
+  }
+
+  const swapBtn = document.getElementById(`swapBtn${slideNumber}`);
+  if (swapBtn) {
+    swapBtn.addEventListener("click", () => swapContent(`.page${slideNumber}`));
+  }
+
+  const openBtn = document.getElementById(`openBtn${slideNumber}`);
+  if (openBtn) {
+    openBtn.addEventListener("click", () => autoOpenPage(`wrapper${slideNumber}`));
+  }
+
+  const container = document.getElementById(`wrapper${slideNumber}`);
+  if (container) {
+    container.addEventListener("click", function (e) {
+      const card = e.target.closest(".card");
+      if (!card) return;
+
+      const check = card.classList.toggle("card1");
+      const japanText = card.querySelector(".mean")?.textContent;
+      if (content && japanText && check) speakThrottled(content, japanText);
+    });
+  }
+}
+
 window.onload = function () {
   randomChange.style.backgroundImage = "url(" + images[number] + ")";
   content = localStorage.getItem('content');
@@ -70,8 +113,13 @@ window.onload = function () {
       prevEl: ".swiper-button-prev",
     },
     on: {
+      init: function () {
+        loadSlideContent(initSlide + 1);
+      },
       slideChange: function () {
+        const newIndex = this.realIndex + 1;
         localStorage.setItem('lastSlideIndex1600', this.realIndex);
+        loadSlideContent(newIndex);
       }
     }
   });
