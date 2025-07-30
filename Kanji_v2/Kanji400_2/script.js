@@ -53,7 +53,7 @@ window.onload = function () {
     }
   }
 
-  const savedSlide = localStorage.getItem('lastSlideIndex1600');
+  const savedSlide = localStorage.getItem('lastSlideIndex400_2');
   initSlide = savedSlide ? parseInt(savedSlide) : 0;
   swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,

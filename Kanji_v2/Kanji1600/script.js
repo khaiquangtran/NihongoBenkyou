@@ -37,6 +37,8 @@ let content;
 const wrapperCount = 21;
 var initSlide;
 var swiper;
+let doubleChar = "";
+let counterDouble = 0;
 
 function loadSlideContent(slideNumber) {
   const slide = document.querySelector(`.swiper-slide[data-slide="${slideNumber}"]`);
@@ -73,10 +75,22 @@ function addCardEventListeners(slideNumber) {
     container.addEventListener("click", function (e) {
       const card = e.target.closest(".card");
       if (!card) return;
-
       const check = card.classList.toggle("card1");
       const japanText = card.querySelector(".mean")?.textContent;
       if (content && japanText && check) speakThrottled(content, japanText);
+      if(japanText != doubleChar) {
+        doubleChar = japanText;
+        counterDouble = 0;
+      }
+      else {
+        counterDouble++;
+        const front = card.querySelector(".front");
+        const front1 = card.querySelector(".front1");
+        if (front && !front1 && counterDouble == 3) {
+          front.classList.add("front1");
+          counterDouble = 0;
+        }
+      }
     });
   }
 }
@@ -125,28 +139,12 @@ window.onload = function () {
   });
 };
 
-const containers = document.querySelectorAll('.card-container');
-containers.forEach(container => {
-  container.addEventListener("click", function (e) {
-    const card = e.target.closest(".card");
-    if (!card) return;
-
-    const check = card.classList.toggle("card1");
-    if (check) {
-      const japanText = card.querySelector(".mean")?.textContent;
-      if (content && japanText) {
-        speakThrottled(content, japanText);
-      }
-    }
-  });
-});
-
 let lastCall = 0;
 function speakThrottled(keyConnect, text) {
   const now = Date.now();
   if (now - lastCall < 1000) return;
   lastCall = now;
-  speak(keyConnect, text);
+  // speak(keyConnect, text);
 }
 
 async function speak(keyConnect, text) {
