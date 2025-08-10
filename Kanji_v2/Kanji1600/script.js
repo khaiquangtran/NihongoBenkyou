@@ -141,10 +141,13 @@ window.onload = function () {
 
 let lastCall = 0;
 function speakThrottled(keyConnect, text) {
+  if(text == 'AI') {
+    text = 'ai';
+  }
   const now = Date.now();
   if (now - lastCall < 1000) return;
   lastCall = now;
-  // speak(keyConnect, text);
+  speak(keyConnect, text);
 }
 
 async function speak(keyConnect, text) {
@@ -210,39 +213,73 @@ function swapContent(passPage) {
 let intervalId = null;
 let index = 0;
 let autoOpenPageId = "";
+let stopAutoOpen = false;
+
 function autoOpenPage(passId) {
   const container = document.getElementById(passId);
   const cards = Array.from(container.querySelectorAll(".card"));
+
   if (autoOpenPageId !== passId) {
-    intervalId = null;
+    stopAutoOpen = true;
     index = 0;
-    cards.forEach(card => card.classList.remove("card1"));
+    cards.forEach(card => {
+      card.classList.remove("card1");
+      card.querySelector(".front")?.classList.remove("front1");
+    });
     autoOpenPageId = passId;
   }
+
+  // If it is running -> stop
   if (intervalId !== null) {
-    clearInterval(intervalId);
+    stopAutoOpen = true;
     intervalId = null;
-    return;
-  }
-  if (index === cards.length) {
-    cards.forEach(card => card.classList.remove("card1"));
-    index = 0;
     return;
   }
 
-  intervalId = setInterval(() => {
-    if (index < cards.length) {
-      cards[index].classList.toggle("card1");
-      const japanText = cards[index].querySelector(".mean")?.textContent;
+  stopAutoOpen = false;
+
+  async function runTask() {
+    while (!stopAutoOpen && index < cards.length) {
+      const card = cards[index];
+      const front = card.querySelector(".front");
+
+      // 1. Add class front1
+      if (front) front.classList.add("front2");
+
+      await delay(2000);
+
+      // 2. Add class card1
+      card.classList.add("card1");
+
+      const japanText = card.querySelector(".mean")?.textContent;
       if (content && japanText) {
         speakThrottled(content, japanText);
       }
+
+      await delay(2000);
+
+      // 3. Cleanup previous
+      card.classList.remove("card1");
+      await delay(1000);
+      if (front) front.classList.remove("front2");
+
       index++;
-    } else {
-      clearInterval(intervalId);
-      intervalId = null;
     }
-  }, 2000);
+
+    // Reset if done
+    if(index == cards.length)
+    {
+      intervalId = null;
+      index = 0;
+    }
+  }
+
+  intervalId = true; // đánh dấu đang chạy
+  runTask();
+}
+
+function delay(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 for (let i = 1; i <= wrapperCount; i++) {
