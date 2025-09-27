@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>部首</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+   />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&family=Klee+One&display=swap"
+        rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../../Home/Images/japanese-alphabet.png"
+   />
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+
+  <body id="Background">
+    <div class="container">
+        <div class="homeButton">
+            <button
+              class="homeBtn"
+              type="button"
+              onclick="location.href='../../index.html'"
+            >
+              <i class="fa fa-home" style="color: white; font-size: 3vh"></i>
+            </button>
+        </div>
+        <div class="btn">
+            <div class="hiragana1">
+                <div class="card">
+                    <button  id="showA">
+                        <span  class="japan">丶</span>
+                        <span  class="romaji">CHẤM CHỦ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showI">
+                        <span  class="japan">丿</span>
+                        <span  class="romaji">NÉT PHIỆT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showU">
+                        <span  class="japan">〡</span>
+                        <span  class="romaji">NÉT CỔN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showE">
+                        <span  class="japan">亅</span>
+                        <span  class="romaji">NÉT QUYẾT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showO">
+                        <span  class="japan">刂</span>
+                        <span  class="romaji">BỘ ĐAO</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showKA">
+                        <span  class="japan">亠</span>
+                        <span  class="romaji">BỘ ĐẦU</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showKI">
+                        <span  class="japan">宀</span>
+                        <span  class="romaji">BỘ MIÊN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showKU">
+                        <span  class="japan">冖</span>
+                        <span  class="romaji">BỘ MỊCH</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showKE">
+                        <span  class="japan">亻</span>
+                        <span  class="romaji">NHÂN ĐỨNG</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showKO">
+                        <span  class="japan">𠂉</span>
+                        <span  class="romaji">NHÂN NẰM</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showSA">
+                        <span  class="japan">𠆢</span>
+                        <span  class="romaji">NHÂN NÓN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showSHI">
+                        <span  class="japan">儿</span>
+                        <span  class="romaji">NHÂN ĐI</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showSU">
+                        <span  class="japan">彡</span>
+                        <span  class="romaji">BỘ SAM</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showSE">
+                        <span  class="japan">彳</span>
+                        <span  class="romaji">BỘ SÁCH</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showSO">
+                        <span  class="japan">忄</span>
+                        <span  class="romaji">BỘ TÂM</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showTA">
+                        <span  class="japan">⻏_</span>
+                        <span  class="romaji">BỘ PHỤ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showCHI">
+                        <span  class="japan">_⻏</span>
+                        <span  class="romaji">BỘ ẤP</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showTSU">
+                        <span  class="japan">卩</span>
+                        <span  class="romaji">BỘ TIẾT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showTE">
+                        <span  class="japan">冫</span>
+                        <span  class="romaji">2 CHẤM BĂNG</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showTO">
+                        <span  class="japan">氵</span>
+                        <span  class="romaji">3 CHẤM THUỶ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showNA">
+                        <span  class="japan">灬</span>
+                        <span  class="romaji">4 CHẤM HOẢ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showNI">
+                        <span  class="japan">厂</span>
+                        <span  class="romaji">BỘ HÁN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showNU">
+                        <span  class="japan">广</span>
+                        <span  class="romaji">BỘ NGHIỄM</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showHE">
+                        <span  class="japan">疒</span>
+                        <span  class="romaji">BỘ NẠCH</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showNE">
+                        <span  class="japan">⺤</span>
+                        <span  class="romaji">BỘ TRẢO</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showNO">
+                        <span  class="japan">⺮</span>
+                        <span  class="romaji">BỘ TRÚC</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showHA">
+                        <span  class="japan">厶</span>
+                        <span  class="romaji">BỘ KHƯ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showHI">
+                        <span  class="japan">幺</span>
+                        <span  class="romaji">BỘ YÊU</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showFU">
+                        <span  class="japan">糸</span>
+                        <span  class="romaji">BỘ TY</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showHO">
+                        <span  class="japan">又</span>
+                        <span  class="romaji">BỘ HỰU</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showMA">
+                        <span  class="japan">夂</span>
+                        <span  class="romaji">BỘ TRUY</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showMI">
+                        <span  class="japan">攵</span>
+                        <span  class="romaji">BỘ PHỘC</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showMU">
+                        <span  class="japan">口</span>
+                        <span  class="romaji">KHẨU</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showME">
+                        <span  class="japan">囗</span>
+                        <span  class="romaji">BỘ VI</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showMO">
+                        <span  class="japan">冂</span>
+                        <span  class="romaji">BỘ QUYNH</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showYA">
+                        <span  class="japan">彐</span>
+                        <span  class="romaji">BỘ KÝ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showYU">
+                        <span  class="japan">木</span>
+                        <span  class="romaji">MỘC</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showYO">
+                        <span  class="japan">禾</span>
+                        <span  class="romaji">BỘ HOÀ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRA">
+                        <span  class="japan">寸</span>
+                        <span  class="romaji">THỐN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRI">
+                        <span  class="japan">扌</span>
+                        <span  class="romaji">BỘ THỦ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRU">
+                        <span  class="japan">牜</span>
+                        <span  class="romaji">BỘ NGƯU</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRE">
+                        <span  class="japan">犭</span>
+                        <span  class="romaji">BỘ KHUYỂN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">斗</span>
+                        <span  class="romaji">BỘ ĐẨU</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">頁</span>
+                        <span  class="romaji">BỘ HIỆT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showOO">
+                        <span  class="japan">弋</span>
+                        <span  class="romaji">BỘ DẶC</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showN">
+                        <span  class="japan">戈</span>
+                        <span  class="romaji">BỘ QUA</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">礻</span>
+                        <span  class="romaji">BỘ THỊ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showOO">
+                        <span  class="japan">衤</span>
+                        <span  class="romaji">BỘ Y</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">廴</span>
+                        <span  class="romaji">BỘ DẪN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showOO">
+                        <span  class="japan">⻌</span>
+                        <span  class="romaji">BỘ SƯỚC</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showN">
+                        <span  class="japan">尸</span>
+                        <span  class="romaji">BỘ THI</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">戸</span>
+                        <span  class="romaji">BỘ HỘ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">夕</span>
+                        <span  class="romaji">TỊCH</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showN">
+                        <span  class="japan">歹</span>
+                        <span  class="romaji">BỘ NGẠT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">日</span>
+                        <span  class="romaji">NHẬT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">曰</span>
+                        <span  class="romaji">BỘ VIẾT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showOO">
+                        <span  class="japan">巾</span>
+                        <span  class="romaji">BỘ CÂN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showN">
+                        <span  class="japan">斤</span>
+                        <span  class="romaji">BỘ CÂN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">艹</span>
+                        <span  class="romaji">BỘ THẢO</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">耂</span>
+                        <span  class="romaji">BỘ LÃO</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showOO">
+                        <span  class="japan">矢</span>
+                        <span  class="romaji">BỘ THỈ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showN">
+                        <span  class="japan">豕</span>
+                        <span  class="romaji">BỘ THỈ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">欠</span>
+                        <span  class="romaji">BỘ KHIẾM</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">匕</span>
+                        <span  class="romaji">BỘ TRUỶ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showOO">
+                        <span  class="japan">弓</span>
+                        <span  class="romaji">BỘ CUNG</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showN">
+                        <span  class="japan">勹</span>
+                        <span  class="romaji">BỘ BAO</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">罒</span>
+                        <span  class="romaji">BỘ VÕNG</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">皿</span>
+                        <span  class="romaji">MÃNH</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showOO">
+                        <span  class="japan">覀</span>
+                        <span  class="romaji">BỘ TÂY</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showN">
+                        <span  class="japan">酉</span>
+                        <span  class="romaji">BỘ DẬU</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">隹</span>
+                        <span  class="romaji">BỘ CHUY</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">乙</span>
+                        <span  class="romaji">ẤT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showOO">
+                        <span  class="japan">乚</span>
+                        <span  class="romaji">NÉT ẤT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showN">
+                        <span  class="japan">几</span>
+                        <span  class="romaji">BỘ KỶ</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">廾</span>
+                        <span  class="romaji">BỘ CỦNG</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">艮</span>
+                        <span  class="romaji">BỘ CẤN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showOO">
+                        <span  class="japan">聿</span>
+                        <span  class="romaji">BỘ DUẬT</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showN">
+                        <span  class="japan">立</span>
+                        <span  class="romaji">LẬP</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showRO">
+                        <span  class="japan">言</span>
+                        <span  class="romaji">NGÔN</span>
+                    </button>
+                </div>
+                <div class="card">
+                    <button  id="showWA">
+                        <span  class="japan">貝</span>
+                        <span  class="romaji">BỘ BỐI</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+      <img src="https://hitwebcounter.com/counter/counter.php?page=11583648&style=0006&nbdigits=7&type=page&initCount=0"
+          title="Counter Widget" Alt="Visit counter For Websites"/>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
