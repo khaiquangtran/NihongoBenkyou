@@ -143,6 +143,10 @@ let lastCall = 0;
 function speakThrottled(keyConnect, text) {
   if(text == 'AI') {
     text = 'ai';
+  } if (text == 'MA') {
+    text = 'ma';
+  } else {
+  
   }
   const now = Date.now();
   if (now - lastCall < 1000) return;
